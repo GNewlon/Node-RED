@@ -42395,7 +42395,9 @@
         "service": "press",
         "areaId": [],
         "deviceId": [],
-        "entityId": [],
+        "entityId": [
+            "button.bistro_ping"
+        ],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
