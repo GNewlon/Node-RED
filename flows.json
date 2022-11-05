@@ -166806,7 +166806,7 @@
         "id": "19d7c2e5e1a31194",
         "type": "api-call-service",
         "z": "80f66a3b364d205d",
-        "name": "POOL PUMP-ON",
+        "name": "SPA JETS-ON",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
@@ -166815,7 +166815,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "switch.pool_pump"
+            "switch.spa_jets"
         ],
         "data": "{}",
         "dataType": "json",
@@ -166823,7 +166823,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 810,
+        "x": 800,
         "y": 370,
         "wires": [
             []
@@ -166859,33 +166859,6 @@
         ]
     },
     {
-        "id": "090970a116c1501c",
-        "type": "api-call-service",
-        "z": "80f66a3b364d205d",
-        "name": "POOL PUMP-OFF",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "turn_off",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.pool_pump"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 810,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "9f2fdd6316150e84",
         "type": "inject",
         "z": "80f66a3b364d205d",
@@ -166910,8 +166883,147 @@
         "y": 412.5,
         "wires": [
             [
-                "090970a116c1501c"
+                "c8a7c300096e4c61"
             ]
+        ]
+    },
+    {
+        "id": "c8a7c300096e4c61",
+        "type": "api-call-service",
+        "z": "80f66a3b364d205d",
+        "name": "SPA JETS-OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_jets"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 800,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6599aa7bda76348a",
+        "type": "api-call-service",
+        "z": "80f66a3b364d205d",
+        "name": "SPA_PUMP-ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_pump"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 790,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac98d640b0d122bd",
+        "type": "inject",
+        "z": "80f66a3b364d205d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 540,
+        "y": 490,
+        "wires": [
+            [
+                "6599aa7bda76348a"
+            ]
+        ]
+    },
+    {
+        "id": "fb1eac1d03d38097",
+        "type": "inject",
+        "z": "80f66a3b364d205d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 540,
+        "y": 532.5,
+        "wires": [
+            [
+                "0b6a113e685326f6"
+            ]
+        ]
+    },
+    {
+        "id": "0b6a113e685326f6",
+        "type": "api-call-service",
+        "z": "80f66a3b364d205d",
+        "name": "SPA_PUMP-OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_pump"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 800,
+        "y": 540,
+        "wires": [
+            []
         ]
     }
 ]
