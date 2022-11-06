@@ -19995,7 +19995,8 @@
             "dc04593a993c7575",
             "81f5eb1968f827b3",
             "0f2e6876f7047cd0",
-            "9eb92e4070807fb2"
+            "9eb92e4070807fb2",
+            "c5f0b590552a156d"
         ],
         "x": 244,
         "y": 29,
@@ -117571,6 +117572,17 @@
                 "976bd4e4d63e8933"
             ]
         ]
+    },
+    {
+        "id": "c5f0b590552a156d",
+        "type": "comment",
+        "z": "d7e47fdfeb813e69",
+        "g": "bfb09350629d2980",
+        "name": "",
+        "info": "skimmer has the ability to switch this from VALUE X to NPH while performing Pool Surface cleaning.\n",
+        "x": 430,
+        "y": 200,
+        "wires": []
     },
     {
         "id": "6b4c8bed29749d7d",
