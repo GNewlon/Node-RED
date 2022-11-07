@@ -16775,7 +16775,9 @@
             "9afcd2cb8d6d90e6"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1134,
+        "h": 674
     },
     {
         "id": "763821c9c21681c0",
@@ -18716,7 +18718,9 @@
             "779d99a235a9af60"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1260,
+        "h": 1010
     },
     {
         "id": "fedaed89c917c4ca",
@@ -20860,7 +20864,9 @@
             "3f79ac92983b7885"
         ],
         "x": 374,
-        "y": 439
+        "y": 439,
+        "w": 422,
+        "h": 202
     },
     {
         "id": "e3b3690a7feab4c2",
@@ -20878,13 +20884,14 @@
         "nodes": [
             "aee77919f618081e",
             "f73b4da99368905f",
-            "311d6544c17b4b32",
             "14eb047209993cd9",
             "6d8f20b97138bdea",
             "ba192312e234a1b9"
         ],
         "x": 34,
-        "y": 439
+        "y": 439,
+        "w": 332,
+        "h": 212
     },
     {
         "id": "9afcd2cb8d6d90e6",
@@ -20944,7 +20951,9 @@
             "aa9495e540016c97"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 1082,
+        "h": 402
     },
     {
         "id": "def339ca0ec86b97",
@@ -21211,7 +21220,9 @@
             "6219f0fcb6a0e78c"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 582,
+        "h": 212
     },
     {
         "id": "4c4916a840b24609",
@@ -22234,14 +22245,15 @@
             "86cae3452bc3e983",
             "3b83e4e946b8c312",
             "27ff8f2971d2389d",
-            "cfb6e3dac50bbbc2",
             "e928ee99c04010d3",
             "b476edc8d69abe7b",
             "64c510a9e25508a1",
             "4333a8690a3d7ee5"
         ],
         "x": 624,
-        "y": 29
+        "y": 29,
+        "w": 592,
+        "h": 212
     },
     {
         "id": "779d99a235a9af60",
@@ -22264,7 +22276,9 @@
             "7c2c776c46d9a0bd"
         ],
         "x": 58,
-        "y": 253
+        "y": 253,
+        "w": 1184,
+        "h": 734
     },
     {
         "id": "c1e87bc6.91e8d8",
@@ -25535,12 +25549,13 @@
             "c06e39292cd8e985",
             "f04e172c16d31309",
             "303745dc1e860522",
-            "56ab01a141057a59",
             "6973418aa5ea4c9b",
             "0880a675f92ea4ed"
         ],
         "x": 274,
-        "y": 279
+        "y": 279,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "3d90fd494b70eba4",
@@ -25563,7 +25578,6 @@
             "efdfd4c3509e53d6",
             "ea74fcd58c143f82",
             "4f436c0f729ae9ae",
-            "88782c7408b7ac10",
             "3d53ca39b48fc3fd",
             "fb9d8aa52dcee468",
             "776340f1841dcfbb",
@@ -25573,7 +25587,9 @@
             "62baa69cd09b071f"
         ],
         "x": 734,
-        "y": 639
+        "y": 639,
+        "w": 462,
+        "h": 322
     },
     {
         "id": "4af5c8c808af936c",
@@ -25598,14 +25614,15 @@
             "80ae600e2bda6f2a",
             "ba8b533ecdf7f5be",
             "2277f81a5356a071",
-            "486a4dd4ed44dbc1",
             "0a9d1e44660eabac",
             "c6e8c74a64f945b5",
             "2f3f7d357ee5e3fa",
             "fe0ff849bc6fc38e"
         ],
         "x": 734,
-        "y": 279
+        "y": 279,
+        "w": 482,
+        "h": 352
     },
     {
         "id": "f20a153b6b583aa0",
@@ -25633,7 +25650,9 @@
             "0bfd35412d6f0764"
         ],
         "x": 294,
-        "y": 609
+        "y": 609,
+        "w": 432,
+        "h": 192
     },
     {
         "id": "861a54a9f1bb8060",
@@ -25823,7 +25842,9 @@
             "97f60f41c9aa6ad4"
         ],
         "x": 84,
-        "y": 279
+        "y": 279,
+        "w": 172,
+        "h": 412
     },
     {
         "id": "30dbf85ecab38e09",
@@ -33604,7 +33625,8 @@
         "mode": "link",
         "links": [
             "b236ebfb9a339580",
-            "6c7bae52a329da30"
+            "6c7bae52a329da30",
+            "f8f342cf19ab52ec"
         ],
         "x": 655,
         "y": 360,
@@ -34225,7 +34247,8 @@
         "name": "",
         "links": [
             "66e9ca82b2e72be5",
-            "5d1eac0a4af47fbc"
+            "5d1eac0a4af47fbc",
+            "182fdcfd094f5f69"
         ],
         "x": 75,
         "y": 240,
@@ -34535,7 +34558,7 @@
             {
                 "property": "payload",
                 "propertyType": "msg",
-                "value": "FPH-S2",
+                "value": "FPH-S4",
                 "valueType": "str"
             }
         ],
@@ -34544,7 +34567,8 @@
         "y": 420,
         "wires": [
             [
-                "d6aeb75ff179d9a3"
+                "d6aeb75ff179d9a3",
+                "d951956d6dfa8f18"
             ]
         ]
     },
@@ -34616,12 +34640,12 @@
         "type": "trigger",
         "z": "6b33f202.f423fc",
         "g": "099780a7a7dd69ea",
-        "name": "-/OFF:25s",
+        "name": "-/OFF:10s",
         "op1": "",
         "op2": "off",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "25",
+        "duration": "10",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -35030,7 +35054,7 @@
         "id": "80b92d2ee678d3b8",
         "type": "debug",
         "z": "6b33f202.f423fc",
-        "name": "➔➔PUMP OFF",
+        "name": "SLEEP-NPH➔➔PUMP OFF",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -35039,8 +35063,25 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1440,
+        "x": 1480,
         "y": 790,
+        "wires": []
+    },
+    {
+        "id": "d951956d6dfa8f18",
+        "type": "debug",
+        "z": "6b33f202.f423fc",
+        "name": "SLEEP-IDLE➔➔PUMP OFF",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1450,
+        "y": 420,
         "wires": []
     },
     {
@@ -81383,7 +81424,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 570,
-        "y": 470,
+        "y": 440,
         "wires": [
             []
         ]
@@ -81411,7 +81452,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 560,
-        "y": 500,
+        "y": 470,
         "wires": [
             []
         ]
@@ -81629,8 +81670,8 @@
         "links": [
             "7bb5682a6582e1e0"
         ],
-        "x": 410,
-        "y": 520,
+        "x": 170,
+        "y": 530,
         "wires": [],
         "l": true
     },
@@ -81720,7 +81761,7 @@
         ],
         "queue": "none",
         "x": 560,
-        "y": 560,
+        "y": 530,
         "wires": [
             [
                 "829ec6eee4661615"
@@ -81750,7 +81791,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 550,
-        "y": 530,
+        "y": 500,
         "wires": [
             []
         ]
@@ -81774,7 +81815,6 @@
                 "3b83e4e946b8c312",
                 "e928ee99c04010d3",
                 "b476edc8d69abe7b",
-                "cfb6e3dac50bbbc2",
                 "4333a8690a3d7ee5"
             ]
         ],
@@ -82334,7 +82374,7 @@
             "efdfd4c3509e53d6"
         ],
         "x": 665,
-        "y": 370,
+        "y": 340,
         "wires": []
     },
     {
@@ -82419,34 +82459,6 @@
         ]
     },
     {
-        "id": "cfb6e3dac50bbbc2",
-        "type": "api-call-service",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "4b1948ad9f1c0edb",
-        "name": "24VAC-ON",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "turn_on",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.off_24vac_all"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 870,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "f04e172c16d31309",
         "type": "api-call-service",
         "z": "27b1e26e7c8fe1f7",
@@ -82469,7 +82481,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 550,
-        "y": 380,
+        "y": 350,
         "wires": [
             []
         ]
@@ -82497,7 +82509,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 580,
-        "y": 350,
+        "y": 320,
         "wires": [
             []
         ]
@@ -82521,36 +82533,6 @@
         "topic": "paylaod",
         "outputs": 1,
         "x": 960,
-        "y": 680,
-        "wires": [
-            [
-                "88782c7408b7ac10"
-            ]
-        ]
-    },
-    {
-        "id": "88782c7408b7ac10",
-        "type": "api-call-service",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "3d90fd494b70eba4",
-        "name": "24VAC",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": " {{payload}}",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.off_24vac_all"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 1110,
         "y": 680,
         "wires": [
             []
@@ -82740,34 +82722,6 @@
         ]
     },
     {
-        "id": "486a4dd4ed44dbc1",
-        "type": "api-call-service",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "4af5c8c808af936c",
-        "name": "24VAC",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": " {{payload}}",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.off_24vac_all"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 1150,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "0a9d1e44660eabac",
         "type": "trigger",
         "z": "27b1e26e7c8fe1f7",
@@ -82788,9 +82742,7 @@
         "x": 960,
         "y": 320,
         "wires": [
-            [
-                "486a4dd4ed44dbc1"
-            ]
+            []
         ]
     },
     {
@@ -82864,37 +82816,8 @@
         "y": 320,
         "wires": [
             [
-                "56ab01a141057a59",
                 "5ba1caaa28c8345b"
             ]
-        ]
-    },
-    {
-        "id": "56ab01a141057a59",
-        "type": "api-call-service",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "1aa9436896b114ee",
-        "name": "24VAC",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": " {{payload}}",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.off_24vac_all"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 510,
-        "y": 320,
-        "wires": [
-            []
         ]
     },
     {
@@ -82972,7 +82895,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 890,
-        "y": 110,
+        "y": 140,
         "wires": [
             []
         ]
@@ -83150,7 +83073,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 560,
-        "y": 440,
+        "y": 410,
         "wires": [
             []
         ]
@@ -83318,7 +83241,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 560,
-        "y": 410,
+        "y": 380,
         "wires": [
             []
         ]
@@ -84522,7 +84445,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 210,
-        "y": 600,
+        "y": 570,
         "wires": [
             []
         ]
@@ -84748,35 +84671,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 220,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "311d6544c17b4b32",
-        "type": "api-call-service",
-        "z": "96367ea2ee1b38f1",
-        "g": "e3b3690a7feab4c2",
-        "name": "switch.off_24vac_all ON",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "turn_on",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.off_24vac_all"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 230,
-        "y": 560,
+        "y": 610,
         "wires": [
             []
         ]
@@ -84861,7 +84756,6 @@
         "wires": [
             [
                 "14eb047209993cd9",
-                "311d6544c17b4b32",
                 "aee77919f618081e",
                 "f73b4da99368905f",
                 "ba192312e234a1b9"
@@ -151731,7 +151625,7 @@
         "z": "2468296eb99670b3",
         "g": "461e18e58f76c9c1",
         "name": "➔➔➔Pool Mode➔➔➔➔➔➔➔➔",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
