@@ -34409,7 +34409,8 @@
         "y": 390,
         "wires": [
             [
-                "d6aeb75ff179d9a3"
+                "d6aeb75ff179d9a3",
+                "d951956d6dfa8f18"
             ]
         ]
     },
@@ -34567,8 +34568,7 @@
         "y": 420,
         "wires": [
             [
-                "d6aeb75ff179d9a3",
-                "d951956d6dfa8f18"
+                "d6aeb75ff179d9a3"
             ]
         ]
     },
@@ -35080,8 +35080,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1450,
-        "y": 420,
+        "x": 1390,
+        "y": 380,
         "wires": []
     },
     {
