@@ -28532,22 +28532,6 @@
         "enableGlobalContextStore": true
     },
     {
-        "id": "b2e076a29eecc0af",
-        "type": "shared-state",
-        "name": "FPH",
-        "lbl": "FPH",
-        "tags": "",
-        "historyCount": "10",
-        "dataType": "str",
-        "boolType": "bool",
-        "boolStrTrue": "",
-        "boolStrFalse": "",
-        "precision": "",
-        "numMin": "",
-        "numMax": "",
-        "unit": "min"
-    },
-    {
         "id": "10eaf502617379e3",
         "type": "influxdb",
         "hostname": "10.1.30.7",
@@ -155061,19 +155045,6 @@
         "y": 960,
         "wires": [
             [],
-            []
-        ]
-    },
-    {
-        "id": "270ddcd90ad357f4",
-        "type": "get-shared-state",
-        "z": "31d4b87e6b05add1",
-        "state": "b2e076a29eecc0af",
-        "name": "Pool",
-        "triggerOnInit": true,
-        "x": 320,
-        "y": 880,
-        "wires": [
             []
         ]
     },
