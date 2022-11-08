@@ -19200,7 +19200,9 @@
             "8cad00a051f46317"
         ],
         "x": -2,
-        "y": 3
+        "y": 3,
+        "w": 914,
+        "h": 434
     },
     {
         "id": "3ec4660e48cef12b",
@@ -22731,7 +22733,9 @@
             "23fa77680110cead"
         ],
         "x": 24,
-        "y": 299
+        "y": 299,
+        "w": 842,
+        "h": 112
     },
     {
         "id": "8cad00a051f46317",
@@ -22758,7 +22762,9 @@
             "2b013b3822671cc9"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 862,
+        "h": 212
     },
     {
         "id": "6f1306a8e672b2bd",
@@ -96625,7 +96631,7 @@
         "updateIntervalUnits": "seconds",
         "outputinitially": true,
         "outputonchanged": true,
-        "entity_id": "input_select.pool_mode",
+        "entity_id": "input_select.pool_state",
         "state_type": "str",
         "halt_if": "",
         "halt_if_type": "str",
@@ -96687,7 +96693,7 @@
         "updateIntervalUnits": "seconds",
         "outputinitially": true,
         "outputonchanged": true,
-        "entity_id": "switch.g4_dome_detections_vehicle",
+        "entity_id": "switch.pool_pump",
         "state_type": "str",
         "halt_if": "",
         "halt_if_type": "str",
@@ -96696,7 +96702,9 @@
         "x": 100,
         "y": 70,
         "wires": [
-            []
+            [
+                "57d29dccd489ae88"
+            ]
         ]
     },
     {
@@ -96730,7 +96738,7 @@
         "type": "change",
         "z": "07fbb0d23c88fd88",
         "g": "8cad00a051f46317",
-        "name": "SET LAST POOL MODE",
+        "name": "SET LAST POOL STATE",
         "rules": [
             {
                 "t": "delete",
@@ -96741,7 +96749,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "POOLMODE",
+                "to": "Pool.State",
                 "tot": "global"
             }
         ],
@@ -96782,7 +96790,7 @@
         "type": "api-call-service",
         "z": "07fbb0d23c88fd88",
         "g": "8cad00a051f46317",
-        "name": "POOL MODE",
+        "name": "POOL STATE",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
@@ -96791,7 +96799,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "input_select.pool_mode"
+            "input_select.pool_state"
         ],
         "data": "{ \"option\": \"{{payload}}\" }",
         "dataType": "json",
