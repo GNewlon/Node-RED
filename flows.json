@@ -167486,7 +167486,7 @@
             },
             {
                 "t": "set",
-                "p": "Pool",
+                "p": "Pool.State",
                 "pt": "global",
                 "to": "Sleep",
                 "tot": "str"
