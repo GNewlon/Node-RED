@@ -18275,7 +18275,9 @@
             "01ac29dafb3c49c9"
         ],
         "x": -2,
-        "y": 3
+        "y": 3,
+        "w": 1304,
+        "h": 584
     },
     {
         "id": "cb5f35994bc5c2c2",
@@ -18544,7 +18546,9 @@
             "779d99a235a9af60"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1300,
+        "h": 920
     },
     {
         "id": "fedaed89c917c4ca",
@@ -21013,7 +21017,9 @@
             "6219f0fcb6a0e78c"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 582,
+        "h": 212
     },
     {
         "id": "4c4916a840b24609",
@@ -21684,7 +21690,9 @@
             "29c4095d4eb85d4f"
         ],
         "x": 304,
-        "y": 199
+        "y": 199,
+        "w": 272,
+        "h": 202
     },
     {
         "id": "4903459c.e4111c",
@@ -21726,7 +21734,9 @@
             "3cdf4d4729a29d46"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 272,
+        "h": 532
     },
     {
         "id": "103ae1197eada901",
@@ -21853,7 +21863,9 @@
             "4333a8690a3d7ee5"
         ],
         "x": 624,
-        "y": 29
+        "y": 29,
+        "w": 592,
+        "h": 212
     },
     {
         "id": "779d99a235a9af60",
@@ -21876,7 +21888,9 @@
             "7c2c776c46d9a0bd"
         ],
         "x": 58,
-        "y": 253
+        "y": 253,
+        "w": 1224,
+        "h": 644
     },
     {
         "id": "c1e87bc6.91e8d8",
@@ -21901,7 +21915,9 @@
             "dcaf9b826475dfe1"
         ],
         "x": 584,
-        "y": 199
+        "y": 199,
+        "w": 302,
+        "h": 232
     },
     {
         "id": "b0607ccf25cd6134",
@@ -22589,7 +22605,9 @@
             "ae563e6800bfc1b4"
         ],
         "x": 304,
-        "y": 29
+        "y": 29,
+        "w": 972,
+        "h": 162
     },
     {
         "id": "2d11467498f86583",
@@ -23323,7 +23341,7 @@
         ],
         "x": 6,
         "y": 13,
-        "w": 1491,
+        "w": 1358,
         "h": 1436
     },
     {
@@ -24247,7 +24265,9 @@
             "7c4a63a8e2beb73f"
         ],
         "x": 894,
-        "y": 199
+        "y": 199,
+        "w": 262,
+        "h": 182
     },
     {
         "id": "3a6ed11eeff32c13",
@@ -24915,7 +24935,9 @@
             "0880a675f92ea4ed"
         ],
         "x": 274,
-        "y": 279
+        "y": 279,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "3d90fd494b70eba4",
@@ -24937,17 +24959,16 @@
             "53af9d9169dda4ed",
             "efdfd4c3509e53d6",
             "ea74fcd58c143f82",
-            "4f436c0f729ae9ae",
-            "3d53ca39b48fc3fd",
             "fb9d8aa52dcee468",
             "776340f1841dcfbb",
-            "04e96dc3e9570578",
             "6e2f4f6a893d561a",
             "9519a4aadb0ce1b8",
             "62baa69cd09b071f"
         ],
         "x": 734,
-        "y": 639
+        "y": 579,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "4af5c8c808af936c",
@@ -24972,13 +24993,14 @@
             "80ae600e2bda6f2a",
             "ba8b533ecdf7f5be",
             "2277f81a5356a071",
-            "0a9d1e44660eabac",
             "c6e8c74a64f945b5",
             "2f3f7d357ee5e3fa",
             "fe0ff849bc6fc38e"
         ],
         "x": 734,
-        "y": 279
+        "y": 279,
+        "w": 522,
+        "h": 292
     },
     {
         "id": "f20a153b6b583aa0",
@@ -25005,8 +25027,10 @@
             "1f669ace0f663b91",
             "0bfd35412d6f0764"
         ],
-        "x": 294,
-        "y": 609
+        "x": 274,
+        "y": 579,
+        "w": 452,
+        "h": 192
     },
     {
         "id": "861a54a9f1bb8060",
@@ -25186,7 +25210,9 @@
             "97f60f41c9aa6ad4"
         ],
         "x": 84,
-        "y": 279
+        "y": 279,
+        "w": 172,
+        "h": 412
     },
     {
         "id": "30dbf85ecab38e09",
@@ -25818,7 +25844,7 @@
         ],
         "x": 32,
         "y": 39,
-        "w": 1439,
+        "w": 1306,
         "h": 1384
     },
     {
@@ -31431,12 +31457,12 @@
         "type": "trigger",
         "z": "9d565a09.f41898",
         "g": "8ccfd49060584bc8",
-        "name": "ON/OFF:30s",
+        "name": "ON/OFF:45s",
         "op1": "{\"service\": \"turn_on\"}",
         "op2": "{\"service\": \"turn_off\"}",
         "op1type": "json",
         "op2type": "json",
-        "duration": "30",
+        "duration": "45",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -78720,7 +78746,8 @@
             "bbfaafad6ea0962c",
             "388e874f26cac5df",
             "3d53ca39b48fc3fd",
-            "97ddd7fbf1ebf15a"
+            "97ddd7fbf1ebf15a",
+            "e8b76f470974240e"
         ],
         "x": 290,
         "y": 70,
@@ -78737,7 +78764,8 @@
         "name": "STATUS",
         "mode": "link",
         "links": [
-            "35aadd187f5edc6d"
+            "35aadd187f5edc6d",
+            "e40dcd94fff88b65"
         ],
         "x": 170,
         "y": 360,
@@ -78830,11 +78858,9 @@
         ],
         "queue": "none",
         "x": 990,
-        "y": 740,
+        "y": 650,
         "wires": [
-            [
-                "3d53ca39b48fc3fd"
-            ]
+            []
         ]
     },
     {
@@ -78851,13 +78877,12 @@
             "bf19babbc64f7d02"
         ],
         "x": 810,
-        "y": 780,
+        "y": 690,
         "wires": [
             [
                 "9cafc1dc85701ea3",
                 "23fbccb361175d52",
                 "53af9d9169dda4ed",
-                "4f436c0f729ae9ae",
                 "fb9d8aa52dcee468",
                 "776340f1841dcfbb",
                 "6e2f4f6a893d561a",
@@ -78894,7 +78919,7 @@
             "5c75d2791a97e381"
         ],
         "x": 350,
-        "y": 480,
+        "y": 490,
         "wires": [
             [
                 "5ba1caaa28c8345b",
@@ -79014,7 +79039,7 @@
             "7bb5682a6582e1e0"
         ],
         "x": 170,
-        "y": 530,
+        "y": 620,
         "wires": [],
         "l": true
     },
@@ -79038,12 +79063,21 @@
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
-        "outputProperties": [],
+        "outputProperties": [
+            {
+                "property": "reset",
+                "propertyType": "msg",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
         "queue": "none",
         "x": 1010,
-        "y": 890,
+        "y": 800,
         "wires": [
-            []
+            [
+                "ea74fcd58c143f82"
+            ]
         ]
     },
     {
@@ -79069,7 +79103,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1000,
-        "y": 860,
+        "y": 770,
         "wires": [
             []
         ]
@@ -79297,8 +79331,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 990,
-        "y": 440,
+        "x": 1030,
+        "y": 380,
         "wires": [
             []
         ]
@@ -79325,8 +79359,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1020,
-        "y": 530,
+        "x": 1060,
+        "y": 470,
         "wires": [
             []
         ]
@@ -79341,8 +79375,8 @@
             "824ac1bf4dd73b0a",
             "16bc9fe1a863d36d"
         ],
-        "x": 810,
-        "y": 410,
+        "x": 830,
+        "y": 440,
         "wires": [
             [
                 "c9b512fb3d81f465",
@@ -79350,7 +79384,6 @@
                 "3adbd8bf545fc1c0",
                 "a067a71670daadf2",
                 "2277f81a5356a071",
-                "0a9d1e44660eabac",
                 "c6e8c74a64f945b5",
                 "2f3f7d357ee5e3fa",
                 "fe0ff849bc6fc38e"
@@ -79380,8 +79413,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1020,
-        "y": 560,
+        "x": 1060,
+        "y": 500,
         "wires": [
             []
         ]
@@ -79408,8 +79441,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 990,
-        "y": 380,
+        "x": 1030,
+        "y": 320,
         "wires": [
             []
         ]
@@ -79432,7 +79465,7 @@
         "bytopic": "all",
         "topic": "paylaod",
         "outputs": 1,
-        "x": 990,
+        "x": 840,
         "y": 350,
         "wires": [
             [
@@ -79451,12 +79484,11 @@
             "829ec6eee4661615",
             "ea74fcd58c143f82"
         ],
-        "x": 810,
-        "y": 320,
+        "x": 830,
+        "y": 390,
         "wires": [
             [
-                "a067a71670daadf2",
-                "0a9d1e44660eabac"
+                "a067a71670daadf2"
             ]
         ],
         "l": true
@@ -79499,7 +79531,7 @@
         "to": "",
         "reg": false,
         "x": 480,
-        "y": 720,
+        "y": 690,
         "wires": [
             [
                 "29c0f52a1ff312e9"
@@ -79522,7 +79554,7 @@
         "persist": true,
         "storeName": "default",
         "x": 610,
-        "y": 690,
+        "y": 660,
         "wires": [
             [
                 "bbfaafad6ea0962c",
@@ -79539,13 +79571,13 @@
         "active": true,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
         "x": 570,
-        "y": 650,
+        "y": 620,
         "wires": []
     },
     {
@@ -79562,8 +79594,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 460,
-        "y": 650,
+        "x": 440,
+        "y": 620,
         "wires": [
             [
                 "29c0f52a1ff312e9"
@@ -79583,7 +79615,7 @@
             "16bc9fe1a863d36d"
         ],
         "x": 370,
-        "y": 690,
+        "y": 660,
         "wires": [
             [
                 "9d6bb6a3dc790432"
@@ -79629,7 +79661,7 @@
         "to": "",
         "reg": false,
         "x": 480,
-        "y": 690,
+        "y": 660,
         "wires": [
             [
                 "29c0f52a1ff312e9"
@@ -79647,7 +79679,7 @@
             "e40dcd94fff88b65"
         ],
         "x": 610,
-        "y": 720,
+        "y": 690,
         "wires": [],
         "l": true
     },
@@ -79663,7 +79695,7 @@
             "bf19babbc64f7d02"
         ],
         "x": 370,
-        "y": 720,
+        "y": 690,
         "wires": [
             [
                 "219a0cd27d087a41"
@@ -79683,7 +79715,7 @@
             "eae37065f9a2daeb"
         ],
         "x": 350,
-        "y": 380,
+        "y": 410,
         "wires": [
             [
                 "303745dc1e860522"
@@ -79701,8 +79733,8 @@
         "links": [
             "a710b513f0fa266a"
         ],
-        "x": 1175,
-        "y": 410,
+        "x": 1215,
+        "y": 350,
         "wires": []
     },
     {
@@ -79716,8 +79748,8 @@
             "80ae600e2bda6f2a",
             "efdfd4c3509e53d6"
         ],
-        "x": 665,
-        "y": 340,
+        "x": 685,
+        "y": 530,
         "wires": []
     },
     {
@@ -79731,11 +79763,9 @@
             "829ec6eee4661615"
         ],
         "x": 810,
-        "y": 680,
+        "y": 650,
         "wires": [
-            [
-                "4f436c0f729ae9ae"
-            ]
+            []
         ],
         "l": true
     },
@@ -79750,7 +79780,7 @@
             "bc3979722317fc4c"
         ],
         "x": 350,
-        "y": 430,
+        "y": 450,
         "wires": [
             [
                 "303745dc1e860522"
@@ -79769,8 +79799,8 @@
             "80ae600e2bda6f2a",
             "a710b513f0fa266a"
         ],
-        "x": 1155,
-        "y": 740,
+        "x": 1145,
+        "y": 800,
         "wires": []
     },
     {
@@ -79795,8 +79825,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1000,
-        "y": 590,
+        "x": 1040,
+        "y": 530,
         "wires": [
             []
         ]
@@ -79853,30 +79883,6 @@
         "queue": "none",
         "x": 580,
         "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4f436c0f729ae9ae",
-        "type": "trigger",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "3d90fd494b70eba4",
-        "name": "ON",
-        "op1": "{ \"service\": \"turn_on\" }",
-        "op2": "",
-        "op1type": "json",
-        "op2type": "nul",
-        "duration": "1",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "paylaod",
-        "outputs": 1,
-        "x": 960,
-        "y": 680,
         "wires": [
             []
         ]
@@ -79946,21 +79952,6 @@
         "l": true
     },
     {
-        "id": "3d53ca39b48fc3fd",
-        "type": "link out",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "3d90fd494b70eba4",
-        "name": "status",
-        "mode": "link",
-        "links": [
-            "35aadd187f5edc6d",
-            "e40dcd94fff88b65"
-        ],
-        "x": 1115,
-        "y": 740,
-        "wires": []
-    },
-    {
         "id": "35aadd187f5edc6d",
         "type": "link in",
         "z": "27b1e26e7c8fe1f7",
@@ -79991,7 +79982,7 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 760,
+        "y": 730,
         "wires": [
             [
                 "0bfd35412d6f0764"
@@ -80065,30 +80056,6 @@
         ]
     },
     {
-        "id": "0a9d1e44660eabac",
-        "type": "trigger",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "4af5c8c808af936c",
-        "name": "ON",
-        "op1": "{ \"service\": \"turn_on\" }",
-        "op2": "",
-        "op1type": "json",
-        "op2type": "nul",
-        "duration": "1",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "paylaod",
-        "outputs": 1,
-        "x": 960,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "0bfd35412d6f0764",
         "type": "rbe",
         "z": "27b1e26e7c8fe1f7",
@@ -80102,7 +80069,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 610,
-        "y": 760,
+        "y": 730,
         "wires": [
             [
                 "f332c8a2c74e70c6"
@@ -80132,7 +80099,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1010,
-        "y": 830,
+        "y": 740,
         "wires": [
             []
         ]
@@ -80155,8 +80122,8 @@
         "bytopic": "all",
         "topic": "paylaod",
         "outputs": 1,
-        "x": 370,
-        "y": 320,
+        "x": 350,
+        "y": 360,
         "wires": [
             [
                 "5ba1caaa28c8345b"
@@ -80210,7 +80177,7 @@
         ],
         "queue": "none",
         "x": 1020,
-        "y": 920,
+        "y": 830,
         "wires": [
             []
         ]
@@ -80239,26 +80206,6 @@
         "queue": "none",
         "x": 890,
         "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "04e96dc3e9570578",
-        "type": "mqtt in",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "3d90fd494b70eba4",
-        "name": "VALVE4-η",
-        "topic": "VALVE4-η",
-        "qos": "0",
-        "datatype": "json",
-        "broker": "d1a17316.c56bb",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 820,
-        "y": 860,
         "wires": [
             []
         ]
@@ -80317,7 +80264,7 @@
         "repair": false,
         "outputs": 8,
         "x": 170,
-        "y": 450,
+        "y": 470,
         "wires": [
             [
                 "6b87c84061805547",
@@ -80371,27 +80318,9 @@
         "y": 320,
         "wires": [
             [
-                "aed88a71dfb17d93",
                 "460e78c4c4088457"
             ]
         ]
-    },
-    {
-        "id": "aed88a71dfb17d93",
-        "type": "debug",
-        "z": "27b1e26e7c8fe1f7",
-        "name": "➔➔➔➔Waterfall➔➔➔➔➔➔➔➔Waterfall➔➔➔➔",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 650,
-        "y": 920,
-        "wires": []
     },
     {
         "id": "6973418aa5ea4c9b",
@@ -80443,8 +80372,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1030,
-        "y": 410,
+        "x": 1070,
+        "y": 350,
         "wires": [
             []
         ]
@@ -80471,8 +80400,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1010,
-        "y": 500,
+        "x": 1050,
+        "y": 440,
         "wires": [
             []
         ]
@@ -80500,7 +80429,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1030,
-        "y": 710,
+        "y": 620,
         "wires": [
             []
         ]
@@ -80528,7 +80457,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1010,
-        "y": 800,
+        "y": 710,
         "wires": [
             []
         ]
@@ -80555,8 +80484,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1010,
-        "y": 470,
+        "x": 1050,
+        "y": 410,
         "wires": [
             []
         ]
@@ -80612,7 +80541,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1010,
-        "y": 770,
+        "y": 680,
         "wires": [
             []
         ]
@@ -141777,7 +141706,7 @@
         "z": "ae087566.f2dff8",
         "g": "9be9eeddc80e20ac",
         "name": "NEED TO DO!!",
-        "info": "NEED TO DO:\nSONOFF TH16 mount, rewire, soilder temp sensor\nPool Pump contactor remove Jasco, replace w/ siemens.\nPool Pump Suction Side air leak: At 3/4\" tee? remove!\nAdd temp sensor to hvac liquid line\nADD SECOND TEMP SENSOR TO FPH HE. 1 ON WATER IN, 2ND ON WATER OUT. \nFIX SPA HEATER\nFIX SPA BOOSTER PUMP. NEED TO REDO CONTACTOR, WAS 24VDC. MAKE IT 24VAC\nWHY DOES HVAC ACTION: runtime_seconts RESET TO 0 IF I COPY SUB TO FLOW FOR TESTING?\nSET HVAC TEMP MANUALLY WILL PAUSE SCHEDULE. CONTINUES AFTER DARK?\nInfluxDB: create buckets w/ different retention policies\nSkimmer_EOD_RUNTIME clock\nDisable zone automations 12hrs if human interaction present.\nRebuild Motion Multipliers\nGuest Mode= inovelli dimmer interaction in guest or office, sets Guest modes\n\n--------------------------------------------------------------------------------------------\nCOMPLETED BELOW:\n1. MAKE FPH OVERTEMP LOGIC DEFAULT TO FAIL SAFE. \n--THIS IS NOT IDEAL:\n----- IF ANY POOL WATER TEMP PROBES BECOME \"null\"IT TRIGGERS OVERTEMP.\n----- POSSIBLE COULD REWRITE TO LOOK FOR \"null\" AND SHUT OFF FPH: MANUEL/SCHEDULED + NOTIFY IOS\n2. MAKE DAILY SCHEDULE CAPABLE OF BEING MANUELLY SHUTOFF VIA HA\n3. EXPORT FPH DATA TO INFLUXDB\n4.  \"FPH OVERTEMP LOGIC\" ommit from logic: everything except active FPH modes\n5. Securty Flow: \nHave InfluxDB track home state. \nIf I experience a system reboot\n (ie: unraid restart/upgrade) \nThen at NR startup it checks InfluxDB State and doesn't \nUnlock the house because it thinks we just arrived \nHome. We was already home mofo, with house\nLocked!\n6. Monitordatabase function for waterfall\n7. VALVE1:LOGIC-NEED A HALFWAY AKA MAX FLOW SETTING. CURRENTLY: SKIMMER or POOLDRAIN.\n8. PUT FLOW SWITCH INLINE WITH 24VAC FOR HVAC COMPRESSOR. ULTIMATE FAIL SAFE. SEE #4.  \n9. MOUNT TH16 TO WALL.\n10. FIX SPA BLOWER PIPES, FILL FOOTING WITH ROCKS\n11. MORE TESTING ON WITH POOL HEAT/POOL MODES SUBFLOWS\n12. Pool Water Leak: fixed, found spa blower pipes not glued, repaired!\n13. Skimmer: set PoolHeat?:NPH at start, return to previous at finish.\n14. POOL.RELAYS.3 NEES REPLACED! BAD R2\n15. pool.relays.2 Interlock 2,3 // Interlock on\n\n\n",
+        "info": "NEED TO DO:\nSONOFF TH16 mount, rewire, soilder temp sensor\nPool Pump Suction Side air leak: At 3/4\" tee? remove!\nAdd temp sensor to hvac liquid line\nADD SECOND TEMP SENSOR TO FPH HE. 1 ON WATER IN, 2ND ON WATER OUT. \nWHY DOES HVAC ACTION: runtime_seconds RESET TO 0 IF I COPY SUB TO FLOW FOR TESTING?\nSET HVAC TEMP MANUALLY WILL PAUSE SCHEDULE. CONTINUES AFTER DARK?\nInfluxDB: create buckets w/ different retention policies\nSkimmer_EOD_RUNTIME clock\nDisable zone automations 12hrs if human interaction present.\nRebuild Motion Multipliers\nGuest Mode= inovelli dimmer interaction in guest or office, sets Guest modes\n\n--------------------------------------------------------------------------------------------\nCOMPLETED BELOW:\n1. MAKE FPH OVERTEMP LOGIC DEFAULT TO FAIL SAFE. \n--THIS IS NOT IDEAL:\n----- IF ANY POOL WATER TEMP PROBES BECOME \"null\"IT TRIGGERS OVERTEMP.\n----- POSSIBLE COULD REWRITE TO LOOK FOR \"null\" AND SHUT OFF FPH: MANUEL/SCHEDULED + NOTIFY IOS\n2. MAKE DAILY SCHEDULE CAPABLE OF BEING MANUELLY SHUTOFF VIA HA\n3. EXPORT FPH DATA TO INFLUXDB\n4.  \"FPH OVERTEMP LOGIC\" ommit from logic: everything except active FPH modes\n5. Securty Flow: \nHave InfluxDB track home state. \nIf I experience a system reboot\n (ie: unraid restart/upgrade) \nThen at NR startup it checks InfluxDB State and doesn't \nUnlock the house because it thinks we just arrived \nHome. We was already home mofo, with house\nLocked!\n6. Monitordatabase function for waterfall\n7. VALVE1:LOGIC-NEED A HALFWAY AKA MAX FLOW SETTING. CURRENTLY: SKIMMER or POOLDRAIN.\n8. PUT FLOW SWITCH INLINE WITH 24VAC FOR HVAC COMPRESSOR. ULTIMATE FAIL SAFE. SEE #4.  \n9. MOUNT TH16 TO WALL.\n10. FIX SPA BLOWER PIPES, FILL FOOTING WITH ROCKS\n11. MORE TESTING ON WITH POOL HEAT/POOL MODES SUBFLOWS\n12. Pool Water Leak: fixed, found spa blower pipes not glued, repaired!\n13. Skimmer: set PoolHeat?:NPH at start, return to previous at finish.\n14. POOL.RELAYS.3 NEES REPLACED! BAD R2\n15. pool.relays.2 Interlock 2,3 // Interlock on\n16. Pool Pump contactor remove Jasco, replace w/ siemens.\n17. FIX SPA HEATER\n18. FIX SPA BOOSTER PUMP. NEED TO REDO CONTACTOR, WAS 24VDC. MAKE IT 24VAC\n\n",
         "x": 690,
         "y": 80,
         "wires": []
