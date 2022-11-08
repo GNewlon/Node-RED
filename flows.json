@@ -147378,48 +147378,6 @@
         "x": 950,
         "y": 1500,
         "wires": [
-            [
-                "1f94e605ff8fca7c"
-            ]
-        ]
-    },
-    {
-        "id": "1f94e605ff8fca7c",
-        "type": "api-call-service",
-        "z": "eb8a08a62f6c1cce",
-        "name": "POOL MODE",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "input_select",
-        "service": "select_option",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_select.pool_mode"
-        ],
-        "data": "{ \"option\": \"{{payload}}\" }",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "data"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "data"
-            }
-        ],
-        "queue": "first",
-        "x": 1130,
-        "y": 1500,
-        "wires": [
             []
         ]
     },
