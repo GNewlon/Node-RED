@@ -162713,7 +162713,7 @@
         "payload": "$PH",
         "payloadType": "str",
         "x": 160,
-        "y": 560,
+        "y": 620,
         "wires": [
             [
                 "80ebbe6e6ff2ff12"
@@ -162757,7 +162757,7 @@
         "payload": "IDLE",
         "payloadType": "str",
         "x": 160,
-        "y": 620,
+        "y": 560,
         "wires": [
             [
                 "80ebbe6e6ff2ff12"
