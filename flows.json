@@ -15895,26 +15895,6 @@
         }
     },
     {
-        "id": "d323f68d.505d88",
-        "type": "group",
-        "z": "ae087566.f2dff8",
-        "name": "All Off",
-        "style": {
-            "stroke": "#0070c0",
-            "fill": "#000000",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "2df9603d.d3582",
-            "bb0fb5ec.154ed8"
-        ],
-        "x": 28,
-        "y": 73,
-        "w": 100,
-        "h": 552
-    },
-    {
         "id": "78eb0f63.bd123",
         "type": "group",
         "z": "96a05b0b.7ff938",
@@ -19359,9 +19339,9 @@
         "name": "",
         "style": {
             "stroke": "#000000",
-            "fill": "#000000",
             "label": true,
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "fill": "#000000"
         },
         "nodes": [
             "05e091e729473041",
@@ -19896,44 +19876,6 @@
         ],
         "x": 444,
         "y": 29
-    },
-    {
-        "id": "2df9603d.d3582",
-        "type": "group",
-        "z": "ae087566.f2dff8",
-        "g": "d323f68d.505d88",
-        "name": "OFF",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#a4a4a4",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [],
-        "x": 54,
-        "y": 559,
-        "w": 40,
-        "h": 40
-    },
-    {
-        "id": "bb0fb5ec.154ed8",
-        "type": "group",
-        "z": "ae087566.f2dff8",
-        "g": "d323f68d.505d88",
-        "name": "Status",
-        "style": {
-            "stroke": "#6f2fa0",
-            "fill": "#dbcbe7",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [],
-        "x": 54,
-        "y": 99,
-        "w": 48,
-        "h": 40
     },
     {
         "id": "a08bed84.d8a7",
@@ -23333,7 +23275,6 @@
         "name": "",
         "style": {
             "stroke": "#92d04f",
-            "fill": "#000000",
             "label": true
         },
         "nodes": [
@@ -25822,7 +25763,6 @@
         "name": "SharkHouse.io",
         "style": {
             "stroke": "#92d04f",
-            "fill": "#000000",
             "label": true,
             "label-position": "n",
             "color": "#ffffff"
@@ -25830,10 +25770,8 @@
         "nodes": [
             "135d5edc61ac2243",
             "9a1ae627.ab9538",
-            "6d37b293.8b764c",
             "9579674a.009648",
             "7bd07949.9ad888",
-            "daaba898.b1f938",
             "234af641.bb5aea",
             "552cb953.9ce528",
             "30e7c030.4acd8",
@@ -27238,25 +27176,6 @@
         "h": 374
     },
     {
-        "id": "6d37b293.8b764c",
-        "type": "group",
-        "z": "ae087566.f2dff8",
-        "g": "9be9eeddc80e20ac",
-        "name": "",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#000000",
-            "label": true,
-            "label-position": "n",
-            "color": "#ffffff"
-        },
-        "nodes": [],
-        "x": 1405,
-        "y": 1045,
-        "w": 40,
-        "h": 40
-    },
-    {
         "id": "9579674a.009648",
         "type": "group",
         "z": "ae087566.f2dff8",
@@ -27304,22 +27223,6 @@
         "y": 99,
         "w": 212,
         "h": 532
-    },
-    {
-        "id": "daaba898.b1f938",
-        "type": "group",
-        "z": "ae087566.f2dff8",
-        "g": "9be9eeddc80e20ac",
-        "name": "",
-        "style": {
-            "stroke": "#000000",
-            "label": true
-        },
-        "nodes": [],
-        "x": 1180,
-        "y": 570,
-        "w": 40,
-        "h": 40
     },
     {
         "id": "234af641.bb5aea",
@@ -141718,8 +141621,8 @@
         "g": "6f8b44ed8a32b0fd",
         "name": "<--Connect link out to link in at Logic",
         "info": "",
-        "x": 1660,
-        "y": 470,
+        "x": 1630,
+        "y": 90,
         "wires": []
     },
     {
@@ -141729,8 +141632,8 @@
         "g": "6f8b44ed8a32b0fd",
         "name": "<--Connect link out to link in at Logic",
         "info": "",
-        "x": 1660,
-        "y": 510,
+        "x": 1630,
+        "y": 130,
         "wires": []
     },
     {
@@ -141740,8 +141643,8 @@
         "g": "6f8b44ed8a32b0fd",
         "name": "<--Connect link out to link in at Logic",
         "info": "",
-        "x": 1660,
-        "y": 550,
+        "x": 1630,
+        "y": 170,
         "wires": []
     },
     {
