@@ -139892,7 +139892,7 @@
         "type": "api-call-service",
         "z": "ae087566.f2dff8",
         "g": "95cbc61e2e8b96cd",
-        "name": "Pool",
+        "name": "Pool State",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
@@ -139901,7 +139901,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "input_select.pool_mode"
+            "input_select.pool_state"
         ],
         "data": "{ \"option\": \"{{payload}}\" }",
         "dataType": "json",
@@ -139922,7 +139922,7 @@
             }
         ],
         "queue": "first",
-        "x": 920,
+        "x": 940,
         "y": 920,
         "wires": [
             []
