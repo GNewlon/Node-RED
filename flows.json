@@ -161450,15 +161450,9 @@
         "mustacheAltTags": false,
         "outputProperties": [
             {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "6",
-                "valueType": "str"
-            },
-            {
                 "property": "payload",
                 "propertyType": "msg",
-                "value": "6",
+                "value": "SPEED 1",
                 "valueType": "str"
             }
         ],
@@ -161493,15 +161487,9 @@
         "mustacheAltTags": false,
         "outputProperties": [
             {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "6",
-                "valueType": "str"
-            },
-            {
                 "property": "payload",
                 "propertyType": "msg",
-                "value": "6",
+                "value": "SPEED 2",
                 "valueType": "str"
             }
         ],
