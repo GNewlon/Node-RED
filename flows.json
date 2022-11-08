@@ -140458,13 +140458,13 @@
         "type": "change",
         "z": "ae087566.f2dff8",
         "g": "95cbc61e2e8b96cd",
-        "name": "global.POOLMODE",
+        "name": "global.Pool.State",
         "rules": [
             {
                 "t": "move",
                 "p": "payload",
                 "pt": "msg",
-                "to": "POOLMODE",
+                "to": "Pool.State",
                 "tot": "global"
             }
         ],
