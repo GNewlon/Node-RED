@@ -96294,8 +96294,7 @@
         "y": 150,
         "wires": [
             [
-                "98be8cffad03accd",
-                "64366b4723ff9064"
+                "98be8cffad03accd"
             ]
         ]
     },
@@ -96322,7 +96321,7 @@
         "type": "api-call-service",
         "z": "07fbb0d23c88fd88",
         "g": "8cad00a051f46317",
-        "name": "POOL STATE",
+        "name": "POOL",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
@@ -96352,7 +96351,7 @@
             }
         ],
         "queue": "first",
-        "x": 760,
+        "x": 730,
         "y": 150,
         "wires": [
             []
