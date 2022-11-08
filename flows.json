@@ -19386,7 +19386,9 @@
             "b0902de9c702f611"
         ],
         "x": 4,
-        "y": 29
+        "y": 29,
+        "w": 1012,
+        "h": 662
     },
     {
         "id": "2417c9cf4253f9ab",
@@ -159348,41 +159350,6 @@
         "reg": false,
         "x": 510,
         "y": 1830,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "115e051ebfc64824",
-        "type": "poll-state",
-        "z": "eb8a08a62f6c1cce",
-        "name": "input_select.pool_fph_set_max_temp",
-        "server": "bbcbbc6d.66dc2",
-        "version": 2,
-        "exposeToHomeAssistant": false,
-        "haConfig": [
-            {
-                "property": "name",
-                "value": ""
-            },
-            {
-                "property": "icon",
-                "value": ""
-            }
-        ],
-        "updateinterval": "5",
-        "updateIntervalType": "num",
-        "updateIntervalUnits": "seconds",
-        "outputinitially": true,
-        "outputonchanged": true,
-        "entity_id": "input_select.pool_fph_set_max_temp",
-        "state_type": "str",
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "outputs": 1,
-        "x": 1110,
-        "y": 1650,
         "wires": [
             []
         ]
