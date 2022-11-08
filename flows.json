@@ -106416,7 +106416,7 @@
         "type": "inject",
         "z": "ae615eed132cf50f",
         "g": "3c64dbd13f57728a",
-        "name": "4s",
+        "name": "1s",
         "props": [
             {
                 "p": "topic",
@@ -106424,7 +106424,7 @@
                 "vt": "bool"
             }
         ],
-        "repeat": "4",
+        "repeat": "1",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
