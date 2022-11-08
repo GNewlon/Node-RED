@@ -17037,7 +17037,9 @@
             "612a3686340ee00f"
         ],
         "x": 84,
-        "y": 9
+        "y": 9,
+        "w": 232,
+        "h": 162
     },
     {
         "id": "7151e5f2e52bac23",
@@ -96542,7 +96544,7 @@
         "updateIntervalUnits": "seconds",
         "outputinitially": false,
         "outputonchanged": true,
-        "entity_id": "input_select.pool_mode",
+        "entity_id": "input_select.pool_state",
         "state_type": "str",
         "halt_if": "",
         "halt_if_type": "str",
@@ -96561,7 +96563,7 @@
         "type": "or-gate",
         "z": "435b4299505ba329",
         "g": "aa6e8162a210cc6a",
-        "name": "Pool Mode: Static",
+        "name": "Pool State: Static",
         "rules": [
             {
                 "t": "eq",
