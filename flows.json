@@ -96369,7 +96369,7 @@
         "start": "",
         "inout": "out",
         "septopics": false,
-        "property": "payload",
+        "property": "data.state",
         "topi": "topic",
         "x": 210,
         "y": 200,
