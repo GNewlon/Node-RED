@@ -163922,5 +163922,40 @@
                 "2f9d3efc03332573"
             ]
         ]
+    },
+    {
+        "id": "a6aba20d87d1d50e",
+        "type": "poll-state",
+        "z": "5772c90cc38c7459",
+        "name": "sensor.fph_inlet_temp",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "1",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "minutes",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "sensor.fph_inlet_temp",
+        "state_type": "num",
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 960,
+        "y": 70,
+        "wires": [
+            []
+        ]
     }
 ]
