@@ -132612,8 +132612,8 @@
         "g": "6f8b44ed8a32b0fd",
         "name": "<--Connect link out to link in at Logic",
         "info": "",
-        "x": 1630,
-        "y": 90,
+        "x": 1790,
+        "y": 120,
         "wires": []
     },
     {
@@ -132623,8 +132623,8 @@
         "g": "6f8b44ed8a32b0fd",
         "name": "<--Connect link out to link in at Logic",
         "info": "",
-        "x": 1630,
-        "y": 130,
+        "x": 1790,
+        "y": 160,
         "wires": []
     },
     {
@@ -132634,8 +132634,8 @@
         "g": "6f8b44ed8a32b0fd",
         "name": "<--Connect link out to link in at Logic",
         "info": "",
-        "x": 1630,
-        "y": 170,
+        "x": 1790,
+        "y": 200,
         "wires": []
     },
     {
