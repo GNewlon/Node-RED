@@ -165799,7 +165799,7 @@
         "wires": [
             [
                 "b5bdda3108f91cf3",
-                "f608161312283c29"
+                "6ca778e97cadd66b"
             ]
         ]
     },
@@ -165837,7 +165837,8 @@
         "y": 90,
         "wires": [
             [
-                "b5bdda3108f91cf3"
+                "b5bdda3108f91cf3",
+                "f608161312283c29"
             ]
         ]
     },
@@ -165917,8 +165918,7 @@
         "y": 130,
         "wires": [
             [
-                "68bcba11c4e05073",
-                "6ca778e97cadd66b"
+                "68bcba11c4e05073"
             ]
         ]
     },
@@ -166437,7 +166437,7 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "temperature",
+        "complete": "pid",
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
@@ -166454,8 +166454,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
+        "complete": "temperature",
+        "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1210,
