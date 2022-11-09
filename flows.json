@@ -155660,10 +155660,17 @@
             },
             {
                 "t": "set",
+                "p": "fph",
+                "pt": "msg",
+                "to": "fph",
+                "tot": "str"
+            },
+            {
+                "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "$append(fields,tags)",
-                "tot": "jsonata"
+                "to": "$append(fph,payload)",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -155675,7 +155682,8 @@
         "y": 160,
         "wires": [
             [
-                "332dd4f896d00567"
+                "332dd4f896d00567",
+                "0c99c56bb21a2370"
             ]
         ]
     },
@@ -158523,6 +158531,23 @@
         "statusType": "auto",
         "x": 1560,
         "y": 310,
+        "wires": []
+    },
+    {
+        "id": "0c99c56bb21a2370",
+        "type": "debug",
+        "z": "d866f7bb39433a84",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1680,
+        "y": 130,
         "wires": []
     }
 ]
