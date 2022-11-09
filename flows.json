@@ -156861,14 +156861,6 @@
                 "propertyType": "msg",
                 "property": "payload",
                 "topic": "2"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "3"
             }
         ],
         "outputTopic": "notok",
@@ -156930,12 +156922,12 @@
             "switch.fph_hvac_compressor_24vac_no",
             "switch.nph_condenser_fan",
             "switch.nph_hvac_compressor_24vac_nc",
-            "switch.off_24vac_all",
             "switch.pool_speed_3",
             "switch.valve_1_off_24vac",
             "switch.valve_2_off_24vac",
             "switch.valve_4_pool_spa",
-            "switch.valve_5_off_he"
+            "switch.valve_5_off_he",
+            "switch.off_24vac_all"
         ],
         "data": "{}",
         "dataType": "json",
@@ -156980,8 +156972,8 @@
         "entityId": [
             "switch.pool_heater",
             "switch.spa_heater",
-            "switch.spa_pump",
             "switch.spa_jets",
+            "switch.spa_pump",
             "switch.valve_1_skim_off",
             "switch.valve_2_pool_spa",
             "switch.valve_3_off_spa"
