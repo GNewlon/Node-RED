@@ -162292,7 +162292,7 @@
         "g": "b7f0827c369847f4",
         "name": "FPH η-Pump Speed",
         "active": true,
-        "tosidebar": true,
+        "tosidebar": false,
         "console": false,
         "tostatus": true,
         "complete": "payload",
