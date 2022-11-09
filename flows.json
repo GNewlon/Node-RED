@@ -156868,7 +156868,7 @@
         "op2": "Pool.State",
         "op1type": "nul",
         "op2type": "global",
-        "duration": "5",
+        "duration": "2",
         "extend": false,
         "overrideDelay": false,
         "units": "min",
