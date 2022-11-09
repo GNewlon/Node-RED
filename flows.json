@@ -147947,13 +147947,13 @@
         "type": "inject",
         "z": "2468296eb99670b3",
         "g": "e7237c2e32224b21",
-        "name": "query/3s",
+        "name": "query/4s",
         "props": [
             {
                 "p": "payload"
             }
         ],
-        "repeat": "3",
+        "repeat": "4",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
@@ -155893,7 +155893,7 @@
         "mustacheAltTags": false,
         "outputProperties": [
             {
-                "property": "payload",
+                "property": "payload.data.option",
                 "propertyType": "msg",
                 "value": "",
                 "valueType": "data"
