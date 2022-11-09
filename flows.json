@@ -114810,9 +114810,9 @@
                 "value": ""
             }
         ],
-        "updateinterval": "1",
+        "updateinterval": "15",
         "updateIntervalType": "num",
-        "updateIntervalUnits": "minutes",
+        "updateIntervalUnits": "seconds",
         "outputinitially": true,
         "outputonchanged": true,
         "entity_id": "input_select.fph",
