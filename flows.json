@@ -158100,14 +158100,12 @@
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
-        "outputs": 2,
+        "outputs": 1,
         "x": 1230,
         "y": 70,
         "wires": [
             [
-                "306084cc2d102d5f"
-            ],
-            [
+                "306084cc2d102d5f",
                 "89f2408eb8545cae",
                 "fcaba2f06b8cdba7"
             ]
