@@ -23640,7 +23640,6 @@
         "nodes": [
             "65a1cc788c628f93",
             "d50984c479e94235",
-            "1868bd618f60bad5",
             "adfa08c1d32d2ee1",
             "0a24d46a03be3f59",
             "3c41505838e01c24",
@@ -155925,47 +155924,11 @@
         "outputTopic": "notok",
         "gateType": "and",
         "emitOnlyIfTrue": true,
-        "x": 690,
-        "y": 480,
+        "x": 750,
+        "y": 510,
         "wires": [
             [
-                "1868bd618f60bad5"
-            ]
-        ]
-    },
-    {
-        "id": "1868bd618f60bad5",
-        "type": "change",
-        "z": "8f245c282032759b",
-        "g": "89ce83ed97df4ee9",
-        "name": "comms: notok",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "notok",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️VERY HOT!!!!!!! ⬅️⬅️                                     🚨🚨🚨🚨🚨🚨🚨🚨🚨",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 760,
-        "y": 540,
-        "wires": [
-            [
-                "e16af01778fcd9fe",
-                "adfa08c1d32d2ee1"
+                "e16af01778fcd9fe"
             ]
         ]
     },
@@ -156401,7 +156364,7 @@
         "y": 440,
         "wires": [
             [
-                "1868bd618f60bad5"
+                "e16af01778fcd9fe"
             ]
         ],
         "l": true
@@ -156515,7 +156478,7 @@
         "outputTopic": "notok",
         "gateType": "and",
         "emitOnlyIfTrue": true,
-        "x": 690,
+        "x": 750,
         "y": 580,
         "wires": [
             [
