@@ -155677,7 +155677,7 @@
         "type": "join",
         "z": "d866f7bb39433a84",
         "name": "",
-        "mode": "custom",
+        "mode": "auto",
         "build": "string",
         "property": "payload",
         "propertyType": "msg",
