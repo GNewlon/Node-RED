@@ -161260,7 +161260,7 @@
         "name": "Abnormal FPH-η",
         "op1": "",
         "op2": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ LOW- FPH-η:",
-        "op1type": "nul",
+        "op1type": "pay",
         "op2type": "str",
         "duration": "250",
         "extend": false,
