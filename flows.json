@@ -28150,7 +28150,6 @@
             "e666623de53429c3",
             "d826a67296287001",
             "e459307e3ae03e79",
-            "9490efe9e0fa6749",
             "1ed0ebab085dcc78"
         ],
         "x": 254,
@@ -161514,7 +161513,6 @@
         "y": 120,
         "wires": [
             [
-                "4e535558a75dbbf0",
                 "a2f5bad5c4312656"
             ]
         ]
@@ -161657,7 +161655,6 @@
         "y": 620,
         "wires": [
             [
-                "86ff6ba2d01129d3",
                 "b5b64e552e7163fa"
             ]
         ]
@@ -161829,7 +161826,9 @@
         "x": 130,
         "y": 450,
         "wires": [
-            []
+            [
+                "3bee64fd81919860"
+            ]
         ]
     },
     {
@@ -162359,41 +162358,6 @@
         ]
     },
     {
-        "id": "9490efe9e0fa6749",
-        "type": "api-call-service",
-        "z": "d0c933e35ace202f",
-        "g": "b7f0827c369847f4",
-        "name": "SPEED?",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "{{service}}",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "{{entity}}"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "SPEED 4",
-                "valueType": "str"
-            }
-        ],
-        "queue": "none",
-        "x": 940,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "1ed0ebab085dcc78",
         "type": "rbe",
         "z": "d0c933e35ace202f",
@@ -162574,13 +162538,11 @@
         "wires": [
             [
                 "4d58e24a6f61bf4e",
-                "71b343e7e83f10f2",
-                "a81eb5c2fe2dfee4"
+                "71b343e7e83f10f2"
             ],
             [
                 "f7ea8aa4b7fdaaee",
-                "88583d477160afd5",
-                "a81eb5c2fe2dfee4"
+                "88583d477160afd5"
             ],
             [
                 "2d411c85dd090dd9"
