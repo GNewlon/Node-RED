@@ -23649,7 +23649,6 @@
         "nodes": [
             "b73377f7e4911c40",
             "f8668012b3db3df0",
-            "a28fce7eae258b4c",
             "93bd48b19282d309",
             "7d0fde20fb6689a4",
             "8074627dbca10d23",
@@ -156282,7 +156281,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1230,
-        "y": 590,
+        "y": 550,
         "wires": []
     },
     {
@@ -156325,29 +156324,6 @@
         "wires": [
             [
                 "8074627dbca10d23"
-            ]
-        ]
-    },
-    {
-        "id": "a28fce7eae258b4c",
-        "type": "rbe",
-        "z": "8f245c282032759b",
-        "g": "1eed8b38573986f1",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": false,
-        "property": "payload",
-        "topi": "topic",
-        "x": 1180,
-        "y": 540,
-        "wires": [
-            [
-                "b73377f7e4911c40",
-                "16cf8945f03c07a5",
-                "20e0a83eb177f9c0"
             ]
         ]
     },
@@ -156489,7 +156465,7 @@
         "y": 480,
         "wires": [
             [
-                "a28fce7eae258b4c"
+                "16cf8945f03c07a5"
             ]
         ]
     },
@@ -156555,7 +156531,7 @@
         "output_location": "",
         "output_location_type": "none",
         "x": 1240,
-        "y": 640,
+        "y": 600,
         "wires": [
             []
         ]
@@ -156586,10 +156562,11 @@
         "mode": "link",
         "links": [
             "803009e2f3c8cbf2",
-            "1e98ff2a6dc62681"
+            "1e98ff2a6dc62681",
+            "319add7c970a42fd"
         ],
-        "x": 1315,
-        "y": 540,
+        "x": 1345,
+        "y": 480,
         "wires": []
     },
     {
@@ -156809,10 +156786,11 @@
         "links": [
             "942019726d23f3e3",
             "fc51237e45ee0c87",
-            "b1e941117b3c57c7"
+            "b1e941117b3c57c7",
+            "16cf8945f03c07a5"
         ],
-        "x": 1025,
-        "y": 640,
+        "x": 1075,
+        "y": 580,
         "wires": [
             [
                 "20e0a83eb177f9c0",
