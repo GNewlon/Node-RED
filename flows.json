@@ -158526,7 +158526,7 @@
         "type": "debug",
         "z": "d866f7bb39433a84",
         "name": "debug 11",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
