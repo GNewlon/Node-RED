@@ -165744,8 +165744,8 @@
         "tosidebar": false,
         "console": false,
         "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 950,
@@ -165810,6 +165810,11 @@
         "g": "4a48702bb132ec59",
         "name": "pid",
         "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
             {
                 "t": "delete",
                 "p": "topic",
@@ -166433,7 +166438,7 @@
         "type": "debug",
         "z": "2a4b5f59b03e39f5",
         "name": "FPH-η",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -166454,8 +166459,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "temperature",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1210,
