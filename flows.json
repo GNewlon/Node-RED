@@ -23670,7 +23670,6 @@
             "319add7c970a42fd",
             "18c878d6df5e9445",
             "d46137cb8d1e99a0",
-            "e4dec782fc363cda",
             "3b2ce10a1b50947b",
             "c003ee3ff3de1a35"
         ],
@@ -156371,7 +156370,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 920,
-        "y": 470,
+        "y": 430,
         "wires": [
             [
                 "f602d298491d1fb7"
@@ -156406,7 +156405,7 @@
         "to": "",
         "reg": false,
         "x": 920,
-        "y": 430,
+        "y": 470,
         "wires": [
             [
                 "f602d298491d1fb7"
@@ -156441,7 +156440,7 @@
         "to": "",
         "reg": false,
         "x": 930,
-        "y": 510,
+        "y": 540,
         "wires": [
             [
                 "f602d298491d1fb7"
@@ -156867,40 +156866,10 @@
         "gateType": "and",
         "emitOnlyIfTrue": true,
         "x": 700,
-        "y": 580,
+        "y": 570,
         "wires": [
             [
-                "e4dec782fc363cda",
                 "8074627dbca10d23"
-            ]
-        ]
-    },
-    {
-        "id": "e4dec782fc363cda",
-        "type": "change",
-        "z": "8f245c282032759b",
-        "g": "1eed8b38573986f1",
-        "name": "Corretive Completed",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "🚨🚨🚨🚨CORRECTIVE ACTIONS PERFORMED--HOW'D IT WORK???🚨🚨🚨🚨🚨                                     ➡️➡️VERY HOT!!!!!!! ⬅️⬅️                                     🚨🚨🚨🚨🚨🚨🚨🚨🚨",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 580,
-        "wires": [
-            [
-                "b73377f7e4911c40",
-                "20e0a83eb177f9c0"
             ]
         ]
     },
