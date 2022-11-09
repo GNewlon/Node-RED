@@ -24299,8 +24299,6 @@
         },
         "nodes": [
             "b10f10611d1ba782",
-            "652bc65c6548bc7e",
-            "23174919a626836b",
             "f1bb5388a71c5e26",
             "102b329dd483d82c",
             "9c2d9cadb1e5e09d",
@@ -162120,64 +162118,8 @@
             [
                 "102b329dd483d82c",
                 "9c2d9cadb1e5e09d",
-                "f1bb5388a71c5e26"
-            ]
-        ]
-    },
-    {
-        "id": "652bc65c6548bc7e",
-        "type": "change",
-        "z": "d0c933e35ace202f",
-        "g": "d9585cf36b35d0fc",
-        "name": "move",
-        "rules": [
-            {
-                "t": "move",
-                "p": "payload",
-                "pt": "msg",
-                "to": "pid",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 500,
-        "y": 110,
-        "wires": [
-            [
-                "b10f10611d1ba782"
-            ]
-        ]
-    },
-    {
-        "id": "23174919a626836b",
-        "type": "change",
-        "z": "d0c933e35ace202f",
-        "g": "d9585cf36b35d0fc",
-        "name": "move",
-        "rules": [
-            {
-                "t": "move",
-                "p": "payload",
-                "pt": "msg",
-                "to": "temperature",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 500,
-        "y": 150,
-        "wires": [
-            [
-                "b10f10611d1ba782",
-                "d45f8b9664ba2674"
+                "f1bb5388a71c5e26",
+                "44e766230d198866"
             ]
         ]
     },
@@ -162256,7 +162198,7 @@
             },
             {
                 "t": "set",
-                "p": "payload",
+                "p": "temperature",
                 "pt": "msg",
                 "to": "pool_water_temp.pool_water_temp",
                 "tot": "global"
@@ -162271,7 +162213,7 @@
         "y": 150,
         "wires": [
             [
-                "23174919a626836b"
+                "b10f10611d1ba782"
             ]
         ]
     },
@@ -162314,8 +162256,7 @@
         "y": 110,
         "wires": [
             [
-                "652bc65c6548bc7e",
-                "44e766230d198866"
+                "b10f10611d1ba782"
             ]
         ]
     },
