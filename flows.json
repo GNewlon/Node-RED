@@ -12719,7 +12719,9 @@
             "d47e7617a2d5b5d4"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 1224,
+        "h": 714
     },
     {
         "id": "1e24c05d814c1d54",
@@ -16706,7 +16708,9 @@
             "1e20ce39fdc8df01"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 822,
+        "h": 262
     },
     {
         "id": "10858cda38c81071",
@@ -16733,7 +16737,9 @@
             "6cec49b824ed3d25"
         ],
         "x": 864,
-        "y": 39
+        "y": 39,
+        "w": 342,
+        "h": 262
     },
     {
         "id": "da01c66a02398529",
@@ -16759,7 +16765,9 @@
             "3207c4d64962da9f"
         ],
         "x": 34,
-        "y": 309
+        "y": 309,
+        "w": 352,
+        "h": 392
     },
     {
         "id": "d47e7617a2d5b5d4",
@@ -16808,7 +16816,9 @@
             "962b3920f5de1ade"
         ],
         "x": 394,
-        "y": 309
+        "y": 309,
+        "w": 812,
+        "h": 392
     },
     {
         "id": "6f4a781ce95232ac",
@@ -31445,7 +31455,7 @@
         "updateIntervalUnits": "minutes",
         "outputinitially": false,
         "outputonchanged": true,
-        "entity_id": "sensor.pool_temperature",
+        "entity_id": "sensor.pool_temp",
         "state_type": "num",
         "halt_if": "",
         "halt_if_type": "num",
