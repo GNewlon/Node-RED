@@ -27310,7 +27310,7 @@
         "mustacheAltTags": false,
         "outputProperties": [
             {
-                "property": "payload",
+                "property": "payload.data.option",
                 "propertyType": "msg",
                 "value": "",
                 "valueType": "data"
@@ -156853,7 +156853,6 @@
         "y": 490,
         "wires": [
             [
-                "d987c3ff5e09514f",
                 "0fbf100b72002fba"
             ]
         ]
@@ -156868,7 +156867,7 @@
         "op2": "Pool.State",
         "op1type": "nul",
         "op2type": "global",
-        "duration": "2",
+        "duration": "1",
         "extend": false,
         "overrideDelay": false,
         "units": "min",
