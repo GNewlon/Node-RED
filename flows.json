@@ -157940,7 +157940,7 @@
         "op2": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ LOW- FPH-η ⬅️⬅️⬅️                                     🚨🚨🚨🚨🚨🚨🚨🚨🚨",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "35",
+        "duration": "1",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
