@@ -165937,7 +165937,8 @@
         "y": 130,
         "wires": [
             [
-                "68bcba11c4e05073"
+                "68bcba11c4e05073",
+                "6ca778e97cadd66b"
             ]
         ]
     },
@@ -166462,6 +166463,23 @@
         "statusType": "auto",
         "x": 1200,
         "y": 100,
+        "wires": []
+    },
+    {
+        "id": "6ca778e97cadd66b",
+        "type": "debug",
+        "z": "2a4b5f59b03e39f5",
+        "name": "FPH-η",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 320,
         "wires": []
     }
 ]
