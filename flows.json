@@ -159746,7 +159746,7 @@
         "type": "inject",
         "z": "2ae8854e2babc07a",
         "g": "1f3e9117e707fa5e",
-        "name": "3.0",
+        "name": "7",
         "props": [
             {
                 "p": "payload"
@@ -159757,7 +159757,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "3.0",
+        "payload": "7",
         "payloadType": "num",
         "x": 130,
         "y": 370,
