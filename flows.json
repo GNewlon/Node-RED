@@ -136827,7 +136827,7 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 1520,
+        "x": 1470,
         "y": 250,
         "wires": [
             []
@@ -136862,7 +136862,7 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 1530,
+        "x": 1480,
         "y": 150,
         "wires": [
             []
@@ -136897,7 +136897,7 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 1530,
+        "x": 1480,
         "y": 200,
         "wires": [
             []
