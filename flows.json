@@ -166534,7 +166534,7 @@
                 "value": ""
             }
         ],
-        "updateinterval": "0",
+        "updateinterval": "30",
         "updateIntervalType": "num",
         "updateIntervalUnits": "seconds",
         "outputinitially": true,
@@ -166559,7 +166559,7 @@
         "z": "2a4b5f59b03e39f5",
         "g": "146895836663bc95",
         "name": "FPH-η",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
