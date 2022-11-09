@@ -23627,11 +23627,12 @@
             "95bf04c1dd0ff447",
             "94c925157935bcbb",
             "6c3f35964f3d0db8",
-            "67a2bd1d929a11cb"
+            "67a2bd1d929a11cb",
+            "6de3e0d33a7d6c31"
         ],
         "x": 8,
         "y": 3,
-        "w": 1424,
+        "w": 1518,
         "h": 714
     },
     {
@@ -156273,7 +156274,7 @@
         "z": "8f245c282032759b",
         "g": "1eed8b38573986f1",
         "name": "FPH OVERTEMP LOGIC",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -158342,7 +158343,8 @@
         "y": 160,
         "wires": [
             [
-                "b1e941117b3c57c7"
+                "b1e941117b3c57c7",
+                "6de3e0d33a7d6c31"
             ]
         ]
     },
@@ -158926,6 +158928,24 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "6de3e0d33a7d6c31",
+        "type": "debug",
+        "z": "8f245c282032759b",
+        "g": "a4bfe2ef8017394b",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 160,
+        "wires": []
     },
     {
         "id": "b8b1d2a187135040",
