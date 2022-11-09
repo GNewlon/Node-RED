@@ -156388,10 +156388,6 @@
         "name": "33",
         "props": [
             {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
                 "p": "payload"
             }
         ],
@@ -156399,7 +156395,7 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "FPH-η",
+        "topic": "",
         "payload": "33",
         "payloadType": "num",
         "x": 130,
