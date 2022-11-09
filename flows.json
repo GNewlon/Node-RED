@@ -23566,7 +23566,7 @@
         ],
         "x": 8,
         "y": 3,
-        "w": 1434,
+        "w": 1464,
         "h": 714
     },
     {
@@ -23737,7 +23737,7 @@
         ],
         "x": 314,
         "y": 29,
-        "w": 1102,
+        "w": 1132,
         "h": 352
     },
     {
@@ -155668,8 +155668,7 @@
         "y": 160,
         "wires": [
             [
-                "332dd4f896d00567",
-                "0c99c56bb21a2370"
+                "332dd4f896d00567"
             ]
         ]
     },
@@ -157977,7 +157976,7 @@
         "name": "Abnormal FPH-η",
         "op1": "",
         "op2": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ LOW- FPH-η ⬅️⬅️⬅️                                     🚨🚨🚨🚨🚨🚨🚨🚨🚨",
-        "op1type": "nul",
+        "op1type": "pay",
         "op2type": "str",
         "duration": "1",
         "extend": false,
@@ -157986,12 +157985,15 @@
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
-        "outputs": 1,
+        "outputs": 2,
         "x": 1230,
         "y": 100,
         "wires": [
             [
-                "4bb71b37a333297e"
+                "89f2408eb8545cae"
+            ],
+            [
+                "89f2408eb8545cae"
             ]
         ]
     },
@@ -158023,7 +158025,7 @@
             "2b7b586858e44685",
             "7051f6f1265f3826"
         ],
-        "x": 1355,
+        "x": 1405,
         "y": 100,
         "wires": []
     },
@@ -158049,8 +158051,7 @@
         "y": 130,
         "wires": [
             [
-                "ac38fef596a0edac",
-                "89f2408eb8545cae"
+                "ac38fef596a0edac"
             ]
         ]
     },
@@ -158517,23 +158518,6 @@
         "statusType": "auto",
         "x": 1560,
         "y": 310,
-        "wires": []
-    },
-    {
-        "id": "0c99c56bb21a2370",
-        "type": "debug",
-        "z": "d866f7bb39433a84",
-        "name": "debug 11",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1680,
-        "y": 130,
         "wires": []
     }
 ]
