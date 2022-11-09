@@ -163878,10 +163878,10 @@
         "active": true,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "true",
         "targetType": "full",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
         "x": 790,
         "y": 60,
@@ -163924,6 +163924,11 @@
             {
                 "t": "delete",
                 "p": "_event",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_msgid",
                 "pt": "msg"
             }
         ],
