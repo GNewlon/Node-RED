@@ -155678,7 +155678,7 @@
         "z": "d866f7bb39433a84",
         "name": "",
         "mode": "custom",
-        "build": "merged",
+        "build": "string",
         "property": "payload",
         "propertyType": "msg",
         "key": "topic",
