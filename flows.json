@@ -14909,7 +14909,7 @@
         ],
         "x": 1.3333282470703125,
         "y": 389,
-        "w": 1014.6666717529297,
+        "w": 984.6666717529297,
         "h": 380.2221984863281
     },
     {
@@ -24094,7 +24094,7 @@
         ],
         "x": 1.3333282470703125,
         "y": 9,
-        "w": 1014.6666717529297,
+        "w": 984.6666717529297,
         "h": 380.2221984863281
     },
     {
@@ -107853,8 +107853,8 @@
         "type": "mqtt out",
         "z": "39e932257370a47c",
         "g": "8af5c81c3a9a68d3",
-        "name": "fph_outlet_water_temp",
-        "topic": "fph_outlet_water_temp",
+        "name": "fph_outlet_temp",
+        "topic": "fph_outlet_temp",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -107863,7 +107863,7 @@
         "correl": "",
         "expiry": "",
         "broker": "d1a17316.c56bb",
-        "x": 890,
+        "x": 870,
         "y": 490,
         "wires": [],
         "icon": "font-awesome/fa-flash"
@@ -108415,8 +108415,8 @@
         "type": "mqtt out",
         "z": "39e932257370a47c",
         "g": "694a2a1e63df210d",
-        "name": "fph_outlet_water_temp",
-        "topic": "fph_inlet_water_temp",
+        "name": "fph_inlet_temp",
+        "topic": "fph_inlet_temp",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -108425,7 +108425,7 @@
         "correl": "",
         "expiry": "",
         "broker": "d1a17316.c56bb",
-        "x": 890,
+        "x": 870,
         "y": 110,
         "wires": [],
         "icon": "font-awesome/fa-flash"
@@ -108446,7 +108446,7 @@
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.fph_outlet_water_temp",
+                "p": "pool_water_temp.fph_inlet_water_temp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -108964,8 +108964,8 @@
         "id": "17faa18a920ee8b0",
         "type": "mqtt in",
         "z": "39e932257370a47c",
-        "name": "fph_inlet_water_temp",
-        "topic": "fph_inlet_water_temp",
+        "name": "fph_inlet_temp",
+        "topic": "fph_inlet_temp",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "d1a17316.c56bb",
@@ -108973,8 +108973,27 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 1200,
-        "y": 470,
+        "x": 1140,
+        "y": 110,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab138d6697076047",
+        "type": "mqtt in",
+        "z": "39e932257370a47c",
+        "name": "fph_outlet_temp",
+        "topic": "fph_outlet_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1150,
+        "y": 490,
         "wires": [
             []
         ]
