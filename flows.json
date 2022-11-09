@@ -155664,8 +155664,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1520,
-        "y": 160,
+        "x": 1540,
+        "y": 130,
         "wires": [
             [
                 "332dd4f896d00567",
@@ -155693,8 +155693,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 1550,
-        "y": 240,
+        "x": 1560,
+        "y": 250,
         "wires": [
             [
                 "606b77ba046a1ff4"
@@ -158509,7 +158509,7 @@
         "type": "debug",
         "z": "d866f7bb39433a84",
         "name": "debug 10",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -158526,7 +158526,7 @@
         "type": "debug",
         "z": "d866f7bb39433a84",
         "name": "debug 11",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
