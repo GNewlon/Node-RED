@@ -28304,7 +28304,9 @@
             "4a48702bb132ec59",
             "9ca1a058f0ee3334",
             "364aefb655076540",
-            "85c7cd1591fd3150"
+            "85c7cd1591fd3150",
+            "4583a5b464bbe6ec",
+            "c78663005ca09976"
         ],
         "x": 8,
         "y": 23,
@@ -166512,5 +166514,61 @@
                 "c6b62870312f1bc7"
             ]
         ]
+    },
+    {
+        "id": "4583a5b464bbe6ec",
+        "type": "poll-state",
+        "z": "2a4b5f59b03e39f5",
+        "g": "146895836663bc95",
+        "name": "sensor.fph_outlet_temperature",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "0",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "sensor.fph_outlet_temperature",
+        "state_type": "num",
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 570,
+        "y": 370,
+        "wires": [
+            [
+                "c78663005ca09976"
+            ]
+        ]
+    },
+    {
+        "id": "c78663005ca09976",
+        "type": "debug",
+        "z": "2a4b5f59b03e39f5",
+        "g": "146895836663bc95",
+        "name": "FPH-η",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 850,
+        "y": 370,
+        "wires": []
     }
 ]
