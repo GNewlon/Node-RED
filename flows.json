@@ -155653,7 +155653,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "topic",
+                "p": "parts",
                 "pt": "msg",
                 "to": "payload",
                 "tot": "msg"
@@ -155664,11 +155664,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1540,
+        "x": 1550,
         "y": 130,
         "wires": [
             [
-                "b93721e9be867690"
+                "b93721e9be867690",
+                "332dd4f896d00567"
             ]
         ]
     },
@@ -158104,12 +158105,11 @@
         "y": 70,
         "wires": [
             [
-                "306084cc2d102d5f",
-                "332dd4f896d00567"
+                "306084cc2d102d5f"
             ],
             [
                 "89f2408eb8545cae",
-                "332dd4f896d00567"
+                "fcaba2f06b8cdba7"
             ]
         ]
     },
@@ -158537,5 +158537,32 @@
         "x": 1740,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "fcaba2f06b8cdba7",
+        "type": "change",
+        "z": "d866f7bb39433a84",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "parts",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1550,
+        "y": 170,
+        "wires": [
+            [
+                "332dd4f896d00567"
+            ]
+        ]
     }
 ]
