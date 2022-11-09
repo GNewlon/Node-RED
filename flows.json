@@ -28286,7 +28286,6 @@
             "598a43d26c9c6647",
             "c6b62870312f1bc7",
             "52bd28275bdab926",
-            "2e8b0d5061be8afe",
             "68bcba11c4e05073",
             "26d7c15b5aac5c0a",
             "8b9b878be66bc133",
@@ -165730,36 +165729,6 @@
         "x": 750,
         "y": 190,
         "wires": [
-            [
-                "2e8b0d5061be8afe"
-            ]
-        ]
-    },
-    {
-        "id": "2e8b0d5061be8afe",
-        "type": "api-call-service",
-        "z": "2a4b5f59b03e39f5",
-        "g": "4a48702bb132ec59",
-        "name": "FPH.2",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "input_select",
-        "service": "select_option",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_select.fph_2"
-        ],
-        "data": "{ \"option\": \"{{payload}}\" }",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 950,
-        "y": 190,
-        "wires": [
             []
         ]
     },
@@ -165881,8 +165850,6 @@
         "y": 140,
         "wires": [
             [
-                "598a43d26c9c6647",
-                "52bd28275bdab926",
                 "c6b62870312f1bc7"
             ]
         ]
