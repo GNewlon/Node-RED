@@ -160546,7 +160546,7 @@
         "op2": "",
         "op1type": "nul",
         "op2type": "payl",
-        "duration": "45",
+        "duration": "1",
         "extend": false,
         "overrideDelay": true,
         "units": "s",
