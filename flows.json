@@ -155610,10 +155610,10 @@
         "name": "",
         "rules": [
             {
-                "t": "move",
-                "p": "payload",
+                "t": "set",
+                "p": "topic",
                 "pt": "msg",
-                "to": "topic",
+                "to": "payload",
                 "tot": "msg"
             }
         ],
@@ -155622,7 +155622,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1540,
+        "x": 1520,
         "y": 160,
         "wires": [
             [
