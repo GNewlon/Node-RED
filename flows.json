@@ -155668,8 +155668,7 @@
         "y": 130,
         "wires": [
             [
-                "b93721e9be867690",
-                "332dd4f896d00567"
+                "b93721e9be867690"
             ]
         ]
     },
@@ -155680,8 +155679,8 @@
         "name": "",
         "mode": "custom",
         "build": "array",
-        "property": "parts",
-        "propertyType": "msg",
+        "property": "",
+        "propertyType": "full",
         "key": "topic",
         "joiner": "",
         "joinerType": "str",
@@ -158106,10 +158105,12 @@
         "wires": [
             [
                 "306084cc2d102d5f",
-                "89f2408eb8545cae"
+                "89f2408eb8545cae",
+                "332dd4f896d00567"
             ],
             [
-                "fcaba2f06b8cdba7"
+                "fcaba2f06b8cdba7",
+                "332dd4f896d00567"
             ]
         ]
     },
@@ -158561,7 +158562,6 @@
         "y": 170,
         "wires": [
             [
-                "332dd4f896d00567",
                 "9d63d5dbf3f4ac34"
             ]
         ]
