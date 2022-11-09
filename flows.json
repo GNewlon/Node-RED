@@ -78,6 +78,14 @@
         "env": []
     },
     {
+        "id": "5772c90cc38c7459",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -24120,6 +24128,36 @@
         "y": 191.22219848632812,
         "w": 262,
         "h": 172
+    },
+    {
+        "id": "0189e73dda62371f",
+        "type": "group",
+        "z": "5772c90cc38c7459",
+        "name": "",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#000000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "39e2390fa4637704",
+            "fc0dc697903dc053",
+            "ffe56ac4ff4d691c",
+            "cbb7f0d40fb5bda9",
+            "98419ac297ddf25c",
+            "7331f2afb80135b4",
+            "028a55f01fe5a171",
+            "5af94bf96c450f20",
+            "734fe881714f3d20",
+            "72daee00ad109cde",
+            "ebdca2fb3bcb2a63"
+        ],
+        "x": 4,
+        "y": 59,
+        "w": 772,
+        "h": 182
     },
     {
         "id": "d1a17316.c56bb",
@@ -162238,5 +162276,303 @@
         "x": 230,
         "y": 610,
         "wires": []
+    },
+    {
+        "id": "39e2390fa4637704",
+        "type": "function",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "",
+        "func": "// store pid/temperature in flow context\nif (msg.hasOwnProperty(\"pid\")) {\n    flow.set('pid', msg.pid);\n} else if (msg.hasOwnProperty(\"temperature\")) {\n   flow.set('temperature', msg.temperature);\n}\n\n\n// get the latest values of pid/temperature from context - default to 0 if not yet set\nvar pid = flow.get('pid') || 0;\nvar temperature = flow.get('temperature') || 0;\nmsg.payload = pid-temperature;\nmsg.payload = Number(msg.payload.toFixed(3));\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 110,
+        "wires": [
+            [
+                "5af94bf96c450f20"
+            ]
+        ]
+    },
+    {
+        "id": "fc0dc697903dc053",
+        "type": "mqtt out",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "FPH-η",
+        "topic": "FPH-η",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d1a17316.c56bb",
+        "x": 700,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "ffe56ac4ff4d691c",
+        "type": "debug",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "FPH-η",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 680,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "cbb7f0d40fb5bda9",
+        "type": "subflow:70f0b80bb5aa1d03",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "",
+        "x": 480,
+        "y": 200,
+        "wires": [
+            [
+                "98419ac297ddf25c"
+            ]
+        ]
+    },
+    {
+        "id": "98419ac297ddf25c",
+        "type": "api-call-service",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "FPH.2",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.fph_2"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 680,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7331f2afb80135b4",
+        "type": "change",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "temp",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_msgid",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "temperature",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 170,
+        "wires": [
+            [
+                "39e2390fa4637704"
+            ]
+        ]
+    },
+    {
+        "id": "028a55f01fe5a171",
+        "type": "change",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "pid",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_msgid",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "pid",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 110,
+        "wires": [
+            [
+                "39e2390fa4637704"
+            ]
+        ]
+    },
+    {
+        "id": "5af94bf96c450f20",
+        "type": "change",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "clean",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "temperature",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "pid",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_event",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 160,
+        "wires": [
+            [
+                "734fe881714f3d20"
+            ]
+        ]
+    },
+    {
+        "id": "734fe881714f3d20",
+        "type": "rbe",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 550,
+        "y": 160,
+        "wires": [
+            [
+                "cbb7f0d40fb5bda9",
+                "ffe56ac4ff4d691c",
+                "fc0dc697903dc053"
+            ]
+        ]
+    },
+    {
+        "id": "72daee00ad109cde",
+        "type": "mqtt in",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "fph_inlet_temp",
+        "topic": "fph_inlet_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 110,
+        "wires": [
+            [
+                "028a55f01fe5a171"
+            ]
+        ]
+    },
+    {
+        "id": "ebdca2fb3bcb2a63",
+        "type": "mqtt in",
+        "z": "5772c90cc38c7459",
+        "g": "0189e73dda62371f",
+        "name": "fph_outlet_temp",
+        "topic": "fph_outlet_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 170,
+        "wires": [
+            [
+                "7331f2afb80135b4"
+            ]
+        ]
     }
 ]
