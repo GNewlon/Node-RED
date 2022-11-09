@@ -70,6 +70,14 @@
         "env": []
     },
     {
+        "id": "8f245c282032759b",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -23591,6 +23599,259 @@
         "y": 1025,
         "w": 40,
         "h": 40
+    },
+    {
+        "id": "faab56882c60c773",
+        "type": "group",
+        "z": "8f245c282032759b",
+        "name": "FPH OVERTEMP LOGIC",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#000000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "89ce83ed97df4ee9",
+            "e9f0330d37c71c69",
+            "09ee953ffcb1e828",
+            "3bfb3833fca8f86e",
+            "f8675353b9c4b0e8",
+            "f96103b517e98014"
+        ],
+        "x": 8,
+        "y": 3,
+        "w": 1434,
+        "h": 714
+    },
+    {
+        "id": "89ce83ed97df4ee9",
+        "type": "group",
+        "z": "8f245c282032759b",
+        "g": "faab56882c60c773",
+        "name": "GLOBAL RESET=HVAC NORMAL MODE + FLOW WATER",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "65a1cc788c628f93",
+            "d50984c479e94235",
+            "1868bd618f60bad5",
+            "adfa08c1d32d2ee1",
+            "0a24d46a03be3f59",
+            "3c41505838e01c24",
+            "e16af01778fcd9fe",
+            "bfc16116a3f92589",
+            "90900bb2e5b0da9d",
+            "21cd982c5eecaa76",
+            "dff7e33fc61828bd",
+            "21b7fc5491e19ebe",
+            "2f0456b709f84102",
+            "b74476a97b36bceb",
+            "8bb58185533cdec8",
+            "626c6f07f5eec1bc",
+            "8fd5aa63e1a8c0ef",
+            "c71709c88de7f20e",
+            "c93accf0af213373",
+            "e4d7afc08f1d1d4a",
+            "4b9f727e76e33cc9",
+            "40f707cf084a4d53",
+            "5ef62c13450112f0",
+            "7a879ab9fa836336",
+            "465a9f68515fadb6",
+            "36dd06fb83104055",
+            "2062b30448300dcc"
+        ],
+        "x": 314,
+        "y": 389,
+        "w": 1102,
+        "h": 302
+    },
+    {
+        "id": "e9f0330d37c71c69",
+        "type": "group",
+        "z": "8f245c282032759b",
+        "g": "faab56882c60c773",
+        "name": "FPH-η",
+        "style": {
+            "stroke": "#6f2fa0",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "58c730231eb350e6",
+            "a439be1d814a4532",
+            "ef8a5972e561c5f8",
+            "04763b8d289c9ee7",
+            "dfca628ef914eaa1",
+            "3c3bf463caeeef54"
+        ],
+        "x": 34,
+        "y": 159,
+        "w": 272,
+        "h": 172
+    },
+    {
+        "id": "09ee953ffcb1e828",
+        "type": "group",
+        "z": "8f245c282032759b",
+        "g": "faab56882c60c773",
+        "name": "Query",
+        "style": {
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "cd607def4e0c6a2f",
+            "96d6147147649577"
+        ],
+        "x": 34,
+        "y": 69,
+        "w": 272,
+        "h": 82
+    },
+    {
+        "id": "3bfb3833fca8f86e",
+        "type": "group",
+        "z": "8f245c282032759b",
+        "g": "faab56882c60c773",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "c650c5733ad528fa",
+            "92502c5f540e9f69",
+            "d8f08b59fb5f8b07",
+            "79e690c81934f233",
+            "4e02ba7a601399c4",
+            "88d39e68f99a51c3",
+            "5f741cfee50ef825",
+            "da2a1402bf715977",
+            "dea5c43e5819c4d2",
+            "81b4e600ac3024ac",
+            "718d862a90d0d140",
+            "b8b1d6b6efbbcff5",
+            "a89bed2f90a408e3",
+            "4683c2764368d0fa",
+            "e5328f140c51d9b6",
+            "a6b531af0a318dc5",
+            "2ba3caf7082ff637",
+            "76a4e31ce69f13c4",
+            "748452a98650abf7",
+            "c54c470ba68afb3c",
+            "ca3219993f37cc98",
+            "eab017dad2b2285d",
+            "f3a0aef6f4ea9bbe",
+            "6549968195ee2f87",
+            "a0d092f70b7065ac",
+            "bfd5b54aad880698",
+            "16a34d8b097fefe4",
+            "c3c68f7a6aa90997",
+            "62c40c3fb66d4a59",
+            "3f4c0204424515e7",
+            "b56179932fb29ea1",
+            "2aa8aae4d9e9364f",
+            "2c6c7fd989ba7605",
+            "8668650e977e2749",
+            "330d7923e77bdc75",
+            "4c362b4b387072c2",
+            "d3de2dd745451892",
+            "631080dacfe361de",
+            "ef4a7c648d403e27",
+            "bf09ded24c8c35c1",
+            "dde4995ffd7fb8ae",
+            "61c3ac35dc418b58",
+            "6d3c2af9b2ca00db",
+            "5f18f9fb0e0cd765",
+            "804976a92e180aa3",
+            "92c09c819e4473cd",
+            "3b44a89a0854cc9c",
+            "49b65d0f1cd144b3",
+            "7bd09818cff06679",
+            "db88ab222ce06734",
+            "a0ca9342b5f3d832",
+            "ac7bdbe868618b2a",
+            "3dfeba7e97d758f0",
+            "9b4fb884ef4add5c",
+            "16c37fa36c4f7da0",
+            "481ea53f1be048f1",
+            "06cfe9e2698034d2",
+            "d8c2878e69e1126f",
+            "bbf75e800a45576f",
+            "06d4a92cdbc1982f",
+            "557848b1aeaa8900",
+            "bfc7b3b24a163070",
+            "c8ff60b4dfab6ec4",
+            "9f771aed739750f7",
+            "b9c72d483a776414",
+            "8e1a8333a19061ac",
+            "b4171830245646ff",
+            "24f4bb2126bdf470"
+        ],
+        "x": 314,
+        "y": 29,
+        "w": 1102,
+        "h": 352
+    },
+    {
+        "id": "f8675353b9c4b0e8",
+        "type": "group",
+        "z": "8f245c282032759b",
+        "g": "faab56882c60c773",
+        "name": "Pool.Mode",
+        "style": {
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "d5f775e31b5acd82",
+            "4386487e8c68376e",
+            "3d0a3b4af6ac959e",
+            "915c96ca7c2513d1",
+            "918366eee30e5af9",
+            "5dd034c83c2a5dcb",
+            "f22632b14f9ab651",
+            "c8811d29c4f0375d",
+            "222d8cf98595c4a5"
+        ],
+        "x": 34,
+        "y": 339,
+        "w": 272,
+        "h": 182
+    },
+    {
+        "id": "f96103b517e98014",
+        "type": "group",
+        "z": "8f245c282032759b",
+        "g": "faab56882c60c773",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "220da06dcae5db52",
+            "0b8fbcdcf8f67d37",
+            "749c74ebd2b47e37",
+            "5edb5b525fb95ea0"
+        ],
+        "x": 34,
+        "y": 529,
+        "w": 272,
+        "h": 142
     },
     {
         "id": "d1a17316.c56bb",
@@ -155609,6 +155870,2937 @@
         ],
         "x": 1005,
         "y": 580,
+        "wires": []
+    },
+    {
+        "id": "65a1cc788c628f93",
+        "type": "debug",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "FPH OVERTEMP LOGIC",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "d50984c479e94235",
+        "type": "and-gate",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Actions Completed",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "1"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "2"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "3"
+            }
+        ],
+        "outputTopic": "notok",
+        "gateType": "and",
+        "emitOnlyIfTrue": true,
+        "x": 690,
+        "y": 480,
+        "wires": [
+            [
+                "1868bd618f60bad5"
+            ]
+        ]
+    },
+    {
+        "id": "1868bd618f60bad5",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "comms: notok",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "notok",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️VERY HOT!!!!!!! ⬅️⬅️                                     🚨🚨🚨🚨🚨🚨🚨🚨🚨",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 540,
+        "wires": [
+            [
+                "e16af01778fcd9fe",
+                "adfa08c1d32d2ee1"
+            ]
+        ]
+    },
+    {
+        "id": "adfa08c1d32d2ee1",
+        "type": "rbe",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1210,
+        "y": 540,
+        "wires": [
+            [
+                "65a1cc788c628f93",
+                "b74476a97b36bceb",
+                "21b7fc5491e19ebe"
+            ]
+        ]
+    },
+    {
+        "id": "0a24d46a03be3f59",
+        "type": "trigger",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Return to Normal",
+        "op1": "",
+        "op2": "😃😃😃😃😃😃😃😃 😃😃       ➡️➡️Returned to Normal⬅️⬅️",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 950,
+        "y": 470,
+        "wires": [
+            [
+                "bfc16116a3f92589"
+            ]
+        ]
+    },
+    {
+        "id": "3c41505838e01c24",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Return to Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ok",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 430,
+        "wires": [
+            [
+                "bfc16116a3f92589"
+            ]
+        ]
+    },
+    {
+        "id": "e16af01778fcd9fe",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Corrective Completed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "notok",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 510,
+        "wires": [
+            [
+                "bfc16116a3f92589"
+            ]
+        ]
+    },
+    {
+        "id": "bfc16116a3f92589",
+        "type": "gate",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Corrective Completed",
+        "controlTopic": "notok",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "default",
+        "x": 1260,
+        "y": 430,
+        "wires": [
+            [
+                "90900bb2e5b0da9d"
+            ]
+        ]
+    },
+    {
+        "id": "90900bb2e5b0da9d",
+        "type": "gate",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Return to Normal",
+        "controlTopic": "ok",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "default",
+        "x": 1250,
+        "y": 480,
+        "wires": [
+            [
+                "adfa08c1d32d2ee1"
+            ]
+        ]
+    },
+    {
+        "id": "21cd982c5eecaa76",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Return to Normal",
+        "links": [
+            "da2a1402bf715977"
+        ],
+        "x": 815,
+        "y": 430,
+        "wires": [
+            [
+                "3c41505838e01c24",
+                "0a24d46a03be3f59"
+            ]
+        ]
+    },
+    {
+        "id": "dff7e33fc61828bd",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "🚨🚨🚨🚨🚨🚨🚨🚨🚨ALARM HVAC NORMAL MODE-FLOW WATER THROUGH HEAT EXCHANGER UNTIL COOL!!!!!!! ⬅️⬅️🚨🚨🚨🚨🚨🚨🚨🚨🚨",
+        "links": [
+            "5f741cfee50ef825",
+            "557848b1aeaa8900"
+        ],
+        "x": 355,
+        "y": 500,
+        "wires": [
+            [
+                "626c6f07f5eec1bc",
+                "c71709c88de7f20e",
+                "8fd5aa63e1a8c0ef"
+            ]
+        ]
+    },
+    {
+        "id": "21b7fc5491e19ebe",
+        "type": "api-call-service",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Graham's iPhone {{payload}}",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "notify",
+        "service": "mobile_app_grahams_iphone_13",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "data": "{\"message\": \"{{payload}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "output_location": "",
+        "output_location_type": "none",
+        "x": 1270,
+        "y": 630,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f0456b709f84102",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "ACTIONS RESET= \"Actions Completed\" + \"Temp now ok\"",
+        "links": [
+            "b74476a97b36bceb"
+        ],
+        "x": 355,
+        "y": 650,
+        "wires": [
+            [
+                "8bb58185533cdec8"
+            ]
+        ]
+    },
+    {
+        "id": "b74476a97b36bceb",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "ACTIONS RESET= \"Actions Completed\" + \"Temp now ok\"",
+        "mode": "link",
+        "links": [
+            "2f0456b709f84102",
+            "dea5c43e5819c4d2"
+        ],
+        "x": 1345,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "8bb58185533cdec8",
+        "type": "subflow:4676a9fa934bca86",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "",
+        "x": 480,
+        "y": 650,
+        "wires": [
+            [
+                "d50984c479e94235"
+            ]
+        ]
+    },
+    {
+        "id": "626c6f07f5eec1bc",
+        "type": "api-call-service",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Switch: ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_speed_2",
+            "switch.valve_1_off_24vac",
+            "switch.valve_2_off_24vac",
+            "switch.valve_4_pool_spa",
+            "switch.valve_5_off_he",
+            "switch.off_24vac_all"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "1",
+                "valueType": "str"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 470,
+        "y": 440,
+        "wires": [
+            [
+                "d50984c479e94235"
+            ]
+        ]
+    },
+    {
+        "id": "8fd5aa63e1a8c0ef",
+        "type": "api-call-service",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Pool Heat Select-NONE",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"NONE\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "3",
+                "valueType": "str"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "3",
+                "valueType": "str"
+            }
+        ],
+        "queue": "first",
+        "x": 510,
+        "y": 520,
+        "wires": [
+            [
+                "d50984c479e94235"
+            ]
+        ]
+    },
+    {
+        "id": "c71709c88de7f20e",
+        "type": "api-call-service",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Switch: OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.fph_1_norm_fph",
+            "switch.fph_hvac_compressor_24vac_no",
+            "switch.nph_condenser_fan",
+            "switch.nph_hvac_compressor_24vac_nc",
+            "switch.pool_heater",
+            "switch.spa_heater",
+            "switch.valve_1_skim_off",
+            "switch.valve_2_pool_spa",
+            "switch.valve_3_off_spa"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": true,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "2",
+                "valueType": "str"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "2",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "d50984c479e94235"
+            ]
+        ]
+    },
+    {
+        "id": "c93accf0af213373",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "bypass/testing",
+        "links": [
+            "9aaf7fd002001ccf"
+        ],
+        "x": 670,
+        "y": 440,
+        "wires": [
+            [
+                "1868bd618f60bad5"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "e4d7afc08f1d1d4a",
+        "type": "subflow:4aa9e9e7db0ec22c",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "",
+        "x": 920,
+        "y": 650,
+        "wires": [
+            [
+                "bfc16116a3f92589"
+            ],
+            [
+                "90900bb2e5b0da9d"
+            ]
+        ]
+    },
+    {
+        "id": "4b9f727e76e33cc9",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "link in 984",
+        "links": [
+            "bf09ded24c8c35c1",
+            "ef4a7c648d403e27"
+        ],
+        "x": 775,
+        "y": 650,
+        "wires": [
+            [
+                "e4d7afc08f1d1d4a"
+            ]
+        ]
+    },
+    {
+        "id": "40f707cf084a4d53",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "comms",
+        "links": [
+            "481ea53f1be048f1",
+            "b4171830245646ff",
+            "557848b1aeaa8900"
+        ],
+        "x": 1095,
+        "y": 650,
+        "wires": [
+            [
+                "21b7fc5491e19ebe",
+                "65a1cc788c628f93"
+            ]
+        ]
+    },
+    {
+        "id": "5ef62c13450112f0",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "🚨🚨🚨🚨🚨🚨🚨🚨🚨ABNORMALLY LOW🚨🚨🚨🚨🚨🚨🚨🚨🚨",
+        "links": [
+            "481ea53f1be048f1",
+            "b4171830245646ff"
+        ],
+        "x": 355,
+        "y": 580,
+        "wires": [
+            [
+                "36dd06fb83104055",
+                "2062b30448300dcc"
+            ]
+        ]
+    },
+    {
+        "id": "7a879ab9fa836336",
+        "type": "and-gate",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Actions Completed",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "1"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "2"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "3"
+            }
+        ],
+        "outputTopic": "notok",
+        "gateType": "and",
+        "emitOnlyIfTrue": true,
+        "x": 690,
+        "y": 580,
+        "wires": [
+            [
+                "465a9f68515fadb6"
+            ]
+        ]
+    },
+    {
+        "id": "465a9f68515fadb6",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Corretive Completed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🚨🚨🚨🚨CORRECTIVE ACTIONS PERFORMED--HOW'D IT WORK???🚨🚨🚨🚨🚨                                     ➡️➡️VERY HOT!!!!!!! ⬅️⬅️                                     🚨🚨🚨🚨🚨🚨🚨🚨🚨",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 580,
+        "wires": [
+            [
+                "65a1cc788c628f93",
+                "21b7fc5491e19ebe"
+            ]
+        ]
+    },
+    {
+        "id": "36dd06fb83104055",
+        "type": "api-call-service",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Switch: ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.fph_1_norm_fph",
+            "switch.fph_hvac_compressor_24vac_no",
+            "switch.nph_condenser_fan",
+            "switch.nph_hvac_compressor_24vac_nc",
+            "switch.off_24vac_all",
+            "switch.pool_speed_3",
+            "switch.valve_1_off_24vac",
+            "switch.valve_2_off_24vac",
+            "switch.valve_4_pool_spa",
+            "switch.valve_5_off_he"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "1",
+                "valueType": "str"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 470,
+        "y": 570,
+        "wires": [
+            [
+                "7a879ab9fa836336"
+            ]
+        ]
+    },
+    {
+        "id": "2062b30448300dcc",
+        "type": "api-call-service",
+        "z": "8f245c282032759b",
+        "g": "89ce83ed97df4ee9",
+        "name": "Switch: OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_heater",
+            "switch.spa_heater",
+            "switch.spa_pump",
+            "switch.spa_jets",
+            "switch.valve_1_skim_off",
+            "switch.valve_2_pool_spa",
+            "switch.valve_3_off_spa"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": true,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "2",
+                "valueType": "str"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "2",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 470,
+        "y": 600,
+        "wires": [
+            [
+                "7a879ab9fa836336"
+            ]
+        ]
+    },
+    {
+        "id": "58c730231eb350e6",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "e9f0330d37c71c69",
+        "name": "43",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "43",
+        "payloadType": "num",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "04763b8d289c9ee7"
+            ]
+        ]
+    },
+    {
+        "id": "a439be1d814a4532",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "e9f0330d37c71c69",
+        "name": "7",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "7",
+        "payloadType": "num",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "04763b8d289c9ee7"
+            ]
+        ]
+    },
+    {
+        "id": "ef8a5972e561c5f8",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "e9f0330d37c71c69",
+        "name": "2.1",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2.1",
+        "payloadType": "num",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "04763b8d289c9ee7"
+            ]
+        ]
+    },
+    {
+        "id": "04763b8d289c9ee7",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "e9f0330d37c71c69",
+        "name": "FPH-η",
+        "mode": "link",
+        "links": [
+            "88d39e68f99a51c3",
+            "ac7bdbe868618b2a",
+            "d8c2878e69e1126f"
+        ],
+        "x": 265,
+        "y": 250,
+        "wires": []
+    },
+    {
+        "id": "dfca628ef914eaa1",
+        "type": "mqtt in",
+        "z": "8f245c282032759b",
+        "g": "e9f0330d37c71c69",
+        "name": "FPH-η",
+        "topic": "FPH-η",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c3bf463caeeef54",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "e9f0330d37c71c69",
+        "name": ".24",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": ".24",
+        "payloadType": "num",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "04763b8d289c9ee7"
+            ]
+        ]
+    },
+    {
+        "id": "cd607def4e0c6a2f",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "09ee953ffcb1e828",
+        "name": "query",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 110,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "96d6147147649577",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "09ee953ffcb1e828",
+        "name": "link out 1074",
+        "mode": "link",
+        "links": [
+            "718d862a90d0d140",
+            "92c09c819e4473cd"
+        ],
+        "x": 265,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "c650c5733ad528fa",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "WARNING",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "temperature",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH-η",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "FPH-η WARNING ➔➔➔➔➔➔➔➔",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 250,
+        "wires": [
+            [
+                "4e02ba7a601399c4",
+                "da2a1402bf715977"
+            ]
+        ]
+    },
+    {
+        "id": "92502c5f540e9f69",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "HOT!!!!",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "temperature",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH-η",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "HOT➔➔➔➔➔➔➔➔",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 280,
+        "wires": [
+            [
+                "4e02ba7a601399c4",
+                "5f741cfee50ef825"
+            ]
+        ]
+    },
+    {
+        "id": "d8f08b59fb5f8b07",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "VERY HOT!!!!",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "temperature",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH-η",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "VERY HOT--SEND RESCUE!➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 310,
+        "wires": [
+            [
+                "4e02ba7a601399c4",
+                "5f741cfee50ef825"
+            ]
+        ]
+    },
+    {
+        "id": "79e690c81934f233",
+        "type": "switch",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": ".25-6F",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": ".25",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": ".25",
+                "vt": "num",
+                "v2": "2",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "2.1",
+                "vt": "num",
+                "v2": "3.0",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "5.5",
+                "vt": "num",
+                "v2": "5.9",
+                "v2t": "num"
+            },
+            {
+                "t": "gte",
+                "v": "6.0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 870,
+        "y": 190,
+        "wires": [
+            [
+                "3dfeba7e97d758f0"
+            ],
+            [
+                "bf09ded24c8c35c1"
+            ],
+            [
+                "ef4a7c648d403e27"
+            ],
+            [
+                "d3de2dd745451892"
+            ],
+            [
+                "631080dacfe361de"
+            ]
+        ]
+    },
+    {
+        "id": "4e02ba7a601399c4",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "status",
+        "mode": "link",
+        "links": [],
+        "x": 965,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "88d39e68f99a51c3",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "",
+        "links": [
+            "04763b8d289c9ee7",
+            "f3a0aef6f4ea9bbe",
+            "6549968195ee2f87"
+        ],
+        "x": 355,
+        "y": 290,
+        "wires": [
+            [
+                "81b4e600ac3024ac"
+            ]
+        ]
+    },
+    {
+        "id": "5f741cfee50ef825",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "INITIATE CORRECTIVE",
+        "mode": "link",
+        "links": [
+            "62c40c3fb66d4a59",
+            "330d7923e77bdc75",
+            "dff7e33fc61828bd"
+        ],
+        "x": 965,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "da2a1402bf715977",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "reset/ok",
+        "mode": "link",
+        "links": [
+            "21cd982c5eecaa76",
+            "dea5c43e5819c4d2",
+            "c3c68f7a6aa90997"
+        ],
+        "x": 965,
+        "y": 250,
+        "wires": []
+    },
+    {
+        "id": "dea5c43e5819c4d2",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "status",
+        "links": [
+            "481ea53f1be048f1",
+            "da2a1402bf715977",
+            "b4171830245646ff",
+            "b74476a97b36bceb",
+            "557848b1aeaa8900"
+        ],
+        "x": 1050,
+        "y": 260,
+        "wires": [
+            []
+        ],
+        "l": true
+    },
+    {
+        "id": "81b4e600ac3024ac",
+        "type": "or-gate",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Pool.Mode  FPH",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "W-FALL-FPH-COOL",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "SLEEP-FPH-COOL",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            }
+        ],
+        "outputTopic": "FPH-η",
+        "gateType": "or",
+        "emitOnlyIfTrue": true,
+        "x": 480,
+        "y": 290,
+        "wires": [
+            [
+                "bfd5b54aad880698"
+            ]
+        ]
+    },
+    {
+        "id": "718d862a90d0d140",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Security",
+        "links": [
+            "96d6147147649577"
+        ],
+        "x": 355,
+        "y": 90,
+        "wires": [
+            [
+                "b8b1d6b6efbbcff5"
+            ]
+        ]
+    },
+    {
+        "id": "b8b1d6b6efbbcff5",
+        "type": "function",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Query",
+        "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -24h)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"POOL\")\n  |> filter(fn: (r) => r[\"_field\"] == \"Mode\")\n  |> group()\n  |> last()`;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 90,
+        "wires": [
+            [
+                "a89bed2f90a408e3"
+            ]
+        ]
+    },
+    {
+        "id": "a89bed2f90a408e3",
+        "type": "influxdb in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "influxdb": "10eaf502617379e3",
+        "name": "Mode",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "unraid",
+        "x": 560,
+        "y": 90,
+        "wires": [
+            [
+                "e5328f140c51d9b6",
+                "4683c2764368d0fa"
+            ]
+        ]
+    },
+    {
+        "id": "4683c2764368d0fa",
+        "type": "debug",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Pool.Mode",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0]._value",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 690,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "e5328f140c51d9b6",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Pool.Mode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pool.Mode",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "payload[0]._value",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 90,
+        "wires": [
+            [
+                "a6b531af0a318dc5"
+            ]
+        ]
+    },
+    {
+        "id": "a6b531af0a318dc5",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1075",
+        "mode": "link",
+        "links": [
+            "76a4e31ce69f13c4",
+            "748452a98650abf7"
+        ],
+        "x": 785,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "2ba3caf7082ff637",
+        "type": "or-gate",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Pool.Mode !=FPH",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "W-FALL-$PH-!FPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "W-FALL-ID-IDLEOFF",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "W-FALL-NPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "SLEEP-$PH-!FPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "SLEEP-IDLEOFF",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "SLEEP-NPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "Swim",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "Skimmer",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "Spa",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "WaterLevel",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "OFF",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            }
+        ],
+        "outputTopic": "FPH-η",
+        "gateType": "or",
+        "emitOnlyIfTrue": true,
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "a0d092f70b7065ac"
+            ]
+        ]
+    },
+    {
+        "id": "76a4e31ce69f13c4",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "",
+        "links": [
+            "a6b531af0a318dc5",
+            "918366eee30e5af9",
+            "7bd09818cff06679"
+        ],
+        "x": 355,
+        "y": 340,
+        "wires": [
+            [
+                "2ba3caf7082ff637"
+            ]
+        ]
+    },
+    {
+        "id": "748452a98650abf7",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 985",
+        "links": [
+            "6549968195ee2f87",
+            "918366eee30e5af9",
+            "a6b531af0a318dc5",
+            "7bd09818cff06679"
+        ],
+        "x": 355,
+        "y": 220,
+        "wires": [
+            [
+                "ca3219993f37cc98"
+            ]
+        ]
+    },
+    {
+        "id": "c54c470ba68afb3c",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 986",
+        "links": [
+            "a0d092f70b7065ac"
+        ],
+        "x": 355,
+        "y": 190,
+        "wires": [
+            [
+                "eab017dad2b2285d"
+            ]
+        ]
+    },
+    {
+        "id": "ca3219993f37cc98",
+        "type": "trigger",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "45s",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "45",
+        "extend": false,
+        "overrideDelay": true,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "f3a0aef6f4ea9bbe"
+            ]
+        ]
+    },
+    {
+        "id": "eab017dad2b2285d",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "reset",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pool.Mode",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 190,
+        "wires": [
+            [
+                "6549968195ee2f87"
+            ]
+        ]
+    },
+    {
+        "id": "f3a0aef6f4ea9bbe",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1076",
+        "mode": "link",
+        "links": [
+            "88d39e68f99a51c3"
+        ],
+        "x": 555,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6549968195ee2f87",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1077",
+        "mode": "link",
+        "links": [
+            "748452a98650abf7",
+            "88d39e68f99a51c3"
+        ],
+        "x": 555,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "a0d092f70b7065ac",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1078",
+        "mode": "link",
+        "links": [
+            "c54c470ba68afb3c"
+        ],
+        "x": 615,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "bfd5b54aad880698",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1079",
+        "mode": "link",
+        "links": [
+            "16a34d8b097fefe4"
+        ],
+        "x": 615,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "16a34d8b097fefe4",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "FPH-η",
+        "links": [
+            "bfd5b54aad880698",
+            "a0ca9342b5f3d832"
+        ],
+        "x": 675,
+        "y": 220,
+        "wires": [
+            [
+                "79e690c81934f233"
+            ]
+        ]
+    },
+    {
+        "id": "c3c68f7a6aa90997",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 987",
+        "links": [
+            "da2a1402bf715977"
+        ],
+        "x": 1015,
+        "y": 160,
+        "wires": [
+            [
+                "b56179932fb29ea1"
+            ]
+        ]
+    },
+    {
+        "id": "62c40c3fb66d4a59",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 988",
+        "links": [
+            "5f741cfee50ef825"
+        ],
+        "x": 1015,
+        "y": 190,
+        "wires": [
+            [
+                "3f4c0204424515e7"
+            ]
+        ]
+    },
+    {
+        "id": "3f4c0204424515e7",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "close",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "temperature",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH-η",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "close",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b56179932fb29ea1",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "open",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "temperature",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH-η",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2aa8aae4d9e9364f",
+        "type": "trigger",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "250ms",
+        "op1": "",
+        "op2": "On",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 760,
+        "y": 340,
+        "wires": [
+            [
+                "2c6c7fd989ba7605"
+            ]
+        ]
+    },
+    {
+        "id": "2c6c7fd989ba7605",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "HOT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "HOT",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 340,
+        "wires": [
+            [
+                "8668650e977e2749"
+            ]
+        ]
+    },
+    {
+        "id": "8668650e977e2749",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "HOT",
+        "mode": "link",
+        "links": [
+            "4c362b4b387072c2"
+        ],
+        "x": 965,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "330d7923e77bdc75",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 989",
+        "links": [
+            "5f741cfee50ef825"
+        ],
+        "x": 675,
+        "y": 340,
+        "wires": [
+            [
+                "2aa8aae4d9e9364f"
+            ]
+        ]
+    },
+    {
+        "id": "4c362b4b387072c2",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "HOT",
+        "links": [
+            "8668650e977e2749"
+        ],
+        "x": 1015,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3de2dd745451892",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "HOT!!!! ",
+        "mode": "link",
+        "links": [
+            "92aba21cab55f418",
+            "61c3ac35dc418b58",
+            "24f4bb2126bdf470"
+        ],
+        "x": 965,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "631080dacfe361de",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "VERY HOT!!!!",
+        "mode": "link",
+        "links": [
+            "dde4995ffd7fb8ae",
+            "92aba21cab55f418",
+            "24f4bb2126bdf470"
+        ],
+        "x": 965,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ef4a7c648d403e27",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "WARNING",
+        "mode": "link",
+        "links": [
+            "6d3c2af9b2ca00db",
+            "4b9f727e76e33cc9"
+        ],
+        "x": 965,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "bf09ded24c8c35c1",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "NORMAL",
+        "mode": "link",
+        "links": [
+            "6d3c2af9b2ca00db",
+            "4b9f727e76e33cc9"
+        ],
+        "x": 965,
+        "y": 130,
+        "wires": []
+    },
+    {
+        "id": "dde4995ffd7fb8ae",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 990",
+        "links": [
+            "631080dacfe361de"
+        ],
+        "x": 675,
+        "y": 310,
+        "wires": [
+            [
+                "d8f08b59fb5f8b07"
+            ]
+        ]
+    },
+    {
+        "id": "61c3ac35dc418b58",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 991",
+        "links": [
+            "d3de2dd745451892"
+        ],
+        "x": 675,
+        "y": 280,
+        "wires": [
+            [
+                "92502c5f540e9f69"
+            ]
+        ]
+    },
+    {
+        "id": "6d3c2af9b2ca00db",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 992",
+        "links": [
+            "bf09ded24c8c35c1",
+            "ef4a7c648d403e27"
+        ],
+        "x": 675,
+        "y": 250,
+        "wires": [
+            [
+                "c650c5733ad528fa"
+            ]
+        ]
+    },
+    {
+        "id": "5f18f9fb0e0cd765",
+        "type": "function",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Query",
+        "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -24h)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"POOL\")\n  |> filter(fn: (r) => r[\"_field\"] == \"Heat?\")\n  |> group()\n  |> last()`;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 120,
+        "wires": [
+            [
+                "3b44a89a0854cc9c"
+            ]
+        ]
+    },
+    {
+        "id": "804976a92e180aa3",
+        "type": "change",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Pool.Heat?",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pool.Heat?",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "payload[0]._value",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 120,
+        "wires": [
+            [
+                "7bd09818cff06679"
+            ]
+        ]
+    },
+    {
+        "id": "92c09c819e4473cd",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Security",
+        "links": [
+            "96d6147147649577"
+        ],
+        "x": 355,
+        "y": 120,
+        "wires": [
+            [
+                "5f18f9fb0e0cd765"
+            ]
+        ]
+    },
+    {
+        "id": "3b44a89a0854cc9c",
+        "type": "influxdb in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "influxdb": "10eaf502617379e3",
+        "name": "Heat?",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "unraid",
+        "x": 560,
+        "y": 120,
+        "wires": [
+            [
+                "804976a92e180aa3",
+                "49b65d0f1cd144b3"
+            ]
+        ]
+    },
+    {
+        "id": "49b65d0f1cd144b3",
+        "type": "debug",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Pool.Mode",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0]._value",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 690,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7bd09818cff06679",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1080",
+        "mode": "link",
+        "links": [
+            "76a4e31ce69f13c4",
+            "748452a98650abf7",
+            "ac7bdbe868618b2a"
+        ],
+        "x": 785,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "db88ab222ce06734",
+        "type": "or-gate",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Pool.Heat?  HOT",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "HOT",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Heat?"
+            }
+        ],
+        "outputTopic": "FPH-η",
+        "gateType": "or",
+        "emitOnlyIfTrue": true,
+        "x": 480,
+        "y": 250,
+        "wires": [
+            [
+                "a0ca9342b5f3d832"
+            ]
+        ]
+    },
+    {
+        "id": "a0ca9342b5f3d832",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1081",
+        "mode": "link",
+        "links": [
+            "16a34d8b097fefe4"
+        ],
+        "x": 615,
+        "y": 250,
+        "wires": []
+    },
+    {
+        "id": "ac7bdbe868618b2a",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 993",
+        "links": [
+            "7bd09818cff06679",
+            "5edb5b525fb95ea0",
+            "04763b8d289c9ee7"
+        ],
+        "x": 355,
+        "y": 250,
+        "wires": [
+            [
+                "db88ab222ce06734"
+            ]
+        ]
+    },
+    {
+        "id": "3dfeba7e97d758f0",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "ABNORMALLY LOW",
+        "mode": "link",
+        "links": [
+            "16c37fa36c4f7da0"
+        ],
+        "x": 965,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9b4fb884ef4add5c",
+        "type": "trigger",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Abnormal FPH-η",
+        "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ LOW- FPH-η:",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "pay",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1130,
+        "y": 100,
+        "wires": [
+            [
+                "9f771aed739750f7"
+            ]
+        ]
+    },
+    {
+        "id": "16c37fa36c4f7da0",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "ABNORMALLY LOW",
+        "links": [
+            "3dfeba7e97d758f0"
+        ],
+        "x": 1015,
+        "y": 100,
+        "wires": [
+            [
+                "9b4fb884ef4add5c"
+            ]
+        ]
+    },
+    {
+        "id": "481ea53f1be048f1",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1082",
+        "mode": "link",
+        "links": [
+            "40f707cf084a4d53",
+            "5ef62c13450112f0",
+            "dea5c43e5819c4d2"
+        ],
+        "x": 1375,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "06cfe9e2698034d2",
+        "type": "switch",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "+20F",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "20",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 130,
+        "wires": [
+            [
+                "bbf75e800a45576f"
+            ]
+        ]
+    },
+    {
+        "id": "d8c2878e69e1126f",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 994",
+        "links": [
+            "04763b8d289c9ee7"
+        ],
+        "x": 675,
+        "y": 170,
+        "wires": [
+            [
+                "06cfe9e2698034d2"
+            ]
+        ]
+    },
+    {
+        "id": "bbf75e800a45576f",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1083",
+        "mode": "link",
+        "links": [
+            "06d4a92cdbc1982f"
+        ],
+        "x": 965,
+        "y": 70,
+        "wires": []
+    },
+    {
+        "id": "06d4a92cdbc1982f",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 995",
+        "links": [
+            "bbf75e800a45576f"
+        ],
+        "x": 1015,
+        "y": 70,
+        "wires": [
+            [
+                "bfc7b3b24a163070"
+            ]
+        ]
+    },
+    {
+        "id": "557848b1aeaa8900",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1084",
+        "mode": "link",
+        "links": [
+            "dff7e33fc61828bd",
+            "40f707cf084a4d53",
+            "dea5c43e5819c4d2"
+        ],
+        "x": 1375,
+        "y": 70,
+        "wires": []
+    },
+    {
+        "id": "bfc7b3b24a163070",
+        "type": "trigger",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": " +20F FPH-η Alarm",
+        "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ ULTRA High FPH-η:",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "pay",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1130,
+        "y": 70,
+        "wires": [
+            [
+                "c8ff60b4dfab6ec4"
+            ]
+        ]
+    },
+    {
+        "id": "c8ff60b4dfab6ec4",
+        "type": "join",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "1",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 1290,
+        "y": 70,
+        "wires": [
+            [
+                "557848b1aeaa8900"
+            ]
+        ]
+    },
+    {
+        "id": "9f771aed739750f7",
+        "type": "join",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "1",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 1290,
+        "y": 100,
+        "wires": [
+            [
+                "481ea53f1be048f1"
+            ]
+        ]
+    },
+    {
+        "id": "b9c72d483a776414",
+        "type": "trigger",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "Very HOT FPH-η",
+        "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️VERY HOT: ",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "pay",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1130,
+        "y": 130,
+        "wires": [
+            [
+                "8e1a8333a19061ac"
+            ]
+        ]
+    },
+    {
+        "id": "8e1a8333a19061ac",
+        "type": "join",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "1",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 1290,
+        "y": 130,
+        "wires": [
+            [
+                "b4171830245646ff"
+            ]
+        ]
+    },
+    {
+        "id": "b4171830245646ff",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link out 1085",
+        "mode": "link",
+        "links": [
+            "40f707cf084a4d53",
+            "5ef62c13450112f0",
+            "dea5c43e5819c4d2"
+        ],
+        "x": 1375,
+        "y": 130,
+        "wires": []
+    },
+    {
+        "id": "24f4bb2126bdf470",
+        "type": "link in",
+        "z": "8f245c282032759b",
+        "g": "3bfb3833fca8f86e",
+        "name": "link in 996",
+        "links": [
+            "d3de2dd745451892",
+            "631080dacfe361de"
+        ],
+        "x": 1015,
+        "y": 130,
+        "wires": [
+            [
+                "b9c72d483a776414"
+            ]
+        ]
+    },
+    {
+        "id": "d5f775e31b5acd82",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "W-FALL-$PH-!FPH",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "W-FALL-$PH-!FPH",
+        "payloadType": "str",
+        "x": 170,
+        "y": 430,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "4386487e8c68376e",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "W-FALL-FPH-COOL",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "W-FALL-FPH-COOL",
+        "payloadType": "str",
+        "x": 170,
+        "y": 380,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "3d0a3b4af6ac959e",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "W-FALL-ID-IDLEOFF",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "W-FALL-ID-IDLEOFF",
+        "payloadType": "str",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "915c96ca7c2513d1",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "W-FALL-NPH",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "W-FALL-NPH",
+        "payloadType": "str",
+        "x": 150,
+        "y": 450,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "918366eee30e5af9",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "PoolMode",
+        "mode": "link",
+        "links": [
+            "748452a98650abf7",
+            "76a4e31ce69f13c4"
+        ],
+        "x": 265,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5dd034c83c2a5dcb",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "SLEEP-FPH-COOL",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "SLEEP-FPH-COOL",
+        "payloadType": "str",
+        "x": 170,
+        "y": 410,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "f22632b14f9ab651",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "SLEEP-$PH-!FPH",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "SLEEP-$PH-!FPH",
+        "payloadType": "str",
+        "x": 170,
+        "y": 460,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "c8811d29c4f0375d",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "SLEEP-IDLE_OFF",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "SLEEP-IDLEOFF",
+        "payloadType": "str",
+        "x": 170,
+        "y": 470,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "222d8cf98595c4a5",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f8675353b9c4b0e8",
+        "name": "SLEEP-NPH",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "SLEEP-NPH",
+        "payloadType": "str",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "918366eee30e5af9"
+            ]
+        ]
+    },
+    {
+        "id": "220da06dcae5db52",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f96103b517e98014",
+        "name": "FPH",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Heat?",
+        "payload": "FPH",
+        "payloadType": "str",
+        "x": 130,
+        "y": 570,
+        "wires": [
+            [
+                "5edb5b525fb95ea0"
+            ]
+        ]
+    },
+    {
+        "id": "0b8fbcdcf8f67d37",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f96103b517e98014",
+        "name": "NPH",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Heat?",
+        "payload": "NPH",
+        "payloadType": "str",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "5edb5b525fb95ea0"
+            ]
+        ]
+    },
+    {
+        "id": "749c74ebd2b47e37",
+        "type": "inject",
+        "z": "8f245c282032759b",
+        "g": "f96103b517e98014",
+        "name": "HOT",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Heat?",
+        "payload": "HOT",
+        "payloadType": "str",
+        "x": 130,
+        "y": 630,
+        "wires": [
+            [
+                "5edb5b525fb95ea0"
+            ]
+        ]
+    },
+    {
+        "id": "5edb5b525fb95ea0",
+        "type": "link out",
+        "z": "8f245c282032759b",
+        "g": "f96103b517e98014",
+        "name": "HVAC",
+        "mode": "link",
+        "links": [
+            "ac7bdbe868618b2a"
+        ],
+        "x": 265,
+        "y": 600,
         "wires": []
     }
 ]
