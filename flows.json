@@ -23883,7 +23883,8 @@
             "30f1e1e359b4252d",
             "28f3e8049fd7c8f3",
             "20881f7ea775493f",
-            "4c9a8cb5c8563bd0"
+            "4c9a8cb5c8563bd0",
+            "ec39befabb2a1e64"
         ],
         "x": 684,
         "y": 139,
@@ -155916,11 +155917,29 @@
         "wires": []
     },
     {
+        "id": "ec39befabb2a1e64",
+        "type": "debug",
+        "z": "8f245c282032759b",
+        "g": "a2e6d61d68c5b60c",
+        "name": "+20F",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 810,
+        "y": 180,
+        "wires": []
+    },
+    {
         "id": "4c9a8cb5c8563bd0",
         "type": "debug",
         "z": "8f245c282032759b",
         "g": "a2e6d61d68c5b60c",
-        "name": "xs",
+        "name": ".25-6F",
         "active": true,
         "tosidebar": false,
         "console": false,
@@ -157962,7 +157981,7 @@
         "repair": false,
         "outputs": 1,
         "x": 810,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
                 "20881f7ea775493f"
@@ -157979,10 +157998,11 @@
             "bccadc07912a24a4"
         ],
         "x": 725,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
-                "30f1e1e359b4252d"
+                "30f1e1e359b4252d",
+                "ec39befabb2a1e64"
             ]
         ]
     },
