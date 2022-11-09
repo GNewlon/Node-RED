@@ -157989,12 +157989,8 @@
         "x": 1230,
         "y": 100,
         "wires": [
-            [
-                "332dd4f896d00567"
-            ],
-            [
-                "89f2408eb8545cae"
-            ]
+            [],
+            []
         ]
     },
     {
@@ -158094,21 +158090,25 @@
         "name": " +20F FPH-η Alarm",
         "op1": "",
         "op2": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ +20F FPH-η Alarm ⬅️⬅️⬅️                                     🚨🚨🚨🚨🚨🚨🚨🚨🚨",
-        "op1type": "nul",
+        "op1type": "pay",
         "op2type": "str",
-        "duration": "30",
+        "duration": "1",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
-        "outputs": 1,
+        "outputs": 2,
         "x": 1230,
         "y": 70,
         "wires": [
             [
-                "306084cc2d102d5f"
+                "306084cc2d102d5f",
+                "89f2408eb8545cae"
+            ],
+            [
+                "332dd4f896d00567"
             ]
         ]
     },
