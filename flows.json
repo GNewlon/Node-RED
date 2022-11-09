@@ -23560,7 +23560,6 @@
             "6e4279dca8d06f0a",
             "e01a083cbe3ab6b4",
             "227decca04d09c1e",
-            "2b7b586858e44685",
             "65d7c46d1f49a8fc",
             "5ad1095dc63ae2d4",
             "f0a179bd8ed97b2a",
@@ -156209,25 +156208,6 @@
         ]
     },
     {
-        "id": "2b7b586858e44685",
-        "type": "link in",
-        "z": "d866f7bb39433a84",
-        "g": "48b9c07d8b7e7033",
-        "name": "link in 955",
-        "links": [
-            "4bb71b37a333297e",
-            "306084cc2d102d5f"
-        ],
-        "x": 1095,
-        "y": 650,
-        "wires": [
-            [
-                "3fa3d8b9c703a726",
-                "a3f1e4bf9d1d88af"
-            ]
-        ]
-    },
-    {
         "id": "65d7c46d1f49a8fc",
         "type": "and-gate",
         "z": "d866f7bb39433a84",
@@ -156405,7 +156385,7 @@
         "type": "inject",
         "z": "d866f7bb39433a84",
         "g": "13577685e723bb71",
-        "name": "10",
+        "name": "33",
         "props": [
             {
                 "p": "topic",
@@ -156420,7 +156400,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "FPH-η",
-        "payload": "10",
+        "payload": "33",
         "payloadType": "num",
         "x": 130,
         "y": 260,
