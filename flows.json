@@ -23670,7 +23670,8 @@
             "18c878d6df5e9445",
             "d46137cb8d1e99a0",
             "3b2ce10a1b50947b",
-            "c003ee3ff3de1a35"
+            "c003ee3ff3de1a35",
+            "27aad2c415ec6232"
         ],
         "x": 314,
         "y": 389,
@@ -156280,8 +156281,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1230,
-        "y": 550,
+        "x": 1250,
+        "y": 590,
         "wires": []
     },
     {
@@ -158906,6 +158907,25 @@
         "x": 1145,
         "y": 310,
         "wires": []
+    },
+    {
+        "id": "27aad2c415ec6232",
+        "type": "rbe",
+        "z": "8f245c282032759b",
+        "g": "1eed8b38573986f1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1220,
+        "y": 550,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "b8b1d2a187135040",
