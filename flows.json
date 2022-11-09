@@ -147975,13 +147975,13 @@
         "type": "inject",
         "z": "2468296eb99670b3",
         "g": "e7237c2e32224b21",
-        "name": "query/1s",
+        "name": "query/3s",
         "props": [
             {
                 "p": "payload"
             }
         ],
-        "repeat": "1",
+        "repeat": "3",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
