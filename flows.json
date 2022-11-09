@@ -14881,7 +14881,9 @@
             "cf37ac6cd1610b8e"
         ],
         "x": 8,
-        "y": 9
+        "y": 9,
+        "w": 968,
+        "h": 388
     },
     {
         "id": "8af5c81c3a9a68d3",
@@ -18094,7 +18096,9 @@
             "44b92019023dbda5"
         ],
         "x": 34,
-        "y": 189
+        "y": 189,
+        "w": 252,
+        "h": 182
     },
     {
         "id": "86b7550ec1c5c8db",
@@ -107473,7 +107477,7 @@
         "type": "poll-state",
         "z": "9217e06958f8ffd3",
         "g": "889ee9329c9ca70c",
-        "name": "sensor.pool_temperature",
+        "name": "sensor.pool_temp",
         "server": "bbcbbc6d.66dc2",
         "version": 2,
         "exposeToHomeAssistant": false,
@@ -107492,13 +107496,13 @@
         "updateIntervalUnits": "minutes",
         "outputinitially": true,
         "outputonchanged": true,
-        "entity_id": "sensor.pool_temperature",
+        "entity_id": "sensor.pool_temp",
         "state_type": "num",
         "halt_if": "",
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 200,
+        "x": 180,
         "y": 70,
         "wires": [
             [
