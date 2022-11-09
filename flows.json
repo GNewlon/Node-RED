@@ -162284,7 +162284,17 @@
         "rules": [
             {
                 "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
                 "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_msgid",
                 "pt": "msg"
             },
             {
@@ -163930,7 +163940,7 @@
         "type": "debug",
         "z": "d0c933e35ace202f",
         "name": "debug 11",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
