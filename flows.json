@@ -162574,5 +162574,81 @@
                 "7331f2afb80135b4"
             ]
         ]
+    },
+    {
+        "id": "10601c41b5d621fa",
+        "type": "mqtt in",
+        "z": "5772c90cc38c7459",
+        "name": "fph_inlet_temp",
+        "topic": "fph_inlet_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 350,
+        "wires": [
+            [
+                "1e158d173511bfdd"
+            ]
+        ]
+    },
+    {
+        "id": "e107a9ff4192e35a",
+        "type": "mqtt in",
+        "z": "5772c90cc38c7459",
+        "name": "fph_outlet_temp",
+        "topic": "fph_outlet_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 410,
+        "wires": [
+            [
+                "1d13a5a7929bfae1"
+            ]
+        ]
+    },
+    {
+        "id": "1e158d173511bfdd",
+        "type": "debug",
+        "z": "5772c90cc38c7459",
+        "name": "FPH-η",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 420,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "1d13a5a7929bfae1",
+        "type": "debug",
+        "z": "5772c90cc38c7459",
+        "name": "FPH-η",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 420,
+        "y": 410,
+        "wires": []
     }
 ]
