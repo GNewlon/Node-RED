@@ -158545,10 +158545,10 @@
         "name": "",
         "rules": [
             {
-                "t": "set",
-                "p": "parts",
+                "t": "move",
+                "p": "payload",
                 "pt": "msg",
-                "to": "payload",
+                "to": "parts",
                 "tot": "msg"
             }
         ],
@@ -158557,7 +158557,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1550,
+        "x": 1560,
         "y": 170,
         "wires": [
             [
