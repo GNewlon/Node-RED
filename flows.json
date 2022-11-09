@@ -135161,6 +135161,16 @@
                 "pt": "msg"
             },
             {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            },
+            {
                 "t": "set",
                 "p": "temperature",
                 "pt": "msg",
@@ -135191,6 +135201,16 @@
             {
                 "t": "delete",
                 "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
                 "pt": "msg"
             },
             {
@@ -165813,6 +165833,11 @@
             {
                 "t": "delete",
                 "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
                 "pt": "msg"
             },
             {
