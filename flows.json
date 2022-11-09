@@ -162956,7 +162956,7 @@
         "type": "debug",
         "z": "d0c933e35ace202f",
         "name": "debug 10",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
