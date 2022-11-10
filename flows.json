@@ -24168,7 +24168,7 @@
         "id": "8534e23c.037bc",
         "type": "config-log",
         "logname": "standard-logging",
-        "logdir": "logs",
+        "logdir": "/logs",
         "stamp": "utc",
         "logstyle": "plain",
         "logrotate": true,
