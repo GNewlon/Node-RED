@@ -156824,7 +156824,7 @@
         "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
         "loglevel": "TRACE",
         "logconfig": "fe897f4cf48cf92c",
-        "sendpane": true,
+        "sendpane": false,
         "x": 2440,
         "y": 610,
         "wires": [
