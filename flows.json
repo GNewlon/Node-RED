@@ -24180,7 +24180,7 @@
         "id": "765188d9.56aba8",
         "type": "config-log",
         "logname": "JSON-logging",
-        "logdir": "logs",
+        "logdir": "/logs",
         "stamp": "local",
         "logstyle": "json",
         "logrotate": true,
