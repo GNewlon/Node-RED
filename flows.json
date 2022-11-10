@@ -24157,7 +24157,7 @@
         "id": "fe897f4cf48cf92c",
         "type": "config-log",
         "logname": "PoolMode",
-        "logdir": "/log",
+        "logdir": "/logs",
         "stamp": "local",
         "logstyle": "plain",
         "logrotate": true,
