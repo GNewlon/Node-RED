@@ -78,6 +78,22 @@
         "env": []
     },
     {
+        "id": "a83891b31d09f82c",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "44f6b61c71b5b1cd",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -12711,9 +12727,7 @@
             "d47e7617a2d5b5d4"
         ],
         "x": 8,
-        "y": 13,
-        "w": 1224,
-        "h": 714
+        "y": 13
     },
     {
         "id": "1e24c05d814c1d54",
@@ -13723,9 +13737,7 @@
             "7d8c37dbf5544f35"
         ],
         "x": 4,
-        "y": 3,
-        "w": 2222,
-        "h": 854
+        "y": 3
     },
     {
         "id": "fbb040b57adb0a29",
@@ -14709,9 +14721,7 @@
             "73152eaa0a651204"
         ],
         "x": 8,
-        "y": 3,
-        "w": 1234,
-        "h": 844
+        "y": 3
     },
     {
         "id": "2aa13b716de0ef04",
@@ -14875,9 +14885,7 @@
             "cf37ac6cd1610b8e"
         ],
         "x": 8,
-        "y": 9,
-        "w": 968,
-        "h": 388
+        "y": 9
     },
     {
         "id": "8af5c81c3a9a68d3",
@@ -14912,9 +14920,7 @@
             "faf2cf33ed7022a3"
         ],
         "x": 1.3333282470703125,
-        "y": 389,
-        "w": 984.6666717529297,
-        "h": 380.2221984863281
+        "y": 389
     },
     {
         "id": "c55a686f9e9f2866",
@@ -15101,12 +15107,13 @@
             "6118a761797eaacb",
             "2ca49410b4d193e8",
             "4f4004259232498d",
-            "150a2865882fbfd6"
+            "150a2865882fbfd6",
+            "bed73a9746173eaa"
         ],
         "x": 8,
-        "y": 3,
+        "y": -21,
         "w": 2824,
-        "h": 1090
+        "h": 1114
     },
     {
         "id": "87a8fc6c15760375",
@@ -15436,9 +15443,7 @@
             "e5229ca0d3fed981"
         ],
         "x": 8,
-        "y": 3,
-        "w": 1064,
-        "h": 684
+        "y": 3
     },
     {
         "id": "dbea15c93b46afb3",
@@ -15480,9 +15485,7 @@
             "67a2bd1d929a11cb"
         ],
         "x": 8,
-        "y": 3,
-        "w": 1404,
-        "h": 704
+        "y": 3
     },
     {
         "id": "cb7bc20aae62b3e8",
@@ -15506,6 +15509,41 @@
         ],
         "x": 8,
         "y": 3
+    },
+    {
+        "id": "694a2a1e63df210d",
+        "type": "group",
+        "z": "39e932257370a47c",
+        "name": "FPH Temp",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#000000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "f5bfd34131061c2d",
+            "eedeb25b2476202a",
+            "0e68d3e6adf4af82",
+            "6ce0706199337c5c",
+            "2a671e746cc9a25c",
+            "c6c629d8202b8451",
+            "6ef00a45e7a007ef",
+            "d78e4ed8b328e2a1",
+            "cd7fc1157a8ee5aa",
+            "c7b396e224ff82eb",
+            "8ff287da66b82e35",
+            "a9f5820e3dac0964",
+            "7e311bf9b624e867",
+            "54c70e6142f9874b",
+            "b19d27352ca42ec6",
+            "87661306831cbe7c",
+            "7138b560c0db6570",
+            "49d5dedabc9a70be"
+        ],
+        "x": 1.3333282470703125,
+        "y": 9
     },
     {
         "id": "bfb09350629d2980",
@@ -16700,9 +16738,7 @@
             "1e20ce39fdc8df01"
         ],
         "x": 34,
-        "y": 39,
-        "w": 822,
-        "h": 262
+        "y": 39
     },
     {
         "id": "10858cda38c81071",
@@ -16729,9 +16765,7 @@
             "6cec49b824ed3d25"
         ],
         "x": 864,
-        "y": 39,
-        "w": 342,
-        "h": 262
+        "y": 39
     },
     {
         "id": "da01c66a02398529",
@@ -16757,9 +16791,7 @@
             "3207c4d64962da9f"
         ],
         "x": 34,
-        "y": 309,
-        "w": 352,
-        "h": 392
+        "y": 309
     },
     {
         "id": "d47e7617a2d5b5d4",
@@ -16808,9 +16840,7 @@
             "962b3920f5de1ade"
         ],
         "x": 394,
-        "y": 309,
-        "w": 812,
-        "h": 392
+        "y": 309
     },
     {
         "id": "6f4a781ce95232ac",
@@ -16872,9 +16902,7 @@
             "e7be99d8bd83dbe3"
         ],
         "x": 734,
-        "y": 29,
-        "w": 172,
-        "h": 82
+        "y": 29
     },
     {
         "id": "357b060851ef00d7",
@@ -16894,9 +16922,7 @@
             "c53f497fb185e530"
         ],
         "x": 384,
-        "y": 29,
-        "w": 262,
-        "h": 82
+        "y": 29
     },
     {
         "id": "6c244c21c7eacc2f",
@@ -16916,9 +16942,7 @@
             "5cb243e6e6e9680c"
         ],
         "x": 384,
-        "y": 389,
-        "w": 312,
-        "h": 82
+        "y": 389
     },
     {
         "id": "ad87d1872ab9a7cf",
@@ -16938,9 +16962,7 @@
             "b91634705042446f"
         ],
         "x": 384,
-        "y": 209,
-        "w": 302,
-        "h": 82
+        "y": 209
     },
     {
         "id": "b931f71151f3d839",
@@ -16960,9 +16982,7 @@
             "0b4ec32f5ff5fb46"
         ],
         "x": 384,
-        "y": 479,
-        "w": 312,
-        "h": 82
+        "y": 479
     },
     {
         "id": "c91c954b37014ce2",
@@ -16982,9 +17002,7 @@
             "2a96bb3c7000a648"
         ],
         "x": 384,
-        "y": 299,
-        "w": 312,
-        "h": 82
+        "y": 299
     },
     {
         "id": "43b5bf08c6142fed",
@@ -17004,9 +17022,7 @@
             "b7cd21f3753dc58e"
         ],
         "x": 384,
-        "y": 119,
-        "w": 262,
-        "h": 82
+        "y": 119
     },
     {
         "id": "619f0fa38955c174",
@@ -17027,9 +17043,7 @@
             "1fe3ecfa120ded26"
         ],
         "x": 394,
-        "y": 659,
-        "w": 452,
-        "h": 82
+        "y": 659
     },
     {
         "id": "10aa1f03fd46794f",
@@ -17050,9 +17064,7 @@
             "d8e4d136a5a30655"
         ],
         "x": 394,
-        "y": 569,
-        "w": 452,
-        "h": 82
+        "y": 569
     },
     {
         "id": "e0bf7c755748fe29",
@@ -17073,9 +17085,7 @@
             "6c2de0d322a3cc6c"
         ],
         "x": 394,
-        "y": 749,
-        "w": 432,
-        "h": 82
+        "y": 749
     },
     {
         "id": "e0f81939a25f10c6",
@@ -17761,9 +17771,7 @@
             "ef0e051a2a917431"
         ],
         "x": 34,
-        "y": 259,
-        "w": 1182,
-        "h": 382
+        "y": 259
     },
     {
         "id": "33bd551f11f35d8f",
@@ -17791,9 +17799,7 @@
             "3a024773f6e7abf3"
         ],
         "x": 214,
-        "y": 649,
-        "w": 822,
-        "h": 172
+        "y": 649
     },
     {
         "id": "73152eaa0a651204",
@@ -17832,9 +17838,7 @@
             "d11ce2ed75793122"
         ],
         "x": 34,
-        "y": 29,
-        "w": 1182,
-        "h": 232
+        "y": 29
     },
     {
         "id": "be910a585a8b7195",
@@ -18075,9 +18079,7 @@
             "d22b7eda7624ca10"
         ],
         "x": 27.333328247070312,
-        "y": 571.2221984863281,
-        "w": 262,
-        "h": 172
+        "y": 571.2221984863281
     },
     {
         "id": "c36d1a1b13cf7bcf",
@@ -18098,9 +18100,7 @@
             "44b92019023dbda5"
         ],
         "x": 34,
-        "y": 189,
-        "w": 252,
-        "h": 182
+        "y": 189
     },
     {
         "id": "86b7550ec1c5c8db",
@@ -19880,9 +19880,7 @@
             "9cbe932b9ac1b27b"
         ],
         "x": 274,
-        "y": 29,
-        "w": 772,
-        "h": 182
+        "y": 29
     },
     {
         "id": "954a6b44be27b4d6",
@@ -19903,9 +19901,7 @@
             "567ecfa7c1f758d9"
         ],
         "x": 34,
-        "y": 489,
-        "w": 212,
-        "h": 172
+        "y": 489
     },
     {
         "id": "7ac2ad27c8242545",
@@ -19927,9 +19923,7 @@
             "3a7d9626a8cb5823"
         ],
         "x": 34,
-        "y": 289,
-        "w": 212,
-        "h": 202
+        "y": 289
     },
     {
         "id": "8b12855ec9deea74",
@@ -19954,9 +19948,7 @@
             "23f0619d3f01cd0d"
         ],
         "x": 34,
-        "y": 29,
-        "w": 212,
-        "h": 262
+        "y": 29
     },
     {
         "id": "07626e0933c61f0b",
@@ -19987,9 +19979,7 @@
             "1a51d2a40ea93519"
         ],
         "x": 254,
-        "y": 499,
-        "w": 792,
-        "h": 162
+        "y": 499
     },
     {
         "id": "e5229ca0d3fed981",
@@ -20023,9 +20013,7 @@
             "5e31e8a6d55f03ca"
         ],
         "x": 254,
-        "y": 219,
-        "w": 792,
-        "h": 272
+        "y": 219
     },
     {
         "id": "fe155efd296bbb05",
@@ -20122,9 +20110,7 @@
             "ba1a259a97addf3e"
         ],
         "x": 314,
-        "y": 389,
-        "w": 1072,
-        "h": 292
+        "y": 389
     },
     {
         "id": "88d18df14955dc7b",
@@ -20147,9 +20133,7 @@
             "45de4b2707cc085d"
         ],
         "x": 34,
-        "y": 119,
-        "w": 272,
-        "h": 172
+        "y": 119
     },
     {
         "id": "95bf04c1dd0ff447",
@@ -20167,9 +20151,7 @@
             "e89e6732434362fe"
         ],
         "x": 34,
-        "y": 29,
-        "w": 272,
-        "h": 82
+        "y": 29
     },
     {
         "id": "94c925157935bcbb",
@@ -20216,9 +20198,7 @@
             "a2e6d61d68c5b60c"
         ],
         "x": 314,
-        "y": 29,
-        "w": 1068,
-        "h": 352
+        "y": 29
     },
     {
         "id": "6c3f35964f3d0db8",
@@ -20243,9 +20223,7 @@
             "c60349653ee6e0ed"
         ],
         "x": 34,
-        "y": 299,
-        "w": 272,
-        "h": 232
+        "y": 299
     },
     {
         "id": "67a2bd1d929a11cb",
@@ -20268,9 +20246,7 @@
             "13e823b837b0dbd0"
         ],
         "x": 34,
-        "y": 539,
-        "w": 272,
-        "h": 142
+        "y": 539
     },
     {
         "id": "3878ddd59e235b5b",
@@ -20450,6 +20426,28 @@
         ],
         "x": 34,
         "y": 539
+    },
+    {
+        "id": "54c70e6142f9874b",
+        "type": "group",
+        "z": "39e932257370a47c",
+        "g": "694a2a1e63df210d",
+        "name": "testing",
+        "style": {
+            "label": true,
+            "color": "#7f7f7f",
+            "label-position": "n"
+        },
+        "nodes": [
+            "48216256fb72320c",
+            "930dcd7e757604b0",
+            "1d53641bb9787858",
+            "2d3dac1120fac5e7",
+            "014f719f405c4f7a",
+            "6901a0b93e99d7f2"
+        ],
+        "x": 27.333328247070312,
+        "y": 191.22219848632812
     },
     {
         "id": "edd4a16e.de4ec",
@@ -23143,9 +23141,7 @@
             "cfadac76040c641b"
         ],
         "x": 914,
-        "y": 99,
-        "w": 442,
-        "h": 252
+        "y": 99
     },
     {
         "id": "a2e6d61d68c5b60c",
@@ -23173,9 +23169,7 @@
             "ec39befabb2a1e64"
         ],
         "x": 654,
-        "y": 179,
-        "w": 252,
-        "h": 172
+        "y": 179
     },
     {
         "id": "374b1143869812e1",
@@ -24075,67 +24069,6 @@
         "h": 40
     },
     {
-        "id": "694a2a1e63df210d",
-        "type": "group",
-        "z": "39e932257370a47c",
-        "name": "FPH Temp",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#000000",
-            "label": true,
-            "label-position": "n",
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "f5bfd34131061c2d",
-            "eedeb25b2476202a",
-            "0e68d3e6adf4af82",
-            "6ce0706199337c5c",
-            "2a671e746cc9a25c",
-            "c6c629d8202b8451",
-            "6ef00a45e7a007ef",
-            "d78e4ed8b328e2a1",
-            "cd7fc1157a8ee5aa",
-            "c7b396e224ff82eb",
-            "8ff287da66b82e35",
-            "a9f5820e3dac0964",
-            "7e311bf9b624e867",
-            "54c70e6142f9874b",
-            "b19d27352ca42ec6",
-            "87661306831cbe7c",
-            "7138b560c0db6570",
-            "49d5dedabc9a70be"
-        ],
-        "x": 1.3333282470703125,
-        "y": 9,
-        "w": 984.6666717529297,
-        "h": 380.2221984863281
-    },
-    {
-        "id": "54c70e6142f9874b",
-        "type": "group",
-        "z": "39e932257370a47c",
-        "g": "694a2a1e63df210d",
-        "name": "testing",
-        "style": {
-            "label": true,
-            "color": "#7f7f7f",
-            "label-position": "n"
-        },
-        "nodes": [
-            "48216256fb72320c",
-            "930dcd7e757604b0",
-            "1d53641bb9787858",
-            "2d3dac1120fac5e7",
-            "014f719f405c4f7a",
-            "6901a0b93e99d7f2"
-        ],
-        "x": 27.333328247070312,
-        "y": 191.22219848632812,
-        "w": 262,
-        "h": 172
-    },
-    {
         "id": "d1a17316.c56bb",
         "type": "mqtt-broker",
         "name": "MQTT",
@@ -24218,6 +24151,42 @@
         "site": "default",
         "unifios": false,
         "ssl": false
+    },
+    {
+        "id": "fe897f4cf48cf92c",
+        "type": "config-log",
+        "logname": "PoolMode",
+        "logdir": "/log",
+        "stamp": "local",
+        "logstyle": "plain",
+        "logrotate": true,
+        "logcompress": false,
+        "logrotatecount": "15",
+        "logsize": "1000"
+    },
+    {
+        "id": "8534e23c.037bc",
+        "type": "config-log",
+        "logname": "standard-logging",
+        "logdir": "logs",
+        "stamp": "utc",
+        "logstyle": "plain",
+        "logrotate": true,
+        "logcompress": true,
+        "logrotatecount": "5",
+        "logsize": "10"
+    },
+    {
+        "id": "765188d9.56aba8",
+        "type": "config-log",
+        "logname": "JSON-logging",
+        "logdir": "logs",
+        "stamp": "local",
+        "logstyle": "json",
+        "logrotate": true,
+        "logcompress": false,
+        "logrotatecount": "3",
+        "logsize": "1"
     },
     {
         "id": "daee7611.539b78",
@@ -156832,6 +156801,26 @@
         ]
     },
     {
+        "id": "bed73a9746173eaa",
+        "type": "flogger",
+        "z": "2468296eb99670b3",
+        "g": "455f7fb3258d07b6",
+        "name": "PoolMode-Logging",
+        "logfile": "PoolMode-Logging",
+        "inputchoice": "fullmsg",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
+        "loglevel": "TRACE",
+        "logconfig": "fe897f4cf48cf92c",
+        "sendpane": true,
+        "x": 150,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "52523e8b57291314",
         "type": "poll-state",
         "z": "092caa0a5667dfdb",
@@ -162357,5 +162346,242 @@
         "x": 230,
         "y": 610,
         "wires": []
+    },
+    {
+        "id": "377f1788.fc8a68",
+        "type": "inject",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Inject object",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "nicetopic",
+        "payload": "{ \"field1\": \"content1\", \"field2\": \"content2\"}",
+        "payloadType": "json",
+        "x": 330,
+        "y": 150,
+        "wires": [
+            [
+                "bfb915fd.6f9b48"
+            ]
+        ]
+    },
+    {
+        "id": "bfb915fd.6f9b48",
+        "type": "change",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Change loglevel",
+        "rules": [
+            {
+                "t": "set",
+                "p": "loglevel",
+                "pt": "msg",
+                "to": "DEBUG",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 150,
+        "wires": [
+            [
+                "88a20401.3fe268"
+            ]
+        ]
+    },
+    {
+        "id": "88a20401.3fe268",
+        "type": "flogger",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Log entire message",
+        "logfile": "logfile1",
+        "inputchoice": "fullmsg",
+        "inputobject": "",
+        "inputobjectType": "msg",
+        "inputmoustache": "",
+        "loglevel": "INFO",
+        "logconfig": "8534e23c.037bc",
+        "sendpane": "",
+        "x": 790,
+        "y": 150,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1059364f.741efa",
+        "type": "inject",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Inject object",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "MyTopic",
+        "payload": "{ \"field1\": \"content1\", \"field2\": \"content2\"}",
+        "payloadType": "json",
+        "x": 550,
+        "y": 210,
+        "wires": [
+            [
+                "88a20401.3fe268"
+            ]
+        ]
+    },
+    {
+        "id": "9bceb23.856d35",
+        "type": "flogger",
+        "z": "44f6b61c71b5b1cd",
+        "name": "JSON-logging",
+        "logfile": "logfile2",
+        "inputchoice": "object",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "",
+        "loglevel": "DEBUG",
+        "logconfig": "765188d9.56aba8",
+        "sendpane": true,
+        "x": 780,
+        "y": 390,
+        "wires": [
+            [
+                "5f66be4c.cfef7"
+            ]
+        ]
+    },
+    {
+        "id": "70cdc2d2.df58cc",
+        "type": "inject",
+        "z": "44f6b61c71b5b1cd",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 390,
+        "wires": [
+            [
+                "9bceb23.856d35"
+            ]
+        ]
+    },
+    {
+        "id": "5f66be4c.cfef7",
+        "type": "debug",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Passthrough",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 990,
+        "y": 390,
+        "wires": []
+    },
+    {
+        "id": "cc4493c8.13aca",
+        "type": "inject",
+        "z": "44f6b61c71b5b1cd",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "MyTopic",
+        "payload": "MyString",
+        "payloadType": "str",
+        "x": 340,
+        "y": 290,
+        "wires": [
+            [
+                "40062fa7.0890e"
+            ]
+        ]
+    },
+    {
+        "id": "40062fa7.0890e",
+        "type": "flogger",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Moustache logging",
+        "logfile": "logfile1",
+        "inputchoice": "moustache",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
+        "loglevel": "TRACE",
+        "logconfig": "8534e23c.037bc",
+        "sendpane": "",
+        "x": 790,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "49e347a6.53fc58",
+        "type": "change",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Change logfile",
+        "rules": [
+            {
+                "t": "set",
+                "p": "logfile",
+                "pt": "msg",
+                "to": "logfile3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 470,
+        "wires": [
+            [
+                "9bceb23.856d35"
+            ]
+        ]
+    },
+    {
+        "id": "5e94eecd.f05d8",
+        "type": "inject",
+        "z": "44f6b61c71b5b1cd",
+        "name": "Inject object",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "nicetopic",
+        "payload": "{ \"field1\": \"content1\", \"field2\": \"content2\"}",
+        "payloadType": "json",
+        "x": 330,
+        "y": 470,
+        "wires": [
+            [
+                "49e347a6.53fc58"
+            ]
+        ]
     }
 ]
