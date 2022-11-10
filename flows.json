@@ -15107,9 +15107,7 @@
             "6118a761797eaacb",
             "2ca49410b4d193e8",
             "4f4004259232498d",
-            "150a2865882fbfd6",
-            "bed73a9746173eaa",
-            "aa942e86d4aefa82"
+            "150a2865882fbfd6"
         ],
         "x": 8,
         "y": 3,
@@ -19294,7 +19292,9 @@
             "2298ebedb8a8e5a0",
             "3d0776856f541633",
             "8578a31ff00bb23a",
-            "b892439504868e30"
+            "b892439504868e30",
+            "bed73a9746173eaa",
+            "aa942e86d4aefa82"
         ],
         "x": 2134,
         "y": 29,
@@ -154361,7 +154361,7 @@
         "statusVal": "payload[0].Mode",
         "statusType": "auto",
         "x": 2620,
-        "y": 210,
+        "y": 140,
         "wires": []
     },
     {
@@ -156815,18 +156815,18 @@
         "id": "bed73a9746173eaa",
         "type": "flogger",
         "z": "2468296eb99670b3",
-        "g": "455f7fb3258d07b6",
+        "g": "461e18e58f76c9c1",
         "name": "PoolMode-Logging",
         "logfile": "PoolMode-Logging",
         "inputchoice": "fullmsg",
         "inputobject": "payload",
         "inputobjectType": "msg",
         "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
-        "loglevel": "TRACE",
+        "loglevel": "WARN",
         "logconfig": "fe897f4cf48cf92c",
         "sendpane": false,
-        "x": 2440,
-        "y": 610,
+        "x": 2570,
+        "y": 210,
         "wires": [
             []
         ]
@@ -156835,7 +156835,7 @@
         "id": "aa942e86d4aefa82",
         "type": "link in",
         "z": "2468296eb99670b3",
-        "g": "455f7fb3258d07b6",
+        "g": "461e18e58f76c9c1",
         "name": "link in 1026",
         "links": [
             "5e37e44c7b885a5e",
@@ -156848,8 +156848,8 @@
             "fc31ba80e8b6f6d3",
             "b86c221df03d6158"
         ],
-        "x": 2305,
-        "y": 610,
+        "x": 2215,
+        "y": 210,
         "wires": [
             [
                 "bed73a9746173eaa"
