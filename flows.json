@@ -526,7 +526,7 @@
         "meta": {},
         "color": "#00ff00",
         "status": {
-            "x": 690,
+            "x": 870,
             "y": 110,
             "wires": [
                 {
@@ -11512,10 +11512,13 @@
         "nodes": [
             "a08bed84.d8a7",
             "6a1c767e.6610c8",
-            "5bed0c15.dd46a4"
+            "5bed0c15.dd46a4",
+            "8bef15df9f370703"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 984,
+        "h": 594
     },
     {
         "id": "64ec4429.22d94c",
@@ -15514,7 +15517,9 @@
             "430e39c3d867892a"
         ],
         "x": 374,
-        "y": 369
+        "y": 329,
+        "w": 342,
+        "h": 242
     },
     {
         "id": "6a1c767e.6610c8",
@@ -15534,11 +15539,13 @@
             "375d34d7.2fbaac",
             "7877ef38.0e3c2",
             "ec9cea1497997b02",
-            "c82d1a35f5526fa3",
-            "efd9f1269b34055d"
+            "efd9f1269b34055d",
+            "af98dc9d79fd9205"
         ],
         "x": 34,
-        "y": 369
+        "y": 329,
+        "w": 332,
+        "h": 242
     },
     {
         "id": "5bed0c15.dd46a4",
@@ -15554,8 +15561,6 @@
             "color": "#000000"
         },
         "nodes": [
-            "156ed1be.89a4ee",
-            "9ff0846d.eca478",
             "e9882b94.5863a8",
             "474b61bd.d5921",
             "57d62ee4.fa487",
@@ -15573,7 +15578,9 @@
             "d284c1b1e6744f3e"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 932,
+        "h": 292
     },
     {
         "id": "c19da90d.e353d8",
@@ -23813,8 +23820,8 @@
             "546bd967b2fa94b3",
             "8f9f3548dbe19edf"
         ],
-        "x": 154,
-        "y": 949,
+        "x": 1194,
+        "y": 449,
         "w": 662,
         "h": 132
     },
@@ -23862,6 +23869,29 @@
         "x": 34,
         "y": 549,
         "w": 352,
+        "h": 142
+    },
+    {
+        "id": "8bef15df9f370703",
+        "type": "group",
+        "z": "96a05b0b.7ff938",
+        "g": "78eb0f63.bd123",
+        "name": "FPH: NONE",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "2c61f270245056f4",
+            "897c062632ace7f1",
+            "93d1e194be99446b"
+        ],
+        "x": 724,
+        "y": 329,
+        "w": 242,
         "h": 142
     },
     {
@@ -32382,7 +32412,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 580,
-        "y": 410,
+        "y": 370,
         "wires": [
             []
         ]
@@ -32410,7 +32440,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 570,
-        "y": 450,
+        "y": 410,
         "wires": [
             []
         ]
@@ -32438,7 +32468,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 560,
-        "y": 490,
+        "y": 450,
         "wires": [
             []
         ]
@@ -32466,7 +32496,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 180,
-        "y": 410,
+        "y": 370,
         "wires": [
             []
         ]
@@ -32494,7 +32524,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 220,
-        "y": 490,
+        "y": 450,
         "wires": [
             []
         ]
@@ -32522,63 +32552,9 @@
         "outputProperties": [],
         "queue": "none",
         "x": 230,
-        "y": 450,
+        "y": 410,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "156ed1be.89a4ee",
-        "type": "api-call-service",
-        "z": "96a05b0b.7ff938",
-        "g": "5bed0c15.dd46a4",
-        "name": "24VAC",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "{{payload}}",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.off_24vac_all"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 540,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9ff0846d.eca478",
-        "type": "trigger",
-        "z": "96a05b0b.7ff938",
-        "g": "5bed0c15.dd46a4",
-        "name": "ON",
-        "op1": "{ \"service\": \"turn_on\" }",
-        "op2": "",
-        "op1type": "json",
-        "op2type": "nul",
-        "duration": "1",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "ON",
-        "bytopic": "all",
-        "topic": "paylaod",
-        "outputs": 1,
-        "x": 360,
-        "y": 240,
-        "wires": [
-            [
-                "156ed1be.89a4ee"
-            ]
         ]
     },
     {
@@ -32603,8 +32579,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 570,
-        "y": 320,
+        "x": 810,
+        "y": 280,
         "wires": [
             []
         ]
@@ -32631,8 +32607,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 590,
-        "y": 280,
+        "x": 840,
+        "y": 240,
         "wires": [
             []
         ]
@@ -32655,8 +32631,8 @@
         "bytopic": "all",
         "topic": "paylaod",
         "outputs": 1,
-        "x": 380,
-        "y": 280,
+        "x": 580,
+        "y": 240,
         "wires": [
             [
                 "474b61bd.d5921"
@@ -32687,7 +32663,7 @@
         "repair": false,
         "outputs": 2,
         "x": 330,
-        "y": 140,
+        "y": 180,
         "wires": [
             [
                 "86ee1604.2a4908",
@@ -32719,8 +32695,8 @@
         "bytopic": "all",
         "topic": "paylaod",
         "outputs": 1,
-        "x": 380,
-        "y": 320,
+        "x": 580,
+        "y": 280,
         "wires": [
             [
                 "e9882b94.5863a8"
@@ -32878,8 +32854,8 @@
         "septopics": false,
         "property": "payload",
         "topi": "topic",
-        "x": 190,
-        "y": 140,
+        "x": 180,
+        "y": 170,
         "wires": [
             [
                 "c9d9e3b2.bf6f8"
@@ -32909,7 +32885,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 550,
-        "y": 570,
+        "y": 530,
         "wires": [
             []
         ]
@@ -32937,7 +32913,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 550,
-        "y": 530,
+        "y": 490,
         "wires": [
             []
         ]
@@ -32990,7 +32966,7 @@
             "c9d465df9962d504"
         ],
         "x": 75,
-        "y": 450,
+        "y": 410,
         "wires": [
             [
                 "3672e765.cd9f88",
@@ -33008,10 +32984,11 @@
         "links": [
             "430e39c3d867892a",
             "d284c1b1e6744f3e",
-            "ec9cea1497997b02"
+            "ec9cea1497997b02",
+            "93d1e194be99446b"
         ],
         "x": 325,
-        "y": 200,
+        "y": 240,
         "wires": []
     },
     {
@@ -33024,7 +33001,7 @@
             "c9d465df9962d504"
         ],
         "x": 415,
-        "y": 480,
+        "y": 440,
         "wires": [
             [
                 "77262b5f.162514",
@@ -33059,26 +33036,14 @@
             "e002dbefdcfe8d38",
             "c9d465df9962d504"
         ],
-        "x": 175,
-        "y": 270,
+        "x": 435,
+        "y": 260,
         "wires": [
             [
-                "9ff0846d.eca478",
                 "57d62ee4.fa487",
                 "a910d2a.328d83"
             ]
         ]
-    },
-    {
-        "id": "c82d1a35f5526fa3",
-        "type": "comment",
-        "z": "96a05b0b.7ff938",
-        "g": "6a1c767e.6610c8",
-        "name": "VALVE1",
-        "info": "VALVE 1 LOGIC FOR SLEEP AND SKIMMER IS HANDLE IN EITHER: WATERFALL OR SWIM",
-        "x": 180,
-        "y": 570,
-        "wires": []
     },
     {
         "id": "efd9f1269b34055d",
@@ -33103,10 +33068,101 @@
         "outputProperties": [],
         "queue": "none",
         "x": 210,
-        "y": 530,
+        "y": 490,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "2c61f270245056f4",
+        "type": "change",
+        "z": "96a05b0b.7ff938",
+        "g": "8bef15df9f370703",
+        "name": "NONE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NONE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 370,
+        "wires": [
+            [
+                "897c062632ace7f1"
+            ]
+        ]
+    },
+    {
+        "id": "897c062632ace7f1",
+        "type": "api-call-service",
+        "z": "96a05b0b.7ff938",
+        "g": "8bef15df9f370703",
+        "name": "HEAT SELECT?",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload.data.option",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "data"
+            }
+        ],
+        "queue": "first",
+        "x": 860,
+        "y": 430,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93d1e194be99446b",
+        "type": "link in",
+        "z": "96a05b0b.7ff938",
+        "g": "8bef15df9f370703",
+        "name": "==Spa",
+        "links": [
+            "c9d465df9962d504"
+        ],
+        "x": 765,
+        "y": 370,
+        "wires": [
+            [
+                "2c61f270245056f4"
+            ]
+        ]
+    },
+    {
+        "id": "af98dc9d79fd9205",
+        "type": "comment",
+        "z": "96a05b0b.7ff938",
+        "g": "6a1c767e.6610c8",
+        "name": "DO I WANT VALVE4 + 5: ON? ",
+        "info": "THINK ABOUT THIS ONE MORE PLEASE...",
+        "x": 220,
+        "y": 530,
+        "wires": []
     },
     {
         "id": "432ebeb9.46e3f",
@@ -76817,7 +76873,8 @@
             "6d8f20b97138bdea",
             "d6a25f393ac9cda9",
             "e6ed7bbd42aecc1a",
-            "caaef47c9d4d4418"
+            "caaef47c9d4d4418",
+            "b51504b5d6847f69"
         ],
         "x": 255,
         "y": 210,
@@ -77666,13 +77723,13 @@
         "type": "link in",
         "z": "96367ea2ee1b38f1",
         "name": "ON",
-        "links": [],
-        "x": 285,
-        "y": 730,
+        "links": [
+            "9439d6ea4c8a8bc6"
+        ],
+        "x": 1235,
+        "y": 230,
         "wires": [
-            [
-                "eaab1871a95e9506"
-            ]
+            []
         ]
     },
     {
@@ -77694,8 +77751,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 360,
-        "y": 900,
+        "x": 1350,
+        "y": 400,
         "wires": [
             [
                 "4050fcd63811be15"
@@ -77708,9 +77765,11 @@
         "z": "96367ea2ee1b38f1",
         "name": "SET POOL HEAT SELECT TO \"NONE\" + START SKIMMER RUNTIME",
         "mode": "link",
-        "links": [],
-        "x": 455,
-        "y": 900,
+        "links": [
+            "6fec98ada72ff030"
+        ],
+        "x": 1445,
+        "y": 400,
         "wires": []
     },
     {
@@ -77724,8 +77783,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "unraid",
-        "x": 370,
-        "y": 770,
+        "x": 1360,
+        "y": 270,
         "wires": [
             [
                 "51da3844cf9efd48"
@@ -77745,8 +77804,8 @@
         "targetType": "msg",
         "statusVal": "payload[0].Heat",
         "statusType": "auto",
-        "x": 370,
-        "y": 860,
+        "x": 1360,
+        "y": 360,
         "wires": []
     },
     {
@@ -77760,8 +77819,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 730,
+        "x": 1360,
+        "y": 230,
         "wires": [
             [
                 "3947ab5fb90f5fac"
@@ -77818,8 +77877,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
-        "y": 810,
+        "x": 1360,
+        "y": 310,
         "wires": [
             [
                 "67d48681a91de1e3",
@@ -77842,8 +77901,8 @@
         "retentionPolicyV18Flux": "",
         "org": "unraid",
         "bucket": "homeassistant",
-        "x": 370,
-        "y": 860,
+        "x": 1360,
+        "y": 360,
         "wires": []
     },
     {
@@ -77852,9 +77911,11 @@
         "z": "96367ea2ee1b38f1",
         "name": "NONE",
         "mode": "link",
-        "links": [],
-        "x": 465,
-        "y": 810,
+        "links": [
+            "87de749b4f43ac51"
+        ],
+        "x": 1455,
+        "y": 310,
         "wires": []
     },
     {
@@ -77862,9 +77923,11 @@
         "type": "link in",
         "z": "96367ea2ee1b38f1",
         "name": "NONE",
-        "links": [],
-        "x": 275,
-        "y": 900,
+        "links": [
+            "0f851b5e8a1ba78c"
+        ],
+        "x": 1265,
+        "y": 400,
         "wires": [
             [
                 "c615ab0aed8d9a49"
@@ -77876,9 +77939,11 @@
         "type": "link in",
         "z": "96367ea2ee1b38f1",
         "name": "link in 1030",
-        "links": [],
-        "x": 555,
-        "y": 740,
+        "links": [
+            "4050fcd63811be15"
+        ],
+        "x": 1545,
+        "y": 240,
         "wires": [
             [
                 "cda43047fa046bfd"
@@ -77913,8 +77978,8 @@
             }
         ],
         "queue": "first",
-        "x": 680,
-        "y": 740,
+        "x": 1670,
+        "y": 240,
         "wires": [
             [
                 "caafc1c8e321b28b"
@@ -77928,8 +77993,8 @@
         "name": "comms",
         "mode": "link",
         "links": [],
-        "x": 795,
-        "y": 740,
+        "x": 1785,
+        "y": 240,
         "wires": []
     },
     {
@@ -77938,8 +78003,8 @@
         "z": "96367ea2ee1b38f1",
         "name": "RETURN POOL MODE TO PREVIOUS",
         "links": [],
-        "x": 555,
-        "y": 800,
+        "x": 1545,
+        "y": 300,
         "wires": [
             [
                 "567cc5944a117120"
@@ -77975,8 +78040,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 690,
-        "y": 800,
+        "x": 1680,
+        "y": 300,
         "wires": [
             [
                 "9062b71e65c4367a"
@@ -78000,8 +78065,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 660,
-        "y": 850,
+        "x": 1650,
+        "y": 350,
         "wires": [
             [
                 "a9a30858f328413f"
@@ -78036,8 +78101,8 @@
             }
         ],
         "queue": "first",
-        "x": 680,
-        "y": 890,
+        "x": 1670,
+        "y": 390,
         "wires": [
             [
                 "a13db8504f2b3472"
@@ -78051,8 +78116,8 @@
         "name": "comms",
         "mode": "link",
         "links": [],
-        "x": 795,
-        "y": 890,
+        "x": 1785,
+        "y": 390,
         "wires": []
     },
     {
@@ -78077,8 +78142,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 460,
-        "y": 1040,
+        "x": 1500,
+        "y": 540,
         "wires": [
             []
         ]
@@ -78101,8 +78166,8 @@
         "bytopic": "all",
         "topic": "paylaod",
         "outputs": 1,
-        "x": 290,
-        "y": 1040,
+        "x": 1330,
+        "y": 540,
         "wires": [
             [
                 "53cd4e2a298a88a7"
@@ -78116,8 +78181,8 @@
         "g": "bdaf4ae5f1db3a78",
         "name": "",
         "links": [],
-        "x": 195,
-        "y": 1010,
+        "x": 1235,
+        "y": 510,
         "wires": [
             [
                 "ac6622de38d043bc",
@@ -78143,8 +78208,8 @@
         "bytopic": "all",
         "topic": "paylaod",
         "outputs": 1,
-        "x": 280,
-        "y": 990,
+        "x": 1320,
+        "y": 490,
         "wires": [
             [
                 "585795c293189724"
@@ -78163,8 +78228,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
-        "y": 990,
+        "x": 1440,
+        "y": 490,
         "wires": [
             [
                 "6a584fb8924f689b"
@@ -78183,8 +78248,8 @@
         "precision": "",
         "retentionPolicy": "",
         "org": "unraid",
-        "x": 520,
-        "y": 990,
+        "x": 1560,
+        "y": 490,
         "wires": [
             [
                 "546bd967b2fa94b3"
@@ -78218,8 +78283,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 990,
+        "x": 1710,
+        "y": 490,
         "wires": [
             [
                 "8f9f3548dbe19edf"
@@ -78234,8 +78299,8 @@
         "name": "SET: LastHeatSelect? RETURN POOL HEAT SELECT TO PREVIOUS",
         "mode": "link",
         "links": [],
-        "x": 775,
-        "y": 990,
+        "x": 1815,
+        "y": 490,
         "wires": []
     },
     {
@@ -136541,7 +136606,7 @@
         "z": "ae087566.f2dff8",
         "g": "9be9eeddc80e20ac",
         "name": "NEED TO DO!!",
-        "info": "NEED TO DO:\nSONOFF TH16 mount, rewire, soilder temp sensor\nPool Pump Suction Side air leak: At 3/4\" tee? remove!\nAdd temp sensor to hvac liquid line\nADD SECOND TEMP SENSOR TO FPH HE. 1 ON WATER IN, 2ND ON WATER OUT. \nWHY DOES HVAC ACTION: runtime_seconds RESET TO 0 IF I COPY SUB TO FLOW FOR TESTING?\nSET HVAC TEMP MANUALLY WILL PAUSE SCHEDULE. CONTINUES AFTER DARK?\nInfluxDB: create buckets w/ different retention policies\nSkimmer_EOD_RUNTIME clock\nDisable zone automations 12hrs if human interaction present.\nRebuild Motion Multipliers\nGuest Mode= inovelli dimmer interaction in guest or office, sets Guest modes\n\n--------------------------------------------------------------------------------------------\nCOMPLETED BELOW:\n1. MAKE FPH OVERTEMP LOGIC DEFAULT TO FAIL SAFE. \n--THIS IS NOT IDEAL:\n----- IF ANY POOL WATER TEMP PROBES BECOME \"null\"IT TRIGGERS OVERTEMP.\n----- POSSIBLE COULD REWRITE TO LOOK FOR \"null\" AND SHUT OFF FPH: MANUEL/SCHEDULED + NOTIFY IOS\n2. MAKE DAILY SCHEDULE CAPABLE OF BEING MANUELLY SHUTOFF VIA HA\n3. EXPORT FPH DATA TO INFLUXDB\n4.  \"FPH OVERTEMP LOGIC\" ommit from logic: everything except active FPH modes\n5. Securty Flow: \nHave InfluxDB track home state. \nIf I experience a system reboot\n (ie: unraid restart/upgrade) \nThen at NR startup it checks InfluxDB State and doesn't \nUnlock the house because it thinks we just arrived \nHome. We was already home mofo, with house\nLocked!\n6. Monitordatabase function for waterfall\n7. VALVE1:LOGIC-NEED A HALFWAY AKA MAX FLOW SETTING. CURRENTLY: SKIMMER or POOLDRAIN.\n8. PUT FLOW SWITCH INLINE WITH 24VAC FOR HVAC COMPRESSOR. ULTIMATE FAIL SAFE. SEE #4.  \n9. MOUNT TH16 TO WALL.\n10. FIX SPA BLOWER PIPES, FILL FOOTING WITH ROCKS\n11. MORE TESTING ON WITH POOL HEAT/POOL MODES SUBFLOWS\n12. Pool Water Leak: fixed, found spa blower pipes not glued, repaired!\n13. Skimmer: set PoolHeat?:NPH at start, return to previous at finish.\n14. POOL.RELAYS.3 NEES REPLACED! BAD R2\n15. pool.relays.2 Interlock 2,3 // Interlock on\n16. Pool Pump contactor remove Jasco, replace w/ siemens.\n17. FIX SPA HEATER\n18. FIX SPA BOOSTER PUMP. NEED TO REDO CONTACTOR, WAS 24VDC. MAKE IT 24VAC\n\n",
+        "info": "NEED TO DO:\nFPH + $PH MODE: NEEDS RETESTING, LOTS HAVE CHANGED!!\nSPA Rebuild\nWaterLevel Rebuild\nPool Pump Suction Side air leak: At 3/4\" tee? remove!\nWHY DOES HVAC ACTION: runtime_seconds RESET TO 0 IF I COPY SUB TO FLOW FOR TESTING?\nSET HVAC TEMP MANUALLY WILL PAUSE SCHEDULE. CONTINUES AFTER DARK?\nInfluxDB: create buckets w/ different retention policies\nSkimmer_EOD_RUNTIME clock\nDisable zone automations 12hrs if human interaction present.\nRebuild Motion Multipliers\nGuest Mode= inovelli dimmer interaction in guest or office, sets Guest modes\n\n--------------------------------------------------------------------------------------------\nCOMPLETED BELOW:\n1. MAKE FPH OVERTEMP LOGIC DEFAULT TO FAIL SAFE. \n--THIS IS NOT IDEAL:\n----- IF ANY POOL WATER TEMP PROBES BECOME \"null\"IT TRIGGERS OVERTEMP.\n----- POSSIBLE COULD REWRITE TO LOOK FOR \"null\" AND SHUT OFF FPH: MANUEL/SCHEDULED + NOTIFY IOS\n2. MAKE DAILY SCHEDULE CAPABLE OF BEING MANUELLY SHUTOFF VIA HA\n3. EXPORT FPH DATA TO INFLUXDB\n4.  \"FPH OVERTEMP LOGIC\" ommit from logic: everything except active FPH modes\n5. Securty Flow: \nHave InfluxDB track home state. \nIf I experience a system reboot\n (ie: unraid restart/upgrade) \nThen at NR startup it checks InfluxDB State and doesn't \nUnlock the house because it thinks we just arrived \nHome. We was already home mofo, with house\nLocked!\n6. Monitordatabase function for waterfall\n7. VALVE1:LOGIC-NEED A HALFWAY AKA MAX FLOW SETTING. CURRENTLY: SKIMMER or POOLDRAIN.\n8. PUT FLOW SWITCH INLINE WITH 24VAC FOR HVAC COMPRESSOR. ULTIMATE FAIL SAFE. SEE #4.  \n9. MOUNT TH16 TO WALL.\n10. FIX SPA BLOWER PIPES, FILL FOOTING WITH ROCKS\n11. MORE TESTING ON WITH POOL HEAT/POOL MODES SUBFLOWS\n12. Pool Water Leak: fixed, found spa blower pipes not glued, repaired!\n13. Skimmer: set PoolHeat?:NPH at start, return to previous at finish.\n14. POOL.RELAYS.3 NEES REPLACED! BAD R2\n15. pool.relays.2 Interlock 2,3 // Interlock on\n16. Pool Pump contactor remove Jasco, replace w/ siemens.\n17. FIX SPA HEATER\n18. FIX SPA BOOSTER PUMP. NEED TO REDO CONTACTOR, WAS 24VDC. MAKE IT 24VAC\n19. SONOFF TH16 mount, rewire, soilder temp sensor\n20. Add temp sensor to hvac liquid line\n21. ADD SECOND TEMP SENSOR TO FPH HE. 1 ON WATER IN, 2ND ON WATER OUT. \n\n",
         "x": 690,
         "y": 80,
         "wires": []
