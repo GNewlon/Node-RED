@@ -12673,7 +12673,7 @@
         "x": 54,
         "y": 13,
         "w": 1022,
-        "h": 494
+        "h": 534
     },
     {
         "id": "aa6e8162a210cc6a",
@@ -15097,7 +15097,8 @@
             "6118a761797eaacb",
             "2ca49410b4d193e8",
             "4f4004259232498d",
-            "150a2865882fbfd6"
+            "150a2865882fbfd6",
+            "43c7f61c4e65c586"
         ],
         "x": 8,
         "y": 3,
@@ -17683,12 +17684,13 @@
         },
         "nodes": [
             "4f1de2738afdc607",
-            "1f7aaca0ac566707"
+            "1f7aaca0ac566707",
+            "4c8194249080c5cf"
         ],
         "x": 384,
         "y": 399,
         "w": 402,
-        "h": 82
+        "h": 122
     },
     {
         "id": "dc0d0cc995e3526f",
@@ -19420,12 +19422,15 @@
             "88303ef0687a3c55",
             "6f439b98458a6a43",
             "a03103d0c56b52c9",
-            "c5e8de0f41fa757c"
+            "c5e8de0f41fa757c",
+            "f1e4972983183835",
+            "31e9841382931dcb",
+            "518518461d08d576"
         ],
         "x": 2134,
         "y": 259,
         "w": 672,
-        "h": 282
+        "h": 332
     },
     {
         "id": "4f4004259232498d",
@@ -23890,13 +23895,12 @@
             "6f704a978efc5558",
             "61a436cbe1b8e9a7",
             "320ae26d208ac0f3",
-            "975486da45445125",
-            "e3dae7e1f6aaa5aa"
+            "975486da45445125"
         ],
         "x": 14,
         "y": 23,
         "w": 1022,
-        "h": 534
+        "h": 404
     },
     {
         "id": "6f704a978efc5558",
@@ -23945,28 +23949,6 @@
         "y": 219,
         "w": 482,
         "h": 182
-    },
-    {
-        "id": "e3dae7e1f6aaa5aa",
-        "type": "group",
-        "z": "395de005e8cc342b",
-        "g": "40573f7fe22eb0f2",
-        "name": "DELAY: FPH OVERTEMP LOGIC",
-        "style": {
-            "label": true,
-            "stroke": "#ffC000",
-            "fill": "#ffefbf",
-            "color": "#000000"
-        },
-        "nodes": [
-            "5372b9cedf112883",
-            "5f115211ace443bb",
-            "f358c0f71fa73dbb"
-        ],
-        "x": 344,
-        "y": 409,
-        "w": 402,
-        "h": 122
     },
     {
         "id": "d1a17316.c56bb",
@@ -90577,8 +90559,7 @@
             [
                 "81266d06b138ba0c",
                 "013862010b4d2966",
-                "9c08e0977196c94e",
-                "1f7aaca0ac566707"
+                "9c08e0977196c94e"
             ]
         ]
     },
@@ -90858,7 +90839,7 @@
         "type": "mqtt out",
         "z": "149c1996407b0691",
         "g": "123e94f0452467d5",
-        "name": "Shark",
+        "name": "Spa",
         "topic": "",
         "qos": "1",
         "retain": "",
@@ -90868,8 +90849,8 @@
         "correl": "",
         "expiry": "",
         "broker": "d1a17316.c56bb",
-        "x": 920,
-        "y": 340,
+        "x": 910,
+        "y": 350,
         "wires": [],
         "icon": "font-awesome/fa-flash"
     },
@@ -90969,6 +90950,17 @@
                 "15c83f7b91eb9c84"
             ]
         ]
+    },
+    {
+        "id": "4c8194249080c5cf",
+        "type": "comment",
+        "z": "149c1996407b0691",
+        "g": "6124faa4fe0f6c46",
+        "name": "",
+        "info": "Here I was experimenting with temp setting\nFPH to NONE \nwhile home assistant resets",
+        "x": 470,
+        "y": 480,
+        "wires": []
     },
     {
         "id": "bd74c26406b04b02",
@@ -149840,10 +149832,10 @@
         "type": "link out",
         "z": "2468296eb99670b3",
         "g": "f73c32855791d23c",
-        "name": "SPEED 3",
+        "name": "SPEED 4",
         "mode": "link",
         "links": [
-            "6f439b98458a6a43"
+            "518518461d08d576"
         ],
         "x": 2065,
         "y": 730,
@@ -155943,7 +155935,7 @@
         ],
         "queue": "none",
         "x": 2440,
-        "y": 450,
+        "y": 500,
         "wires": [
             []
         ]
@@ -155981,7 +155973,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2640,
-        "y": 450,
+        "y": 500,
         "wires": []
     },
     {
@@ -156017,7 +156009,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2660,
-        "y": 400,
+        "y": 450,
         "wires": []
     },
     {
@@ -156035,7 +156027,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2650,
-        "y": 500,
+        "y": 550,
         "wires": []
     },
     {
@@ -156055,7 +156047,7 @@
             "a5b9905913624453"
         ],
         "x": 2240,
-        "y": 450,
+        "y": 500,
         "wires": [
             [
                 "a4914570df92611f"
@@ -156100,7 +156092,7 @@
             "43b370bc550e3ad8"
         ],
         "x": 2250,
-        "y": 500,
+        "y": 550,
         "wires": [
             [
                 "88303ef0687a3c55"
@@ -156125,7 +156117,7 @@
             "12b489b993d81d5f"
         ],
         "x": 2250,
-        "y": 400,
+        "y": 450,
         "wires": [
             [
                 "38cd99c51eae586c"
@@ -156169,7 +156161,7 @@
         ],
         "queue": "none",
         "x": 2460,
-        "y": 400,
+        "y": 450,
         "wires": [
             []
         ]
@@ -156210,7 +156202,7 @@
         ],
         "queue": "none",
         "x": 2450,
-        "y": 500,
+        "y": 550,
         "wires": [
             []
         ]
@@ -156225,7 +156217,6 @@
             "0f7f7aba77d29b26",
             "35382838f1eb595b",
             "78efb90028350636",
-            "91c362f323cc8004",
             "bde8e0d71e135e3b"
         ],
         "x": 2220,
@@ -156720,7 +156711,7 @@
         "inputobject": "payload",
         "inputobjectType": "msg",
         "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
-        "loglevel": "WARN",
+        "loglevel": "ERROR",
         "logconfig": "fe897f4cf48cf92c",
         "sendpane": false,
         "x": 2570,
@@ -156753,6 +156744,90 @@
                 "bed73a9746173eaa"
             ]
         ]
+    },
+    {
+        "id": "f1e4972983183835",
+        "type": "api-call-service",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "SPEED 4",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_speed_4"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "SPEED 4",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 2420,
+        "y": 400,
+        "wires": [
+            [
+                "31e9841382931dcb"
+            ]
+        ]
+    },
+    {
+        "id": "31e9841382931dcb",
+        "type": "debug",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "SPEED 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2620,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "518518461d08d576",
+        "type": "link in",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "SPEED 4",
+        "links": [
+            "91c362f323cc8004"
+        ],
+        "x": 2220,
+        "y": 400,
+        "wires": [
+            [
+                "f1e4972983183835"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "43c7f61c4e65c586",
+        "type": "comment",
+        "z": "2468296eb99670b3",
+        "g": "455f7fb3258d07b6",
+        "name": "<---Temp @ SPEED 4",
+        "info": "Suction side air leak is breaking the pump vaccum\nwhen idle/off. When FPH cooling is called the pump\nstruggles to provide cooling w/in 30s. \nMaybe SPEED 4 can get us to the requirement \nfaster. after fixing the air leak set this \nback to SPEED 2",
+        "x": 2240,
+        "y": 730,
+        "wires": []
     },
     {
         "id": "52523e8b57291314",
@@ -159855,8 +159930,7 @@
             [
                 "d3609237c2d2c1dd",
                 "c1fe9517b95387a7",
-                "35834e7f54129815",
-                "f358c0f71fa73dbb"
+                "35834e7f54129815"
             ]
         ]
     },
@@ -160163,77 +160237,6 @@
         "icon": "font-awesome/fa-flash"
     },
     {
-        "id": "5372b9cedf112883",
-        "type": "change",
-        "z": "395de005e8cc342b",
-        "g": "e3dae7e1f6aaa5aa",
-        "name": "delay-2m",
-        "rules": [
-            {
-                "t": "set",
-                "p": "delay",
-                "pt": "msg",
-                "to": "120000",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 620,
-        "y": 490,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5f115211ace443bb",
-        "type": "mqtt out",
-        "z": "395de005e8cc342b",
-        "g": "e3dae7e1f6aaa5aa",
-        "name": "HomeAssistant",
-        "topic": "HomeAssistant",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "d1a17316.c56bb",
-        "x": 640,
-        "y": 450,
-        "wires": []
-    },
-    {
-        "id": "f358c0f71fa73dbb",
-        "type": "trigger",
-        "z": "395de005e8cc342b",
-        "g": "e3dae7e1f6aaa5aa",
-        "name": "NPH/FPH: 1m",
-        "op1": "NPH",
-        "op2": "FPH",
-        "op1type": "str",
-        "op2type": "str",
-        "duration": "10",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 450,
-        "y": 450,
-        "wires": [
-            [
-                "5f115211ace443bb"
-            ]
-        ]
-    },
-    {
         "id": "b58cde9e1b6821d9",
         "type": "inject",
         "z": "395de005e8cc342b",
@@ -160254,12 +160257,10 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 90,
-        "y": 620,
+        "x": 220,
+        "y": 470,
         "wires": [
-            [
-                "f358c0f71fa73dbb"
-            ]
+            []
         ]
     }
 ]
