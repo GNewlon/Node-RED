@@ -64,8 +64,8 @@
     {
         "id": "44f6b61c71b5b1cd",
         "type": "tab",
-        "label": "Flow 3",
-        "disabled": false,
+        "label": "logfile-FLOGGER",
+        "disabled": true,
         "info": "",
         "env": []
     },
@@ -12207,10 +12207,13 @@
         "nodes": [
             "1c5f4ff990ce360a",
             "e3b3690a7feab4c2",
-            "9afcd2cb8d6d90e6"
+            "9afcd2cb8d6d90e6",
+            "ffe5db7bb7a93c2e"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1134,
+        "h": 674
     },
     {
         "id": "763821c9c21681c0",
@@ -12551,10 +12554,13 @@
             "4c4916a840b24609",
             "10858cda38c81071",
             "da01c66a02398529",
-            "d47e7617a2d5b5d4"
+            "d47e7617a2d5b5d4",
+            "d19ef58b86903dcb"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 1224,
+        "h": 714
     },
     {
         "id": "1e24c05d814c1d54",
@@ -13833,7 +13839,9 @@
             "01ac29dafb3c49c9"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 994,
+        "h": 584
     },
     {
         "id": "cb5f35994bc5c2c2",
@@ -14572,10 +14580,13 @@
         "nodes": [
             "be910a585a8b7195",
             "8870c90a1aed84bf",
-            "a2ab8e50c1b4ab49"
+            "a2ab8e50c1b4ab49",
+            "c645eae2cbc255c1"
         ],
-        "x": 8,
-        "y": 3
+        "x": 18,
+        "y": 3,
+        "w": 834,
+        "h": 664
     },
     {
         "id": "686baf710524ef62",
@@ -16182,7 +16193,9 @@
             "3f79ac92983b7885"
         ],
         "x": 374,
-        "y": 439
+        "y": 439,
+        "w": 422,
+        "h": 202
     },
     {
         "id": "e3b3690a7feab4c2",
@@ -16205,7 +16218,9 @@
             "ba192312e234a1b9"
         ],
         "x": 34,
-        "y": 439
+        "y": 439,
+        "w": 332,
+        "h": 212
     },
     {
         "id": "9afcd2cb8d6d90e6",
@@ -16265,7 +16280,9 @@
             "aa9495e540016c97"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 1082,
+        "h": 402
     },
     {
         "id": "def339ca0ec86b97",
@@ -16567,10 +16584,14 @@
             "b575737b47a2a613",
             "7c44d00edeeb9806",
             "6bd37099ccae0afa",
-            "1e20ce39fdc8df01"
+            "1e20ce39fdc8df01",
+            "07b904dc7cd3824a",
+            "d6f7a7efa9248b12"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 822,
+        "h": 262
     },
     {
         "id": "10858cda38c81071",
@@ -16597,7 +16618,9 @@
             "6cec49b824ed3d25"
         ],
         "x": 864,
-        "y": 39
+        "y": 39,
+        "w": 342,
+        "h": 262
     },
     {
         "id": "da01c66a02398529",
@@ -16619,11 +16642,12 @@
             "83902a3297366352",
             "e64070b15dc78541",
             "b36f4f240f98886d",
-            "57a71d6be68b170b",
             "3207c4d64962da9f"
         ],
         "x": 34,
-        "y": 309
+        "y": 309,
+        "w": 352,
+        "h": 232
     },
     {
         "id": "d47e7617a2d5b5d4",
@@ -16672,7 +16696,9 @@
             "962b3920f5de1ade"
         ],
         "x": 394,
-        "y": 309
+        "y": 309,
+        "w": 812,
+        "h": 392
     },
     {
         "id": "6f4a781ce95232ac",
@@ -17205,7 +17231,9 @@
             "9454739c48219aed"
         ],
         "x": 314,
-        "y": 39
+        "y": 39,
+        "w": 322,
+        "h": 392
     },
     {
         "id": "4903459c.e4111c",
@@ -17247,7 +17275,9 @@
             "3cdf4d4729a29d46"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 272,
+        "h": 532
     },
     {
         "id": "103ae1197eada901",
@@ -17422,7 +17452,9 @@
             "dcaf9b826475dfe1"
         ],
         "x": 644,
-        "y": 199
+        "y": 199,
+        "w": 332,
+        "h": 232
     },
     {
         "id": "b0607ccf25cd6134",
@@ -17707,8 +17739,10 @@
             "92be9b5e681e91d4",
             "0b096dcbba863b2a"
         ],
-        "x": 34,
-        "y": 259
+        "x": 44,
+        "y": 259,
+        "w": 292,
+        "h": 242
     },
     {
         "id": "8870c90a1aed84bf",
@@ -17735,7 +17769,9 @@
             "4b5da06a074654d7"
         ],
         "x": 44,
-        "y": 29
+        "y": 29,
+        "w": 782,
+        "h": 222
     },
     {
         "id": "a2ab8e50c1b4ab49",
@@ -17764,8 +17800,10 @@
             "4512b30802e7f970",
             "531b94a458f7599a"
         ],
-        "x": 334,
-        "y": 259
+        "x": 344,
+        "y": 259,
+        "w": 482,
+        "h": 382
     },
     {
         "id": "02c2b420ef9e639c",
@@ -17878,7 +17916,9 @@
             "f3d62e11569f2c51"
         ],
         "x": 314,
-        "y": 439
+        "y": 439,
+        "w": 662,
+        "h": 132
     },
     {
         "id": "2d11467498f86583",
@@ -19507,7 +19547,9 @@
             "7c4a63a8e2beb73f"
         ],
         "x": 644,
-        "y": 39
+        "y": 39,
+        "w": 332,
+        "h": 152
     },
     {
         "id": "3a6ed11eeff32c13",
@@ -23727,6 +23769,102 @@
         "h": 40
     },
     {
+        "id": "ffe5db7bb7a93c2e",
+        "type": "group",
+        "z": "96367ea2ee1b38f1",
+        "g": "971b1982623d7ed9",
+        "name": "FPH: NONE",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "1ed8368db70b35c4",
+            "647545f167e0161f",
+            "caaef47c9d4d4418"
+        ],
+        "x": 814,
+        "y": 449,
+        "w": 252,
+        "h": 142
+    },
+    {
+        "id": "bdaf4ae5f1db3a78",
+        "type": "group",
+        "z": "96367ea2ee1b38f1",
+        "name": "DELAY",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "53cd4e2a298a88a7",
+            "ac6622de38d043bc",
+            "1007fa1a02d8604e",
+            "a6f05ba2216785b1",
+            "585795c293189724",
+            "6a584fb8924f689b",
+            "546bd967b2fa94b3",
+            "8f9f3548dbe19edf"
+        ],
+        "x": 154,
+        "y": 949,
+        "w": 662,
+        "h": 132
+    },
+    {
+        "id": "c645eae2cbc255c1",
+        "type": "group",
+        "z": "2111fa99d3ee69fa",
+        "g": "2aa13b716de0ef04",
+        "name": "FPH: NONE",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "544b9d9ea836e9ea",
+            "abbbcb2957dac774",
+            "1a02f49da34e741c"
+        ],
+        "x": 44,
+        "y": 509,
+        "w": 292,
+        "h": 132
+    },
+    {
+        "id": "d19ef58b86903dcb",
+        "type": "group",
+        "z": "95c2746b.1c9398",
+        "g": "7151e5f2e52bac23",
+        "name": "FPH: NONE",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "c842d6771106ea50",
+            "adbfebfb5902291d",
+            "f94c6c30e18450f4"
+        ],
+        "x": 34,
+        "y": 549,
+        "w": 352,
+        "h": 142
+    },
+    {
         "id": "d1a17316.c56bb",
         "type": "mqtt-broker",
         "name": "MQTT",
@@ -26960,7 +27098,8 @@
         "links": [
             "ebf0a2226c950766",
             "c59f23841ed01094",
-            "c0aa44774822cb80"
+            "c0aa44774822cb80",
+            "72ef604ae291535e"
         ],
         "x": 265,
         "y": 240,
@@ -27178,7 +27317,8 @@
         "name": "",
         "links": [
             "8f3f2d523dbaab55",
-            "525cc8ba4b01236c"
+            "525cc8ba4b01236c",
+            "2f8e69b29a57fcec"
         ],
         "x": 355,
         "y": 500,
@@ -27269,7 +27409,9 @@
         "mode": "link",
         "links": [
             "29c4095d4eb85d4f",
-            "c0aa44774822cb80"
+            "c0aa44774822cb80",
+            "91aaaca44b9dec3a",
+            "72ef604ae291535e"
         ],
         "x": 255,
         "y": 530,
@@ -27320,7 +27462,9 @@
         "name": "link in 919",
         "links": [
             "525cc8ba4b01236c",
-            "f3d62e11569f2c51"
+            "f3d62e11569f2c51",
+            "2f8e69b29a57fcec",
+            "9f4e47262e1db813"
         ],
         "x": 355,
         "y": 240,
@@ -27639,7 +27783,9 @@
         "name": "",
         "links": [
             "2f446a7ee0fcbf55",
-            "e23e7f32f3b52836"
+            "e23e7f32f3b52836",
+            "c44a55c78dfbd68b",
+            "90328d96d0086085"
         ],
         "x": 685,
         "y": 150,
@@ -27693,7 +27839,9 @@
         "mode": "link",
         "links": [
             "29c4095d4eb85d4f",
-            "d7164f4ed80ba5b8"
+            "d7164f4ed80ba5b8",
+            "91aaaca44b9dec3a",
+            "bdc7463b2b807a42"
         ],
         "x": 935,
         "y": 480,
@@ -27757,7 +27905,8 @@
         "g": "f999c1c.415564",
         "name": "RETURN POOL MODE TO PREVIOUS",
         "links": [
-            "f3d62e11569f2c51"
+            "f3d62e11569f2c51",
+            "9f4e47262e1db813"
         ],
         "x": 355,
         "y": 300,
@@ -30329,7 +30478,8 @@
             "966d80eadd112eb3",
             "96edfd13574343ae",
             "4ed6aae61d5282b6",
-            "74603a62d7d82e5a"
+            "74603a62d7d82e5a",
+            "f94c6c30e18450f4"
         ],
         "x": 315,
         "y": 90,
@@ -30401,8 +30551,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 550,
-        "y": 260,
+        "x": 580,
+        "y": 220,
         "wires": []
     },
     {
@@ -30587,7 +30737,8 @@
             [
                 "b9f82583ca836a42",
                 "55a706d0c3b587a8",
-                "6bd37099ccae0afa"
+                "6bd37099ccae0afa",
+                "07b904dc7cd3824a"
             ]
         ]
     },
@@ -31726,17 +31877,6 @@
         ]
     },
     {
-        "id": "57a71d6be68b170b",
-        "type": "comment",
-        "z": "95c2746b.1c9398",
-        "g": "da01c66a02398529",
-        "name": "VALVE1",
-        "info": "VALVE 1 LOGIC FOR SLEEP AND SKIMMER IS HANDLE IN EITHER: WATERFALL OR SWIM",
-        "x": 220,
-        "y": 660,
-        "wires": []
-    },
-    {
         "id": "83034e6816ab3f92",
         "type": "switch",
         "z": "95c2746b.1c9398",
@@ -32074,6 +32214,149 @@
         "y": 200,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "07b904dc7cd3824a",
+        "type": "change",
+        "z": "95c2746b.1c9398",
+        "g": "4c4916a840b24609",
+        "name": "NONE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NONE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 260,
+        "wires": [
+            [
+                "d6f7a7efa9248b12"
+            ]
+        ]
+    },
+    {
+        "id": "d6f7a7efa9248b12",
+        "type": "api-call-service",
+        "z": "95c2746b.1c9398",
+        "g": "4c4916a840b24609",
+        "name": "HEAT SELECT?",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload.data.option",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "data"
+            }
+        ],
+        "queue": "first",
+        "x": 710,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c842d6771106ea50",
+        "type": "change",
+        "z": "95c2746b.1c9398",
+        "g": "d19ef58b86903dcb",
+        "name": "NONE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NONE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 590,
+        "wires": [
+            [
+                "adbfebfb5902291d"
+            ]
+        ]
+    },
+    {
+        "id": "adbfebfb5902291d",
+        "type": "api-call-service",
+        "z": "95c2746b.1c9398",
+        "g": "d19ef58b86903dcb",
+        "name": "HEAT SELECT?",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload.data.option",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "data"
+            }
+        ],
+        "queue": "first",
+        "x": 280,
+        "y": 650,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f94c6c30e18450f4",
+        "type": "link in",
+        "z": "95c2746b.1c9398",
+        "g": "d19ef58b86903dcb",
+        "name": "ON",
+        "links": [
+            "cfeb25804fd98b79"
+        ],
+        "x": 75,
+        "y": 590,
+        "wires": [
+            [
+                "c842d6771106ea50"
+            ]
         ]
     },
     {
@@ -76533,7 +76816,8 @@
             "15ea940d30f869c0",
             "6d8f20b97138bdea",
             "d6a25f393ac9cda9",
-            "e6ed7bbd42aecc1a"
+            "e6ed7bbd42aecc1a",
+            "caaef47c9d4d4418"
         ],
         "x": 255,
         "y": 210,
@@ -77295,6 +77579,663 @@
         "info": "RETURN POOL MODE TO PREVIOUS",
         "x": 960,
         "y": 390,
+        "wires": []
+    },
+    {
+        "id": "1ed8368db70b35c4",
+        "type": "change",
+        "z": "96367ea2ee1b38f1",
+        "g": "ffe5db7bb7a93c2e",
+        "name": "NONE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NONE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 490,
+        "wires": [
+            [
+                "647545f167e0161f"
+            ]
+        ]
+    },
+    {
+        "id": "647545f167e0161f",
+        "type": "api-call-service",
+        "z": "96367ea2ee1b38f1",
+        "g": "ffe5db7bb7a93c2e",
+        "name": "HEAT SELECT?",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload.data.option",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "data"
+            }
+        ],
+        "queue": "first",
+        "x": 960,
+        "y": 550,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "caaef47c9d4d4418",
+        "type": "link in",
+        "z": "96367ea2ee1b38f1",
+        "g": "ffe5db7bb7a93c2e",
+        "name": "ON",
+        "links": [
+            "9439d6ea4c8a8bc6"
+        ],
+        "x": 855,
+        "y": 490,
+        "wires": [
+            [
+                "1ed8368db70b35c4"
+            ]
+        ]
+    },
+    {
+        "id": "b51504b5d6847f69",
+        "type": "link in",
+        "z": "96367ea2ee1b38f1",
+        "name": "ON",
+        "links": [],
+        "x": 285,
+        "y": 730,
+        "wires": [
+            [
+                "eaab1871a95e9506"
+            ]
+        ]
+    },
+    {
+        "id": "c615ab0aed8d9a49",
+        "type": "change",
+        "z": "96367ea2ee1b38f1",
+        "name": "NONE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NONE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 900,
+        "wires": [
+            [
+                "4050fcd63811be15"
+            ]
+        ]
+    },
+    {
+        "id": "4050fcd63811be15",
+        "type": "link out",
+        "z": "96367ea2ee1b38f1",
+        "name": "SET POOL HEAT SELECT TO \"NONE\" + START SKIMMER RUNTIME",
+        "mode": "link",
+        "links": [],
+        "x": 455,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "3947ab5fb90f5fac",
+        "type": "influxdb in",
+        "z": "96367ea2ee1b38f1",
+        "influxdb": "10eaf502617379e3",
+        "name": "HeatSelect?",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "unraid",
+        "x": 370,
+        "y": 770,
+        "wires": [
+            [
+                "51da3844cf9efd48"
+            ]
+        ]
+    },
+    {
+        "id": "67d48681a91de1e3",
+        "type": "debug",
+        "z": "96367ea2ee1b38f1",
+        "name": "LastHeatSelect?",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0].LastHeatSelect?",
+        "targetType": "msg",
+        "statusVal": "payload[0].Heat",
+        "statusType": "auto",
+        "x": 370,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "eaab1871a95e9506",
+        "type": "function",
+        "z": "96367ea2ee1b38f1",
+        "name": "Query",
+        "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -12h)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"POOL\")\n  |> filter(fn: (r) => r[\"_field\"] == \"HeatSelect?\")\n  |> group()\n  |> last()`;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 730,
+        "wires": [
+            [
+                "3947ab5fb90f5fac"
+            ]
+        ]
+    },
+    {
+        "id": "51da3844cf9efd48",
+        "type": "change",
+        "z": "96367ea2ee1b38f1",
+        "name": "SET",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "fields.HeatSelect?",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "query",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "fields.LastHeatSelect?",
+                "pt": "msg",
+                "to": "payload[0]._value",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "tags.timestamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$append(fields,tags)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "Pool.LastHeatSelect?",
+                "pt": "global",
+                "to": "payload[0].LastHeatSelect?",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 810,
+        "wires": [
+            [
+                "67d48681a91de1e3",
+                "56fc1b0622505d15",
+                "0f851b5e8a1ba78c"
+            ]
+        ]
+    },
+    {
+        "id": "56fc1b0622505d15",
+        "type": "influxdb out",
+        "z": "96367ea2ee1b38f1",
+        "influxdb": "10eaf502617379e3",
+        "name": "LastHeatSelect?",
+        "measurement": "POOL",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "s",
+        "retentionPolicyV18Flux": "",
+        "org": "unraid",
+        "bucket": "homeassistant",
+        "x": 370,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "0f851b5e8a1ba78c",
+        "type": "link out",
+        "z": "96367ea2ee1b38f1",
+        "name": "NONE",
+        "mode": "link",
+        "links": [],
+        "x": 465,
+        "y": 810,
+        "wires": []
+    },
+    {
+        "id": "87de749b4f43ac51",
+        "type": "link in",
+        "z": "96367ea2ee1b38f1",
+        "name": "NONE",
+        "links": [],
+        "x": 275,
+        "y": 900,
+        "wires": [
+            [
+                "c615ab0aed8d9a49"
+            ]
+        ]
+    },
+    {
+        "id": "6fec98ada72ff030",
+        "type": "link in",
+        "z": "96367ea2ee1b38f1",
+        "name": "link in 1030",
+        "links": [],
+        "x": 555,
+        "y": 740,
+        "wires": [
+            [
+                "cda43047fa046bfd"
+            ]
+        ]
+    },
+    {
+        "id": "cda43047fa046bfd",
+        "type": "api-call-service",
+        "z": "96367ea2ee1b38f1",
+        "name": "HEAT SELECT?",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload.data.option",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "data"
+            }
+        ],
+        "queue": "first",
+        "x": 680,
+        "y": 740,
+        "wires": [
+            [
+                "caafc1c8e321b28b"
+            ]
+        ]
+    },
+    {
+        "id": "caafc1c8e321b28b",
+        "type": "link out",
+        "z": "96367ea2ee1b38f1",
+        "name": "comms",
+        "mode": "link",
+        "links": [],
+        "x": 795,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "5ad56ea2e484d2f9",
+        "type": "link in",
+        "z": "96367ea2ee1b38f1",
+        "name": "RETURN POOL MODE TO PREVIOUS",
+        "links": [],
+        "x": 555,
+        "y": 800,
+        "wires": [
+            [
+                "567cc5944a117120"
+            ]
+        ]
+    },
+    {
+        "id": "567cc5944a117120",
+        "type": "change",
+        "z": "96367ea2ee1b38f1",
+        "name": "global.Pool.State",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Pool.State",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 800,
+        "wires": [
+            [
+                "9062b71e65c4367a"
+            ]
+        ]
+    },
+    {
+        "id": "9062b71e65c4367a",
+        "type": "trigger",
+        "z": "96367ea2ee1b38f1",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "pay",
+        "duration": "2",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 660,
+        "y": 850,
+        "wires": [
+            [
+                "a9a30858f328413f"
+            ]
+        ]
+    },
+    {
+        "id": "a9a30858f328413f",
+        "type": "api-call-service",
+        "z": "96367ea2ee1b38f1",
+        "name": "POOL STATE",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_state"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "Completed Pool Surface Cleaning!",
+                "valueType": "str"
+            }
+        ],
+        "queue": "first",
+        "x": 680,
+        "y": 890,
+        "wires": [
+            [
+                "a13db8504f2b3472"
+            ]
+        ]
+    },
+    {
+        "id": "a13db8504f2b3472",
+        "type": "link out",
+        "z": "96367ea2ee1b38f1",
+        "name": "comms",
+        "mode": "link",
+        "links": [],
+        "x": 795,
+        "y": 890,
+        "wires": []
+    },
+    {
+        "id": "53cd4e2a298a88a7",
+        "type": "api-call-service",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "name": "VALVE 3: OFF/SPA",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": " {{payload}}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_3_off_spa"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 460,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac6622de38d043bc",
+        "type": "trigger",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "name": "ON/OFF:45s",
+        "op1": "{\"service\": \"turn_on\"}",
+        "op2": "{\"service\": \"turn_off\"}",
+        "op1type": "json",
+        "op2type": "json",
+        "duration": "45",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "paylaod",
+        "outputs": 1,
+        "x": 290,
+        "y": 1040,
+        "wires": [
+            [
+                "53cd4e2a298a88a7"
+            ]
+        ]
+    },
+    {
+        "id": "1007fa1a02d8604e",
+        "type": "link in",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "name": "",
+        "links": [],
+        "x": 195,
+        "y": 1010,
+        "wires": [
+            [
+                "ac6622de38d043bc",
+                "a6f05ba2216785b1"
+            ]
+        ]
+    },
+    {
+        "id": "a6f05ba2216785b1",
+        "type": "trigger",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "name": "--/on:10m",
+        "op1": "",
+        "op2": "Pool.State",
+        "op1type": "nul",
+        "op2type": "global",
+        "duration": "10",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "min",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "paylaod",
+        "outputs": 1,
+        "x": 280,
+        "y": 990,
+        "wires": [
+            [
+                "585795c293189724"
+            ]
+        ]
+    },
+    {
+        "id": "585795c293189724",
+        "type": "function",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "name": "Query",
+        "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -7d)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"POOL\")\n  |> filter(fn: (r) => r[\"_field\"] == \"LastHeatSelect?\")\n  |> group()\n  |> last()`;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 990,
+        "wires": [
+            [
+                "6a584fb8924f689b"
+            ]
+        ]
+    },
+    {
+        "id": "6a584fb8924f689b",
+        "type": "influxdb in",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "influxdb": "10eaf502617379e3",
+        "name": "influxdb",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "unraid",
+        "x": 520,
+        "y": 990,
+        "wires": [
+            [
+                "546bd967b2fa94b3"
+            ]
+        ]
+    },
+    {
+        "id": "546bd967b2fa94b3",
+        "type": "change",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "name": "LastHeatSelect?",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload[0]._value",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "Pool.LastHeatSelect?",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 990,
+        "wires": [
+            [
+                "8f9f3548dbe19edf"
+            ]
+        ]
+    },
+    {
+        "id": "8f9f3548dbe19edf",
+        "type": "link out",
+        "z": "96367ea2ee1b38f1",
+        "g": "bdaf4ae5f1db3a78",
+        "name": "SET: LastHeatSelect? RETURN POOL HEAT SELECT TO PREVIOUS",
+        "mode": "link",
+        "links": [],
+        "x": 775,
+        "y": 990,
         "wires": []
     },
     {
@@ -105575,8 +106516,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 140,
-        "y": 370,
+        "x": 150,
+        "y": 340,
         "wires": [
             []
         ]
@@ -105590,7 +106531,7 @@
         "links": [
             "e5214fa6d3f29c50"
         ],
-        "x": 115,
+        "x": 85,
         "y": 300,
         "wires": [
             [
@@ -105624,8 +106565,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 160,
-        "y": 430,
+        "x": 170,
+        "y": 400,
         "wires": [
             []
         ]
@@ -105652,8 +106593,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 180,
-        "y": 400,
+        "x": 190,
+        "y": 370,
         "wires": [
             []
         ]
@@ -105824,7 +106765,8 @@
         "links": [
             "00b9e3f617776d1b",
             "e7d870034bcf4821",
-            "ea36ed592f55841c"
+            "ea36ed592f55841c",
+            "abbbcb2957dac774"
         ],
         "x": 425,
         "y": 210,
@@ -105844,7 +106786,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 570,
+        "x": 690,
         "y": 190,
         "wires": []
     },
@@ -105929,7 +106871,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 550,
+        "x": 560,
         "y": 480,
         "wires": [
             []
@@ -105957,7 +106899,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 540,
+        "x": 550,
         "y": 510,
         "wires": [
             []
@@ -105985,7 +106927,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 530,
+        "x": 540,
         "y": 570,
         "wires": [
             []
@@ -106013,7 +106955,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 530,
+        "x": 540,
         "y": 540,
         "wires": [
             []
@@ -106028,7 +106970,7 @@
         "links": [
             "e5214fa6d3f29c50"
         ],
-        "x": 375,
+        "x": 385,
         "y": 330,
         "wires": [
             [
@@ -106068,7 +107010,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 590,
+        "x": 600,
         "y": 390,
         "wires": [
             []
@@ -106096,7 +107038,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 620,
+        "x": 630,
         "y": 450,
         "wires": [
             []
@@ -106124,7 +107066,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 570,
+        "x": 580,
         "y": 420,
         "wires": [
             []
@@ -106155,7 +107097,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 520,
+        "x": 530,
         "y": 600,
         "wires": [
             []
@@ -106183,8 +107125,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 150,
-        "y": 460,
+        "x": 160,
+        "y": 430,
         "wires": [
             []
         ]
@@ -106218,7 +107160,7 @@
             }
         ],
         "queue": "none",
-        "x": 570,
+        "x": 580,
         "y": 300,
         "wires": [
             []
@@ -106246,7 +107188,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 550,
+        "x": 560,
         "y": 360,
         "wires": [
             []
@@ -106274,7 +107216,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 550,
+        "x": 560,
         "y": 330,
         "wires": [
             []
@@ -106302,10 +107244,90 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 150,
-        "y": 490,
+        "x": 160,
+        "y": 460,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "1a02f49da34e741c",
+        "type": "change",
+        "z": "2111fa99d3ee69fa",
+        "g": "c645eae2cbc255c1",
+        "name": "NONE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NONE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 220,
+        "y": 550,
+        "wires": [
+            [
+                "544b9d9ea836e9ea"
+            ]
+        ]
+    },
+    {
+        "id": "544b9d9ea836e9ea",
+        "type": "api-call-service",
+        "z": "2111fa99d3ee69fa",
+        "g": "c645eae2cbc255c1",
+        "name": "HEAT SELECT?",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload.data.option",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "data"
+            }
+        ],
+        "queue": "first",
+        "x": 230,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "abbbcb2957dac774",
+        "type": "link in",
+        "z": "2111fa99d3ee69fa",
+        "g": "c645eae2cbc255c1",
+        "name": "ON",
+        "links": [
+            "e5214fa6d3f29c50"
+        ],
+        "x": 85,
+        "y": 550,
+        "wires": [
+            [
+                "1a02f49da34e741c"
+            ]
         ]
     },
     {
