@@ -157036,7 +157036,7 @@
             {
                 "property": "payload",
                 "propertyType": "msg",
-                "value": "SPEED 4",
+                "value": "SPEED 3",
                 "valueType": "str"
             }
         ],
