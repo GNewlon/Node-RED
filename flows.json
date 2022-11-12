@@ -23753,12 +23753,13 @@
             "0a3aae28948dfa1d",
             "0777a1af460beb31",
             "f2c5f7766359e0c7",
-            "216f29101367a608"
+            "216f29101367a608",
+            "695636b8d44afa8d"
         ],
         "x": 4,
-        "y": 59,
+        "y": 9,
         "w": 1182,
-        "h": 232
+        "h": 282
     },
     {
         "id": "d1a17316.c56bb",
@@ -158105,11 +158106,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
+        "x": 670,
         "y": 140,
         "wires": [
             [
-                "e376f0b751a47a9a"
+                "e376f0b751a47a9a",
+                "695636b8d44afa8d"
             ]
         ]
     },
@@ -158140,11 +158142,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
-        "y": 100,
+        "x": 670,
+        "y": 80,
         "wires": [
             [
-                "e376f0b751a47a9a"
+                "e376f0b751a47a9a",
+                "695636b8d44afa8d"
             ]
         ]
     },
@@ -158621,5 +158624,23 @@
                 "1bb8447fcc3bfca4"
             ]
         ]
+    },
+    {
+        "id": "695636b8d44afa8d",
+        "type": "debug",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 860,
+        "y": 50,
+        "wires": []
     }
 ]
