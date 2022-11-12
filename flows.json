@@ -19441,8 +19441,8 @@
             "248f1c47771a11e4",
             "5f0760518d786557"
         ],
-        "x": 2174,
-        "y": 789,
+        "x": 1474,
+        "y": 919,
         "w": 602,
         "h": 142
     },
@@ -131146,7 +131146,9 @@
         "x": 130,
         "y": 250,
         "wires": [
-            []
+            [
+                "fb45d4cfaef9e285"
+            ]
         ]
     },
     {
@@ -131200,7 +131202,9 @@
         "x": 130,
         "y": 70,
         "wires": [
-            []
+            [
+                "e89e6732434362fe"
+            ]
         ]
     },
     {
@@ -150628,8 +150632,8 @@
             "474e5d87ff7da562",
             "5f0760518d786557"
         ],
-        "x": 2445,
-        "y": 830,
+        "x": 1745,
+        "y": 960,
         "wires": []
     },
     {
@@ -150643,8 +150647,8 @@
             "ae12c628e40a2c30",
             "5f0760518d786557"
         ],
-        "x": 2445,
-        "y": 860,
+        "x": 1745,
+        "y": 990,
         "wires": []
     },
     {
@@ -150658,8 +150662,8 @@
             "3b97a670e87c27e0",
             "5f0760518d786557"
         ],
-        "x": 2735,
-        "y": 860,
+        "x": 2035,
+        "y": 990,
         "wires": []
     },
     {
@@ -150673,8 +150677,8 @@
             "2a02969410e869f6",
             "5f0760518d786557"
         ],
-        "x": 2735,
-        "y": 830,
+        "x": 2035,
+        "y": 960,
         "wires": []
     },
     {
@@ -152580,7 +152584,9 @@
         "x": 410,
         "y": 70,
         "wires": [
-            []
+            [
+                "083302957741560f"
+            ]
         ]
     },
     {
@@ -157451,8 +157457,8 @@
         "topic": "",
         "payload": "W-FALL-ID-IDLEOFF",
         "payloadType": "str",
-        "x": 2320,
-        "y": 860,
+        "x": 1620,
+        "y": 990,
         "wires": [
             [
                 "bcb6506214e51b06"
@@ -157477,8 +157483,8 @@
         "topic": "",
         "payload": "W-FALL-FPH-COOL",
         "payloadType": "str",
-        "x": 2310,
-        "y": 830,
+        "x": 1610,
+        "y": 960,
         "wires": [
             [
                 "665f8b5614503e44"
@@ -157503,8 +157509,8 @@
         "topic": "",
         "payload": "~W-FALL-ID-IDLEOFF",
         "payloadType": "str",
-        "x": 2600,
-        "y": 860,
+        "x": 1900,
+        "y": 990,
         "wires": [
             [
                 "e5f9db06399b058b"
@@ -157529,8 +157535,8 @@
         "topic": "",
         "payload": "~W-FALL-FPH-COOL",
         "payloadType": "str",
-        "x": 2600,
-        "y": 830,
+        "x": 1900,
+        "y": 960,
         "wires": [
             [
                 "7ab6d602c6fd8d68"
@@ -157787,8 +157793,8 @@
         "g": "150a2865882fbfd6",
         "name": "how to tune the Waterfall...",
         "info": "1. Disable database query & OVERTEMP LOGIC\n2. 2nd Order Logic testing is used for ease of use. trigger the \"Timing\" you need\n3. First, start with W-FALL-FPH-COOL: get this one right\n4. Next, get W-FALL-ID-IDLEOFF: working nice\n5. 3rd, ~W-FALL-FPH-COOL\n6. 4th, ~W-FALL-ID-IDLEOFF\n7. re-enable database query & OVERTEMP LOGIC",
-        "x": 2310,
-        "y": 890,
+        "x": 1610,
+        "y": 1020,
         "wires": []
     },
     {
@@ -157805,8 +157811,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 2580,
-        "y": 890,
+        "x": 1880,
+        "y": 1020,
         "wires": []
     },
     {
@@ -157821,8 +157827,8 @@
             "e5f9db06399b058b",
             "7ab6d602c6fd8d68"
         ],
-        "x": 2445,
-        "y": 890,
+        "x": 1745,
+        "y": 1020,
         "wires": [
             [
                 "248f1c47771a11e4"
