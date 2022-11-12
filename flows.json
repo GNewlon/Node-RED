@@ -14991,7 +14991,8 @@
             "2ca49410b4d193e8",
             "4f4004259232498d",
             "150a2865882fbfd6",
-            "43c7f61c4e65c586"
+            "43c7f61c4e65c586",
+            "2d2e793c5bfa62f1"
         ],
         "x": 8,
         "y": 3,
@@ -19422,7 +19423,7 @@
         "type": "group",
         "z": "2468296eb99670b3",
         "g": "455f7fb3258d07b6",
-        "name": "2nd Order Logic",
+        "name": "2nd Order Logic testing",
         "style": {
             "stroke": "#bfbfbf",
             "label": true,
@@ -157773,6 +157774,17 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "2d2e793c5bfa62f1",
+        "type": "comment",
+        "z": "2468296eb99670b3",
+        "g": "455f7fb3258d07b6",
+        "name": "how to tune the Waterfall...",
+        "info": "1. Disable database query & OVERTEMP LOGIC\n2. 2nd Order Logic testing is used for ease of use. trigger the \"Timing\" you need\n3. First, start with W-FALL-FPH-COOL: get this one right\n4. Next, get W-FALL-ID-IDLEOFF: working nice\n5. 3rd, ~W-FALL-FPH-COOL\n6. 4th, ~W-FALL-ID-IDLEOFF\n7. re-enable database query & OVERTEMP LOGIC",
+        "x": 2340,
+        "y": 770,
+        "wires": []
     },
     {
         "id": "377f1788.fc8a68",
