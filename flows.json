@@ -14996,7 +14996,7 @@
         "x": 8,
         "y": 3,
         "w": 2824,
-        "h": 1090
+        "h": 1114
     },
     {
         "id": "87a8fc6c15760375",
@@ -19438,12 +19438,14 @@
             "7ab6d602c6fd8d68",
             "2d2e793c5bfa62f1",
             "248f1c47771a11e4",
-            "5f0760518d786557"
+            "5f0760518d786557",
+            "8626c7886be7dcc6",
+            "eb17e2f33e70cce1"
         ],
         "x": 1474,
         "y": 919,
         "w": 602,
-        "h": 142
+        "h": 172
     },
     {
         "id": "107fed7c6d26e671",
@@ -151236,7 +151238,8 @@
             "c2d3513425067c26",
             "b3981d578fec7aac",
             "43d40f053949c267",
-            "7658efd4f939e197"
+            "7658efd4f939e197",
+            "eb17e2f33e70cce1"
         ],
         "x": 1475,
         "y": 590,
@@ -157743,7 +157746,7 @@
         "name": "how to tune the Waterfall...",
         "info": "1. Disable database query & OVERTEMP LOGIC\n2. 2nd Order Logic testing is used for ease of use. trigger the \"Timing\" you need\n3. First, start with W-FALL-FPH-COOL: get this one right\n4. Next, get W-FALL-ID-IDLEOFF: working nice\n5. 3rd, ~W-FALL-FPH-COOL\n6. 4th, ~W-FALL-ID-IDLEOFF\n7. re-enable database query & OVERTEMP LOGIC",
         "x": 1610,
-        "y": 1020,
+        "y": 1050,
         "wires": []
     },
     {
@@ -157774,7 +157777,8 @@
             "bcb6506214e51b06",
             "665f8b5614503e44",
             "e5f9db06399b058b",
-            "7ab6d602c6fd8d68"
+            "7ab6d602c6fd8d68",
+            "eb17e2f33e70cce1"
         ],
         "x": 1745,
         "y": 1020,
@@ -157783,6 +157787,47 @@
                 "248f1c47771a11e4"
             ]
         ]
+    },
+    {
+        "id": "8626c7886be7dcc6",
+        "type": "inject",
+        "z": "2468296eb99670b3",
+        "g": "150a2865882fbfd6",
+        "name": "W-FALL-$PH-(!FPH)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "W-FALL-$PH-(!FPH)",
+        "payloadType": "str",
+        "x": 1610,
+        "y": 1020,
+        "wires": [
+            [
+                "eb17e2f33e70cce1"
+            ]
+        ]
+    },
+    {
+        "id": "eb17e2f33e70cce1",
+        "type": "link out",
+        "z": "2468296eb99670b3",
+        "g": "150a2865882fbfd6",
+        "name": "link out 1121",
+        "mode": "link",
+        "links": [
+            "e431f6bb84329430",
+            "5f0760518d786557"
+        ],
+        "x": 1745,
+        "y": 1050,
+        "wires": []
     },
     {
         "id": "377f1788.fc8a68",
