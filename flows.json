@@ -108926,7 +108926,7 @@
         "type": "change",
         "z": "39e932257370a47c",
         "g": "8af5c81c3a9a68d3",
-        "name": "pool_water_temp.fph_outlet_water_temp",
+        "name": "fph_water_temp.fph_outlet_water_temp",
         "rules": [
             {
                 "t": "set",
@@ -109108,7 +109108,7 @@
         "type": "change",
         "z": "39e932257370a47c",
         "g": "8af5c81c3a9a68d3",
-        "name": "pool_water_temp.pool_water_temp",
+        "name": "null= set to inlet water temp until corrected",
         "rules": [
             {
                 "t": "delete",
@@ -109122,9 +109122,9 @@
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.fph_outlet_water_temp",
+                "p": "fph_water_temp.fph_outlet_water_temp",
                 "pt": "global",
-                "to": "pool_water_temp.pool_water_temp",
+                "to": "fph_water_temp.fph_inlet_water_temp",
                 "tot": "global"
             }
         ],
@@ -109133,7 +109133,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 560,
+        "x": 580,
         "y": 540,
         "wires": [
             [
@@ -109493,7 +109493,7 @@
         "type": "change",
         "z": "39e932257370a47c",
         "g": "694a2a1e63df210d",
-        "name": "pool_water_temp.fph_outlet_water_temp",
+        "name": "fph_water_temp.fph_inlet_water_temp",
         "rules": [
             {
                 "t": "set",
@@ -109522,7 +109522,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 580,
+        "x": 570,
         "y": 100,
         "wires": [
             [
@@ -109675,7 +109675,7 @@
         "type": "change",
         "z": "39e932257370a47c",
         "g": "694a2a1e63df210d",
-        "name": "fph_water_temp.fph_inlet_water_temp",
+        "name": "null= set to outlet water temp until corrected",
         "rules": [
             {
                 "t": "delete",
@@ -109700,7 +109700,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
+        "x": 590,
         "y": 160,
         "wires": [
             [
@@ -110021,44 +110021,6 @@
             [
                 "0e68d3e6adf4af82"
             ]
-        ]
-    },
-    {
-        "id": "17faa18a920ee8b0",
-        "type": "mqtt in",
-        "z": "39e932257370a47c",
-        "name": "fph_inlet_temp",
-        "topic": "fph_inlet_temp",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "d1a17316.c56bb",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 1140,
-        "y": 110,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ab138d6697076047",
-        "type": "mqtt in",
-        "z": "39e932257370a47c",
-        "name": "fph_outlet_temp",
-        "topic": "fph_outlet_temp",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "d1a17316.c56bb",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 1150,
-        "y": 490,
-        "wires": [
-            []
         ]
     },
     {
