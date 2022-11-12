@@ -81518,7 +81518,7 @@
             },
             {
                 "t": "set",
-                "p": "Security.Alarm",
+                "p": "Alarm",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
