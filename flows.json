@@ -16612,9 +16612,7 @@
             "b575737b47a2a613",
             "7c44d00edeeb9806",
             "6bd37099ccae0afa",
-            "1e20ce39fdc8df01",
-            "07b904dc7cd3824a",
-            "d6f7a7efa9248b12"
+            "1e20ce39fdc8df01"
         ],
         "x": 34,
         "y": 39,
@@ -21369,7 +21367,9 @@
             "5fd5d0c1b2792674",
             "95cbc61e2e8b96cd",
             "f7aef5e93c8ae44d",
-            "28f00f8eb3820309"
+            "28f00f8eb3820309",
+            "6fd6c0d9a6e6ce0a",
+            "1b94045adfca987a"
         ],
         "x": 32,
         "y": 39,
@@ -23821,7 +23821,7 @@
     {
         "id": "fe897f4cf48cf92c",
         "type": "config-log",
-        "logname": "PoolMode-catch all",
+        "logname": "Shark House-catch all",
         "logdir": "/logs",
         "stamp": "local",
         "logstyle": "plain",
@@ -30421,8 +30421,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 580,
-        "y": 220,
+        "x": 570,
+        "y": 260,
         "wires": []
     },
     {
@@ -30607,8 +30607,7 @@
             [
                 "b9f82583ca836a42",
                 "55a706d0c3b587a8",
-                "6bd37099ccae0afa",
-                "07b904dc7cd3824a"
+                "6bd37099ccae0afa"
             ]
         ]
     },
@@ -32082,69 +32081,6 @@
         "queue": "none",
         "x": 1040,
         "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "07b904dc7cd3824a",
-        "type": "change",
-        "z": "95c2746b.1c9398",
-        "g": "4c4916a840b24609",
-        "name": "NONE",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "NONE",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 260,
-        "wires": [
-            [
-                "d6f7a7efa9248b12"
-            ]
-        ]
-    },
-    {
-        "id": "d6f7a7efa9248b12",
-        "type": "api-call-service",
-        "z": "95c2746b.1c9398",
-        "g": "4c4916a840b24609",
-        "name": "HEAT SELECT?",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "input_select",
-        "service": "select_option",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_select.pool_heat_select"
-        ],
-        "data": "{ \"option\": \"{{payload}}\" }",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "payload.data.option",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "data"
-            }
-        ],
-        "queue": "first",
-        "x": 710,
-        "y": 260,
         "wires": [
             []
         ]
@@ -137293,7 +137229,7 @@
         "g": "9be9eeddc80e20ac",
         "name": "NEED TO DO!!",
         "info": "NEED TO DO:\nFPH + $PH MODE: NEEDS RETESTING, LOTS HAVE CHANGED!!\nSPA Rebuild\nWaterLevel Rebuild\nPool Pump Suction Side air leak: At 3/4\" tee? remove!\nWHY DOES HVAC ACTION: runtime_seconds RESET TO 0 IF I COPY SUB TO FLOW FOR TESTING?\nSET HVAC TEMP MANUALLY WILL PAUSE SCHEDULE. CONTINUES AFTER DARK?\nInfluxDB: create buckets w/ different retention policies\nSkimmer_EOD_RUNTIME clock\nDisable zone automations 12hrs if human interaction present.\nRebuild Motion Multipliers\nGuest Mode= inovelli dimmer interaction in guest or office, sets Guest modes\n\n--------------------------------------------------------------------------------------------\nCOMPLETED BELOW:\n1. MAKE FPH OVERTEMP LOGIC DEFAULT TO FAIL SAFE. \n--THIS IS NOT IDEAL:\n----- IF ANY POOL WATER TEMP PROBES BECOME \"null\"IT TRIGGERS OVERTEMP.\n----- POSSIBLE COULD REWRITE TO LOOK FOR \"null\" AND SHUT OFF FPH: MANUEL/SCHEDULED + NOTIFY IOS\n2. MAKE DAILY SCHEDULE CAPABLE OF BEING MANUELLY SHUTOFF VIA HA\n3. EXPORT FPH DATA TO INFLUXDB\n4.  \"FPH OVERTEMP LOGIC\" ommit from logic: everything except active FPH modes\n5. Securty Flow: \nHave InfluxDB track home state. \nIf I experience a system reboot\n (ie: unraid restart/upgrade) \nThen at NR startup it checks InfluxDB State and doesn't \nUnlock the house because it thinks we just arrived \nHome. We was already home mofo, with house\nLocked!\n6. Monitordatabase function for waterfall\n7. VALVE1:LOGIC-NEED A HALFWAY AKA MAX FLOW SETTING. CURRENTLY: SKIMMER or POOLDRAIN.\n8. PUT FLOW SWITCH INLINE WITH 24VAC FOR HVAC COMPRESSOR. ULTIMATE FAIL SAFE. SEE #4.  \n9. MOUNT TH16 TO WALL.\n10. FIX SPA BLOWER PIPES, FILL FOOTING WITH ROCKS\n11. MORE TESTING ON WITH POOL HEAT/POOL MODES SUBFLOWS\n12. Pool Water Leak: fixed, found spa blower pipes not glued, repaired!\n13. Skimmer: set PoolHeat?:NPH at start, return to previous at finish.\n14. POOL.RELAYS.3 NEES REPLACED! BAD R2\n15. pool.relays.2 Interlock 2,3 // Interlock on\n16. Pool Pump contactor remove Jasco, replace w/ siemens.\n17. FIX SPA HEATER\n18. FIX SPA BOOSTER PUMP. NEED TO REDO CONTACTOR, WAS 24VDC. MAKE IT 24VAC\n19. SONOFF TH16 mount, rewire, soilder temp sensor\n20. Add temp sensor to hvac liquid line\n21. ADD SECOND TEMP SENSOR TO FPH HE. 1 ON WATER IN, 2ND ON WATER OUT. \n\n",
-        "x": 690,
+        "x": 800,
         "y": 80,
         "wires": []
     },
@@ -137717,6 +137653,42 @@
         "x": 990,
         "y": 250,
         "wires": []
+    },
+    {
+        "id": "6fd6c0d9a6e6ce0a",
+        "type": "flogger",
+        "z": "ae087566.f2dff8",
+        "g": "9be9eeddc80e20ac",
+        "name": "Shark House-catch all",
+        "logfile": "Shark House-catch all",
+        "inputchoice": "fullmsg",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
+        "loglevel": "WARN",
+        "logconfig": "fe897f4cf48cf92c",
+        "sendpane": false,
+        "x": 600,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b94045adfca987a",
+        "type": "catch",
+        "z": "ae087566.f2dff8",
+        "g": "9be9eeddc80e20ac",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "6fd6c0d9a6e6ce0a"
+            ]
+        ]
     },
     {
         "id": "c14a00f4.cf197",
