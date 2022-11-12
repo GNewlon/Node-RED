@@ -108335,7 +108335,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "➔➔sensor.pool_temperature is OFFLINE, IS NULL!!!!!",
+                "to": "➔➔sensor.pool_temp is OFFLINE, IS NULL!!!!!",
                 "tot": "str"
             },
             {
