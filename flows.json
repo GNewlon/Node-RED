@@ -62,6 +62,14 @@
         "env": []
     },
     {
+        "id": "1dad2b1491617899",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -15037,7 +15045,9 @@
             "107fed7c6d26e671"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1014,
+        "h": 404
     },
     {
         "id": "ea525825d4e31ecb",
@@ -15425,7 +15435,9 @@
             "c5f0b590552a156d"
         ],
         "x": 244,
-        "y": 29
+        "y": 29,
+        "w": 752,
+        "h": 212
     },
     {
         "id": "12b6c2ef2d0e7667",
@@ -15455,7 +15467,9 @@
             "2addbbdcfb61a9a9"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 202,
+        "h": 352
     },
     {
         "id": "51781ec989a5f891",
@@ -19430,7 +19444,9 @@
             "039a222e410cbb9f"
         ],
         "x": 234,
-        "y": 259
+        "y": 259,
+        "w": 762,
+        "h": 122
     },
     {
         "id": "e73506d4a37b3fa8",
@@ -23703,6 +23719,46 @@
         "y": 329,
         "w": 242,
         "h": 142
+    },
+    {
+        "id": "8d69c43e38ee9204",
+        "type": "group",
+        "z": "1dad2b1491617899",
+        "name": "FREE POOL HEAT",
+        "style": {
+            "stroke": "#7f7f7f",
+            "fill": "#000000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "911ff3478fffed53",
+            "3b4ae544e72a2eda",
+            "172013b0e6653ff5",
+            "e376f0b751a47a9a",
+            "1bb8447fcc3bfca4",
+            "bd0caa7c9cd93d76",
+            "4316b79367488bac",
+            "77f2e9154b7ebd90",
+            "80b84d7249d9f2b6",
+            "af9acd8a072710c3",
+            "7ca2a872842375c3",
+            "6a46bcedd1f91b90",
+            "35aa6053fc27d032",
+            "534ce6e13ca38a84",
+            "e0e650219f016e3e",
+            "ba3f37a375a9cf65",
+            "9defc4d4fb952dc6",
+            "0a3aae28948dfa1d",
+            "0777a1af460beb31",
+            "f2c5f7766359e0c7",
+            "216f29101367a608"
+        ],
+        "x": 4,
+        "y": 59,
+        "w": 1182,
+        "h": 232
     },
     {
         "id": "d1a17316.c56bb",
@@ -104935,7 +104991,8 @@
             "38f01c07962824d6",
             "978204263982a08b",
             "10d21ee6be4708ae",
-            "7e3afcb34a38ecf6"
+            "7e3afcb34a38ecf6",
+            "172013b0e6653ff5"
         ],
         "x": 415,
         "y": 430,
@@ -105768,7 +105825,8 @@
         "name": "Test Values",
         "mode": "link",
         "links": [
-            "1a644a2319ea25ba"
+            "1a644a2319ea25ba",
+            "7ca2a872842375c3"
         ],
         "x": 245,
         "y": 390,
@@ -158017,6 +158075,550 @@
         "wires": [
             [
                 "49e347a6.53fc58"
+            ]
+        ]
+    },
+    {
+        "id": "911ff3478fffed53",
+        "type": "change",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "NPH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NPH",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 140,
+        "wires": [
+            [
+                "e376f0b751a47a9a"
+            ]
+        ]
+    },
+    {
+        "id": "3b4ae544e72a2eda",
+        "type": "change",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "FPH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "FPH",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "FPH",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "e376f0b751a47a9a"
+            ]
+        ]
+    },
+    {
+        "id": "172013b0e6653ff5",
+        "type": "link out",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3c537da7b8ba7af2",
+            "8496fcb7b65364e4"
+        ],
+        "x": 1095,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e376f0b751a47a9a",
+        "type": "gate",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "HE TEMP OK",
+        "controlTopic": "FPH-η",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": true,
+        "storeName": "default",
+        "x": 880,
+        "y": 120,
+        "wires": [
+            [
+                "172013b0e6653ff5"
+            ]
+        ]
+    },
+    {
+        "id": "1bb8447fcc3bfca4",
+        "type": "gate",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "HE OVERTEMP",
+        "controlTopic": "FPH-η",
+        "defaultState": "closed",
+        "openCmd": "close",
+        "closeCmd": "open",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": true,
+        "storeName": "default",
+        "x": 880,
+        "y": 180,
+        "wires": [
+            [
+                "172013b0e6653ff5",
+                "4316b79367488bac"
+            ]
+        ]
+    },
+    {
+        "id": "bd0caa7c9cd93d76",
+        "type": "debug",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "FPH ALARM!!!!!",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 250,
+        "wires": []
+    },
+    {
+        "id": "4316b79367488bac",
+        "type": "change",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "comms",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "➔➔➔➔➔➔➔➔FPH ALARM MODE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 250,
+        "wires": [
+            [
+                "bd0caa7c9cd93d76"
+            ]
+        ]
+    },
+    {
+        "id": "77f2e9154b7ebd90",
+        "type": "gate",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "ON",
+        "controlTopic": "control",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": true,
+        "storeName": "default",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "534ce6e13ca38a84"
+            ]
+        ]
+    },
+    {
+        "id": "80b84d7249d9f2b6",
+        "type": "inject",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "HEAT SELECT-on",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "control",
+        "payload": "open",
+        "payloadType": "str",
+        "x": 160,
+        "y": 130,
+        "wires": [
+            [
+                "77f2e9154b7ebd90"
+            ]
+        ]
+    },
+    {
+        "id": "af9acd8a072710c3",
+        "type": "inject",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "HEAT SELECT-off",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "control",
+        "payload": "close",
+        "payloadType": "str",
+        "x": 150,
+        "y": 190,
+        "wires": [
+            [
+                "77f2e9154b7ebd90",
+                "e0e650219f016e3e"
+            ]
+        ]
+    },
+    {
+        "id": "7ca2a872842375c3",
+        "type": "link in",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "Test Values",
+        "links": [
+            "d0c4927a10f1b8f1",
+            "98babd23061d804c"
+        ],
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "77f2e9154b7ebd90"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "6a46bcedd1f91b90",
+        "type": "poll-state",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "input_select.pool_fph_set_max_temp",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "10",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "input_select.pool_fph_set_max_temp",
+        "state_type": "str",
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 190,
+        "y": 250,
+        "wires": [
+            [
+                "35aa6053fc27d032",
+                "ba3f37a375a9cf65"
+            ]
+        ]
+    },
+    {
+        "id": "35aa6053fc27d032",
+        "type": "change",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "FPH- MAX TEMP",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "pool_water_temp.set_max_temp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 210,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "534ce6e13ca38a84",
+        "type": "switch",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "max_temp",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "pool_water_temp.pool_temp-1",
+                "v2t": "global"
+            },
+            {
+                "t": "gt",
+                "v": "pool_water_temp.pool_temp",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 100,
+        "wires": [
+            [
+                "3b4ae544e72a2eda"
+            ],
+            [
+                "911ff3478fffed53"
+            ]
+        ],
+        "outputLabels": [
+            "0-95°",
+            ">96°"
+        ]
+    },
+    {
+        "id": "e0e650219f016e3e",
+        "type": "switch",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "OFF?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OFF",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 160,
+        "wires": [
+            [
+                "911ff3478fffed53"
+            ]
+        ]
+    },
+    {
+        "id": "ba3f37a375a9cf65",
+        "type": "calculator",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "sub",
+        "constant": "0.75",
+        "round": false,
+        "decimals": 0,
+        "x": 470,
+        "y": 250,
+        "wires": [
+            [
+                "9defc4d4fb952dc6"
+            ]
+        ]
+    },
+    {
+        "id": "9defc4d4fb952dc6",
+        "type": "change",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "pool_water_temp.set_max_temp-1",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "pool_water_temp.set_max_temp-1",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 250,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a3aae28948dfa1d",
+        "type": "subflow:d7e47fdfeb813e69",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "77f2e9154b7ebd90"
+            ],
+            [
+                "e0e650219f016e3e"
+            ]
+        ]
+    },
+    {
+        "id": "0777a1af460beb31",
+        "type": "poll-state",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "sensor.pool_temp",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "5",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": false,
+        "outputonchanged": true,
+        "entity_id": "sensor.pool_temp",
+        "state_type": "num",
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "77f2e9154b7ebd90"
+            ]
+        ]
+    },
+    {
+        "id": "f2c5f7766359e0c7",
+        "type": "comment",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "PoolHeat?",
+        "info": "**PoolHeat?:**\nThis flow answers the question: PoolHeat?\n**3 CONDITIONS:**\n1. HVAC State\n2. FPH HEAT SELECT\n3. $PH HEAT SELECT\n**OUTPUT:**\nFPH\nHOT\nIDLE\nNPH\n$PH\n**Used next in flow: PoolLogic**\nPoolHeat + PoolLogic= Actions/Movements\nConditions:\n1. PoolHeat State\n2. HVAC States\n3. Pool State\n\n\n\n",
+        "x": 1050,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "216f29101367a608",
+        "type": "subflow:e0d8d690bc05acc2",
+        "z": "1dad2b1491617899",
+        "g": "8d69c43e38ee9204",
+        "name": "",
+        "x": 660,
+        "y": 180,
+        "wires": [
+            [
+                "e376f0b751a47a9a",
+                "1bb8447fcc3bfca4"
             ]
         ]
     }
