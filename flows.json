@@ -81515,6 +81515,13 @@
                 "pt": "msg",
                 "to": "payload",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "Security.Alarm",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
             }
         ],
         "action": "",
