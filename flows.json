@@ -14121,7 +14121,9 @@
             "779d99a235a9af60"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1300,
+        "h": 920
     },
     {
         "id": "fedaed89c917c4ca",
@@ -14761,11 +14763,13 @@
             "ecc525d6e63540c5",
             "d08358024988789c",
             "b73cd2be3c634055",
-            "cf37ac6cd1610b8e"
+            "cf37ac6cd1610b8e",
+            "a6af50a487e97eba",
+            "0be5fe08099ea18a"
         ],
         "x": 8,
         "y": 9,
-        "w": 968,
+        "w": 1048,
         "h": 388
     },
     {
@@ -14798,10 +14802,14 @@
             "610e4a43e2cb9a33",
             "4050130592bf6b45",
             "ab42128d370328b0",
-            "faf2cf33ed7022a3"
+            "faf2cf33ed7022a3",
+            "6078294c7c0d1f8d",
+            "af4df1187624b9fb"
         ],
         "x": 1.3333282470703125,
-        "y": 389
+        "y": 389,
+        "w": 984.6666717529297,
+        "h": 380.2221984863281
     },
     {
         "id": "c55a686f9e9f2866",
@@ -15416,10 +15424,14 @@
             "b19d27352ca42ec6",
             "87661306831cbe7c",
             "7138b560c0db6570",
-            "49d5dedabc9a70be"
+            "49d5dedabc9a70be",
+            "2427d537712bd0b1",
+            "0a122c430d1fe11b"
         ],
         "x": 1.3333282470703125,
-        "y": 9
+        "y": 9,
+        "w": 984.6666717529297,
+        "h": 380.2221984863281
     },
     {
         "id": "bfb09350629d2980",
@@ -16594,7 +16606,9 @@
             "6219f0fcb6a0e78c"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 582,
+        "h": 212
     },
     {
         "id": "4c4916a840b24609",
@@ -17445,7 +17459,9 @@
             "4333a8690a3d7ee5"
         ],
         "x": 624,
-        "y": 29
+        "y": 29,
+        "w": 592,
+        "h": 212
     },
     {
         "id": "779d99a235a9af60",
@@ -17468,7 +17484,9 @@
             "7c2c776c46d9a0bd"
         ],
         "x": 58,
-        "y": 253
+        "y": 253,
+        "w": 1224,
+        "h": 644
     },
     {
         "id": "c1e87bc6.91e8d8",
@@ -18008,7 +18026,9 @@
             "d22b7eda7624ca10"
         ],
         "x": 27.333328247070312,
-        "y": 571.2221984863281
+        "y": 571.2221984863281,
+        "w": 262,
+        "h": 172
     },
     {
         "id": "c36d1a1b13cf7bcf",
@@ -20246,7 +20266,9 @@
             "6901a0b93e99d7f2"
         ],
         "x": 27.333328247070312,
-        "y": 191.22219848632812
+        "y": 191.22219848632812,
+        "w": 262,
+        "h": 172
     },
     {
         "id": "edd4a16e.de4ec",
@@ -20701,7 +20723,9 @@
             "0880a675f92ea4ed"
         ],
         "x": 274,
-        "y": 279
+        "y": 279,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "3d90fd494b70eba4",
@@ -20730,7 +20754,9 @@
             "62baa69cd09b071f"
         ],
         "x": 734,
-        "y": 579
+        "y": 579,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "4af5c8c808af936c",
@@ -20760,7 +20786,9 @@
             "fe0ff849bc6fc38e"
         ],
         "x": 734,
-        "y": 279
+        "y": 279,
+        "w": 522,
+        "h": 292
     },
     {
         "id": "f20a153b6b583aa0",
@@ -20788,7 +20816,9 @@
             "0bfd35412d6f0764"
         ],
         "x": 274,
-        "y": 579
+        "y": 579,
+        "w": 452,
+        "h": 192
     },
     {
         "id": "861a54a9f1bb8060",
@@ -20978,7 +21008,9 @@
             "97f60f41c9aa6ad4"
         ],
         "x": 84,
-        "y": 279
+        "y": 279,
+        "w": 172,
+        "h": 412
     },
     {
         "id": "8c326bc2b25940ea",
@@ -74504,8 +74536,8 @@
         "type": "mqtt in",
         "z": "27b1e26e7c8fe1f7",
         "g": "f20a153b6b583aa0",
-        "name": "pool_water_temp.pool_water_temp",
-        "topic": "pool.temp-2",
+        "name": "pool_temp",
+        "topic": "pool_temp",
         "qos": "0",
         "datatype": "auto",
         "broker": "d1a17316.c56bb",
@@ -74513,7 +74545,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 440,
+        "x": 360,
         "y": 620,
         "wires": [
             [
@@ -108232,7 +108264,7 @@
         "type": "debug",
         "z": "9217e06958f8ffd3",
         "g": "889ee9329c9ca70c",
-        "name": "pool_water_temp.fph_outlet_water_temp",
+        "name": "pool_water_temp.pool_temp",
         "active": true,
         "tosidebar": false,
         "console": false,
@@ -108241,7 +108273,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 560,
+        "x": 520,
         "y": 170,
         "wires": []
     },
@@ -108250,7 +108282,7 @@
         "type": "debug",
         "z": "9217e06958f8ffd3",
         "g": "889ee9329c9ca70c",
-        "name": "pool_water_temp.pool_water_temp",
+        "name": "pool_water_temp.pool_temp",
         "active": true,
         "tosidebar": false,
         "console": false,
@@ -108259,7 +108291,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 540,
+        "x": 520,
         "y": 110,
         "wires": []
     },
@@ -108268,8 +108300,8 @@
         "type": "mqtt out",
         "z": "9217e06958f8ffd3",
         "g": "889ee9329c9ca70c",
-        "name": "pool_water_temp",
-        "topic": "pool_water_temp",
+        "name": "pool_temp",
+        "topic": "pool_temp",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -108278,7 +108310,7 @@
         "correl": "",
         "expiry": "",
         "broker": "d1a17316.c56bb",
-        "x": 860,
+        "x": 840,
         "y": 120,
         "wires": [],
         "icon": "font-awesome/fa-flash"
@@ -108326,7 +108358,7 @@
         "type": "change",
         "z": "9217e06958f8ffd3",
         "g": "889ee9329c9ca70c",
-        "name": "pool_water_temp.pool_water_temp",
+        "name": "pool_water_temp.pool_temp",
         "rules": [
             {
                 "t": "set",
@@ -108337,7 +108369,7 @@
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.pool_water_temp",
+                "p": "pool_water_temp.pool_temp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -108348,7 +108380,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 540,
+        "x": 520,
         "y": 110,
         "wires": [
             [
@@ -108388,9 +108420,9 @@
                 "d08358024988789c"
             ],
             [
-                "484a2de33861a4f9",
                 "aedf9751d9e4c792",
-                "b73cd2be3c634055"
+                "b73cd2be3c634055",
+                "a6af50a487e97eba"
             ]
         ]
     },
@@ -108421,7 +108453,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
+        "x": 570,
         "y": 270,
         "wires": [
             [
@@ -108443,7 +108475,7 @@
         "septopics": false,
         "property": "payload",
         "topi": "topic",
-        "x": 600,
+        "x": 690,
         "y": 230,
         "wires": [
             [
@@ -108474,7 +108506,7 @@
         "queue": "none",
         "output_location": "",
         "output_location_type": "none",
-        "x": 820,
+        "x": 910,
         "y": 210,
         "wires": [
             []
@@ -108494,7 +108526,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 750,
+        "x": 840,
         "y": 260,
         "wires": []
     },
@@ -108503,7 +108535,7 @@
         "type": "change",
         "z": "9217e06958f8ffd3",
         "g": "889ee9329c9ca70c",
-        "name": "pool_water_temp.fph_outlet_water_temp",
+        "name": "pool_water_temp.pool_temp",
         "rules": [
             {
                 "t": "delete",
@@ -108517,10 +108549,10 @@
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.pool_water_temp",
+                "p": "pool_water_temp.pool_temp",
                 "pt": "global",
-                "to": "pool_water_temp.fph_outlet_water_temp",
-                "tot": "global"
+                "to": "payload",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -108528,7 +108560,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 560,
+        "x": 520,
         "y": 170,
         "wires": [
             [
@@ -108572,7 +108604,7 @@
         "links": [
             "eef9c6b0ba5cae5b"
         ],
-        "x": 555,
+        "x": 645,
         "y": 310,
         "wires": []
     },
@@ -108586,7 +108618,7 @@
             "44b92019023dbda5",
             "4ec0fcea852a3ff5"
         ],
-        "x": 485,
+        "x": 575,
         "y": 230,
         "wires": [
             [
@@ -108737,7 +108769,8 @@
         "name": "link out 36",
         "mode": "link",
         "links": [
-            "817535a61fb0e524"
+            "817535a61fb0e524",
+            "0be5fe08099ea18a"
         ],
         "x": 245,
         "y": 330,
@@ -108751,7 +108784,8 @@
         "name": "RESET",
         "mode": "link",
         "links": [
-            "817535a61fb0e524"
+            "817535a61fb0e524",
+            "0be5fe08099ea18a"
         ],
         "x": 565,
         "y": 70,
@@ -108824,6 +108858,50 @@
         ]
     },
     {
+        "id": "a6af50a487e97eba",
+        "type": "trigger",
+        "z": "9217e06958f8ffd3",
+        "g": "889ee9329c9ca70c",
+        "name": "30s",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "30",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 450,
+        "y": 270,
+        "wires": [
+            [
+                "484a2de33861a4f9"
+            ]
+        ]
+    },
+    {
+        "id": "0be5fe08099ea18a",
+        "type": "link in",
+        "z": "9217e06958f8ffd3",
+        "g": "889ee9329c9ca70c",
+        "name": "link in 1035",
+        "links": [
+            "44b92019023dbda5",
+            "4ec0fcea852a3ff5"
+        ],
+        "x": 365,
+        "y": 270,
+        "wires": [
+            [
+                "a6af50a487e97eba"
+            ]
+        ]
+    },
+    {
         "id": "fcb631f4cf3912bc",
         "type": "mqtt out",
         "z": "39e932257370a47c",
@@ -108859,14 +108937,14 @@
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.fph_outlet_water_temp",
+                "p": "fph_water_temp.fph_outlet_water_temp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.null",
+                "p": "fph_water_temp.null",
                 "pt": "global",
                 "to": "false",
                 "tot": "bool"
@@ -108916,8 +108994,8 @@
                 "4050130592bf6b45"
             ],
             [
-                "097edb800f3cb923",
-                "7e7b5dc18b6d9e42"
+                "7e7b5dc18b6d9e42",
+                "6078294c7c0d1f8d"
             ]
         ]
     },
@@ -108948,8 +109026,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 473.3333282470703,
-        "y": 642.2221984863281,
+        "x": 573.3333282470703,
+        "y": 662.2221984863281,
         "wires": [
             [
                 "9c32cf5373731450",
@@ -109099,8 +109177,8 @@
         "links": [
             "db4976842f410407"
         ],
-        "x": 575,
-        "y": 650,
+        "x": 675,
+        "y": 670,
         "wires": []
     },
     {
@@ -109165,7 +109243,8 @@
         "g": "8af5c81c3a9a68d3",
         "name": "link in 33",
         "links": [
-            "d22b7eda7624ca10"
+            "d22b7eda7624ca10",
+            "ab42128d370328b0"
         ],
         "x": 498.3333282470703,
         "y": 602.2221984863281,
@@ -109301,7 +109380,8 @@
         "name": "link out 34",
         "mode": "link",
         "links": [
-            "610e4a43e2cb9a33"
+            "610e4a43e2cb9a33",
+            "af4df1187624b9fb"
         ],
         "x": 248.3333282470703,
         "y": 702.2221984863281,
@@ -109359,7 +109439,10 @@
         "g": "8af5c81c3a9a68d3",
         "name": "RESET",
         "mode": "link",
-        "links": [],
+        "links": [
+            "610e4a43e2cb9a33",
+            "af4df1187624b9fb"
+        ],
         "x": 575,
         "y": 440,
         "wires": []
@@ -109421,14 +109504,14 @@
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.fph_inlet_water_temp",
+                "p": "fph_water_temp.fph_inlet_water_temp",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.null",
+                "p": "fph_water_temp.null",
                 "pt": "global",
                 "to": "false",
                 "tot": "bool"
@@ -109478,8 +109561,8 @@
                 "87661306831cbe7c"
             ],
             [
-                "6ce0706199337c5c",
-                "d78e4ed8b328e2a1"
+                "d78e4ed8b328e2a1",
+                "2427d537712bd0b1"
             ]
         ]
     },
@@ -109510,8 +109593,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 473.3333282470703,
-        "y": 262.2221984863281,
+        "x": 560,
+        "y": 280,
         "wires": [
             [
                 "2a671e746cc9a25c",
@@ -109592,7 +109675,7 @@
         "type": "change",
         "z": "39e932257370a47c",
         "g": "694a2a1e63df210d",
-        "name": "pool_water_temp.pool_water_temp",
+        "name": "fph_water_temp.fph_inlet_water_temp",
         "rules": [
             {
                 "t": "delete",
@@ -109606,9 +109689,9 @@
             },
             {
                 "t": "set",
-                "p": "pool_water_temp.fph_outlet_water_temp",
+                "p": "fph_water_temp.fph_inlet_water_temp",
                 "pt": "global",
-                "to": "pool_water_temp.pool_water_temp",
+                "to": "fph_water_temp.fph_outlet_water_temp",
                 "tot": "global"
             }
         ],
@@ -109617,7 +109700,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 560,
+        "x": 570,
         "y": 160,
         "wires": [
             [
@@ -109657,8 +109740,8 @@
         "name": "TEMPORARYLY SET VALUE AS POOW WATER TEMP. THIS WAY WE DON'T FALSLY TRIGGER OVERTEMP LOGIC",
         "mode": "link",
         "links": [],
-        "x": 575,
-        "y": 270,
+        "x": 665,
+        "y": 280,
         "wires": []
     },
     {
@@ -109848,7 +109931,9 @@
         "z": "39e932257370a47c",
         "g": "694a2a1e63df210d",
         "name": "link in 1025",
-        "links": [],
+        "links": [
+            "7138b560c0db6570"
+        ],
         "x": 498.3333282470703,
         "y": 222.22219848632812,
         "wires": [
@@ -109909,7 +109994,10 @@
         "g": "694a2a1e63df210d",
         "name": "RESET",
         "mode": "link",
-        "links": [],
+        "links": [
+            "b19d27352ca42ec6",
+            "0a122c430d1fe11b"
+        ],
         "x": 575,
         "y": 60,
         "wires": []
@@ -109971,6 +110059,93 @@
         "y": 490,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "2427d537712bd0b1",
+        "type": "trigger",
+        "z": "39e932257370a47c",
+        "g": "694a2a1e63df210d",
+        "name": "30s",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "30",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "6ce0706199337c5c"
+            ]
+        ]
+    },
+    {
+        "id": "6078294c7c0d1f8d",
+        "type": "trigger",
+        "z": "39e932257370a47c",
+        "g": "8af5c81c3a9a68d3",
+        "name": "30s",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "30",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 450,
+        "y": 660,
+        "wires": [
+            [
+                "097edb800f3cb923"
+            ]
+        ]
+    },
+    {
+        "id": "af4df1187624b9fb",
+        "type": "link in",
+        "z": "39e932257370a47c",
+        "g": "8af5c81c3a9a68d3",
+        "name": "link in 1036",
+        "links": [
+            "d22b7eda7624ca10",
+            "ab42128d370328b0"
+        ],
+        "x": 345,
+        "y": 660,
+        "wires": [
+            [
+                "6078294c7c0d1f8d"
+            ]
+        ]
+    },
+    {
+        "id": "0a122c430d1fe11b",
+        "type": "link in",
+        "z": "39e932257370a47c",
+        "g": "694a2a1e63df210d",
+        "name": "link in 1037",
+        "links": [
+            "7138b560c0db6570"
+        ],
+        "x": 335,
+        "y": 280,
+        "wires": [
+            [
+                "2427d537712bd0b1"
+            ]
         ]
     },
     {
