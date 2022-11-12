@@ -19437,12 +19437,14 @@
             "e5f9db06399b058b",
             "0c8c8f80ff570332",
             "7ab6d602c6fd8d68",
-            "2d2e793c5bfa62f1"
+            "2d2e793c5bfa62f1",
+            "248f1c47771a11e4",
+            "5f0760518d786557"
         ],
-        "x": 2144,
-        "y": 579,
+        "x": 2134,
+        "y": 619,
         "w": 612,
-        "h": 142
+        "h": 172
     },
     {
         "id": "107fed7c6d26e671",
@@ -150624,10 +150626,11 @@
         "name": "link out 951",
         "mode": "link",
         "links": [
-            "474e5d87ff7da562"
+            "474e5d87ff7da562",
+            "5f0760518d786557"
         ],
-        "x": 2425,
-        "y": 650,
+        "x": 2415,
+        "y": 690,
         "wires": []
     },
     {
@@ -150638,10 +150641,11 @@
         "name": "link out 952",
         "mode": "link",
         "links": [
-            "ae12c628e40a2c30"
+            "ae12c628e40a2c30",
+            "5f0760518d786557"
         ],
-        "x": 2425,
-        "y": 680,
+        "x": 2415,
+        "y": 720,
         "wires": []
     },
     {
@@ -150652,10 +150656,11 @@
         "name": "link out 953",
         "mode": "link",
         "links": [
-            "3b97a670e87c27e0"
+            "3b97a670e87c27e0",
+            "5f0760518d786557"
         ],
-        "x": 2715,
-        "y": 680,
+        "x": 2705,
+        "y": 720,
         "wires": []
     },
     {
@@ -150666,10 +150671,11 @@
         "name": "link out 954",
         "mode": "link",
         "links": [
-            "2a02969410e869f6"
+            "2a02969410e869f6",
+            "5f0760518d786557"
         ],
-        "x": 2715,
-        "y": 650,
+        "x": 2705,
+        "y": 690,
         "wires": []
     },
     {
@@ -157446,8 +157452,8 @@
         "topic": "",
         "payload": "W-FALL-ID-IDLEOFF",
         "payloadType": "str",
-        "x": 2300,
-        "y": 680,
+        "x": 2290,
+        "y": 720,
         "wires": [
             [
                 "bcb6506214e51b06"
@@ -157472,8 +157478,8 @@
         "topic": "",
         "payload": "W-FALL-FPH-COOL",
         "payloadType": "str",
-        "x": 2290,
-        "y": 650,
+        "x": 2280,
+        "y": 690,
         "wires": [
             [
                 "665f8b5614503e44"
@@ -157498,8 +157504,8 @@
         "topic": "",
         "payload": "~W-FALL-ID-IDLEOFF",
         "payloadType": "str",
-        "x": 2580,
-        "y": 680,
+        "x": 2570,
+        "y": 720,
         "wires": [
             [
                 "e5f9db06399b058b"
@@ -157524,8 +157530,8 @@
         "topic": "",
         "payload": "~W-FALL-FPH-COOL",
         "payloadType": "str",
-        "x": 2580,
-        "y": 650,
+        "x": 2570,
+        "y": 690,
         "wires": [
             [
                 "7ab6d602c6fd8d68"
@@ -157782,9 +157788,47 @@
         "g": "150a2865882fbfd6",
         "name": "how to tune the Waterfall...",
         "info": "1. Disable database query & OVERTEMP LOGIC\n2. 2nd Order Logic testing is used for ease of use. trigger the \"Timing\" you need\n3. First, start with W-FALL-FPH-COOL: get this one right\n4. Next, get W-FALL-ID-IDLEOFF: working nice\n5. 3rd, ~W-FALL-FPH-COOL\n6. 4th, ~W-FALL-ID-IDLEOFF\n7. re-enable database query & OVERTEMP LOGIC",
-        "x": 2280,
-        "y": 620,
+        "x": 2270,
+        "y": 660,
         "wires": []
+    },
+    {
+        "id": "248f1c47771a11e4",
+        "type": "debug",
+        "z": "2468296eb99670b3",
+        "g": "150a2865882fbfd6",
+        "name": "2nd Order Logic testing",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2550,
+        "y": 750,
+        "wires": []
+    },
+    {
+        "id": "5f0760518d786557",
+        "type": "link in",
+        "z": "2468296eb99670b3",
+        "g": "150a2865882fbfd6",
+        "name": "link in 1038",
+        "links": [
+            "bcb6506214e51b06",
+            "665f8b5614503e44",
+            "e5f9db06399b058b",
+            "7ab6d602c6fd8d68"
+        ],
+        "x": 2415,
+        "y": 750,
+        "wires": [
+            [
+                "248f1c47771a11e4"
+            ]
+        ]
     },
     {
         "id": "377f1788.fc8a68",
