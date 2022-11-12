@@ -106391,7 +106391,7 @@
                 "t": "move",
                 "p": "payload",
                 "pt": "msg",
-                "to": "pool_water_temp.fph_set_max_temp",
+                "to": "pool_water_temp.pool_temp",
                 "tot": "global"
             }
         ],
@@ -106419,12 +106419,12 @@
                 "t": "btwn",
                 "v": "0",
                 "vt": "num",
-                "v2": "pool_water_temp.fph_set_max_temp-1",
+                "v2": "pool_water_temp.pool_temp-1",
                 "v2t": "global"
             },
             {
                 "t": "gt",
-                "v": "pool_water_temp.fph_set_max_temp",
+                "v": "pool_water_temp.pool_temp",
                 "vt": "global"
             }
         ],
@@ -106497,13 +106497,13 @@
         "type": "change",
         "z": "19b4811425830de4",
         "g": "73152eaa0a651204",
-        "name": "pool_fph_set_max_temp-1",
+        "name": "pool_water_temp.pool_temp-1",
         "rules": [
             {
                 "t": "move",
                 "p": "payload",
                 "pt": "msg",
-                "to": "pool_water_temp.fph_set_max_temp-1",
+                "to": "pool_water_temp.pool_temp-1",
                 "tot": "global"
             }
         ],
@@ -106512,7 +106512,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 700,
+        "x": 710,
         "y": 220,
         "wires": [
             []
@@ -108030,7 +108030,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "pool.temp-2",
+                "to": "pool_temp",
                 "tot": "str"
             },
             {
