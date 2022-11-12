@@ -17744,14 +17744,14 @@
             "1a644a2319ea25ba",
             "b8ada5a55d50cebe",
             "8ca619e2cf826832",
-            "5a9b5f2b3bf603e2",
             "898943387f137ef1",
             "7e8e16282dab59f4",
             "11736eca69d3d880",
             "dbc15a24368d3d6d",
             "ce0208f4955a6515",
             "f1e255cc5aeb90b0",
-            "d11ce2ed75793122"
+            "d11ce2ed75793122",
+            "948d7536bf5520b7"
         ],
         "x": 34,
         "y": 29,
@@ -23757,8 +23757,8 @@
             "695636b8d44afa8d",
             "3133d2eb61846f1f"
         ],
-        "x": 14,
-        "y": -11,
+        "x": 4,
+        "y": 9,
         "w": 1172,
         "h": 302
     },
@@ -106317,7 +106317,7 @@
         "y": 110,
         "wires": [
             [
-                "5a9b5f2b3bf603e2"
+                "948d7536bf5520b7"
             ]
         ]
     },
@@ -106464,46 +106464,6 @@
         "y": 180,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "5a9b5f2b3bf603e2",
-        "type": "switch",
-        "z": "19b4811425830de4",
-        "g": "73152eaa0a651204",
-        "name": "max_temp",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "btwn",
-                "v": "0",
-                "vt": "num",
-                "v2": "pool_water_temp.pool_temp-1",
-                "v2t": "global"
-            },
-            {
-                "t": "gt",
-                "v": "pool_water_temp.pool_temp",
-                "vt": "global"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 520,
-        "y": 70,
-        "wires": [
-            [
-                "31769e5aded481a6"
-            ],
-            [
-                "24a6072558ae3556"
-            ]
-        ],
-        "outputLabels": [
-            "0-95°",
-            ">96°"
         ]
     },
     {
@@ -107148,6 +107108,46 @@
         "x": 1420,
         "y": 360,
         "wires": []
+    },
+    {
+        "id": "948d7536bf5520b7",
+        "type": "switch",
+        "z": "19b4811425830de4",
+        "g": "73152eaa0a651204",
+        "name": "max_temp",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "pool_water_temp.set_max_temp-1",
+                "v2t": "global"
+            },
+            {
+                "t": "gt",
+                "v": "pool_water_temp.set_max_temp",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 520,
+        "y": 80,
+        "wires": [
+            [
+                "31769e5aded481a6"
+            ],
+            [
+                "24a6072558ae3556"
+            ]
+        ],
+        "outputLabels": [
+            "0-95°",
+            ">96°"
+        ]
     },
     {
         "id": "7d5cb469dad0f891",
@@ -158107,8 +158107,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 140,
+        "x": 660,
+        "y": 160,
         "wires": [
             [
                 "e376f0b751a47a9a",
@@ -158143,8 +158143,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 80,
+        "x": 660,
+        "y": 100,
         "wires": [
             [
                 "e376f0b751a47a9a",
@@ -158163,8 +158163,8 @@
             "3c537da7b8ba7af2",
             "8496fcb7b65364e4"
         ],
-        "x": 1095,
-        "y": 120,
+        "x": 1085,
+        "y": 140,
         "wires": []
     },
     {
@@ -158182,8 +158182,8 @@
         "statusCmd": "status",
         "persist": true,
         "storeName": "default",
-        "x": 880,
-        "y": 120,
+        "x": 870,
+        "y": 140,
         "wires": [
             [
                 "172013b0e6653ff5"
@@ -158205,8 +158205,8 @@
         "statusCmd": "status",
         "persist": true,
         "storeName": "default",
-        "x": 880,
-        "y": 180,
+        "x": 870,
+        "y": 200,
         "wires": [
             [
                 "172013b0e6653ff5",
@@ -158228,8 +158228,8 @@
         "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1060,
-        "y": 250,
+        "x": 1050,
+        "y": 270,
         "wires": []
     },
     {
@@ -158257,8 +158257,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 250,
+        "x": 890,
+        "y": 270,
         "wires": [
             [
                 "bd0caa7c9cd93d76"
@@ -158280,8 +158280,8 @@
         "statusCmd": "status",
         "persist": true,
         "storeName": "default",
-        "x": 350,
-        "y": 140,
+        "x": 340,
+        "y": 160,
         "wires": [
             [
                 "534ce6e13ca38a84"
@@ -158310,8 +158310,8 @@
         "topic": "control",
         "payload": "open",
         "payloadType": "str",
-        "x": 160,
-        "y": 130,
+        "x": 150,
+        "y": 150,
         "wires": [
             [
                 "77f2e9154b7ebd90"
@@ -158340,8 +158340,8 @@
         "topic": "control",
         "payload": "close",
         "payloadType": "str",
-        "x": 150,
-        "y": 190,
+        "x": 140,
+        "y": 210,
         "wires": [
             [
                 "77f2e9154b7ebd90",
@@ -158356,8 +158356,8 @@
         "g": "8d69c43e38ee9204",
         "name": "Test Values",
         "links": [],
-        "x": 140,
-        "y": 160,
+        "x": 130,
+        "y": 180,
         "wires": [
             [
                 "77f2e9154b7ebd90"
@@ -158395,8 +158395,8 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 190,
-        "y": 250,
+        "x": 180,
+        "y": 270,
         "wires": [
             [
                 "35aa6053fc27d032",
@@ -158424,8 +158424,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
-        "y": 210,
+        "x": 470,
+        "y": 230,
         "wires": [
             []
         ]
@@ -158455,8 +158455,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 490,
-        "y": 100,
+        "x": 480,
+        "y": 120,
         "wires": [
             [
                 "3b4ae544e72a2eda",
@@ -158490,8 +158490,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 480,
-        "y": 160,
+        "x": 470,
+        "y": 180,
         "wires": [
             [
                 "911ff3478fffed53"
@@ -158510,8 +158510,8 @@
         "constant": "0.75",
         "round": false,
         "decimals": 0,
-        "x": 470,
-        "y": 250,
+        "x": 460,
+        "y": 270,
         "wires": [
             [
                 "9defc4d4fb952dc6"
@@ -158538,8 +158538,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 690,
-        "y": 250,
+        "x": 680,
+        "y": 270,
         "wires": [
             []
         ]
@@ -158550,8 +158550,8 @@
         "z": "1dad2b1491617899",
         "g": "8d69c43e38ee9204",
         "name": "",
-        "x": 130,
-        "y": 220,
+        "x": 120,
+        "y": 240,
         "wires": [
             [
                 "77f2e9154b7ebd90"
@@ -158591,8 +158591,8 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 140,
-        "y": 70,
+        "x": 130,
+        "y": 90,
         "wires": [
             [
                 "77f2e9154b7ebd90"
@@ -158606,8 +158606,8 @@
         "g": "8d69c43e38ee9204",
         "name": "PoolHeat?",
         "info": "**PoolHeat?:**\nThis flow answers the question: PoolHeat?\n**3 CONDITIONS:**\n1. HVAC State\n2. FPH HEAT SELECT\n3. $PH HEAT SELECT\n**OUTPUT:**\nFPH\nHOT\nIDLE\nNPH\n$PH\n**Used next in flow: PoolLogic**\nPoolHeat + PoolLogic= Actions/Movements\nConditions:\n1. PoolHeat State\n2. HVAC States\n3. Pool State\n\n\n\n",
-        "x": 1050,
-        "y": 190,
+        "x": 1040,
+        "y": 210,
         "wires": []
     },
     {
@@ -158616,8 +158616,8 @@
         "z": "1dad2b1491617899",
         "g": "8d69c43e38ee9204",
         "name": "",
-        "x": 660,
-        "y": 180,
+        "x": 650,
+        "y": 200,
         "wires": [
             [
                 "e376f0b751a47a9a",
@@ -158639,8 +158639,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 860,
-        "y": 50,
+        "x": 850,
+        "y": 70,
         "wires": []
     },
     {
@@ -158657,8 +158657,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 670,
-        "y": 30,
+        "x": 660,
+        "y": 50,
         "wires": []
     }
 ]
