@@ -158355,10 +158355,7 @@
         "z": "1dad2b1491617899",
         "g": "8d69c43e38ee9204",
         "name": "Test Values",
-        "links": [
-            "d0c4927a10f1b8f1",
-            "98babd23061d804c"
-        ],
+        "links": [],
         "x": 140,
         "y": 160,
         "wires": [
