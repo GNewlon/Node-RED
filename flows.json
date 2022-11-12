@@ -106391,7 +106391,7 @@
                 "t": "move",
                 "p": "payload",
                 "pt": "msg",
-                "to": "pool_water_temp.pool_temp",
+                "to": "pool_water_temp.set_max_temp",
                 "tot": "global"
             }
         ],
@@ -106497,13 +106497,13 @@
         "type": "change",
         "z": "19b4811425830de4",
         "g": "73152eaa0a651204",
-        "name": "pool_water_temp.pool_temp-1",
+        "name": "pool_water_temp.set_max_temp-1",
         "rules": [
             {
                 "t": "move",
                 "p": "payload",
                 "pt": "msg",
-                "to": "pool_water_temp.pool_temp-1",
+                "to": "pool_water_temp.set_max_temp-1",
                 "tot": "global"
             }
         ],
@@ -106512,7 +106512,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 710,
+        "x": 720,
         "y": 220,
         "wires": [
             []
