@@ -14991,8 +14991,7 @@
             "2ca49410b4d193e8",
             "4f4004259232498d",
             "150a2865882fbfd6",
-            "43c7f61c4e65c586",
-            "2d2e793c5bfa62f1"
+            "43c7f61c4e65c586"
         ],
         "x": 8,
         "y": 3,
@@ -19437,12 +19436,13 @@
             "bcb6506214e51b06",
             "e5f9db06399b058b",
             "0c8c8f80ff570332",
-            "7ab6d602c6fd8d68"
+            "7ab6d602c6fd8d68",
+            "2d2e793c5bfa62f1"
         ],
         "x": 2144,
-        "y": 829,
-        "w": 272,
-        "h": 172
+        "y": 579,
+        "w": 612,
+        "h": 142
     },
     {
         "id": "107fed7c6d26e671",
@@ -150626,8 +150626,8 @@
         "links": [
             "474e5d87ff7da562"
         ],
-        "x": 2355,
-        "y": 870,
+        "x": 2415,
+        "y": 650,
         "wires": []
     },
     {
@@ -150640,8 +150640,8 @@
         "links": [
             "ae12c628e40a2c30"
         ],
-        "x": 2355,
-        "y": 900,
+        "x": 2435,
+        "y": 680,
         "wires": []
     },
     {
@@ -150654,8 +150654,8 @@
         "links": [
             "3b97a670e87c27e0"
         ],
-        "x": 2355,
-        "y": 960,
+        "x": 2715,
+        "y": 680,
         "wires": []
     },
     {
@@ -150668,8 +150668,8 @@
         "links": [
             "2a02969410e869f6"
         ],
-        "x": 2355,
-        "y": 930,
+        "x": 2715,
+        "y": 650,
         "wires": []
     },
     {
@@ -157433,7 +157433,7 @@
         "type": "inject",
         "z": "2468296eb99670b3",
         "g": "150a2865882fbfd6",
-        "name": "~W-FALL-ID-IDLE_OFF",
+        "name": "W-FALL-ID-IDLEOFF",
         "props": [
             {
                 "p": "payload"
@@ -157444,10 +157444,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "~W-FALL-ID-IDLE_OFF",
+        "payload": "W-FALL-ID-IDLEOFF",
         "payloadType": "str",
-        "x": 2290,
-        "y": 900,
+        "x": 2300,
+        "y": 680,
         "wires": [
             [
                 "bcb6506214e51b06"
@@ -157472,8 +157472,8 @@
         "topic": "",
         "payload": "W-FALL-FPH-COOL",
         "payloadType": "str",
-        "x": 2290,
-        "y": 870,
+        "x": 2300,
+        "y": 650,
         "wires": [
             [
                 "665f8b5614503e44"
@@ -157485,7 +157485,7 @@
         "type": "inject",
         "z": "2468296eb99670b3",
         "g": "150a2865882fbfd6",
-        "name": "+W-FALL-ID-IDLE_OFF",
+        "name": "~W-FALL-ID-IDLEOFF",
         "props": [
             {
                 "p": "payload"
@@ -157496,10 +157496,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "+W-FALL-ID-IDLE_OFF",
+        "payload": "~W-FALL-ID-IDLEOFF",
         "payloadType": "str",
-        "x": 2290,
-        "y": 960,
+        "x": 2580,
+        "y": 680,
         "wires": [
             [
                 "e5f9db06399b058b"
@@ -157524,8 +157524,8 @@
         "topic": "",
         "payload": "~W-FALL-FPH-COOL",
         "payloadType": "str",
-        "x": 2290,
-        "y": 930,
+        "x": 2580,
+        "y": 650,
         "wires": [
             [
                 "7ab6d602c6fd8d68"
@@ -157779,11 +157779,11 @@
         "id": "2d2e793c5bfa62f1",
         "type": "comment",
         "z": "2468296eb99670b3",
-        "g": "455f7fb3258d07b6",
+        "g": "150a2865882fbfd6",
         "name": "how to tune the Waterfall...",
         "info": "1. Disable database query & OVERTEMP LOGIC\n2. 2nd Order Logic testing is used for ease of use. trigger the \"Timing\" you need\n3. First, start with W-FALL-FPH-COOL: get this one right\n4. Next, get W-FALL-ID-IDLEOFF: working nice\n5. 3rd, ~W-FALL-FPH-COOL\n6. 4th, ~W-FALL-ID-IDLEOFF\n7. re-enable database query & OVERTEMP LOGIC",
-        "x": 2340,
-        "y": 770,
+        "x": 2280,
+        "y": 620,
         "wires": []
     },
     {
