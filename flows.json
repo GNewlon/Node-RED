@@ -81629,6 +81629,13 @@
                 "pt": "msg",
                 "to": "payload",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "Guest",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
             }
         ],
         "action": "",
