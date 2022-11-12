@@ -14117,7 +14117,7 @@
         "x": 8,
         "y": 3,
         "w": 1300,
-        "h": 920
+        "h": 890
     },
     {
         "id": "fedaed89c917c4ca",
@@ -17493,7 +17493,7 @@
         "x": 58,
         "y": 253,
         "w": 1224,
-        "h": 644
+        "h": 614
     },
     {
         "id": "c1e87bc6.91e8d8",
@@ -20710,7 +20710,7 @@
             "62baa69cd09b071f"
         ],
         "x": 734,
-        "y": 579,
+        "y": 549,
         "w": 452,
         "h": 292
     },
@@ -20736,7 +20736,6 @@
             "a067a71670daadf2",
             "80ae600e2bda6f2a",
             "ba8b533ecdf7f5be",
-            "2277f81a5356a071",
             "c6e8c74a64f945b5",
             "2f3f7d357ee5e3fa",
             "fe0ff849bc6fc38e"
@@ -20744,7 +20743,7 @@
         "x": 734,
         "y": 279,
         "w": 522,
-        "h": 292
+        "h": 262
     },
     {
         "id": "f20a153b6b583aa0",
@@ -73449,7 +73448,7 @@
         ],
         "queue": "none",
         "x": 990,
-        "y": 650,
+        "y": 620,
         "wires": [
             []
         ]
@@ -73468,7 +73467,7 @@
             "bf19babbc64f7d02"
         ],
         "x": 810,
-        "y": 690,
+        "y": 660,
         "wires": [
             [
                 "9cafc1dc85701ea3",
@@ -73664,7 +73663,7 @@
         ],
         "queue": "none",
         "x": 1010,
-        "y": 800,
+        "y": 770,
         "wires": [
             [
                 "ea74fcd58c143f82"
@@ -73694,7 +73693,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1000,
-        "y": 770,
+        "y": 740,
         "wires": [
             []
         ]
@@ -73974,7 +73973,6 @@
                 "8f885a2720bb07e6",
                 "3adbd8bf545fc1c0",
                 "a067a71670daadf2",
-                "2277f81a5356a071",
                 "c6e8c74a64f945b5",
                 "2f3f7d357ee5e3fa",
                 "fe0ff849bc6fc38e"
@@ -74057,7 +74055,7 @@
         "topic": "paylaod",
         "outputs": 1,
         "x": 840,
-        "y": 350,
+        "y": 320,
         "wires": [
             [
                 "b22f29fe43fe0720"
@@ -74354,7 +74352,7 @@
             "829ec6eee4661615"
         ],
         "x": 810,
-        "y": 650,
+        "y": 620,
         "wires": [
             []
         ],
@@ -74391,36 +74389,8 @@
             "a710b513f0fa266a"
         ],
         "x": 1145,
-        "y": 800,
+        "y": 770,
         "wires": []
-    },
-    {
-        "id": "2277f81a5356a071",
-        "type": "api-call-service",
-        "z": "27b1e26e7c8fe1f7",
-        "g": "4af5c8c808af936c",
-        "name": "SPA HEATER-OFF",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "turn_off",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.spa_heater"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 1040,
-        "y": 530,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "f04e172c16d31309",
@@ -74690,7 +74660,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1010,
-        "y": 740,
+        "y": 710,
         "wires": [
             []
         ]
@@ -74768,7 +74738,7 @@
         ],
         "queue": "none",
         "x": 1020,
-        "y": 830,
+        "y": 800,
         "wires": [
             []
         ]
@@ -75020,7 +74990,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1030,
-        "y": 620,
+        "y": 590,
         "wires": [
             []
         ]
@@ -75048,7 +75018,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1010,
-        "y": 710,
+        "y": 680,
         "wires": [
             []
         ]
@@ -75132,7 +75102,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 1010,
-        "y": 680,
+        "y": 650,
         "wires": [
             []
         ]
@@ -151038,12 +151008,12 @@
         "type": "trigger",
         "z": "2468296eb99670b3",
         "g": "8fd6af2f370e972e",
-        "name": "ON/OFF:17.75",
+        "name": "ON/OFF:19.95",
         "op1": "{\"service\": \"turn_on\"}",
         "op2": "{\"service\": \"turn_off\"}",
         "op1type": "json",
         "op2type": "json",
-        "duration": "17.75",
+        "duration": "19.95",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -151228,12 +151198,12 @@
         "type": "trigger",
         "z": "2468296eb99670b3",
         "g": "cf6e810e90e9486b",
-        "name": "ON/OFF:26",
+        "name": "ON/OFF:44",
         "op1": "{\"service\": \"turn_on\"}",
         "op2": "{\"service\": \"turn_off\"}",
         "op1type": "json",
         "op2type": "json",
-        "duration": "26",
+        "duration": "44",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -151298,12 +151268,12 @@
         "type": "trigger",
         "z": "2468296eb99670b3",
         "g": "cf6e810e90e9486b",
-        "name": "OFF/ON:23",
+        "name": "OFF/ON:22",
         "op1": "{ \"service\": \"turn_off\" }",
         "op2": "{ \"service\": \"turn_on\" }",
         "op1type": "json",
         "op2type": "json",
-        "duration": "23",
+        "duration": "22",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
