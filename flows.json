@@ -134792,7 +134792,7 @@
         "z": "ae087566.f2dff8",
         "g": "9be9eeddc80e20ac",
         "name": "",
-        "topic": "PoolMode",
+        "topic": "Pool.Mode",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "d1a17316.c56bb",
