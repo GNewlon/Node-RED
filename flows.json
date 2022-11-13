@@ -157121,6 +157121,16 @@
         "name": "Pool.Mode",
         "rules": [
             {
+                "t": "delete",
+                "p": "query",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_event",
+                "pt": "msg"
+            },
+            {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
