@@ -156902,7 +156902,7 @@
         "type": "inject",
         "z": "16be74b6df759ce0",
         "g": "d37710dcc2360c12",
-        "name": ".24",
+        "name": ".10",
         "props": [
             {
                 "p": "topic",
@@ -156917,7 +156917,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "FPH-η",
-        "payload": ".1",
+        "payload": ".10",
         "payloadType": "num",
         "x": 130,
         "y": 290,
