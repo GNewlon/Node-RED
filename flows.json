@@ -157126,11 +157126,6 @@
                 "pt": "msg"
             },
             {
-                "t": "delete",
-                "p": "_event",
-                "pt": "msg"
-            },
-            {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
@@ -157512,6 +157507,11 @@
         "g": "96b358f22740a1df",
         "name": "Heat?",
         "rules": [
+            {
+                "t": "delete",
+                "p": "query",
+                "pt": "msg"
+            },
             {
                 "t": "set",
                 "p": "topic",
