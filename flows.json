@@ -24672,7 +24672,9 @@
             "2e07bc4948a33bd4",
             "4a383bc6c20dc3d9",
             "b9eb97577af09da3",
-            "24bae495942bcca9"
+            "24bae495942bcca9",
+            "eeef1a524af38c03",
+            "1537c8f6a3e7db44"
         ],
         "x": 314,
         "y": 29,
@@ -158797,7 +158799,8 @@
         "name": "link out 1185",
         "mode": "link",
         "links": [
-            "f099c3845160487a"
+            "f099c3845160487a",
+            "1537c8f6a3e7db44"
         ],
         "x": 265,
         "y": 220,
@@ -158968,7 +158971,7 @@
         "type": "debug",
         "z": "16be74b6df759ce0",
         "g": "3cd1fba68d1c213d",
-        "name": "debug 11",
+        "name": "testing",
         "active": true,
         "tosidebar": false,
         "console": false,
@@ -158977,7 +158980,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 550,
+        "x": 540,
         "y": 410,
         "wires": []
     },
@@ -159008,6 +159011,41 @@
         "wires": [
             [
                 "47b52ee89b0ef42b"
+            ]
+        ]
+    },
+    {
+        "id": "eeef1a524af38c03",
+        "type": "debug",
+        "z": "16be74b6df759ce0",
+        "g": "96b358f22740a1df",
+        "name": "PoolMode",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 70,
+        "wires": []
+    },
+    {
+        "id": "1537c8f6a3e7db44",
+        "type": "link in",
+        "z": "16be74b6df759ce0",
+        "g": "96b358f22740a1df",
+        "name": "link in 1099",
+        "links": [
+            "cd306fbcc60b19d6"
+        ],
+        "x": 935,
+        "y": 70,
+        "wires": [
+            [
+                "eeef1a524af38c03"
             ]
         ]
     },
