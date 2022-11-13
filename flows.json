@@ -157249,6 +157249,46 @@
                 "propertyType": "msg",
                 "property": "payload",
                 "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "W-FALL-ID-IDLEOFF",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "~W-FALL-ID-IDLEOFF",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "W-FALL-$PH-!FPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
             }
         ],
         "outputTopic": "FPH-η",
