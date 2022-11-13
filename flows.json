@@ -56,7 +56,7 @@
     {
         "id": "16be74b6df759ce0",
         "type": "tab",
-        "label": "FPH OVERTEMP LOGIC-REBUILD",
+        "label": "Watchdog",
         "disabled": false,
         "info": "",
         "env": []
@@ -22804,7 +22804,7 @@
         "id": "50d38ddbd0f1671b",
         "type": "group",
         "z": "16be74b6df759ce0",
-        "name": "FPH OVERTEMP LOGIC",
+        "name": "Watchdog",
         "style": {
             "stroke": "#ff0000",
             "fill": "#000000",
