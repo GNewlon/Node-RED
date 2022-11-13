@@ -30396,7 +30396,7 @@
             },
             {
                 "t": "gte",
-                "v": "spa_water_temp.set_max_temp",
+                "v": "spa_water_temp.set_max_temp-1",
                 "vt": "global"
             }
         ],
