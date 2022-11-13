@@ -24532,7 +24532,7 @@
         "x": -12,
         "y": 3,
         "w": 1424,
-        "h": 864
+        "h": 894
     },
     {
         "id": "3cd1fba68d1c213d",
@@ -24723,12 +24723,13 @@
             "430be7cb698d53ed",
             "34c86faebf00ee4a",
             "9f526899dd66c712",
-            "8789de99c28ada57"
+            "8789de99c28ada57",
+            "95799a8db71b48df"
         ],
         "x": 334,
         "y": 699,
         "w": 272,
-        "h": 142
+        "h": 172
     },
     {
         "id": "b9eb97577af09da3",
@@ -158710,7 +158711,7 @@
         "payload": "NPH",
         "payloadType": "str",
         "x": 430,
-        "y": 770,
+        "y": 800,
         "wires": [
             [
                 "8789de99c28ada57"
@@ -158740,7 +158741,7 @@
         "payload": "HOT",
         "payloadType": "str",
         "x": 430,
-        "y": 800,
+        "y": 830,
         "wires": [
             [
                 "8789de99c28ada57"
@@ -158908,6 +158909,36 @@
         "wires": [
             [
                 "ea5c1cd387387d73"
+            ]
+        ]
+    },
+    {
+        "id": "95799a8db71b48df",
+        "type": "inject",
+        "z": "16be74b6df759ce0",
+        "g": "e7f9d5308ab8ed62",
+        "name": "IDLE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Heat?",
+        "payload": "IDLE",
+        "payloadType": "str",
+        "x": 430,
+        "y": 770,
+        "wires": [
+            [
+                "8789de99c28ada57"
             ]
         ]
     },
