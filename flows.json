@@ -19533,9 +19533,9 @@
             "c003ee3ff3de1a35",
             "ba1a259a97addf3e"
         ],
-        "x": 314,
+        "x": 304,
         "y": 389,
-        "w": 1072,
+        "w": 1082,
         "h": 292
     },
     {
@@ -22863,7 +22863,10 @@
             "862218ff3d7c9eb3",
             "cbba8c0040daed9d",
             "667f4c75c620dfed",
-            "71e888fa2f461500"
+            "71e888fa2f461500",
+            "dfa02e7f66a420c2",
+            "bfa3ebc358d3fafc",
+            "4ece7c74b23892ec"
         ],
         "x": 314,
         "y": 379,
@@ -120005,11 +120008,11 @@
         "g": "1eed8b38573986f1",
         "name": "🚨🚨🚨🚨🚨🚨🚨🚨🚨ALARM HVAC NORMAL MODE-FLOW WATER THROUGH HEAT EXCHANGER UNTIL COOL!!!!!!! ⬅️⬅️🚨🚨🚨🚨🚨🚨🚨🚨🚨",
         "links": [
-            "fc51237e45ee0c87",
-            "cfadac76040c641b"
+            "cfadac76040c641b",
+            "fc51237e45ee0c87"
         ],
-        "x": 355,
-        "y": 500,
+        "x": 345,
+        "y": 480,
         "wires": [
             [
                 "cc38e08f771c86f6",
@@ -147857,18 +147860,16 @@
         "type": "link in",
         "z": "16be74b6df759ce0",
         "g": "3cd1fba68d1c213d",
-        "name": "bypass/testing",
+        "name": "bypass",
         "links": [
             "5a2c9a44038910f5",
-            "cf73fcdc86f1ae24",
-            "85b0c4ed2fea83b4"
+            "85b0c4ed2fea83b4",
+            "cf73fcdc86f1ae24"
         ],
-        "x": 660,
-        "y": 480,
+        "x": 450,
+        "y": 420,
         "wires": [
-            [
-                "6104d0e59bdd3516"
-            ]
+            []
         ],
         "l": true
     },
@@ -149311,7 +149312,8 @@
         "links": [
             "2bf203019cc44c7a",
             "46b1dc08867d58ab",
-            "a801d5d5e6872008"
+            "a801d5d5e6872008",
+            "bfa3ebc358d3fafc"
         ],
         "x": 1315,
         "y": 170,
@@ -149483,7 +149485,8 @@
         "links": [
             "2bf203019cc44c7a",
             "46b1dc08867d58ab",
-            "a801d5d5e6872008"
+            "a801d5d5e6872008",
+            "dfa02e7f66a420c2"
         ],
         "x": 1315,
         "y": 200,
@@ -149544,7 +149547,8 @@
         "links": [
             "2bf203019cc44c7a",
             "46b1dc08867d58ab",
-            "a801d5d5e6872008"
+            "a801d5d5e6872008",
+            "dfa02e7f66a420c2"
         ],
         "x": 1315,
         "y": 140,
@@ -150412,6 +150416,60 @@
         "x": 200,
         "y": 880,
         "wires": []
+    },
+    {
+        "id": "dfa02e7f66a420c2",
+        "type": "link in",
+        "z": "16be74b6df759ce0",
+        "g": "3cd1fba68d1c213d",
+        "name": "ULTRA High/Very HOT FPH-η",
+        "links": [
+            "5a2c9a44038910f5",
+            "cf73fcdc86f1ae24"
+        ],
+        "x": 355,
+        "y": 500,
+        "wires": [
+            [
+                "9172708aa306bd61",
+                "8e457e0efd4a7aef",
+                "10511646e4d894e2"
+            ]
+        ]
+    },
+    {
+        "id": "bfa3ebc358d3fafc",
+        "type": "link in",
+        "z": "16be74b6df759ce0",
+        "g": "3cd1fba68d1c213d",
+        "name": "ABNORMALLY LOW",
+        "links": [
+            "85b0c4ed2fea83b4"
+        ],
+        "x": 355,
+        "y": 590,
+        "wires": [
+            [
+                "03ec25ee1ebefb18",
+                "862218ff3d7c9eb3"
+            ]
+        ]
+    },
+    {
+        "id": "4ece7c74b23892ec",
+        "type": "link in",
+        "z": "16be74b6df759ce0",
+        "g": "3cd1fba68d1c213d",
+        "name": "bypass",
+        "links": [],
+        "x": 660,
+        "y": 500,
+        "wires": [
+            [
+                "6104d0e59bdd3516"
+            ]
+        ],
+        "l": true
     },
     {
         "id": "377f1788.fc8a68",
