@@ -78,6 +78,14 @@
         "env": []
     },
     {
+        "id": "2ef567c258bb29df",
+        "type": "tab",
+        "label": "Flow 6",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
