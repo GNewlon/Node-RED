@@ -19628,12 +19628,14 @@
             "71e888fa2f461500",
             "dfa02e7f66a420c2",
             "bfa3ebc358d3fafc",
-            "4ece7c74b23892ec"
+            "4ece7c74b23892ec",
+            "c1a98b45b74d27cd",
+            "7394a2aa279cfaa8"
         ],
         "x": 314,
         "y": 389,
         "w": 1082,
-        "h": 292
+        "h": 342
     },
     {
         "id": "d37710dcc2360c12",
@@ -122738,7 +122740,7 @@
             "f2136b826320f84c"
         ],
         "x": 355,
-        "y": 640,
+        "y": 690,
         "wires": [
             [
                 "b7e2f3dbc2448bb2"
@@ -122768,7 +122770,7 @@
         "g": "3cd1fba68d1c213d",
         "name": "",
         "x": 480,
-        "y": 640,
+        "y": 690,
         "wires": [
             [
                 "b6da2865902d217f"
@@ -123210,7 +123212,8 @@
         "name": "ULTRA High/Very HOT FPH-η",
         "links": [
             "5a2c9a44038910f5",
-            "cf73fcdc86f1ae24"
+            "cf73fcdc86f1ae24",
+            "85b0c4ed2fea83b4"
         ],
         "x": 355,
         "y": 470,
@@ -123228,9 +123231,7 @@
         "z": "73d128d33f8cf3ca",
         "g": "3cd1fba68d1c213d",
         "name": "ABNORMALLY LOW",
-        "links": [
-            "85b0c4ed2fea83b4"
-        ],
+        "links": [],
         "x": 355,
         "y": 560,
         "wires": [
@@ -123907,15 +123908,15 @@
         "type": "trigger",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "60s",
+        "name": "2m",
         "op1": "",
         "op2": "",
         "op1type": "nul",
         "op2type": "payl",
-        "duration": "60",
+        "duration": "2",
         "extend": false,
         "overrideDelay": false,
-        "units": "s",
+        "units": "min",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
@@ -124929,7 +124930,7 @@
             "2bf203019cc44c7a",
             "46b1dc08867d58ab",
             "a801d5d5e6872008",
-            "bfa3ebc358d3fafc"
+            "dfa02e7f66a420c2"
         ],
         "x": 1315,
         "y": 180,
@@ -125608,6 +125609,43 @@
             [
                 "47b52ee89b0ef42b"
             ]
+        ]
+    },
+    {
+        "id": "c1a98b45b74d27cd",
+        "type": "trigger",
+        "z": "73d128d33f8cf3ca",
+        "g": "3cd1fba68d1c213d",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "val",
+        "op2type": "val",
+        "duration": "250",
+        "extend": "false",
+        "overrideDelay": "false",
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 480,
+        "y": 630,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7394a2aa279cfaa8",
+        "type": "link in",
+        "z": "73d128d33f8cf3ca",
+        "g": "3cd1fba68d1c213d",
+        "name": "link in 1114",
+        "links": [],
+        "x": 355,
+        "y": 630,
+        "wires": [
+            []
         ]
     },
     {
