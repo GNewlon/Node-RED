@@ -56,7 +56,7 @@
     {
         "id": "16be74b6df759ce0",
         "type": "tab",
-        "label": "Watchdog",
+        "label": "WatchDog",
         "disabled": false,
         "info": "",
         "env": []
@@ -22804,7 +22804,7 @@
         "id": "50d38ddbd0f1671b",
         "type": "group",
         "z": "16be74b6df759ce0",
-        "name": "Watchdog",
+        "name": "WatchDog",
         "style": {
             "stroke": "#ff0000",
             "fill": "#000000",
@@ -22818,12 +22818,13 @@
             "f5bef7c41dcceca4",
             "96b358f22740a1df",
             "c25fdb4daa905f1c",
-            "e7f9d5308ab8ed62"
+            "e7f9d5308ab8ed62",
+            "a10da3f8153a19a1"
         ],
         "x": -22,
         "y": 3,
         "w": 1434,
-        "h": 784
+        "h": 944
     },
     {
         "id": "3cd1fba68d1c213d",
@@ -22862,13 +22863,12 @@
             "862218ff3d7c9eb3",
             "cbba8c0040daed9d",
             "667f4c75c620dfed",
-            "71e888fa2f461500",
-            "5fcdcb2419016795"
+            "71e888fa2f461500"
         ],
         "x": 314,
-        "y": 369,
+        "y": 379,
         "w": 1072,
-        "h": 342
+        "h": 332
     },
     {
         "id": "d37710dcc2360c12",
@@ -22960,11 +22960,7 @@
             "2e07bc4948a33bd4",
             "4a383bc6c20dc3d9",
             "b9eb97577af09da3",
-            "24bae495942bcca9",
-            "eeef1a524af38c03",
-            "1537c8f6a3e7db44",
-            "7716ea7344419ac2",
-            "edab5c656c5d9c04"
+            "24bae495942bcca9"
         ],
         "x": 314,
         "y": 29,
@@ -23094,6 +23090,29 @@
         "y": 179,
         "w": 252,
         "h": 172
+    },
+    {
+        "id": "a10da3f8153a19a1",
+        "type": "group",
+        "z": "16be74b6df759ce0",
+        "g": "50d38ddbd0f1671b",
+        "name": "Debug",
+        "style": {
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "1537c8f6a3e7db44",
+            "eeef1a524af38c03",
+            "edab5c656c5d9c04",
+            "7716ea7344419ac2",
+            "cb055cc680075431",
+            "5fcdcb2419016795"
+        ],
+        "x": 34,
+        "y": 739,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "d1a17316.c56bb",
@@ -122473,8 +122492,7 @@
         "mode": "link",
         "links": [
             "6c8b2d1703d65c5a",
-            "b5de75032cf07a49",
-            "449c1c3ec9f3c6e8"
+            "b5de75032cf07a49"
         ],
         "x": 935,
         "y": 760,
@@ -149034,7 +149052,6 @@
         "g": "b9eb97577af09da3",
         "name": "ULTRA/VERY HOT!!!!",
         "links": [
-            "682ab6990ca75c5d",
             "80181fcfcf56c076",
             "b39b3fdd672e7634"
         ],
@@ -149960,112 +149977,6 @@
         ]
     },
     {
-        "id": "cb055cc680075431",
-        "type": "link in",
-        "z": "16be74b6df759ce0",
-        "name": "link in 1098",
-        "links": [
-            "8789de99c28ada57",
-            "47b52ee89b0ef42b"
-        ],
-        "x": 465,
-        "y": 410,
-        "wires": [
-            [
-                "5fcdcb2419016795"
-            ]
-        ]
-    },
-    {
-        "id": "5fcdcb2419016795",
-        "type": "debug",
-        "z": "16be74b6df759ce0",
-        "g": "3cd1fba68d1c213d",
-        "name": "testing",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 540,
-        "y": 410,
-        "wires": []
-    },
-    {
-        "id": "eeef1a524af38c03",
-        "type": "debug",
-        "z": "16be74b6df759ce0",
-        "g": "96b358f22740a1df",
-        "name": "PoolMode",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 70,
-        "wires": []
-    },
-    {
-        "id": "1537c8f6a3e7db44",
-        "type": "link in",
-        "z": "16be74b6df759ce0",
-        "g": "96b358f22740a1df",
-        "name": "link in 1099",
-        "links": [
-            "cd306fbcc60b19d6",
-            "8a56f7d024658315"
-        ],
-        "x": 935,
-        "y": 70,
-        "wires": [
-            [
-                "eeef1a524af38c03"
-            ]
-        ]
-    },
-    {
-        "id": "7716ea7344419ac2",
-        "type": "debug",
-        "z": "16be74b6df759ce0",
-        "g": "96b358f22740a1df",
-        "name": "FPH-η",
-        "active": false,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1260,
-        "y": 70,
-        "wires": []
-    },
-    {
-        "id": "edab5c656c5d9c04",
-        "type": "link in",
-        "z": "16be74b6df759ce0",
-        "g": "96b358f22740a1df",
-        "name": "link in 1100",
-        "links": [
-            "eeec03408afae2d4"
-        ],
-        "x": 1175,
-        "y": 70,
-        "wires": [
-            [
-                "7716ea7344419ac2"
-            ]
-        ]
-    },
-    {
         "id": "22a4aea4fb77387e",
         "type": "inject",
         "z": "16be74b6df759ce0",
@@ -150394,6 +150305,113 @@
                 "8789de99c28ada57"
             ]
         ]
+    },
+    {
+        "id": "1537c8f6a3e7db44",
+        "type": "link in",
+        "z": "16be74b6df759ce0",
+        "g": "a10da3f8153a19a1",
+        "name": "link in 1099",
+        "links": [
+            "cd306fbcc60b19d6",
+            "8a56f7d024658315"
+        ],
+        "x": 75,
+        "y": 830,
+        "wires": [
+            [
+                "eeef1a524af38c03"
+            ]
+        ]
+    },
+    {
+        "id": "eeef1a524af38c03",
+        "type": "debug",
+        "z": "16be74b6df759ce0",
+        "g": "a10da3f8153a19a1",
+        "name": "PoolMode",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 200,
+        "y": 830,
+        "wires": []
+    },
+    {
+        "id": "edab5c656c5d9c04",
+        "type": "link in",
+        "z": "16be74b6df759ce0",
+        "g": "a10da3f8153a19a1",
+        "name": "link in 1100",
+        "links": [
+            "eeec03408afae2d4"
+        ],
+        "x": 75,
+        "y": 780,
+        "wires": [
+            [
+                "7716ea7344419ac2"
+            ]
+        ]
+    },
+    {
+        "id": "7716ea7344419ac2",
+        "type": "debug",
+        "z": "16be74b6df759ce0",
+        "g": "a10da3f8153a19a1",
+        "name": "FPH-η",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 210,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "cb055cc680075431",
+        "type": "link in",
+        "z": "16be74b6df759ce0",
+        "g": "a10da3f8153a19a1",
+        "name": "link in 1098",
+        "links": [
+            "8789de99c28ada57",
+            "47b52ee89b0ef42b"
+        ],
+        "x": 75,
+        "y": 880,
+        "wires": [
+            [
+                "5fcdcb2419016795"
+            ]
+        ]
+    },
+    {
+        "id": "5fcdcb2419016795",
+        "type": "debug",
+        "z": "16be74b6df759ce0",
+        "g": "a10da3f8153a19a1",
+        "name": "testing",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 200,
+        "y": 880,
+        "wires": []
     },
     {
         "id": "377f1788.fc8a68",
