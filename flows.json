@@ -158811,14 +158811,14 @@
                 "p": "payload"
             }
         ],
-        "repeat": "45",
+        "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 120,
+        "x": 110,
         "y": 70,
         "wires": [
             [
