@@ -24699,12 +24699,13 @@
             "3ccf871c304df614",
             "f99e5ff58be7cee4",
             "21a059a11412a0c7",
-            "07a8f64fbd5b297c"
+            "07a8f64fbd5b297c",
+            "c9bc5078d929b6d3"
         ],
         "x": 34,
         "y": 449,
         "w": 272,
-        "h": 322
+        "h": 362
     },
     {
         "id": "e7f9d5308ab8ed62",
@@ -158979,6 +158980,36 @@
         "x": 550,
         "y": 410,
         "wires": []
+    },
+    {
+        "id": "c9bc5078d929b6d3",
+        "type": "inject",
+        "z": "16be74b6df759ce0",
+        "g": "c25fdb4daa905f1c",
+        "name": "Swim",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Pool.Mode",
+        "payload": "Swim",
+        "payloadType": "str",
+        "x": 130,
+        "y": 770,
+        "wires": [
+            [
+                "47b52ee89b0ef42b"
+            ]
+        ]
     },
     {
         "id": "377f1788.fc8a68",
