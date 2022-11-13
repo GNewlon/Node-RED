@@ -20775,7 +20775,7 @@
         ],
         "x": 84,
         "y": 319,
-        "w": 172,
+        "w": 192,
         "h": 402
     },
     {
@@ -31078,7 +31078,7 @@
         "z": "6b33f202.f423fc",
         "g": "691725cb7eaa4456",
         "name": "",
-        "topic": "PoolMode",
+        "topic": "Pool.Mode",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "d1a17316.c56bb",
@@ -31099,7 +31099,7 @@
         "type": "switch",
         "z": "6b33f202.f423fc",
         "g": "691725cb7eaa4456",
-        "name": "PoolMode",
+        "name": "Pool.Mode",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
@@ -31127,7 +31127,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 170,
+        "x": 180,
         "y": 490,
         "wires": [
             [
