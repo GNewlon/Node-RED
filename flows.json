@@ -14878,7 +14878,9 @@
             "3733293822e902e1",
             "6a5327d0e3e43ec3",
             "f0673d14767aa90d",
-            "1f54b2bb80ba3213"
+            "1f54b2bb80ba3213",
+            "ad75719427a52bcc",
+            "a08b10639544f8ae"
         ],
         "x": -20,
         "y": -13,
@@ -135402,6 +135404,7 @@
         "id": "ad75719427a52bcc",
         "type": "poll-state",
         "z": "ae087566.f2dff8",
+        "g": "6f8b44ed8a32b0fd",
         "name": "sensor.fph_inlet_temp",
         "server": "bbcbbc6d.66dc2",
         "version": 2,
@@ -135513,6 +135516,42 @@
             [
                 "6fd6c0d9a6e6ce0a"
             ]
+        ]
+    },
+    {
+        "id": "a08b10639544f8ae",
+        "type": "poll-state",
+        "z": "ae087566.f2dff8",
+        "g": "6f8b44ed8a32b0fd",
+        "name": "sensor.hvac_liquid_temp",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "1",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "minutes",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "sensor.hvac_liquid_temp",
+        "state_type": "num",
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 1490,
+        "y": 300,
+        "wires": [
+            []
         ]
     },
     {
