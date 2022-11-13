@@ -153280,9 +153280,9 @@
         "type": "mqtt out",
         "z": "2468296eb99670b3",
         "g": "461e18e58f76c9c1",
-        "name": "PoolMode",
+        "name": "",
         "topic": "PoolMode",
-        "qos": "",
+        "qos": "2",
         "retain": "true",
         "respTopic": "",
         "contentType": "",
@@ -157007,7 +157007,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157015,7 +157015,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157023,7 +157023,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             }
         ],
         "outputTopic": "FPH-η",
@@ -157118,7 +157118,7 @@
         "type": "change",
         "z": "16be74b6df759ce0",
         "g": "96b358f22740a1df",
-        "name": "Pool.Mode",
+        "name": "PoolMode",
         "rules": [
             {
                 "t": "delete",
@@ -157129,7 +157129,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Pool.Mode",
+                "to": "PoolMode",
                 "tot": "str"
             },
             {
@@ -157145,7 +157145,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 690,
+        "x": 680,
         "y": 70,
         "wires": [
             [
@@ -157182,7 +157182,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157190,7 +157190,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157198,7 +157198,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157206,7 +157206,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157214,7 +157214,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157222,7 +157222,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157230,7 +157230,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157238,7 +157238,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157246,7 +157246,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157254,7 +157254,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157262,7 +157262,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157270,7 +157270,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             },
             {
                 "t": "eq",
@@ -157278,7 +157278,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Mode"
+                "topic": "PoolMode"
             }
         ],
         "outputTopic": "FPH-η",
@@ -158795,7 +158795,7 @@
         "type": "mqtt in",
         "z": "16be74b6df759ce0",
         "g": "f5bef7c41dcceca4",
-        "name": "PoolMode",
+        "name": "",
         "topic": "PoolMode",
         "qos": "0",
         "datatype": "auto-detect",
