@@ -54,26 +54,10 @@
         "env": []
     },
     {
-        "id": "16be74b6df759ce0",
-        "type": "tab",
-        "label": "WatchDog",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "44f6b61c71b5b1cd",
         "type": "tab",
         "label": "logfile-FLOGGER",
         "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "2ef567c258bb29df",
-        "type": "tab",
-        "label": "Flow 6",
-        "disabled": false,
         "info": "",
         "env": []
     },
@@ -150609,17 +150593,6 @@
             [
                 "8dba6919c58c96e4"
             ]
-        ]
-    },
-    {
-        "id": "ffcb34c0b114c4bd",
-        "type": "subflow:73d128d33f8cf3ca",
-        "z": "16be74b6df759ce0",
-        "name": "",
-        "x": 600,
-        "y": 130,
-        "wires": [
-            []
         ]
     },
     {
