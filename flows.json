@@ -14745,7 +14745,7 @@
         "x": 8,
         "y": -1,
         "w": 1384,
-        "h": 1144
+        "h": 1184
     },
     {
         "id": "889ee9329c9ca70c",
@@ -14913,7 +14913,9 @@
             "2a201511e73af2af"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1414,
+        "h": 734
     },
     {
         "id": "6f8b44ed8a32b0fd",
@@ -15013,7 +15015,8 @@
             "2ca49410b4d193e8",
             "4f4004259232498d",
             "150a2865882fbfd6",
-            "43c7f61c4e65c586"
+            "43c7f61c4e65c586",
+            "489b32d69e4ddbdf"
         ],
         "x": 8,
         "y": 3,
@@ -17181,7 +17184,7 @@
         "x": 278,
         "y": 63,
         "w": 744,
-        "h": 1054
+        "h": 1094
     },
     {
         "id": "0bba2d62a53be642",
@@ -18498,7 +18501,9 @@
             "fba5e8b96d778c74"
         ],
         "x": 314,
-        "y": 29
+        "y": 29,
+        "w": 1082,
+        "h": 202
     },
     {
         "id": "d7c478da22f999fc",
@@ -18536,7 +18541,9 @@
             "2cca5415bac53b79"
         ],
         "x": 34,
-        "y": 269
+        "y": 269,
+        "w": 272,
+        "h": 442
     },
     {
         "id": "e71f7d40c9057e0e",
@@ -18565,7 +18572,9 @@
             "e4f1dca45a137ffb"
         ],
         "x": 834,
-        "y": 239
+        "y": 239,
+        "w": 562,
+        "h": 282
     },
     {
         "id": "00471762ecaaa7e7",
@@ -18598,7 +18607,9 @@
             "70997f63b6cffd89"
         ],
         "x": 314,
-        "y": 239
+        "y": 239,
+        "w": 512,
+        "h": 282
     },
     {
         "id": "7cde3b99a775d5fa",
@@ -18626,7 +18637,9 @@
             "3854a2dda3d5c05c"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 272,
+        "h": 232
     },
     {
         "id": "2a201511e73af2af",
@@ -18663,7 +18676,9 @@
             "035528c6d191fd83"
         ],
         "x": 314,
-        "y": 529
+        "y": 529,
+        "w": 1082,
+        "h": 182
     },
     {
         "id": "f83d2bf698effa1d",
@@ -19343,7 +19358,7 @@
             "294c83213636599a"
         ],
         "x": 34,
-        "y": 39,
+        "y": 249,
         "w": 222,
         "h": 202
     },
@@ -19364,7 +19379,7 @@
             "aba5298fca853f18"
         ],
         "x": 34,
-        "y": 399,
+        "y": 609,
         "w": 222,
         "h": 142
     },
@@ -19387,7 +19402,7 @@
             "48ffe311a52a6274"
         ],
         "x": 34,
-        "y": 219,
+        "y": 429,
         "w": 222,
         "h": 202
     },
@@ -19450,7 +19465,7 @@
             "737437bbbd414b4c"
         ],
         "x": 34,
-        "y": 519,
+        "y": 729,
         "w": 272,
         "h": 292
     },
@@ -22586,12 +22601,13 @@
             "1d4d8e0b50b5ac16",
             "098af32ca803e112",
             "f33489da88a6de18",
-            "23a569573d982ec8"
+            "23a569573d982ec8",
+            "66e7116eb3b8352f"
         ],
         "x": 304,
         "y": 849,
         "w": 692,
-        "h": 242
+        "h": 282
     },
     {
         "id": "782d43c5f1a5c637",
@@ -24653,6 +24669,28 @@
         "y": 859,
         "w": 472,
         "h": 82
+    },
+    {
+        "id": "489b32d69e4ddbdf",
+        "type": "group",
+        "z": "2468296eb99670b3",
+        "g": "455f7fb3258d07b6",
+        "name": "Triggers",
+        "style": {
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "8dba6919c58c96e4",
+            "1bfd81db4c5646af",
+            "f1654dfff558dec6",
+            "b62e84d291183743",
+            "4dc0b558dfb89e84"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 212,
+        "h": 232
     },
     {
         "id": "d1a17316.c56bb",
@@ -52314,7 +52352,7 @@
         "z": "aa4ec4be.88f428",
         "g": "3d5b1b2771a65ed8",
         "influxdb": "10eaf502617379e3",
-        "name": "Pool.State",
+        "name": "Pool",
         "measurement": "POOL",
         "precision": "",
         "retentionPolicy": "",
@@ -52323,7 +52361,7 @@
         "retentionPolicyV18Flux": "",
         "org": "unraid",
         "bucket": "homeassistant",
-        "x": 870,
+        "x": 850,
         "y": 1050,
         "wires": []
     },
@@ -52345,7 +52383,8 @@
         "wires": [
             [
                 "098af32ca803e112",
-                "f33489da88a6de18"
+                "f33489da88a6de18",
+                "66e7116eb3b8352f"
             ]
         ]
     },
@@ -53304,6 +53343,25 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "66e7116eb3b8352f",
+        "type": "mqtt out",
+        "z": "aa4ec4be.88f428",
+        "g": "3d5b1b2771a65ed8",
+        "name": "",
+        "topic": "Pool",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d1a17316.c56bb",
+        "x": 850,
+        "y": 1090,
+        "wires": []
     },
     {
         "id": "b6b22e84.78025",
@@ -133697,13 +133755,13 @@
         "type": "switch",
         "z": "e0d8d690bc05acc2",
         "g": "a2e6d61d68c5b60c",
-        "name": ".3-5F",
+        "name": ".2-5F",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
             {
                 "t": "lt",
-                "v": ".3",
+                "v": ".2",
                 "vt": "num"
             },
             {
@@ -153082,7 +153140,8 @@
         "name": "Security",
         "links": [
             "42a75f11512b4c8b",
-            "083302957741560f"
+            "083302957741560f",
+            "8dba6919c58c96e4"
         ],
         "x": 315,
         "y": 170,
@@ -153174,7 +153233,8 @@
         "g": "e7237c2e32224b21",
         "name": "Security",
         "links": [
-            "083302957741560f"
+            "083302957741560f",
+            "8dba6919c58c96e4"
         ],
         "x": 315,
         "y": 220,
@@ -153307,7 +153367,8 @@
         "g": "e7237c2e32224b21",
         "name": "Security",
         "links": [
-            "083302957741560f"
+            "083302957741560f",
+            "8dba6919c58c96e4"
         ],
         "x": 315,
         "y": 270,
@@ -153423,13 +153484,13 @@
         "type": "inject",
         "z": "2468296eb99670b3",
         "g": "e7237c2e32224b21",
-        "name": "query/5s",
+        "name": "query/3s",
         "props": [
             {
                 "p": "payload"
             }
         ],
-        "repeat": "5",
+        "repeat": "3",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
@@ -153439,9 +153500,7 @@
         "x": 410,
         "y": 70,
         "wires": [
-            [
-                "083302957741560f"
-            ]
+            []
         ]
     },
     {
@@ -153506,7 +153565,8 @@
         "g": "e7237c2e32224b21",
         "name": "Security",
         "links": [
-            "083302957741560f"
+            "083302957741560f",
+            "8dba6919c58c96e4"
         ],
         "x": 315,
         "y": 120,
@@ -157300,7 +157360,7 @@
         "payload": "Waterfall",
         "payloadType": "str",
         "x": 140,
-        "y": 80,
+        "y": 290,
         "wires": [
             [
                 "b060d72174c9c4bf"
@@ -157330,7 +157390,7 @@
         "payload": "Sleep",
         "payloadType": "str",
         "x": 130,
-        "y": 110,
+        "y": 320,
         "wires": [
             [
                 "b060d72174c9c4bf"
@@ -157360,7 +157420,7 @@
         "payload": "Spa",
         "payloadType": "str",
         "x": 130,
-        "y": 200,
+        "y": 410,
         "wires": [
             [
                 "b060d72174c9c4bf"
@@ -157390,7 +157450,7 @@
         "payload": "Swim",
         "payloadType": "str",
         "x": 130,
-        "y": 140,
+        "y": 350,
         "wires": [
             [
                 "b060d72174c9c4bf"
@@ -157408,7 +157468,7 @@
             "a038f67431d0071a"
         ],
         "x": 215,
-        "y": 150,
+        "y": 360,
         "wires": []
     },
     {
@@ -157434,7 +157494,7 @@
         "payload": "Skimmer",
         "payloadType": "str",
         "x": 140,
-        "y": 170,
+        "y": 380,
         "wires": [
             [
                 "b060d72174c9c4bf"
@@ -157460,7 +157520,7 @@
         "payload": "OFF",
         "payloadType": "str",
         "x": 130,
-        "y": 500,
+        "y": 710,
         "wires": [
             [
                 "aba5298fca853f18"
@@ -157486,7 +157546,7 @@
         "payload": "COOLING",
         "payloadType": "str",
         "x": 140,
-        "y": 440,
+        "y": 650,
         "wires": [
             [
                 "aba5298fca853f18"
@@ -157512,7 +157572,7 @@
         "payload": "IDLE",
         "payloadType": "str",
         "x": 130,
-        "y": 470,
+        "y": 680,
         "wires": [
             [
                 "aba5298fca853f18"
@@ -157530,7 +157590,7 @@
             "8a1167a46cb6ccf2"
         ],
         "x": 215,
-        "y": 470,
+        "y": 680,
         "wires": []
     },
     {
@@ -157552,7 +157612,7 @@
         "payload": "IDLE",
         "payloadType": "str",
         "x": 130,
-        "y": 290,
+        "y": 500,
         "wires": [
             [
                 "48ffe311a52a6274"
@@ -157578,7 +157638,7 @@
         "payload": "FPH",
         "payloadType": "str",
         "x": 130,
-        "y": 260,
+        "y": 470,
         "wires": [
             [
                 "48ffe311a52a6274"
@@ -157604,7 +157664,7 @@
         "payload": "$PH",
         "payloadType": "str",
         "x": 130,
-        "y": 320,
+        "y": 530,
         "wires": [
             [
                 "48ffe311a52a6274"
@@ -157630,7 +157690,7 @@
         "payload": "NPH",
         "payloadType": "str",
         "x": 130,
-        "y": 350,
+        "y": 560,
         "wires": [
             [
                 "48ffe311a52a6274"
@@ -157656,7 +157716,7 @@
         "payload": "HOT",
         "payloadType": "str",
         "x": 130,
-        "y": 380,
+        "y": 590,
         "wires": [
             [
                 "48ffe311a52a6274"
@@ -157674,7 +157734,7 @@
             "d844ae9f4418126a"
         ],
         "x": 215,
-        "y": 320,
+        "y": 530,
         "wires": []
     },
     {
@@ -158098,7 +158158,7 @@
         "onceDelay": 0.1,
         "topic": "W-FALL-$PH-!FPH",
         "x": 170,
-        "y": 590,
+        "y": 800,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158123,7 +158183,7 @@
         "onceDelay": 0.1,
         "topic": "W-FALL-FPH-COOL",
         "x": 170,
-        "y": 560,
+        "y": 770,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158148,7 +158208,7 @@
         "onceDelay": 0.1,
         "topic": "W-FALL-ID-IDLEOFF",
         "x": 180,
-        "y": 620,
+        "y": 830,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158173,7 +158233,7 @@
         "onceDelay": 0.1,
         "topic": "W-FALL-NPH",
         "x": 150,
-        "y": 650,
+        "y": 860,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158191,7 +158251,7 @@
             "20aee7765ff47fe6"
         ],
         "x": 245,
-        "y": 650,
+        "y": 860,
         "wires": []
     },
     {
@@ -158212,7 +158272,7 @@
         "onceDelay": 0.1,
         "topic": "SLEEP-FPH-COOL",
         "x": 170,
-        "y": 680,
+        "y": 890,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158237,7 +158297,7 @@
         "onceDelay": 0.1,
         "topic": "SLEEP-$PH-!FPH",
         "x": 170,
-        "y": 710,
+        "y": 920,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158262,7 +158322,7 @@
         "onceDelay": 0.1,
         "topic": "SLEEP-IDLEOFF",
         "x": 160,
-        "y": 740,
+        "y": 950,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158287,7 +158347,7 @@
         "onceDelay": 0.1,
         "topic": "SLEEP-NPH",
         "x": 150,
-        "y": 770,
+        "y": 980,
         "wires": [
             [
                 "1a97222d9e76e202"
@@ -158711,6 +158771,111 @@
         "x": 1745,
         "y": 1050,
         "wires": []
+    },
+    {
+        "id": "f1654dfff558dec6",
+        "type": "mqtt in",
+        "z": "2468296eb99670b3",
+        "g": "489b32d69e4ddbdf",
+        "name": "HEAT?",
+        "topic": "FPH",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 130,
+        "wires": [
+            [
+                "8dba6919c58c96e4"
+            ]
+        ]
+    },
+    {
+        "id": "1bfd81db4c5646af",
+        "type": "mqtt in",
+        "z": "2468296eb99670b3",
+        "g": "489b32d69e4ddbdf",
+        "name": "Pool",
+        "topic": "Pool",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "8dba6919c58c96e4"
+            ]
+        ]
+    },
+    {
+        "id": "8dba6919c58c96e4",
+        "type": "link out",
+        "z": "2468296eb99670b3",
+        "g": "489b32d69e4ddbdf",
+        "name": "link out 1168",
+        "mode": "link",
+        "links": [
+            "d7d543dccbd8c236",
+            "a9d794794a72a0bc",
+            "e4735f6bd9f11e91",
+            "fe26b6039736dc3a"
+        ],
+        "x": 205,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b62e84d291183743",
+        "type": "mqtt in",
+        "z": "2468296eb99670b3",
+        "g": "489b32d69e4ddbdf",
+        "name": "HVAC",
+        "topic": "HVAC",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "8dba6919c58c96e4"
+            ]
+        ]
+    },
+    {
+        "id": "4dc0b558dfb89e84",
+        "type": "mqtt in",
+        "z": "2468296eb99670b3",
+        "g": "489b32d69e4ddbdf",
+        "name": "HVAC",
+        "topic": "HVAC",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "d1a17316.c56bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 230,
+        "wires": [
+            [
+                "8dba6919c58c96e4"
+            ]
+        ]
     },
     {
         "id": "377f1788.fc8a68",
