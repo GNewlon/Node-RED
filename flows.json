@@ -24703,7 +24703,7 @@
         "x": 34,
         "y": 449,
         "w": 272,
-        "h": 252
+        "h": 322
     },
     {
         "id": "e7f9d5308ab8ed62",
@@ -158425,7 +158425,7 @@
         "payload": "W-FALL-$PH-!FPH",
         "payloadType": "str",
         "x": 170,
-        "y": 560,
+        "y": 700,
         "wires": [
             [
                 "47b52ee89b0ef42b"
@@ -158485,7 +158485,7 @@
         "payload": "W-FALL-ID-IDLEOFF",
         "payloadType": "str",
         "x": 180,
-        "y": 540,
+        "y": 520,
         "wires": [
             [
                 "47b52ee89b0ef42b"
@@ -158515,7 +158515,7 @@
         "payload": "W-FALL-NPH",
         "payloadType": "str",
         "x": 150,
-        "y": 600,
+        "y": 660,
         "wires": [
             [
                 "47b52ee89b0ef42b"
@@ -158560,7 +158560,7 @@
         "payload": "SLEEP-FPH-COOL",
         "payloadType": "str",
         "x": 170,
-        "y": 520,
+        "y": 560,
         "wires": [
             [
                 "47b52ee89b0ef42b"
@@ -158590,7 +158590,7 @@
         "payload": "SLEEP-$PH-!FPH",
         "payloadType": "str",
         "x": 170,
-        "y": 620,
+        "y": 730,
         "wires": [
             [
                 "47b52ee89b0ef42b"
@@ -158620,7 +158620,7 @@
         "payload": "SLEEP-IDLEOFF",
         "payloadType": "str",
         "x": 160,
-        "y": 640,
+        "y": 590,
         "wires": [
             [
                 "47b52ee89b0ef42b"
@@ -158650,7 +158650,7 @@
         "payload": "SLEEP-NPH",
         "payloadType": "str",
         "x": 150,
-        "y": 660,
+        "y": 630,
         "wires": [
             [
                 "47b52ee89b0ef42b"
