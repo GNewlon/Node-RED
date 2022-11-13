@@ -48,7 +48,7 @@
     {
         "id": "2468296eb99670b3",
         "type": "tab",
-        "label": "PoolMode-TESTING",
+        "label": "Pool.Mode",
         "disabled": false,
         "info": "",
         "env": []
@@ -14898,7 +14898,7 @@
         "id": "455f7fb3258d07b6",
         "type": "group",
         "z": "2468296eb99670b3",
-        "name": "PoolMode",
+        "name": "Pool.Mode",
         "style": {
             "stroke": "#0070c0",
             "fill": "#000000",
@@ -20428,7 +20428,7 @@
         "type": "group",
         "z": "27b1e26e7c8fe1f7",
         "g": "779d99a235a9af60",
-        "name": "PoolMode",
+        "name": "Pool.Mode",
         "style": {
             "stroke": "#ffC000",
             "fill": "#d1d1d1",
