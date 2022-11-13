@@ -20756,7 +20756,7 @@
         "type": "group",
         "z": "6b33f202.f423fc",
         "g": "f7aab46e2c6ecef6",
-        "name": "PoolMode",
+        "name": "Pool.Mode",
         "style": {
             "stroke": "#ffC000",
             "fill": "#d1d1d1",
