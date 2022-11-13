@@ -24600,7 +24600,7 @@
         ],
         "x": 34,
         "y": 169,
-        "w": 237,
+        "w": 272,
         "h": 172
     },
     {
@@ -24621,7 +24621,7 @@
         ],
         "x": 34,
         "y": 29,
-        "w": 237,
+        "w": 272,
         "h": 132
     },
     {
@@ -163556,8 +163556,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1230,
