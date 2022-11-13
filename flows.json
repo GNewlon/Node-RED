@@ -31375,7 +31375,7 @@
         "inputMsgField": "payload",
         "outputMsgField": "payload",
         "operation": "sub",
-        "constant": "1",
+        "constant": "0.5",
         "round": false,
         "decimals": 0,
         "x": 720,
