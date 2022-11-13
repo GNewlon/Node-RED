@@ -22831,12 +22831,13 @@
         "type": "group",
         "z": "16be74b6df759ce0",
         "g": "50d38ddbd0f1671b",
-        "name": "GLOBAL RESET=HVAC NORMAL MODE + FLOW WATER",
+        "name": "corrective actions + comms out",
         "style": {
             "stroke": "#ff0000",
             "label": true,
             "label-position": "n",
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "fill": "#000000"
         },
         "nodes": [
             "531ff88386ec6e66",
@@ -23030,7 +23031,7 @@
         "type": "group",
         "z": "16be74b6df759ce0",
         "g": "96b358f22740a1df",
-        "name": "comms",
+        "name": "comms + correctives",
         "style": {
             "stroke": "#6f2fa0",
             "fill": "#e3f3d3",
