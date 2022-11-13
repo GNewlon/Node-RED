@@ -157010,6 +157010,14 @@
             },
             {
                 "t": "eq",
+                "v": "~W-FALL-FPH-COOL",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
                 "v": "SLEEP-FPH-COOL",
                 "vt": "str",
                 "propertyType": "msg",
@@ -157164,54 +157172,6 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "W-FALL-$PH-!FPH",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
-                "v": "W-FALL-ID-IDLEOFF",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
-                "v": "W-FALL-NPH",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
-                "v": "SLEEP-$PH-!FPH",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
-                "v": "SLEEP-IDLEOFF",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
-                "v": "SLEEP-NPH",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
                 "v": "Swim",
                 "vt": "str",
                 "propertyType": "msg",
@@ -157268,23 +157228,47 @@
             },
             {
                 "t": "eq",
-                "v": "",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
-                "v": "",
-                "vt": "str",
-                "propertyType": "msg",
-                "property": "payload",
-                "topic": "Pool.Mode"
-            },
-            {
-                "t": "eq",
                 "v": "W-FALL-$PH-!FPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "+W-FALL-$PH-!FPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "W-FALL-NPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "SLEEP-NPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "SLEEP-$PH-!FPH",
+                "vt": "str",
+                "propertyType": "msg",
+                "property": "payload",
+                "topic": "Pool.Mode"
+            },
+            {
+                "t": "eq",
+                "v": "SLEEP-IDLEOFF",
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
