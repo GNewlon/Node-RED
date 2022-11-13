@@ -48,7 +48,7 @@
     {
         "id": "2468296eb99670b3",
         "type": "tab",
-        "label": "Pool.Mode",
+        "label": "PoolMode",
         "disabled": false,
         "info": "",
         "env": []
@@ -150311,8 +150311,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1050,
