@@ -158825,20 +158825,20 @@
         "type": "inject",
         "z": "16be74b6df759ce0",
         "g": "f5bef7c41dcceca4",
-        "name": "Query",
+        "name": "Query/45s",
         "props": [
             {
                 "p": "payload"
             }
         ],
-        "repeat": "",
+        "repeat": "45",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 110,
+        "x": 130,
         "y": 70,
         "wires": [
             [
