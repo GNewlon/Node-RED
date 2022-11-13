@@ -12470,10 +12470,15 @@
             "1efef7f6519c3495",
             "d085310674a2bab2",
             "afc677e8bd9aa88e",
-            "655e87da750e1584"
+            "655e87da750e1584",
+            "e49ac4c407fae2f2",
+            "b81ff6a7fd152f4c",
+            "4ab8b1bf8bd02c7b"
         ],
         "x": -2,
-        "y": 3
+        "y": 3,
+        "w": 978,
+        "h": 378
     },
     {
         "id": "6a0ef702ff0929b9",
@@ -15522,7 +15527,9 @@
             "88e6b23931dae280"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 312,
+        "h": 322
     },
     {
         "id": "19a37c10.85c774",
@@ -89585,7 +89592,8 @@
         "name": "link out 156",
         "mode": "link",
         "links": [
-            "7105b6d1684ddb9f"
+            "7105b6d1684ddb9f",
+            "b81ff6a7fd152f4c"
         ],
         "x": 535,
         "y": 250,
@@ -89647,7 +89655,8 @@
         "g": "715b902cb08be0cc",
         "name": "Time",
         "links": [
-            "f880274faaa34f20"
+            "f880274faaa34f20",
+            "4ab8b1bf8bd02c7b"
         ],
         "x": 615,
         "y": 160,
@@ -89772,7 +89781,7 @@
             "be47f5c4d23afa39"
         ],
         "x": 535,
-        "y": 160,
+        "y": 70,
         "wires": []
     },
     {
@@ -89780,21 +89789,21 @@
         "type": "inject",
         "z": "85ad586fd289f761",
         "g": "715b902cb08be0cc",
-        "name": "query/3s",
+        "name": "query/10s",
         "props": [
             {
                 "p": "payload"
             }
         ],
-        "repeat": "3",
+        "repeat": "10",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 440,
-        "y": 160,
+        "x": 450,
+        "y": 70,
         "wires": [
             [
                 "f880274faaa34f20"
@@ -90107,6 +90116,63 @@
                 "39fbf10d837d90c9"
             ]
         ]
+    },
+    {
+        "id": "e49ac4c407fae2f2",
+        "type": "trigger",
+        "z": "85ad586fd289f761",
+        "g": "715b902cb08be0cc",
+        "name": "Query",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 460,
+        "y": 110,
+        "wires": [
+            [
+                "4ab8b1bf8bd02c7b"
+            ]
+        ]
+    },
+    {
+        "id": "b81ff6a7fd152f4c",
+        "type": "link in",
+        "z": "85ad586fd289f761",
+        "g": "715b902cb08be0cc",
+        "name": "Time",
+        "links": [
+            "8a28f33a3cc727b5"
+        ],
+        "x": 385,
+        "y": 110,
+        "wires": [
+            [
+                "e49ac4c407fae2f2"
+            ]
+        ]
+    },
+    {
+        "id": "4ab8b1bf8bd02c7b",
+        "type": "link out",
+        "z": "85ad586fd289f761",
+        "g": "715b902cb08be0cc",
+        "name": "link out 1169",
+        "mode": "link",
+        "links": [
+            "be47f5c4d23afa39"
+        ],
+        "x": 535,
+        "y": 110,
+        "wires": []
     },
     {
         "id": "56a5c352266b0a87",
