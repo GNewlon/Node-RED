@@ -18740,7 +18740,7 @@
         "x": 2134,
         "y": 219,
         "w": 702,
-        "h": 442
+        "h": 432
     },
     {
         "id": "4f4004259232498d",
@@ -146697,7 +146697,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 2470,
-        "y": 570,
+        "y": 560,
         "wires": [
             [
                 "0e1dd1e08cd2fa2e"
@@ -146727,7 +146727,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 2460,
-        "y": 620,
+        "y": 610,
         "wires": [
             [
                 "881d03b1313a9673"
@@ -146742,7 +146742,7 @@
         "name": "VALVE 4:POOL/SPA",
         "links": [],
         "x": 2250,
-        "y": 570,
+        "y": 560,
         "wires": [
             [
                 "acf75d4718471519"
@@ -146758,7 +146758,7 @@
         "name": "VALVE 5: OFF/HE",
         "links": [],
         "x": 2250,
-        "y": 620,
+        "y": 610,
         "wires": [
             [
                 "8bba720c9768375a"
@@ -146781,7 +146781,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 2690,
-        "y": 570,
+        "y": 560,
         "wires": []
     },
     {
@@ -146799,7 +146799,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 2680,
-        "y": 620,
+        "y": 610,
         "wires": []
     },
     {
