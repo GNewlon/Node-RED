@@ -154679,7 +154679,7 @@
         "id": "6bc65a84a8997cc2",
         "type": "inject",
         "z": "93ef77bb83089643",
-        "name": "5",
+        "name": "5.2",
         "props": [
             {
                 "p": "payload"
@@ -154690,7 +154690,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "5",
+        "payload": "5.2",
         "payloadType": "str",
         "x": 250,
         "y": 370,
@@ -154717,8 +154717,8 @@
         "topic": "",
         "payload": "5.1",
         "payloadType": "str",
-        "x": 260,
-        "y": 430,
+        "x": 240,
+        "y": 420,
         "wires": [
             [
                 "d16299f8893fc1fa"
