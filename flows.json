@@ -14076,7 +14076,9 @@
             "779d99a235a9af60"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1300,
+        "h": 890
     },
     {
         "id": "fedaed89c917c4ca",
@@ -14894,7 +14896,7 @@
         ],
         "x": -2,
         "y": 3,
-        "w": 2834,
+        "w": 2864,
         "h": 1114
     },
     {
@@ -16483,7 +16485,9 @@
             "6219f0fcb6a0e78c"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 582,
+        "h": 212
     },
     {
         "id": "4c4916a840b24609",
@@ -17329,7 +17333,9 @@
             "4333a8690a3d7ee5"
         ],
         "x": 624,
-        "y": 29
+        "y": 29,
+        "w": 592,
+        "h": 212
     },
     {
         "id": "779d99a235a9af60",
@@ -17352,7 +17358,9 @@
             "7c2c776c46d9a0bd"
         ],
         "x": 58,
-        "y": 253
+        "y": 253,
+        "w": 1224,
+        "h": 614
     },
     {
         "id": "c1e87bc6.91e8d8",
@@ -18721,12 +18729,18 @@
             "c5e8de0f41fa757c",
             "f1e4972983183835",
             "31e9841382931dcb",
-            "518518461d08d576"
+            "518518461d08d576",
+            "acf75d4718471519",
+            "8bba720c9768375a",
+            "5a6035fdec3aae68",
+            "df7120d42bb59333",
+            "0e1dd1e08cd2fa2e",
+            "881d03b1313a9673"
         ],
         "x": 2134,
         "y": 219,
-        "w": 672,
-        "h": 332
+        "w": 702,
+        "h": 442
     },
     {
         "id": "4f4004259232498d",
@@ -20098,7 +20112,9 @@
             "0880a675f92ea4ed"
         ],
         "x": 274,
-        "y": 279
+        "y": 279,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "3d90fd494b70eba4",
@@ -20127,7 +20143,9 @@
             "62baa69cd09b071f"
         ],
         "x": 734,
-        "y": 549
+        "y": 549,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "4af5c8c808af936c",
@@ -20156,7 +20174,9 @@
             "fe0ff849bc6fc38e"
         ],
         "x": 734,
-        "y": 279
+        "y": 279,
+        "w": 522,
+        "h": 262
     },
     {
         "id": "f20a153b6b583aa0",
@@ -20184,7 +20204,9 @@
             "0bfd35412d6f0764"
         ],
         "x": 274,
-        "y": 579
+        "y": 579,
+        "w": 452,
+        "h": 192
     },
     {
         "id": "861a54a9f1bb8060",
@@ -20364,7 +20386,9 @@
             "97f60f41c9aa6ad4"
         ],
         "x": 84,
-        "y": 279
+        "y": 279,
+        "w": 192,
+        "h": 412
     },
     {
         "id": "8c326bc2b25940ea",
@@ -145538,7 +145562,9 @@
         "x": 2440,
         "y": 460,
         "wires": [
-            []
+            [
+                "2e30f9637bf9e8ec"
+            ]
         ]
     },
     {
@@ -145547,7 +145573,7 @@
         "z": "2468296eb99670b3",
         "g": "2ca49410b4d193e8",
         "name": "SPEED 2",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -145555,7 +145581,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2620,
+        "x": 2650,
         "y": 310,
         "wires": []
     },
@@ -145565,15 +145591,15 @@
         "z": "2468296eb99670b3",
         "g": "2ca49410b4d193e8",
         "name": "VALVE2: 24VAC",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 2640,
+        "x": 2670,
         "y": 460,
         "wires": []
     },
@@ -145583,15 +145609,15 @@
         "z": "2468296eb99670b3",
         "g": "2ca49410b4d193e8",
         "name": "SPEED 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 2620,
+        "x": 2650,
         "y": 260,
         "wires": []
     },
@@ -145601,15 +145627,15 @@
         "z": "2468296eb99670b3",
         "g": "2ca49410b4d193e8",
         "name": "VALVE2: POOL/SPA",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 2660,
+        "x": 2690,
         "y": 410,
         "wires": []
     },
@@ -145622,12 +145648,12 @@
         "active": true,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 2650,
+        "x": 2680,
         "y": 510,
         "wires": []
     },
@@ -145764,7 +145790,9 @@
         "x": 2460,
         "y": 410,
         "wires": [
-            []
+            [
+                "922c297a5bb9ba7d"
+            ]
         ]
     },
     {
@@ -145805,7 +145833,9 @@
         "x": 2450,
         "y": 510,
         "wires": [
-            []
+            [
+                "1a05392f04308fbc"
+            ]
         ]
     },
     {
@@ -146367,7 +146397,7 @@
         "z": "2468296eb99670b3",
         "g": "2ca49410b4d193e8",
         "name": "SPEED 3",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -146375,7 +146405,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2620,
+        "x": 2650,
         "y": 360,
         "wires": []
     },
@@ -146643,6 +146673,134 @@
                 "8dba6919c58c96e4"
             ]
         ]
+    },
+    {
+        "id": "acf75d4718471519",
+        "type": "api-call-service",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "VALVE 4:POOL/SPA",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_4_pool_spa"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 2470,
+        "y": 570,
+        "wires": [
+            [
+                "0e1dd1e08cd2fa2e"
+            ]
+        ]
+    },
+    {
+        "id": "8bba720c9768375a",
+        "type": "api-call-service",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "VALVE 5: OFF/HE",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_5_off_he"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 2460,
+        "y": 620,
+        "wires": [
+            [
+                "881d03b1313a9673"
+            ]
+        ]
+    },
+    {
+        "id": "5a6035fdec3aae68",
+        "type": "link in",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "VALVE 4:POOL/SPA",
+        "links": [],
+        "x": 2250,
+        "y": 570,
+        "wires": [
+            [
+                "acf75d4718471519"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "df7120d42bb59333",
+        "type": "link in",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "VALVE 5: OFF/HE",
+        "links": [],
+        "x": 2250,
+        "y": 620,
+        "wires": [
+            [
+                "8bba720c9768375a"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "0e1dd1e08cd2fa2e",
+        "type": "debug",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "VALVE 4:POOL/SPA",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2690,
+        "y": 570,
+        "wires": []
+    },
+    {
+        "id": "881d03b1313a9673",
+        "type": "debug",
+        "z": "2468296eb99670b3",
+        "g": "2ca49410b4d193e8",
+        "name": "VALVE 5: OFF/HE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2680,
+        "y": 620,
+        "wires": []
     },
     {
         "id": "1a3f0e1d58bd8811",
