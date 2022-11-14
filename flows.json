@@ -70,6 +70,14 @@
         "env": []
     },
     {
+        "id": "93ef77bb83089643",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -14528,7 +14536,9 @@
             "ddd2808e7084019d"
         ],
         "x": 8,
-        "y": 9
+        "y": 9,
+        "w": 1788,
+        "h": 1852
     },
     {
         "id": "dfd5092c703d8274",
@@ -15241,7 +15251,9 @@
             "e5229ca0d3fed981"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1064,
+        "h": 684
     },
     {
         "id": "a4bfe2ef8017394b",
@@ -17513,7 +17525,9 @@
             "bf8157a237796c64"
         ],
         "x": 34,
-        "y": 209
+        "y": 209,
+        "w": 212,
+        "h": 232
     },
     {
         "id": "135de8b0d707e3c8",
@@ -19215,7 +19229,9 @@
             "9cbe932b9ac1b27b"
         ],
         "x": 274,
-        "y": 29
+        "y": 29,
+        "w": 772,
+        "h": 182
     },
     {
         "id": "954a6b44be27b4d6",
@@ -19236,7 +19252,9 @@
             "567ecfa7c1f758d9"
         ],
         "x": 34,
-        "y": 489
+        "y": 489,
+        "w": 212,
+        "h": 172
     },
     {
         "id": "7ac2ad27c8242545",
@@ -19258,7 +19276,9 @@
             "3a7d9626a8cb5823"
         ],
         "x": 34,
-        "y": 289
+        "y": 289,
+        "w": 212,
+        "h": 202
     },
     {
         "id": "8b12855ec9deea74",
@@ -19283,7 +19303,9 @@
             "23f0619d3f01cd0d"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 212,
+        "h": 262
     },
     {
         "id": "07626e0933c61f0b",
@@ -19314,7 +19336,9 @@
             "1a51d2a40ea93519"
         ],
         "x": 254,
-        "y": 499
+        "y": 499,
+        "w": 792,
+        "h": 162
     },
     {
         "id": "e5229ca0d3fed981",
@@ -19348,7 +19372,9 @@
             "5e31e8a6d55f03ca"
         ],
         "x": 254,
-        "y": 219
+        "y": 219,
+        "w": 792,
+        "h": 272
     },
     {
         "id": "88d18df14955dc7b",
@@ -154535,5 +154561,185 @@
                 "84cca4428447c080"
             ]
         ]
+    },
+    {
+        "id": "d16299f8893fc1fa",
+        "type": "change",
+        "z": "93ef77bb83089643",
+        "name": "pid",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_msgid",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "pid",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 430,
+        "wires": [
+            [
+                "57b8fb099b0dfbec"
+            ]
+        ]
+    },
+    {
+        "id": "a77968a4dfaf2b8d",
+        "type": "change",
+        "z": "93ef77bb83089643",
+        "name": "temp",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "_msgid",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "temperature",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 370,
+        "wires": [
+            [
+                "57b8fb099b0dfbec"
+            ]
+        ]
+    },
+    {
+        "id": "57b8fb099b0dfbec",
+        "type": "function",
+        "z": "93ef77bb83089643",
+        "name": "",
+        "func": "// store pid/temperature in flow context\nif (msg.hasOwnProperty(\"pid\")) {\n    flow.set('pid', msg.pid);\n} else if (msg.hasOwnProperty(\"temperature\")) {\n   flow.set('temperature', msg.temperature);\n}\n\n\n// get the latest values of pid/temperature from context - default to 0 if not yet set\nvar pid = flow.get('pid') || 0;\nvar temperature = flow.get('temperature') || 0;\nmsg.payload = pid-temperature;\nmsg.payload = Number(msg.payload.toFixed(3));\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 370,
+        "wires": [
+            [
+                "908dc08d49cf6b5b"
+            ]
+        ]
+    },
+    {
+        "id": "6bc65a84a8997cc2",
+        "type": "inject",
+        "z": "93ef77bb83089643",
+        "name": "5",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "str",
+        "x": 250,
+        "y": 370,
+        "wires": [
+            [
+                "a77968a4dfaf2b8d"
+            ]
+        ]
+    },
+    {
+        "id": "3a787911373a3e7c",
+        "type": "inject",
+        "z": "93ef77bb83089643",
+        "name": "6",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "6",
+        "payloadType": "str",
+        "x": 260,
+        "y": 430,
+        "wires": [
+            [
+                "d16299f8893fc1fa"
+            ]
+        ]
+    },
+    {
+        "id": "908dc08d49cf6b5b",
+        "type": "debug",
+        "z": "93ef77bb83089643",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 740,
+        "y": 370,
+        "wires": []
     }
 ]
