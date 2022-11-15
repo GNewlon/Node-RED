@@ -154800,10 +154800,14 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "false"
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
             },
             {
-                "t": "true"
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
             }
         ],
         "checkall": "true",
@@ -155075,12 +155079,10 @@
         "y": 100,
         "wires": [
             [
-                "f738d7af08b39f8f",
-                "194710117d130b2c"
+                "f738d7af08b39f8f"
             ],
             [
-                "d04f8cb8b12e09fd",
-                "194710117d130b2c"
+                "d04f8cb8b12e09fd"
             ]
         ]
     },
