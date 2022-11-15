@@ -19816,7 +19816,7 @@
         "type": "group",
         "z": "73d128d33f8cf3ca",
         "g": "50d38ddbd0f1671b",
-        "name": "Heat?",
+        "name": "FPH",
         "style": {
             "label": true,
             "color": "#ffffff"
@@ -123322,7 +123322,7 @@
         "type": "mqtt in",
         "z": "73d128d33f8cf3ca",
         "g": "f5bef7c41dcceca4",
-        "name": "Heat?",
+        "name": "FPH",
         "topic": "FPH",
         "qos": "2",
         "datatype": "auto-detect",
@@ -123745,7 +123745,6 @@
         "links": [
             "8a56f7d024658315",
             "47b52ee89b0ef42b",
-            "bd7eeab3bfc8d5bf",
             "cd306fbcc60b19d6",
             "8789de99c28ada57"
         ],
@@ -123949,7 +123948,7 @@
         "type": "change",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "Heat?",
+        "name": "FPH",
         "rules": [
             {
                 "t": "delete",
@@ -123960,7 +123959,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Heat?",
+                "to": "FPH",
                 "tot": "str"
             },
             {
@@ -124030,9 +124029,7 @@
         "name": "link out 1176",
         "mode": "link",
         "links": [
-            "f099c3845160487a",
-            "159d5ed73f70107f",
-            "60b159b90e320adc"
+            "159d5ed73f70107f"
         ],
         "x": 845,
         "y": 120,
@@ -124087,7 +124084,6 @@
         "g": "96b358f22740a1df",
         "name": "link in 1090",
         "links": [
-            "bd7eeab3bfc8d5bf",
             "8789de99c28ada57",
             "eeec03408afae2d4",
             "e739b9441714f84c",
