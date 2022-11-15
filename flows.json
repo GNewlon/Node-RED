@@ -23013,8 +23013,7 @@
             "d6536f82768d161e",
             "7640e54f881a53c9",
             "24c585aed34cde86",
-            "cf8564a668b5b980",
-            "bb8d993883edb715"
+            "cf8564a668b5b980"
         ],
         "x": 324,
         "y": 389,
@@ -152202,10 +152201,10 @@
         "op2": "true",
         "op1type": "nul",
         "op2type": "bool",
-        "duration": "4",
+        "duration": "11",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
@@ -152317,21 +152316,6 @@
         "x": 545,
         "y": 660,
         "wires": []
-    },
-    {
-        "id": "bb8d993883edb715",
-        "type": "link in",
-        "z": "da9743e4572647d5",
-        "g": "155db9fb66de5064",
-        "name": "\"Pool.Heat?  HOT\" has returned to normal. Set to \"NONE\" and investigate causal error",
-        "links": [],
-        "x": 365,
-        "y": 510,
-        "wires": [
-            [
-                "95ad0723d1a3a42a"
-            ]
-        ]
     },
     {
         "id": "9c4af86382f8c333",
