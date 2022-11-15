@@ -125773,7 +125773,7 @@
         "type": "debug",
         "z": "50196fb4a30c2037",
         "g": "7be887bbdfcc67ed",
-        "name": "HOME ASSISTANT",
+        "name": "Home Assistant",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -125782,7 +125782,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 510,
+        "x": 530,
         "y": 70,
         "wires": []
     },
@@ -125857,9 +125857,9 @@
         "g": "797c1b4e30ce98fd",
         "name": "delay 4s",
         "op1": "",
-        "op2": "true",
+        "op2": "Restart Successful",
         "op1type": "nul",
-        "op2type": "bool",
+        "op2type": "str",
         "duration": "4",
         "extend": false,
         "overrideDelay": false,
@@ -125869,10 +125869,11 @@
         "topic": "topic",
         "outputs": 1,
         "x": 250,
-        "y": 260,
+        "y": 270,
         "wires": [
             [
-                "d983b9a29010accf"
+                "d983b9a29010accf",
+                "4ba496df59046322"
             ]
         ]
     },
@@ -125931,7 +125932,7 @@
         "g": "797c1b4e30ce98fd",
         "name": "delay 6s",
         "op1": "",
-        "op2": "RESTART SUCCESSFUL",
+        "op2": "Restarted",
         "op1type": "nul",
         "op2type": "str",
         "duration": "6",
@@ -125961,7 +125962,7 @@
             "5c2a7f0ed8a2b6b9"
         ],
         "x": 105,
-        "y": 280,
+        "y": 290,
         "wires": [
             [
                 "26db234fc7275e67",
