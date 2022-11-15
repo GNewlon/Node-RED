@@ -19684,8 +19684,7 @@
             "79e784721f4f45f2",
             "f94b30fbc32c532c",
             "de877f20706e1d94",
-            "c900ef40bdec11cb",
-            "326b2999eb6917f6"
+            "c900ef40bdec11cb"
         ],
         "x": 314,
         "y": 389,
@@ -22988,7 +22987,6 @@
             "040b96300807886b",
             "59c94bfc8e7e5a16",
             "fb27695453623949",
-            "ecee966aa16d5f90",
             "49fd42d6704e852f",
             "eac820df821692b3",
             "f11f659bf60cb4fe",
@@ -23005,7 +23003,6 @@
             "c31b4462cb99a4db",
             "a181a30a74cc25e7",
             "6e6626d4772a8f5c",
-            "b9c8b5c975c42ca7",
             "250a41174b1fd45f",
             "9f649f228b9cd324",
             "80f3d66aa44569e1",
@@ -23013,8 +23010,7 @@
             "dc5c29d4d2c49135",
             "2ff7ee58f84d3406",
             "861efda90e7af27e",
-            "5918d8e6681ec769",
-            "0162700d1e902147"
+            "5918d8e6681ec769"
         ],
         "x": 314,
         "y": 389,
@@ -125562,21 +125558,6 @@
         ]
     },
     {
-        "id": "326b2999eb6917f6",
-        "type": "link in",
-        "z": "73d128d33f8cf3ca",
-        "g": "3cd1fba68d1c213d",
-        "name": "\"Pool.Heat?  HOT\" has returned to normal. Set to \"NONE\" and investigate causal error",
-        "links": [],
-        "x": 355,
-        "y": 510,
-        "wires": [
-            [
-                "10511646e4d894e2"
-            ]
-        ]
-    },
-    {
         "id": "352f99c032b0598b",
         "type": "link out",
         "z": "73d128d33f8cf3ca",
@@ -151443,13 +151424,31 @@
         ]
     },
     {
+        "id": "85db2d00dacb1048",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "g": "c5964ab0afa1db64",
+        "name": "Heat?",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0]._value",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
         "id": "cb5dd4632c021f8d",
         "type": "debug",
         "z": "da9743e4572647d5",
         "g": "41bd4cf3ae125ce7",
         "name": "WatchDog",
         "active": true,
-        "tosidebar": true,
+        "tosidebar": false,
         "console": false,
         "tostatus": true,
         "complete": "payload",
@@ -151457,7 +151456,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1210,
-        "y": 580,
+        "y": 600,
         "wires": []
     },
     {
@@ -151635,34 +151634,6 @@
                 "b00848420e81e5da",
                 "a181a30a74cc25e7"
             ]
-        ]
-    },
-    {
-        "id": "ecee966aa16d5f90",
-        "type": "api-call-service",
-        "z": "da9743e4572647d5",
-        "g": "41bd4cf3ae125ce7",
-        "name": "Graham's iPhone",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "notify",
-        "service": "mobile_app_grahams_iphone_13",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "data": "{\"message\": \"{{payload}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "output_location": "",
-        "output_location_type": "none",
-        "x": 1230,
-        "y": 620,
-        "wires": [
-            []
         ]
     },
     {
@@ -152080,8 +152051,7 @@
         "y": 600,
         "wires": [
             [
-                "cb5dd4632c021f8d",
-                "ecee966aa16d5f90"
+                "cb5dd4632c021f8d"
             ]
         ]
     },
@@ -152141,27 +152111,6 @@
         ]
     },
     {
-        "id": "b9c8b5c975c42ca7",
-        "type": "link in",
-        "z": "da9743e4572647d5",
-        "g": "41bd4cf3ae125ce7",
-        "name": "ULTRA High/Very HOT FPH-η",
-        "links": [
-            "15c595ecb2b128d6",
-            "3d1a2bbad0b21bc3",
-            "dc5c29d4d2c49135"
-        ],
-        "x": 355,
-        "y": 470,
-        "wires": [
-            [
-                "ac2869b3dd271721",
-                "41762ba53bde4668",
-                "dc4e8554ba37a203"
-            ]
-        ]
-    },
-    {
         "id": "250a41174b1fd45f",
         "type": "link in",
         "z": "da9743e4572647d5",
@@ -152171,11 +152120,9 @@
             "becf60182c2f46c9"
         ],
         "x": 355,
-        "y": 560,
+        "y": 570,
         "wires": [
             [
-                "6361e742c9b29d64",
-                "f2ede518f97c04b8",
                 "80f3d66aa44569e1"
             ]
         ]
@@ -152324,21 +152271,6 @@
         "wires": []
     },
     {
-        "id": "0162700d1e902147",
-        "type": "link in",
-        "z": "da9743e4572647d5",
-        "g": "41bd4cf3ae125ce7",
-        "name": "\"Pool.Heat?  HOT\" has returned to normal. Set to \"NONE\" and investigate causal error",
-        "links": [],
-        "x": 355,
-        "y": 510,
-        "wires": [
-            [
-                "41762ba53bde4668"
-            ]
-        ]
-    },
-    {
         "id": "2b8ccefffee9bdb7",
         "type": "inject",
         "z": "da9743e4572647d5",
@@ -152455,7 +152387,9 @@
         "x": 130,
         "y": 320,
         "wires": [
-            []
+            [
+                "1e93c81620b9991d"
+            ]
         ]
     },
     {
@@ -153205,24 +153139,6 @@
                 "85db2d00dacb1048"
             ]
         ]
-    },
-    {
-        "id": "85db2d00dacb1048",
-        "type": "debug",
-        "z": "da9743e4572647d5",
-        "g": "c5964ab0afa1db64",
-        "name": "Heat?",
-        "active": false,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload[0]._value",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 710,
-        "y": 140,
-        "wires": []
     },
     {
         "id": "13887a40d0d8b95c",
