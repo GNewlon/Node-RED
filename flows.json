@@ -125387,7 +125387,7 @@
         "type": "switch",
         "z": "73d128d33f8cf3ca",
         "g": "24bae495942bcca9",
-        "name": "0-3F",
+        "name": "HOT",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
@@ -154181,7 +154181,7 @@
                 "v2t": "num"
             },
             {
-                "t": "lt",
+                "t": "gt",
                 "v": "5",
                 "vt": "num"
             }
