@@ -72,7 +72,7 @@
     {
         "id": "93ef77bb83089643",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Home Assistant #2B98CC",
         "disabled": false,
         "info": "",
         "env": []
@@ -5651,7 +5651,7 @@
     {
         "id": "149c1996407b0691",
         "type": "subflow",
-        "name": "Home Assistant",
+        "name": "Home Assistant-old",
         "info": "",
         "category": "",
         "in": [],
@@ -5661,9 +5661,14 @@
         "color": "#2B98CC",
         "icon": "node-red-contrib-home-assistant-websocket/ha-events-state-changed.svg",
         "status": {
-            "x": 1060,
+            "x": 600,
             "y": 120,
-            "wires": []
+            "wires": [
+                {
+                    "id": "1b856a4b0d162770",
+                    "port": 0
+                }
+            ]
         }
     },
     {
@@ -11461,6 +11466,29 @@
             "wires": [
                 {
                     "id": "46b1dc08867d58ab",
+                    "port": 0
+                }
+            ]
+        }
+    },
+    {
+        "id": "50196fb4a30c2037",
+        "type": "subflow",
+        "name": "Home Assistant",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [],
+        "env": [],
+        "meta": {},
+        "color": "#2B98CC",
+        "icon": "node-red-contrib-home-assistant-websocket/ha-events-state-changed.svg",
+        "status": {
+            "x": 610,
+            "y": 120,
+            "wires": [
+                {
+                    "id": "ea8b16ac12e4e4df",
                     "port": 0
                 }
             ]
@@ -18243,7 +18271,7 @@
         ],
         "x": 6,
         "y": 13,
-        "w": 1358,
+        "w": 1372,
         "h": 1436
     },
     {
@@ -20744,7 +20772,7 @@
         ],
         "x": 32,
         "y": 39,
-        "w": 1306,
+        "w": 1320,
         "h": 1384
     },
     {
@@ -21763,7 +21791,7 @@
         ],
         "x": 1094,
         "y": 99,
-        "w": 212,
+        "w": 232,
         "h": 532
     },
     {
@@ -23164,7 +23192,7 @@
     {
         "id": "44a67f22ddeb9ec1",
         "type": "group",
-        "z": "93ef77bb83089643",
+        "z": "50196fb4a30c2037",
         "name": "Home Assistant",
         "style": {
             "stroke": "#000000",
@@ -23185,7 +23213,7 @@
     {
         "id": "7be887bbdfcc67ed",
         "type": "group",
-        "z": "93ef77bb83089643",
+        "z": "50196fb4a30c2037",
         "g": "44a67f22ddeb9ec1",
         "name": "Status",
         "style": {
@@ -23218,7 +23246,7 @@
     {
         "id": "797c1b4e30ce98fd",
         "type": "group",
-        "z": "93ef77bb83089643",
+        "z": "50196fb4a30c2037",
         "g": "44a67f22ddeb9ec1",
         "name": "Reset Switch",
         "style": {
@@ -23265,7 +23293,7 @@
     {
         "id": "2084c56e0be1a867",
         "type": "group",
-        "z": "93ef77bb83089643",
+        "z": "50196fb4a30c2037",
         "g": "44a67f22ddeb9ec1",
         "name": "flogger-logs",
         "style": {
@@ -23305,6 +23333,107 @@
         "y": 759,
         "w": 372,
         "h": 252
+    },
+    {
+        "id": "d4446634f078b79e",
+        "type": "group",
+        "z": "149c1996407b0691",
+        "name": "Home Assistant",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#000000",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "9429a677132cabb4",
+            "f11c03449895c84e",
+            "b0a7738567d3e482"
+        ],
+        "x": 8,
+        "y": 3,
+        "w": 684,
+        "h": 554
+    },
+    {
+        "id": "9429a677132cabb4",
+        "type": "group",
+        "z": "149c1996407b0691",
+        "g": "d4446634f078b79e",
+        "name": "Status",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "83fd5b5e4c9d6d3a",
+            "416195c7837423a3",
+            "01aed00b096a4caf",
+            "be9657979ac3bde1",
+            "0c8e66f614600d35",
+            "e0b3c4e1d19d1f0b",
+            "1b856a4b0d162770",
+            "b123c048526fc042",
+            "acbb8f66497f8be7",
+            "3b594333ae9496f0",
+            "966209b3e74252f6",
+            "dff15ac491a842fd",
+            "d55170b8af3d7def",
+            "a36b9f750f6d9e3c"
+        ],
+        "x": 34,
+        "y": 29,
+        "w": 632,
+        "h": 182
+    },
+    {
+        "id": "f11c03449895c84e",
+        "type": "group",
+        "z": "149c1996407b0691",
+        "g": "d4446634f078b79e",
+        "name": "Reset Switch",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8c7f7eea756d79a8",
+            "41fe602bf465fcac",
+            "231eaf7e4945592c",
+            "408c9c8680cb24b1",
+            "be677015c0cf2e19",
+            "5ade021f60e24884",
+            "ff7a734a04388835"
+        ],
+        "x": 64,
+        "y": 219,
+        "w": 572,
+        "h": 172
+    },
+    {
+        "id": "b0a7738567d3e482",
+        "type": "group",
+        "z": "149c1996407b0691",
+        "g": "d4446634f078b79e",
+        "name": "flogger-logs",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7dde90fd89f34e1c",
+            "f692967f23425103",
+            "89ab7d35ec74df61"
+        ],
+        "x": 94,
+        "y": 399,
+        "w": 492,
+        "h": 132
     },
     {
         "id": "d1a17316.c56bb",
@@ -90145,6 +90274,511 @@
         ]
     },
     {
+        "id": "83fd5b5e4c9d6d3a",
+        "type": "switch",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "Home Assistant",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 150,
+        "y": 170,
+        "wires": [
+            [
+                "3b594333ae9496f0"
+            ],
+            [
+                "b123c048526fc042"
+            ]
+        ]
+    },
+    {
+        "id": "416195c7837423a3",
+        "type": "change",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "Running",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Running",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 110,
+        "wires": [
+            [
+                "0c8e66f614600d35"
+            ]
+        ]
+    },
+    {
+        "id": "01aed00b096a4caf",
+        "type": "rbe",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 140,
+        "y": 130,
+        "wires": [
+            [
+                "83fd5b5e4c9d6d3a"
+            ]
+        ]
+    },
+    {
+        "id": "be9657979ac3bde1",
+        "type": "api-call-service",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "input_boolean.homeassistant: RESET",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_boolean",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_boolean.homeassistant"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "RESTART SUCCESSFUL",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 490,
+        "y": 170,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0c8e66f614600d35",
+        "type": "link out",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "status",
+        "mode": "link",
+        "links": [],
+        "x": 545,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "e0b3c4e1d19d1f0b",
+        "type": "link in",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "link in 1121",
+        "links": [],
+        "x": 315,
+        "y": 170,
+        "wires": [
+            [
+                "be9657979ac3bde1"
+            ]
+        ]
+    },
+    {
+        "id": "1b856a4b0d162770",
+        "type": "link in",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "status",
+        "links": [],
+        "x": 350,
+        "y": 70,
+        "wires": [
+            [
+                "d55170b8af3d7def"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "b123c048526fc042",
+        "type": "link out",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "link out 1218",
+        "mode": "link",
+        "links": [],
+        "x": 265,
+        "y": 170,
+        "wires": []
+    },
+    {
+        "id": "acbb8f66497f8be7",
+        "type": "change",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "Reset in Progress",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Reset in Progress",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 140,
+        "wires": [
+            [
+                "0c8e66f614600d35"
+            ]
+        ]
+    },
+    {
+        "id": "3b594333ae9496f0",
+        "type": "link out",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "link out 1219",
+        "mode": "link",
+        "links": [],
+        "x": 265,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "966209b3e74252f6",
+        "type": "link in",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "link in 1122",
+        "links": [],
+        "x": 315,
+        "y": 110,
+        "wires": [
+            [
+                "416195c7837423a3"
+            ]
+        ]
+    },
+    {
+        "id": "dff15ac491a842fd",
+        "type": "link in",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "link in 1123",
+        "links": [],
+        "x": 315,
+        "y": 140,
+        "wires": [
+            [
+                "acbb8f66497f8be7"
+            ]
+        ]
+    },
+    {
+        "id": "d55170b8af3d7def",
+        "type": "debug",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "HOME ASSISTANT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 510,
+        "y": 70,
+        "wires": []
+    },
+    {
+        "id": "a36b9f750f6d9e3c",
+        "type": "poll-state",
+        "z": "149c1996407b0691",
+        "g": "9429a677132cabb4",
+        "name": "Home Assistant",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "1",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "input_boolean.homeassistant",
+        "state_type": "str",
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 140,
+        "y": 70,
+        "wires": [
+            [
+                "01aed00b096a4caf"
+            ]
+        ]
+    },
+    {
+        "id": "8c7f7eea756d79a8",
+        "type": "api-call-service",
+        "z": "149c1996407b0691",
+        "g": "f11c03449895c84e",
+        "name": "service.homeassistant_restart",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "homeassistant",
+        "service": "restart",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 470,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "41fe602bf465fcac",
+        "type": "trigger",
+        "z": "149c1996407b0691",
+        "g": "f11c03449895c84e",
+        "name": "delay 4s",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "4",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "8c7f7eea756d79a8"
+            ]
+        ]
+    },
+    {
+        "id": "231eaf7e4945592c",
+        "type": "change",
+        "z": "149c1996407b0691",
+        "g": "f11c03449895c84e",
+        "name": "Spa.Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Spa.Reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 350,
+        "wires": [
+            [
+                "408c9c8680cb24b1"
+            ]
+        ]
+    },
+    {
+        "id": "408c9c8680cb24b1",
+        "type": "mqtt out",
+        "z": "149c1996407b0691",
+        "g": "f11c03449895c84e",
+        "name": "Spa",
+        "topic": "Spa",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d1a17316.c56bb",
+        "x": 560,
+        "y": 350,
+        "wires": [],
+        "icon": "font-awesome/fa-flash"
+    },
+    {
+        "id": "be677015c0cf2e19",
+        "type": "trigger",
+        "z": "149c1996407b0691",
+        "g": "f11c03449895c84e",
+        "name": "delay 6s",
+        "op1": "",
+        "op2": "RESTART SUCCESSFUL",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "6",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "231eaf7e4945592c",
+                "ff7a734a04388835"
+            ]
+        ]
+    },
+    {
+        "id": "5ade021f60e24884",
+        "type": "link in",
+        "z": "149c1996407b0691",
+        "g": "f11c03449895c84e",
+        "name": "link in 1124",
+        "links": [],
+        "x": 105,
+        "y": 280,
+        "wires": [
+            [
+                "41fe602bf465fcac",
+                "be677015c0cf2e19"
+            ]
+        ]
+    },
+    {
+        "id": "ff7a734a04388835",
+        "type": "link out",
+        "z": "149c1996407b0691",
+        "g": "f11c03449895c84e",
+        "name": "link out 1220",
+        "mode": "link",
+        "links": [],
+        "x": 355,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "7dde90fd89f34e1c",
+        "type": "catch",
+        "z": "149c1996407b0691",
+        "g": "b0a7738567d3e482",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "f692967f23425103"
+            ]
+        ]
+    },
+    {
+        "id": "f692967f23425103",
+        "type": "flogger",
+        "z": "149c1996407b0691",
+        "g": "b0a7738567d3e482",
+        "name": "service.homeassistant_restart",
+        "logfile": "service.homeassistant_restart",
+        "inputchoice": "fullmsg",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
+        "loglevel": "WARN",
+        "logconfig": "fe897f4cf48cf92c",
+        "sendpane": false,
+        "x": 430,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "89ab7d35ec74df61",
+        "type": "link in",
+        "z": "149c1996407b0691",
+        "g": "b0a7738567d3e482",
+        "name": "link in 1125",
+        "links": [],
+        "x": 225,
+        "y": 490,
+        "wires": [
+            [
+                "f692967f23425103"
+            ]
+        ]
+    },
+    {
         "id": "bd74c26406b04b02",
         "type": "change",
         "z": "e02a62baaf77fbcd",
@@ -125556,6 +126190,532 @@
         "wires": []
     },
     {
+        "id": "29e33567b5569b53",
+        "type": "switch",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "Home Assistant",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 150,
+        "y": 170,
+        "wires": [
+            [
+                "6f5ecff4bbbaf8a1"
+            ],
+            [
+                "5c2a7f0ed8a2b6b9"
+            ]
+        ]
+    },
+    {
+        "id": "40bb6ec67295433e",
+        "type": "change",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "Running",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Running",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 110,
+        "wires": [
+            [
+                "0ce605dd6f85199e"
+            ]
+        ]
+    },
+    {
+        "id": "c37c9c4d3f9aa66e",
+        "type": "rbe",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 140,
+        "y": 130,
+        "wires": [
+            [
+                "29e33567b5569b53"
+            ]
+        ]
+    },
+    {
+        "id": "50457012b125c139",
+        "type": "api-call-service",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "input_boolean.homeassistant: RESET",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_boolean",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_boolean.homeassistant"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "RESTART SUCCESSFUL",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 490,
+        "y": 170,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ce605dd6f85199e",
+        "type": "link out",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "status",
+        "mode": "link",
+        "links": [
+            "ea8b16ac12e4e4df"
+        ],
+        "x": 545,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "15ddc149c63bb7f1",
+        "type": "link in",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "link in 1116",
+        "links": [
+            "5c2a7f0ed8a2b6b9"
+        ],
+        "x": 315,
+        "y": 170,
+        "wires": [
+            [
+                "50457012b125c139"
+            ]
+        ]
+    },
+    {
+        "id": "ea8b16ac12e4e4df",
+        "type": "link in",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "status",
+        "links": [
+            "0ce605dd6f85199e",
+            "4ba496df59046322"
+        ],
+        "x": 350,
+        "y": 70,
+        "wires": [
+            [
+                "78158e164fdb6052"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "5c2a7f0ed8a2b6b9",
+        "type": "link out",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "link out 1215",
+        "mode": "link",
+        "links": [
+            "15ddc149c63bb7f1",
+            "40349823fa9002f3",
+            "cbf2b12871e07665"
+        ],
+        "x": 265,
+        "y": 170,
+        "wires": []
+    },
+    {
+        "id": "24c71968d6a27efa",
+        "type": "change",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "Reset in Progress",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Reset in Progress",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 140,
+        "wires": [
+            [
+                "0ce605dd6f85199e"
+            ]
+        ]
+    },
+    {
+        "id": "6f5ecff4bbbaf8a1",
+        "type": "link out",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "link out 1216",
+        "mode": "link",
+        "links": [
+            "e775d7e5ec769789"
+        ],
+        "x": 265,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e775d7e5ec769789",
+        "type": "link in",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "link in 1119",
+        "links": [
+            "6f5ecff4bbbaf8a1"
+        ],
+        "x": 315,
+        "y": 110,
+        "wires": [
+            [
+                "40bb6ec67295433e"
+            ]
+        ]
+    },
+    {
+        "id": "cbf2b12871e07665",
+        "type": "link in",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "link in 1120",
+        "links": [
+            "5c2a7f0ed8a2b6b9"
+        ],
+        "x": 315,
+        "y": 140,
+        "wires": [
+            [
+                "24c71968d6a27efa"
+            ]
+        ]
+    },
+    {
+        "id": "78158e164fdb6052",
+        "type": "debug",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "HOME ASSISTANT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 510,
+        "y": 70,
+        "wires": []
+    },
+    {
+        "id": "6bd948d46d67eddb",
+        "type": "poll-state",
+        "z": "50196fb4a30c2037",
+        "g": "7be887bbdfcc67ed",
+        "name": "Home Assistant",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "1",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "input_boolean.homeassistant",
+        "state_type": "str",
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 140,
+        "y": 70,
+        "wires": [
+            [
+                "c37c9c4d3f9aa66e"
+            ]
+        ]
+    },
+    {
+        "id": "d983b9a29010accf",
+        "type": "api-call-service",
+        "z": "50196fb4a30c2037",
+        "g": "797c1b4e30ce98fd",
+        "name": "service.homeassistant_restart",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "homeassistant",
+        "service": "restart",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 470,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26db234fc7275e67",
+        "type": "trigger",
+        "z": "50196fb4a30c2037",
+        "g": "797c1b4e30ce98fd",
+        "name": "delay 4s",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "4",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "d983b9a29010accf"
+            ]
+        ]
+    },
+    {
+        "id": "282ccda71c15b751",
+        "type": "change",
+        "z": "50196fb4a30c2037",
+        "g": "797c1b4e30ce98fd",
+        "name": "Spa.Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Spa.Reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 350,
+        "wires": [
+            [
+                "2b799a447cdb32d9"
+            ]
+        ]
+    },
+    {
+        "id": "2b799a447cdb32d9",
+        "type": "mqtt out",
+        "z": "50196fb4a30c2037",
+        "g": "797c1b4e30ce98fd",
+        "name": "Spa",
+        "topic": "Spa",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d1a17316.c56bb",
+        "x": 560,
+        "y": 350,
+        "wires": [],
+        "icon": "font-awesome/fa-flash"
+    },
+    {
+        "id": "23074eca1af38776",
+        "type": "trigger",
+        "z": "50196fb4a30c2037",
+        "g": "797c1b4e30ce98fd",
+        "name": "delay 6s",
+        "op1": "",
+        "op2": "RESTART SUCCESSFUL",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "6",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "282ccda71c15b751",
+                "4ba496df59046322"
+            ]
+        ]
+    },
+    {
+        "id": "40349823fa9002f3",
+        "type": "link in",
+        "z": "50196fb4a30c2037",
+        "g": "797c1b4e30ce98fd",
+        "name": "link in 1118",
+        "links": [
+            "5c2a7f0ed8a2b6b9"
+        ],
+        "x": 105,
+        "y": 280,
+        "wires": [
+            [
+                "26db234fc7275e67",
+                "23074eca1af38776"
+            ]
+        ]
+    },
+    {
+        "id": "4ba496df59046322",
+        "type": "link out",
+        "z": "50196fb4a30c2037",
+        "g": "797c1b4e30ce98fd",
+        "name": "link out 1217",
+        "mode": "link",
+        "links": [
+            "ea8b16ac12e4e4df"
+        ],
+        "x": 355,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "d6644f69d325a09d",
+        "type": "catch",
+        "z": "50196fb4a30c2037",
+        "g": "2084c56e0be1a867",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "15ad68c69e7b0926"
+            ]
+        ]
+    },
+    {
+        "id": "15ad68c69e7b0926",
+        "type": "flogger",
+        "z": "50196fb4a30c2037",
+        "g": "2084c56e0be1a867",
+        "name": "service.homeassistant_restart",
+        "logfile": "service.homeassistant_restart",
+        "inputchoice": "fullmsg",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
+        "loglevel": "WARN",
+        "logconfig": "fe897f4cf48cf92c",
+        "sendpane": false,
+        "x": 430,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22372587c33b4506",
+        "type": "link in",
+        "z": "50196fb4a30c2037",
+        "g": "2084c56e0be1a867",
+        "name": "link in 1115",
+        "links": [],
+        "x": 225,
+        "y": 490,
+        "wires": [
+            [
+                "15ad68c69e7b0926"
+            ]
+        ]
+    },
+    {
         "id": "f7aef5e93c8ae44d",
         "type": "debug",
         "z": "ae087566.f2dff8",
@@ -125852,7 +127012,7 @@
         "g": "7bd07949.9ad888",
         "name": "",
         "env": [],
-        "x": 1200,
+        "x": 1210,
         "y": 590,
         "wires": []
     },
@@ -154178,274 +155338,6 @@
         ]
     },
     {
-        "id": "29e33567b5569b53",
-        "type": "switch",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "Home Assistant",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "off",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "on",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 150,
-        "y": 170,
-        "wires": [
-            [
-                "6f5ecff4bbbaf8a1"
-            ],
-            [
-                "5c2a7f0ed8a2b6b9"
-            ]
-        ]
-    },
-    {
-        "id": "40bb6ec67295433e",
-        "type": "change",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "Running",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Running",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 400,
-        "y": 110,
-        "wires": [
-            [
-                "0ce605dd6f85199e"
-            ]
-        ]
-    },
-    {
-        "id": "c37c9c4d3f9aa66e",
-        "type": "rbe",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": false,
-        "property": "payload",
-        "topi": "topic",
-        "x": 140,
-        "y": 130,
-        "wires": [
-            [
-                "29e33567b5569b53"
-            ]
-        ]
-    },
-    {
-        "id": "50457012b125c139",
-        "type": "api-call-service",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "input_boolean.homeassistant: RESET",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "input_boolean",
-        "service": "turn_off",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_boolean.homeassistant"
-        ],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "RESTART SUCCESSFUL",
-                "valueType": "str"
-            }
-        ],
-        "queue": "none",
-        "x": 490,
-        "y": 170,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d983b9a29010accf",
-        "type": "api-call-service",
-        "z": "93ef77bb83089643",
-        "g": "797c1b4e30ce98fd",
-        "name": "service.homeassistant_restart",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "homeassistant",
-        "service": "restart",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 470,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "26db234fc7275e67",
-        "type": "trigger",
-        "z": "93ef77bb83089643",
-        "g": "797c1b4e30ce98fd",
-        "name": "delay 4s",
-        "op1": "",
-        "op2": "true",
-        "op1type": "nul",
-        "op2type": "bool",
-        "duration": "4",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 250,
-        "y": 260,
-        "wires": [
-            [
-                "d983b9a29010accf"
-            ]
-        ]
-    },
-    {
-        "id": "282ccda71c15b751",
-        "type": "change",
-        "z": "93ef77bb83089643",
-        "g": "797c1b4e30ce98fd",
-        "name": "Spa.Reset",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Spa.Reset",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 410,
-        "y": 350,
-        "wires": [
-            [
-                "2b799a447cdb32d9"
-            ]
-        ]
-    },
-    {
-        "id": "2b799a447cdb32d9",
-        "type": "mqtt out",
-        "z": "93ef77bb83089643",
-        "g": "797c1b4e30ce98fd",
-        "name": "Spa",
-        "topic": "Spa",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "d1a17316.c56bb",
-        "x": 560,
-        "y": 350,
-        "wires": [],
-        "icon": "font-awesome/fa-flash"
-    },
-    {
-        "id": "0ce605dd6f85199e",
-        "type": "link out",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "status",
-        "mode": "link",
-        "links": [
-            "ea8b16ac12e4e4df"
-        ],
-        "x": 545,
-        "y": 110,
-        "wires": []
-    },
-    {
-        "id": "d6644f69d325a09d",
-        "type": "catch",
-        "z": "93ef77bb83089643",
-        "g": "2084c56e0be1a867",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 180,
-        "y": 440,
-        "wires": [
-            [
-                "15ad68c69e7b0926"
-            ]
-        ]
-    },
-    {
-        "id": "15ad68c69e7b0926",
-        "type": "flogger",
-        "z": "93ef77bb83089643",
-        "g": "2084c56e0be1a867",
-        "name": "service.homeassistant_restart",
-        "logfile": "service.homeassistant_restart",
-        "inputchoice": "fullmsg",
-        "inputobject": "payload",
-        "inputobjectType": "msg",
-        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
-        "loglevel": "WARN",
-        "logconfig": "fe897f4cf48cf92c",
-        "sendpane": false,
-        "x": 430,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "e85b0b51c8eb7f94",
         "type": "mqtt out",
         "z": "93ef77bb83089643",
@@ -154502,38 +155394,6 @@
         "wires": []
     },
     {
-        "id": "22372587c33b4506",
-        "type": "link in",
-        "z": "93ef77bb83089643",
-        "g": "2084c56e0be1a867",
-        "name": "link in 1115",
-        "links": [],
-        "x": 225,
-        "y": 490,
-        "wires": [
-            [
-                "15ad68c69e7b0926"
-            ]
-        ]
-    },
-    {
-        "id": "15ddc149c63bb7f1",
-        "type": "link in",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "link in 1116",
-        "links": [
-            "5c2a7f0ed8a2b6b9"
-        ],
-        "x": 315,
-        "y": 170,
-        "wires": [
-            [
-                "50457012b125c139"
-            ]
-        ]
-    },
-    {
         "id": "0844d566069bc6f8",
         "type": "api-call-service",
         "z": "93ef77bb83089643",
@@ -154584,25 +155444,6 @@
         ]
     },
     {
-        "id": "ea8b16ac12e4e4df",
-        "type": "link in",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "status",
-        "links": [
-            "0ce605dd6f85199e",
-            "4ba496df59046322"
-        ],
-        "x": 350,
-        "y": 70,
-        "wires": [
-            [
-                "78158e164fdb6052"
-            ]
-        ],
-        "l": true
-    },
-    {
         "id": "701f6c3051478348",
         "type": "delay",
         "z": "93ef77bb83089643",
@@ -154626,67 +155467,6 @@
         ]
     },
     {
-        "id": "23074eca1af38776",
-        "type": "trigger",
-        "z": "93ef77bb83089643",
-        "g": "797c1b4e30ce98fd",
-        "name": "delay 6s",
-        "op1": "",
-        "op2": "RESTART SUCCESSFUL",
-        "op1type": "nul",
-        "op2type": "str",
-        "duration": "6",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 250,
-        "y": 320,
-        "wires": [
-            [
-                "282ccda71c15b751",
-                "4ba496df59046322"
-            ]
-        ]
-    },
-    {
-        "id": "5c2a7f0ed8a2b6b9",
-        "type": "link out",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "link out 1215",
-        "mode": "link",
-        "links": [
-            "15ddc149c63bb7f1",
-            "40349823fa9002f3",
-            "cbf2b12871e07665"
-        ],
-        "x": 265,
-        "y": 170,
-        "wires": []
-    },
-    {
-        "id": "40349823fa9002f3",
-        "type": "link in",
-        "z": "93ef77bb83089643",
-        "g": "797c1b4e30ce98fd",
-        "name": "link in 1118",
-        "links": [
-            "5c2a7f0ed8a2b6b9"
-        ],
-        "x": 105,
-        "y": 280,
-        "wires": [
-            [
-                "26db234fc7275e67",
-                "23074eca1af38776"
-            ]
-        ]
-    },
-    {
         "id": "f45adaec2b29a8ef",
         "type": "delay",
         "z": "93ef77bb83089643",
@@ -154707,152 +155487,6 @@
         "y": 910,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "24c71968d6a27efa",
-        "type": "change",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "Reset in Progress",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Reset in Progress",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 430,
-        "y": 140,
-        "wires": [
-            [
-                "0ce605dd6f85199e"
-            ]
-        ]
-    },
-    {
-        "id": "6f5ecff4bbbaf8a1",
-        "type": "link out",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "link out 1216",
-        "mode": "link",
-        "links": [
-            "e775d7e5ec769789"
-        ],
-        "x": 265,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "e775d7e5ec769789",
-        "type": "link in",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "link in 1119",
-        "links": [
-            "6f5ecff4bbbaf8a1"
-        ],
-        "x": 315,
-        "y": 110,
-        "wires": [
-            [
-                "40bb6ec67295433e"
-            ]
-        ]
-    },
-    {
-        "id": "cbf2b12871e07665",
-        "type": "link in",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "link in 1120",
-        "links": [
-            "5c2a7f0ed8a2b6b9"
-        ],
-        "x": 315,
-        "y": 140,
-        "wires": [
-            [
-                "24c71968d6a27efa"
-            ]
-        ]
-    },
-    {
-        "id": "78158e164fdb6052",
-        "type": "debug",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "HOME ASSISTANT",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 510,
-        "y": 70,
-        "wires": []
-    },
-    {
-        "id": "4ba496df59046322",
-        "type": "link out",
-        "z": "93ef77bb83089643",
-        "g": "797c1b4e30ce98fd",
-        "name": "link out 1217",
-        "mode": "link",
-        "links": [
-            "ea8b16ac12e4e4df"
-        ],
-        "x": 355,
-        "y": 310,
-        "wires": []
-    },
-    {
-        "id": "6bd948d46d67eddb",
-        "type": "poll-state",
-        "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "Home Assistant",
-        "server": "bbcbbc6d.66dc2",
-        "version": 2,
-        "exposeToHomeAssistant": false,
-        "haConfig": [
-            {
-                "property": "name",
-                "value": ""
-            },
-            {
-                "property": "icon",
-                "value": ""
-            }
-        ],
-        "updateinterval": "1",
-        "updateIntervalType": "num",
-        "updateIntervalUnits": "seconds",
-        "outputinitially": true,
-        "outputonchanged": true,
-        "entity_id": "input_boolean.homeassistant",
-        "state_type": "str",
-        "halt_if": "",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "outputs": 1,
-        "x": 140,
-        "y": 70,
-        "wires": [
-            [
-                "c37c9c4d3f9aa66e"
-            ]
         ]
     },
     {
@@ -154970,5 +155604,14 @@
                 "bd71067f88333131"
             ]
         ]
+    },
+    {
+        "id": "ca31b4d7c5428c04",
+        "type": "subflow:50196fb4a30c2037",
+        "z": "93ef77bb83089643",
+        "name": "",
+        "x": 280,
+        "y": 250,
+        "wires": []
     }
 ]
