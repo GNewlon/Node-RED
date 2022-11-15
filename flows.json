@@ -105812,7 +105812,7 @@
         "g": "73152eaa0a651204",
         "name": "PoolHeat?",
         "info": "**PoolHeat?:**\nThis flow answers the question: PoolHeat?\n**3 CONDITIONS:**\n1. HVAC State\n2. FPH HEAT SELECT\n3. $PH HEAT SELECT\n**OUTPUT:**\nFPH\nHOT\nIDLE\nNPH\n$PH\n**Used next in flow: PoolLogic**\nPoolHeat + PoolLogic= Actions/Movements\nConditions:\n1. PoolHeat State\n2. HVAC States\n3. Pool State\n\n\n\n",
-        "x": 1090,
+        "x": 1110,
         "y": 160,
         "wires": []
     },
