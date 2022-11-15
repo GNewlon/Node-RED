@@ -23179,7 +23179,10 @@
             "2084c56e0be1a867",
             "e152c58280e9408f",
             "8f8f076d57fb4579",
-            "12620ca6e6ce3f36"
+            "12620ca6e6ce3f36",
+            "4a02bfa7a00921e6",
+            "bd71067f88333131",
+            "988595178a601a66"
         ],
         "x": 4,
         "y": 13,
@@ -154188,7 +154191,7 @@
         "wires": [
             [
                 "f45adaec2b29a8ef",
-                "e152c58280e9408f"
+                "988595178a601a66"
             ]
         ]
     },
@@ -154755,5 +154758,116 @@
         "x": 185,
         "y": 320,
         "wires": []
+    },
+    {
+        "id": "0844d566069bc6f8",
+        "type": "api-call-service",
+        "z": "93ef77bb83089643",
+        "name": "input_boolean.homeassistant: TOGGLE",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_boolean",
+        "service": "toggle",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_boolean.homeassistant"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "RESTART SUCCESSFUL",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 710,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a02bfa7a00921e6",
+        "type": "inject",
+        "z": "93ef77bb83089643",
+        "g": "44a67f22ddeb9ec1",
+        "name": "TOGGLE",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 370,
+        "wires": [
+            [
+                "bd71067f88333131"
+            ]
+        ]
+    },
+    {
+        "id": "bd71067f88333131",
+        "type": "link out",
+        "z": "93ef77bb83089643",
+        "g": "44a67f22ddeb9ec1",
+        "name": "link out 1214",
+        "mode": "link",
+        "links": [
+            "3c52c9992ddc9297"
+        ],
+        "x": 185,
+        "y": 370,
+        "wires": []
+    },
+    {
+        "id": "3c52c9992ddc9297",
+        "type": "link in",
+        "z": "93ef77bb83089643",
+        "name": "link in 1117",
+        "links": [
+            "bd71067f88333131"
+        ],
+        "x": 495,
+        "y": 600,
+        "wires": [
+            [
+                "0844d566069bc6f8"
+            ]
+        ]
+    },
+    {
+        "id": "988595178a601a66",
+        "type": "rbe",
+        "z": "93ef77bb83089643",
+        "g": "44a67f22ddeb9ec1",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "e152c58280e9408f"
+            ]
+        ]
     }
 ]
