@@ -152209,7 +152209,7 @@
         "duration": "4",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
