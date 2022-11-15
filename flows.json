@@ -122223,8 +122223,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1210,
@@ -122316,6 +122316,11 @@
         "g": "3cd1fba68d1c213d",
         "name": "Corrective Completed",
         "rules": [
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
             {
                 "t": "set",
                 "p": "topic",
