@@ -23201,13 +23201,11 @@
         },
         "nodes": [
             "29e33567b5569b53",
-            "40bb6ec67295433e",
             "50457012b125c139",
             "0ce605dd6f85199e",
             "15ddc149c63bb7f1",
             "ea8b16ac12e4e4df",
             "5c2a7f0ed8a2b6b9",
-            "24c71968d6a27efa",
             "6f5ecff4bbbaf8a1",
             "e775d7e5ec769789",
             "cbf2b12871e07665",
@@ -125552,32 +125550,6 @@
         ]
     },
     {
-        "id": "40bb6ec67295433e",
-        "type": "change",
-        "z": "50196fb4a30c2037",
-        "g": "7be887bbdfcc67ed",
-        "name": "Running",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Running",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 560,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "50457012b125c139",
         "type": "api-call-service",
         "z": "50196fb4a30c2037",
@@ -125679,34 +125651,6 @@
         "wires": []
     },
     {
-        "id": "24c71968d6a27efa",
-        "type": "change",
-        "z": "50196fb4a30c2037",
-        "g": "7be887bbdfcc67ed",
-        "name": "Reset in Progress",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Reset in Progress",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 130,
-        "wires": [
-            [
-                "0ce605dd6f85199e"
-            ]
-        ]
-    },
-    {
         "id": "6f5ecff4bbbaf8a1",
         "type": "link out",
         "z": "50196fb4a30c2037",
@@ -125732,9 +125676,7 @@
         "x": 475,
         "y": 100,
         "wires": [
-            [
-                "40bb6ec67295433e"
-            ]
+            []
         ]
     },
     {
@@ -125749,9 +125691,7 @@
         "x": 475,
         "y": 130,
         "wires": [
-            [
-                "24c71968d6a27efa"
-            ]
+            []
         ]
     },
     {
@@ -126069,6 +126009,56 @@
             [
                 "fb7a2fb260d46c64"
             ]
+        ]
+    },
+    {
+        "id": "24c71968d6a27efa",
+        "type": "change",
+        "z": "50196fb4a30c2037",
+        "name": "Reset in Progress",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Reset in Progress",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "40bb6ec67295433e",
+        "type": "change",
+        "z": "50196fb4a30c2037",
+        "name": "Running",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Running",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 250,
+        "wires": [
+            []
         ]
     },
     {
