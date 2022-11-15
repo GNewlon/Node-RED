@@ -15335,32 +15335,6 @@
         "h": 904
     },
     {
-        "id": "b711113a8b054c2a",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "name": "WatchDog",
-        "style": {
-            "stroke": "#ff0000",
-            "fill": "#000000",
-            "label": true,
-            "label-position": "n",
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "0990e9b3ab26f0c0",
-            "a8ec33ab4b42fa89",
-            "02348af9ef431995",
-            "0ac37ad32159159b",
-            "eed3d88b5120b240",
-            "e39218b1ad5cd449",
-            "076242e6bf7809b5"
-        ],
-        "x": 8,
-        "y": 3,
-        "w": 1464,
-        "h": 904
-    },
-    {
         "id": "44a67f22ddeb9ec1",
         "type": "group",
         "z": "50196fb4a30c2037",
@@ -19698,7 +19672,8 @@
             "79e784721f4f45f2",
             "f94b30fbc32c532c",
             "de877f20706e1d94",
-            "c900ef40bdec11cb"
+            "c900ef40bdec11cb",
+            "326b2999eb6917f6"
         ],
         "x": 314,
         "y": 389,
@@ -19875,234 +19850,6 @@
             "7716ea7344419ac2",
             "cb055cc680075431",
             "5fcdcb2419016795"
-        ],
-        "x": 34,
-        "y": 699,
-        "w": 272,
-        "h": 182
-    },
-    {
-        "id": "0990e9b3ab26f0c0",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "b711113a8b054c2a",
-        "name": "corrective actions + comms out",
-        "style": {
-            "stroke": "#ff0000",
-            "label": true,
-            "label-position": "n",
-            "color": "#ffffff",
-            "fill": "#000000"
-        },
-        "nodes": [
-            "66c645d30c90d1c4",
-            "4e13eb10aaf7c43b",
-            "e98d232e936376b6",
-            "e55193e4bd84ae98",
-            "686d78e34fcb9d87",
-            "7f951c5b022222d9",
-            "ce89c42895e44cb1",
-            "9d679caa2078d301",
-            "723f33de534e33b6",
-            "e8b867cc0527e5d2",
-            "7408380330cb7313",
-            "e5c1f0c5b069bca2",
-            "84cca4428447c080",
-            "caa3e75dbdfefc8d",
-            "5d4592cb160712d1",
-            "cec4f8b318197c0a",
-            "ff289db8fa5bc473",
-            "fb81f95fd0c0fa44",
-            "696abfc437860e4d",
-            "01a11552f827b9f6",
-            "82ef775544054855",
-            "945a3402e915a553",
-            "089b6fa092d9823c",
-            "288acd13ee12e8b0",
-            "9f3a1b7e46f7f9da",
-            "5ea900084f781384",
-            "94bbf2b31567d508",
-            "f7a440b06422c5af",
-            "7bb210f572f9ce2a",
-            "856b01425bc1c646",
-            "901a30b071bc51bb",
-            "52f58a909ca1c0f8"
-        ],
-        "x": 314,
-        "y": 389,
-        "w": 1132,
-        "h": 312
-    },
-    {
-        "id": "a8ec33ab4b42fa89",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "b711113a8b054c2a",
-        "name": "FPH-η",
-        "style": {
-            "stroke": "#6f2fa0",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "36d85d120ef2208f",
-            "b07367c4f7551c29",
-            "2c3c68ef4ebf91bd",
-            "76dd4572eaf12615",
-            "6d9cb8ec09bab8ea",
-            "68c058a1f3919c17"
-        ],
-        "x": 34,
-        "y": 189,
-        "w": 272,
-        "h": 172
-    },
-    {
-        "id": "02348af9ef431995",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "b711113a8b054c2a",
-        "name": "Query",
-        "style": {
-            "label": true,
-            "label-position": "n",
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "6ad20af1e325cac1",
-            "98a55810086338bc",
-            "5296dae8924ccdf2",
-            "e12aa25ccd2952d6",
-            "de7f24f12b80c8ce",
-            "69fa89b51ebe60dc"
-        ],
-        "x": 34,
-        "y": 29,
-        "w": 272,
-        "h": 182
-    },
-    {
-        "id": "0ac37ad32159159b",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "b711113a8b054c2a",
-        "name": "",
-        "style": {
-            "stroke": "#92d04f",
-            "label": true
-        },
-        "nodes": [
-            "008ba14d2f5570d5",
-            "7e93a844d0cd19ae",
-            "7cd43ba1f38d47ab",
-            "ba35bee781fc43d8",
-            "360d26219430e33e",
-            "d297a33898fa38cf",
-            "d4f1c8cffd225ff8",
-            "8e7e23f409f740ca",
-            "fbdae5b549cfe021",
-            "5abacb797c3164ae",
-            "89ec1135e4c27cae",
-            "13184f287d1e64e7",
-            "b31c6e2c79b1c15c",
-            "ae283d9e286cba13",
-            "b1f46211a4957e56",
-            "b058ae7fc0e98324",
-            "47bf07b59837cec7",
-            "2bc3ce5ad47682de",
-            "b116c19dbf11e539",
-            "8c7af81fa038eb32",
-            "b9e59d533d16b148",
-            "1abcb2cd226c31a0",
-            "f54d32bfcb2703e3",
-            "cd29aa1da3bb7795",
-            "7b492804178fd691",
-            "b58eb01c0115f67f",
-            "90467e769cd923ed",
-            "f1c1ae5e3a9694da",
-            "0246a316c4f88ff0",
-            "3ada31685304ca2d",
-            "e027ba1550f3c26e",
-            "69f485f41a02f147",
-            "b52369b23fb875e1",
-            "17f08751d681843d",
-            "0449a35e2f51897d",
-            "263338d2ec73f333",
-            "2a6f67b8a85faaa2",
-            "6737958c85af1a3e"
-        ],
-        "x": 314,
-        "y": 29,
-        "w": 1068,
-        "h": 352
-    },
-    {
-        "id": "eed3d88b5120b240",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "b711113a8b054c2a",
-        "name": "Pool.Mode",
-        "style": {
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "be50e6b9aaa44c57",
-            "aacaeb07fab144b9",
-            "3913d1c0b2ea7573",
-            "2c6b0dd8e8c6a90c",
-            "13838d0df5136e30",
-            "9e4fd83ffca50e12",
-            "8342ddcc8361593a",
-            "0b1b5d2b68e46b5e",
-            "518cfd62f4a2ed15",
-            "77b7e895f09b3237",
-            "5476f07f879c5004"
-        ],
-        "x": 34,
-        "y": 339,
-        "w": 272,
-        "h": 262
-    },
-    {
-        "id": "e39218b1ad5cd449",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "b711113a8b054c2a",
-        "name": "Heat?",
-        "style": {
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "d68f1d5864cab37f",
-            "af1630bb5ff05a75",
-            "700bb897cdb5a3c4",
-            "72b60d740310c73c",
-            "81224ee63a266b7f"
-        ],
-        "x": 34,
-        "y": 579,
-        "w": 272,
-        "h": 142
-    },
-    {
-        "id": "076242e6bf7809b5",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "b711113a8b054c2a",
-        "name": "Debug",
-        "style": {
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "a546d2bed1d7897f",
-            "d64d07ca2dc36bbb",
-            "904c1cf4703c1444",
-            "711162693d1aca8f",
-            "7d48cbab60a4e8e6",
-            "563b2de970e4db97"
         ],
         "x": 34,
         "y": 699,
@@ -22322,86 +22069,15 @@
             "a665e585a96a390b",
             "80181fcfcf56c076",
             "c677f3dd58d6ec22",
-            "8abc934123a85607"
+            "8abc934123a85607",
+            "422c537f8967a744",
+            "352f99c032b0598b",
+            "19602915789dc173"
         ],
         "x": 654,
-        "y": 169,
+        "y": 139,
         "w": 252,
-        "h": 182
-    },
-    {
-        "id": "2a6f67b8a85faaa2",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "comms + correctives",
-        "style": {
-            "stroke": "#6f2fa0",
-            "fill": "#e3f3d3",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "0cf60ad902b8853d",
-            "cabd77c8bd8a1789",
-            "909558244e4c200e",
-            "f3581ba7376eaf10",
-            "1ec01e35cfb3aa9d",
-            "771ebe7bbaa86c54",
-            "8bdbe2f26cbade4f",
-            "e2830ac9e6df3995",
-            "aa788d4b750fb946",
-            "15bcc224138a7d83",
-            "3f7d5b42c1092dd1",
-            "3e83984941694a35",
-            "71646e0719f6a89b",
-            "7469855e22be98d6",
-            "5cb88ad1cf72eafb",
-            "720260fcba5040ad",
-            "bb29ac55aed29d5d",
-            "dd7b7a1d9e3ee248",
-            "be8167aa1fe8d801",
-            "e1f82ffcf82594b2",
-            "901e603e8e6505c7",
-            "a0a9fc6fff07cd20",
-            "89945b9412137d19",
-            "728f7bc1c5073c34"
-        ],
-        "x": 914,
-        "y": 109,
-        "w": 442,
-        "h": 242
-    },
-    {
-        "id": "6737958c85af1a3e",
-        "type": "group",
-        "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "degrees",
-        "style": {
-            "stroke": "#0070c0",
-            "fill": "#bfdbef",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "9a36d3787eb7271e",
-            "c3071a27a78d896e",
-            "9e7c8612cd50cc40",
-            "ba151b5b919f8f7e",
-            "017cb5bb8ca1c986",
-            "aba60627a2c1e65f",
-            "faaee4733adc96fa",
-            "32c51550828211eb",
-            "38f49e19d5da0aba",
-            "eb8d0f796d53c4f8"
-        ],
-        "x": 654,
-        "y": 169,
-        "w": 252,
-        "h": 182
+        "h": 212
     },
     {
         "id": "9a1ae627.ab9538",
@@ -23248,6 +22924,339 @@
         "y": 3,
         "w": 1036.6666717529297,
         "h": 822.2221984863281
+    },
+    {
+        "id": "7ee4a08dd2e01820",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "name": "WatchDog",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#000000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "77845c5cb5775b37",
+            "b94cf9a5e34ab008",
+            "07c10563f03936da",
+            "5f9aae752b08102f",
+            "d7a831c5c14758ca",
+            "d7515393e995f623",
+            "a10011cf51d8be0c"
+        ],
+        "x": 8,
+        "y": 3,
+        "w": 1414,
+        "h": 904
+    },
+    {
+        "id": "77845c5cb5775b37",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "7ee4a08dd2e01820",
+        "name": "corrective actions + comms out",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff",
+            "fill": "#000000"
+        },
+        "nodes": [
+            "5ebefe9146821486",
+            "7562dcd148867e05",
+            "403c989e6ab965fd",
+            "93dcea68d902fd6c",
+            "b3ae7d98fbabfe46",
+            "a8992b94ce9300fc",
+            "8489f292f16d6f5b",
+            "bb09b5a7d9267d25",
+            "52d1ba01799357e4",
+            "23d219e00dbc17dd",
+            "cfbfe5dc4ec8aaa6",
+            "22cbe31b2ccbd574",
+            "1b4e12a44fce36ea",
+            "2c4a5cdc2405fc55",
+            "38fbdc0fa4f3d76a",
+            "04ace40c34df14d1",
+            "482052bd3003c811",
+            "57fa64122fd3a38b",
+            "2f3c9c9aed627d83",
+            "af7c805cb11aedee",
+            "0a7999b7fec6e868",
+            "fb80629142588df0",
+            "a6285847a2a5c3eb",
+            "755ce13a33b4edd4",
+            "8e1a15ee699e4de8",
+            "9029a4a552903faf",
+            "b65fc5f8d8709ec8",
+            "cbe5d960133636b2",
+            "186bf16fc70d995c",
+            "74b90863a7a83708",
+            "c58dbf0eab99d11f",
+            "bc333fab58144639",
+            "f63342775339b09f",
+            "75de192f3ff4d623"
+        ],
+        "x": 314,
+        "y": 389,
+        "w": 1082,
+        "h": 312
+    },
+    {
+        "id": "b94cf9a5e34ab008",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "7ee4a08dd2e01820",
+        "name": "FPH-η",
+        "style": {
+            "stroke": "#6f2fa0",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "2bb11a6d041092d1",
+            "1be813afa0d88521",
+            "457b4ddadb74e7af",
+            "e852df6b55b351ad",
+            "3efa0bc4dfda5b22",
+            "4c8a8b35785c4727"
+        ],
+        "x": 34,
+        "y": 189,
+        "w": 272,
+        "h": 172
+    },
+    {
+        "id": "07c10563f03936da",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "7ee4a08dd2e01820",
+        "name": "Query",
+        "style": {
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "d8b0c7c08bf53382",
+            "8f60701f510e96a7",
+            "b03cac6c87443f37",
+            "8ef16d846e564976",
+            "c305380cee6fae89",
+            "b99bdc1b12cd7949"
+        ],
+        "x": 34,
+        "y": 29,
+        "w": 272,
+        "h": 182
+    },
+    {
+        "id": "5f9aae752b08102f",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "7ee4a08dd2e01820",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "ed1e8859060169dd",
+            "618102863108a496",
+            "1a92a4954fc512e7",
+            "027c373c9277a785",
+            "c7be473c39ed246f",
+            "3ef09e3005a545d8",
+            "7ae85f7e46bf141c",
+            "2dacf3d387a3a0cb",
+            "3a3f70ca70b20e18",
+            "a94bd06eba26c86b",
+            "e6dad47912be7973",
+            "0dd3d7dda0cb32a5",
+            "fe0e140c63ed0c75",
+            "138ed6762252a048",
+            "da64fb2715805c75",
+            "e0bfae23f18bded6",
+            "e8f7638ddd84f00b",
+            "aa91f809146dfbfe",
+            "d4bd99d3ed4fb8a4",
+            "5ba3d64a7d0888aa",
+            "a5ff4561d7c944de",
+            "d59f5f54f64fa278",
+            "e5baa7f85df9745b",
+            "8b60a297a6f46bb9",
+            "ab665efb0c1dbca2",
+            "d74e28d850b7e7b4",
+            "5bf3e9eb44e09bd2",
+            "19b439c978258fd2",
+            "041d014f10e28717",
+            "83b15fc5bf4b452c",
+            "6731d9abcf05483c",
+            "5d1cd01d31b8304b",
+            "16c47fd71fb209c0",
+            "d5f7bb4c09cadd26",
+            "5c2c20e8c4ca92f9",
+            "bb85ca1f0c6ea3bb",
+            "3ca157bedcb1cc38",
+            "17cd6c1a3050567c"
+        ],
+        "x": 314,
+        "y": 29,
+        "w": 1068,
+        "h": 352
+    },
+    {
+        "id": "d7a831c5c14758ca",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "7ee4a08dd2e01820",
+        "name": "Pool.Mode",
+        "style": {
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "3de48873da856d8d",
+            "2ba8622d996ce7a1",
+            "dc16a28e60106cd6",
+            "4c9451bd1b5138ea",
+            "62b58310ef4da654",
+            "57c404cc6b0d132c",
+            "550ad3f62ba02412",
+            "43fc35df939a0aa2",
+            "3a3df07d29fd77f1",
+            "ef5a525854b04943",
+            "a9d85831ba62f211"
+        ],
+        "x": 34,
+        "y": 339,
+        "w": 272,
+        "h": 262
+    },
+    {
+        "id": "d7515393e995f623",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "7ee4a08dd2e01820",
+        "name": "Heat?",
+        "style": {
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "d0a8ad36153374d4",
+            "23699a537c678e20",
+            "c424f77fde094ff7",
+            "bdafd1098e0b3600",
+            "40c503f5e2ea8267"
+        ],
+        "x": 34,
+        "y": 579,
+        "w": 272,
+        "h": 142
+    },
+    {
+        "id": "a10011cf51d8be0c",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "7ee4a08dd2e01820",
+        "name": "Debug",
+        "style": {
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "2e7942f969fc76e9",
+            "92b0b633fdc14882",
+            "3b36fd475ce50c4a",
+            "bf4d6ea5e0a982ec",
+            "b55a5f55b1e87419",
+            "eb9a19c8d47cce57"
+        ],
+        "x": 34,
+        "y": 699,
+        "w": 272,
+        "h": 182
+    },
+    {
+        "id": "3ca157bedcb1cc38",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "5f9aae752b08102f",
+        "name": "comms + correctives",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#e3f3d3",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "14c1ca0cc35f56d9",
+            "c1317ae202cc6a01",
+            "cc3fa669f6021ad8",
+            "f4a7c9325983491e",
+            "030e0c2bdf402f6d",
+            "af177d3c5b3b24bc",
+            "1825acd697544157",
+            "d992433dccdcc323",
+            "b3cf096cbcd606f8",
+            "310f66425bd6d0bc",
+            "8522842e80309a7b",
+            "f8f76f5f5c06bc34",
+            "506d402abdbbba34",
+            "4d39666533f0aadd",
+            "4224289e5adb7c25",
+            "acb25c4d438ae53a",
+            "53fec6c7dffb1aa0",
+            "5897dba02411bbf0",
+            "7b2e17052f16f89b",
+            "2e6445ebe775a1f3",
+            "198643ad7c4004ed",
+            "26416b5820e1dcff",
+            "78df46af9cab73e9",
+            "1b69126d61c1a77a"
+        ],
+        "x": 914,
+        "y": 109,
+        "w": 442,
+        "h": 242
+    },
+    {
+        "id": "17cd6c1a3050567c",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "g": "5f9aae752b08102f",
+        "name": "degrees",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "f2b6ba8d802b8b1d",
+            "a8564b229179298d",
+            "c7d491349e65a8e6",
+            "04690894814a5f26",
+            "0d9c13f228d9a542",
+            "d45c414bea4afe45",
+            "85e185519b490765",
+            "a6bc690360f3a7cf",
+            "986accee63539b71",
+            "1003b783f9ba56c1",
+            "4e99a986cccba67e",
+            "0db6234116a5563b",
+            "bc80df72e8ae537c"
+        ],
+        "x": 654,
+        "y": 139,
+        "w": 252,
+        "h": 212
     },
     {
         "id": "d1a17316.c56bb",
@@ -123063,7 +123072,7 @@
         "type": "link out",
         "z": "73d128d33f8cf3ca",
         "g": "3cd1fba68d1c213d",
-        "name": "link out 1198",
+        "name": "If no change in 4m then set Heat?: NONE",
         "mode": "link",
         "links": [
             "dfa02e7f66a420c2"
@@ -124064,7 +124073,8 @@
         "name": "link out 1177",
         "mode": "link",
         "links": [
-            "fd234531ffa4cce0"
+            "fd234531ffa4cce0",
+            "19602915789dc173"
         ],
         "x": 615,
         "y": 240,
@@ -125499,6 +125509,82 @@
         "x": 200,
         "y": 840,
         "wires": []
+    },
+    {
+        "id": "422c537f8967a744",
+        "type": "switch",
+        "z": "73d128d33f8cf3ca",
+        "g": "24bae495942bcca9",
+        "name": ".4-3F",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": ".4",
+                "vt": "num",
+                "v2": "3",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "352f99c032b0598b"
+            ]
+        ]
+    },
+    {
+        "id": "326b2999eb6917f6",
+        "type": "link in",
+        "z": "73d128d33f8cf3ca",
+        "g": "3cd1fba68d1c213d",
+        "name": "\"Pool.Heat?  HOT\" has returned to normal. Set to \"NONE\" and investigate causal error",
+        "links": [
+            "352f99c032b0598b"
+        ],
+        "x": 355,
+        "y": 510,
+        "wires": [
+            [
+                "10511646e4d894e2"
+            ]
+        ]
+    },
+    {
+        "id": "352f99c032b0598b",
+        "type": "link out",
+        "z": "73d128d33f8cf3ca",
+        "g": "24bae495942bcca9",
+        "name": "\"Pool.Heat?  HOT\" has returned to normal. Set to \"NONE\" and investigate causal error",
+        "mode": "link",
+        "links": [
+            "326b2999eb6917f6"
+        ],
+        "x": 865,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "19602915789dc173",
+        "type": "link in",
+        "z": "73d128d33f8cf3ca",
+        "g": "24bae495942bcca9",
+        "name": "link in 1121",
+        "links": [
+            "6fea997517879660"
+        ],
+        "x": 695,
+        "y": 180,
+        "wires": [
+            [
+                "422c537f8967a744"
+            ]
+        ]
     },
     {
         "id": "29e33567b5569b53",
@@ -151242,12 +151328,12 @@
         ]
     },
     {
-        "id": "66c645d30c90d1c4",
+        "id": "5ebefe9146821486",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "WatchDog",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -151255,15 +151341,15 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1250,
-        "y": 590,
+        "x": 1210,
+        "y": 580,
         "wires": []
     },
     {
-        "id": "4e13eb10aaf7c43b",
+        "id": "7562dcd148867e05",
         "type": "and-gate",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Actions Completed",
         "rules": [
             {
@@ -151298,15 +151384,15 @@
         "y": 510,
         "wires": [
             [
-                "e55193e4bd84ae98"
+                "93dcea68d902fd6c"
             ]
         ]
     },
     {
-        "id": "e98d232e936376b6",
+        "id": "403c989e6ab965fd",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Return to Normal",
         "rules": [
             {
@@ -151333,15 +151419,15 @@
         "y": 470,
         "wires": [
             [
-                "686d78e34fcb9d87"
+                "b3ae7d98fbabfe46"
             ]
         ]
     },
     {
-        "id": "e55193e4bd84ae98",
+        "id": "93dcea68d902fd6c",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Corrective Completed",
         "rules": [
             {
@@ -151368,15 +151454,15 @@
         "y": 540,
         "wires": [
             [
-                "686d78e34fcb9d87"
+                "b3ae7d98fbabfe46"
             ]
         ]
     },
     {
-        "id": "686d78e34fcb9d87",
+        "id": "b3ae7d98fbabfe46",
         "type": "gate",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Corrective Completed",
         "controlTopic": "notok",
         "defaultState": "closed",
@@ -151391,15 +151477,15 @@
         "y": 450,
         "wires": [
             [
-                "7f951c5b022222d9"
+                "a8992b94ce9300fc"
             ]
         ]
     },
     {
-        "id": "7f951c5b022222d9",
+        "id": "a8992b94ce9300fc",
         "type": "gate",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Return to Normal",
         "controlTopic": "ok",
         "defaultState": "closed",
@@ -151414,34 +151500,34 @@
         "y": 540,
         "wires": [
             [
-                "e8b867cc0527e5d2"
+                "23d219e00dbc17dd"
             ]
         ]
     },
     {
-        "id": "ce89c42895e44cb1",
+        "id": "8489f292f16d6f5b",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Return to Normal",
         "links": [
-            "ba151b5b919f8f7e"
+            "04690894814a5f26"
         ],
         "x": 735,
         "y": 450,
         "wires": [
             [
-                "e98d232e936376b6",
-                "089b6fa092d9823c"
+                "403c989e6ab965fd",
+                "a6285847a2a5c3eb"
             ]
         ]
     },
     {
-        "id": "9d679caa2078d301",
+        "id": "bb09b5a7d9267d25",
         "type": "api-call-service",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
-        "name": "Graham's iPhone {{payload}}",
+        "g": "77845c5cb5775b37",
+        "name": "Graham's iPhone",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
@@ -151458,64 +151544,64 @@
         "queue": "none",
         "output_location": "",
         "output_location_type": "none",
-        "x": 1300,
-        "y": 640,
+        "x": 1230,
+        "y": 620,
         "wires": [
             []
         ]
     },
     {
-        "id": "723f33de534e33b6",
+        "id": "52d1ba01799357e4",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "ACTIONS RESET= \"Actions Completed\" + \"Temp now ok\"",
         "links": [
-            "e8b867cc0527e5d2"
+            "23d219e00dbc17dd"
         ],
         "x": 585,
         "y": 660,
         "wires": [
             [
-                "7408380330cb7313"
+                "cfbfe5dc4ec8aaa6"
             ]
         ]
     },
     {
-        "id": "e8b867cc0527e5d2",
+        "id": "23d219e00dbc17dd",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "ACTIONS RESET= \"Actions Completed\" + \"Temp now ok\"",
         "mode": "link",
         "links": [
-            "723f33de534e33b6",
-            "0cf60ad902b8853d",
-            "fb81f95fd0c0fa44"
+            "52d1ba01799357e4",
+            "14c1ca0cc35f56d9",
+            "57fa64122fd3a38b"
         ],
         "x": 1355,
         "y": 540,
         "wires": []
     },
     {
-        "id": "7408380330cb7313",
+        "id": "cfbfe5dc4ec8aaa6",
         "type": "subflow:4676a9fa934bca86",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "",
         "x": 690,
         "y": 660,
         "wires": [
             [
-                "4e13eb10aaf7c43b"
+                "7562dcd148867e05"
             ]
         ]
     },
     {
-        "id": "e5c1f0c5b069bca2",
+        "id": "22cbe31b2ccbd574",
         "type": "api-call-service",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Switch: ON",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
@@ -151555,15 +151641,15 @@
         "y": 430,
         "wires": [
             [
-                "4e13eb10aaf7c43b"
+                "7562dcd148867e05"
             ]
         ]
     },
     {
-        "id": "84cca4428447c080",
+        "id": "1b4e12a44fce36ea",
         "type": "api-call-service",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Heat Select-NONE",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
@@ -151598,15 +151684,15 @@
         "y": 510,
         "wires": [
             [
-                "4e13eb10aaf7c43b"
+                "7562dcd148867e05"
             ]
         ]
     },
     {
-        "id": "caa3e75dbdfefc8d",
+        "id": "2c4a5cdc2405fc55",
         "type": "api-call-service",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Switch: OFF",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
@@ -151649,89 +151735,87 @@
         "y": 470,
         "wires": [
             [
-                "4e13eb10aaf7c43b"
+                "7562dcd148867e05"
             ]
         ]
     },
     {
-        "id": "5d4592cb160712d1",
+        "id": "38fbdc0fa4f3d76a",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "bypass",
         "links": [
-            "728f7bc1c5073c34",
-            "71646e0719f6a89b",
-            "e1f82ffcf82594b2"
+            "1b69126d61c1a77a",
+            "506d402abdbbba34",
+            "2e6445ebe775a1f3"
         ],
-        "x": 660,
-        "y": 470,
+        "x": 650,
+        "y": 430,
         "wires": [
-            [
-                "e55193e4bd84ae98"
-            ]
+            []
         ],
         "l": true
     },
     {
-        "id": "cec4f8b318197c0a",
+        "id": "04ace40c34df14d1",
         "type": "subflow:4aa9e9e7db0ec22c",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "",
         "x": 970,
         "y": 660,
         "wires": [
             [
-                "686d78e34fcb9d87"
+                "b3ae7d98fbabfe46"
             ],
             [
-                "7f951c5b022222d9"
+                "a8992b94ce9300fc"
             ]
         ]
     },
     {
-        "id": "ff289db8fa5bc473",
+        "id": "482052bd3003c811",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Return to Normal",
         "links": [
-            "ba151b5b919f8f7e"
+            "04690894814a5f26"
         ],
         "x": 835,
         "y": 660,
         "wires": [
             [
-                "cec4f8b318197c0a"
+                "04ace40c34df14d1"
             ]
         ]
     },
     {
-        "id": "fb81f95fd0c0fa44",
+        "id": "57fa64122fd3a38b",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "comms",
         "links": [
-            "e8b867cc0527e5d2",
-            "71646e0719f6a89b",
-            "e1f82ffcf82594b2",
-            "728f7bc1c5073c34"
+            "23d219e00dbc17dd",
+            "506d402abdbbba34",
+            "2e6445ebe775a1f3",
+            "1b69126d61c1a77a"
         ],
         "x": 935,
         "y": 600,
         "wires": [
             [
-                "945a3402e915a553"
+                "fb80629142588df0"
             ]
         ]
     },
     {
-        "id": "696abfc437860e4d",
+        "id": "2f3c9c9aed627d83",
         "type": "and-gate",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Actions Completed",
         "rules": [
             {
@@ -151758,15 +151842,15 @@
         "y": 560,
         "wires": [
             [
-                "e55193e4bd84ae98"
+                "93dcea68d902fd6c"
             ]
         ]
     },
     {
-        "id": "01a11552f827b9f6",
+        "id": "af7c805cb11aedee",
         "type": "api-call-service",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Switch: ON",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
@@ -151810,15 +151894,15 @@
         "y": 550,
         "wires": [
             [
-                "696abfc437860e4d"
+                "2f3c9c9aed627d83"
             ]
         ]
     },
     {
-        "id": "82ef775544054855",
+        "id": "0a7999b7fec6e868",
         "type": "api-call-service",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Switch: OFF",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
@@ -151859,15 +151943,15 @@
         "y": 590,
         "wires": [
             [
-                "696abfc437860e4d"
+                "2f3c9c9aed627d83"
             ]
         ]
     },
     {
-        "id": "945a3402e915a553",
+        "id": "fb80629142588df0",
         "type": "rbe",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "comms",
         "func": "rbe",
         "gap": "",
@@ -151880,15 +151964,15 @@
         "y": 600,
         "wires": [
             [
-                "66c645d30c90d1c4"
+                "5ebefe9146821486"
             ]
         ]
     },
     {
-        "id": "089b6fa092d9823c",
+        "id": "a6285847a2a5c3eb",
         "type": "trigger",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Returned to Normal",
         "op1": "😃😃😃😃😃😃😃😃                                     ➡️➡️Returned to Normal: ",
         "op2": "",
@@ -151906,15 +151990,15 @@
         "y": 430,
         "wires": [
             [
-                "288acd13ee12e8b0"
+                "755ce13a33b4edd4"
             ]
         ]
     },
     {
-        "id": "288acd13ee12e8b0",
+        "id": "755ce13a33b4edd4",
         "type": "join",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "",
         "mode": "custom",
         "build": "string",
@@ -151935,32 +152019,65 @@
         "y": 430,
         "wires": [
             [
-                "686d78e34fcb9d87"
+                "b3ae7d98fbabfe46"
             ]
         ]
     },
     {
-        "id": "9f3a1b7e46f7f9da",
+        "id": "8e1a15ee699e4de8",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
-        "name": "ABNORMALLY LOW",
+        "g": "77845c5cb5775b37",
+        "name": "ULTRA High/Very HOT FPH-η",
         "links": [
-            "71646e0719f6a89b"
+            "1b69126d61c1a77a",
+            "2e6445ebe775a1f3",
+            "74b90863a7a83708"
         ],
         "x": 355,
-        "y": 560,
+        "y": 470,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9029a4a552903faf",
+        "type": "link in",
+        "z": "da9743e4572647d5",
+        "g": "77845c5cb5775b37",
+        "name": "ABNORMALLY LOW",
+        "links": [
+            "506d402abdbbba34"
+        ],
+        "x": 355,
+        "y": 570,
         "wires": [
             [
-                "5ea900084f781384"
+                "cbe5d960133636b2"
             ]
         ]
     },
     {
-        "id": "5ea900084f781384",
+        "id": "b65fc5f8d8709ec8",
+        "type": "link in",
+        "z": "da9743e4572647d5",
+        "g": "77845c5cb5775b37",
+        "name": "bypass",
+        "links": [],
+        "x": 650,
+        "y": 470,
+        "wires": [
+            [
+                "93dcea68d902fd6c"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "cbe5d960133636b2",
         "type": "trigger",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "-/4m",
         "op1": "",
         "op2": "true",
@@ -151978,47 +152095,46 @@
         "y": 630,
         "wires": [
             [
-                "f7a440b06422c5af"
+                "74b90863a7a83708"
             ]
         ]
     },
     {
-        "id": "94bbf2b31567d508",
+        "id": "186bf16fc70d995c",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Normal: msg.reset",
         "links": [
-            "901a30b071bc51bb"
+            "f63342775339b09f"
         ],
         "x": 355,
         "y": 630,
         "wires": [
             [
-                "5ea900084f781384"
+                "cbe5d960133636b2"
             ]
         ]
     },
     {
-        "id": "f7a440b06422c5af",
+        "id": "74b90863a7a83708",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
-        "name": "link out 1199",
+        "g": "77845c5cb5775b37",
+        "name": "If no change in 4m then set Heat?: NONE",
         "mode": "link",
         "links": [
-            "5b4a53fdd810fa2f",
-            "52f58a909ca1c0f8"
+            "8e1a15ee699e4de8"
         ],
         "x": 535,
         "y": 630,
         "wires": []
     },
     {
-        "id": "7bb210f572f9ce2a",
+        "id": "c58dbf0eab99d11f",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "reset",
         "rules": [
             {
@@ -152048,46 +152164,63 @@
         "y": 660,
         "wires": [
             [
-                "901a30b071bc51bb"
+                "f63342775339b09f"
             ]
         ]
     },
     {
-        "id": "856b01425bc1c646",
+        "id": "bc333fab58144639",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Normal: msg.reset",
         "links": [
-            "ba151b5b919f8f7e"
+            "04690894814a5f26"
         ],
         "x": 355,
         "y": 660,
         "wires": [
             [
-                "7bb210f572f9ce2a"
+                "c58dbf0eab99d11f"
             ]
         ]
     },
     {
-        "id": "901a30b071bc51bb",
+        "id": "f63342775339b09f",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
+        "g": "77845c5cb5775b37",
         "name": "Normal: msg.reset",
         "mode": "link",
         "links": [
-            "94bbf2b31567d508"
+            "186bf16fc70d995c"
         ],
         "x": 535,
         "y": 660,
         "wires": []
     },
     {
-        "id": "36d85d120ef2208f",
+        "id": "75de192f3ff4d623",
+        "type": "link in",
+        "z": "da9743e4572647d5",
+        "g": "77845c5cb5775b37",
+        "name": "\"Pool.Heat?  HOT\" has returned to normal. Set to \"NONE\" and investigate causal error",
+        "links": [
+            "0db6234116a5563b"
+        ],
+        "x": 355,
+        "y": 510,
+        "wires": [
+            [
+                "1b4e12a44fce36ea"
+            ]
+        ]
+    },
+    {
+        "id": "2bb11a6d041092d1",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "a8ec33ab4b42fa89",
+        "g": "b94cf9a5e34ab008",
         "name": "43",
         "props": [
             {
@@ -152109,15 +152242,15 @@
         "y": 290,
         "wires": [
             [
-                "76dd4572eaf12615"
+                "e852df6b55b351ad"
             ]
         ]
     },
     {
-        "id": "b07367c4f7551c29",
+        "id": "1be813afa0d88521",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "a8ec33ab4b42fa89",
+        "g": "b94cf9a5e34ab008",
         "name": "7",
         "props": [
             {
@@ -152135,15 +152268,15 @@
         "y": 270,
         "wires": [
             [
-                "76dd4572eaf12615"
+                "e852df6b55b351ad"
             ]
         ]
     },
     {
-        "id": "2c3c68ef4ebf91bd",
+        "id": "457b4ddadb74e7af",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "a8ec33ab4b42fa89",
+        "g": "b94cf9a5e34ab008",
         "name": "2.1",
         "props": [
             {
@@ -152161,33 +152294,33 @@
         "y": 250,
         "wires": [
             [
-                "76dd4572eaf12615"
+                "e852df6b55b351ad"
             ]
         ]
     },
     {
-        "id": "76dd4572eaf12615",
+        "id": "e852df6b55b351ad",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "a8ec33ab4b42fa89",
+        "g": "b94cf9a5e34ab008",
         "name": "FPH-η",
         "mode": "link",
         "links": [
-            "008ba14d2f5570d5",
-            "90467e769cd923ed",
-            "3ada31685304ca2d",
-            "904c1cf4703c1444",
-            "263338d2ec73f333"
+            "ed1e8859060169dd",
+            "5bf3e9eb44e09bd2",
+            "83b15fc5bf4b452c",
+            "3b36fd475ce50c4a",
+            "bb85ca1f0c6ea3bb"
         ],
         "x": 265,
         "y": 280,
         "wires": []
     },
     {
-        "id": "6d9cb8ec09bab8ea",
+        "id": "3efa0bc4dfda5b22",
         "type": "mqtt in",
         "z": "da9743e4572647d5",
-        "g": "a8ec33ab4b42fa89",
+        "g": "b94cf9a5e34ab008",
         "name": "FPH-η",
         "topic": "FPH-η",
         "qos": "0",
@@ -152201,15 +152334,15 @@
         "y": 320,
         "wires": [
             [
-                "76dd4572eaf12615"
+                "e852df6b55b351ad"
             ]
         ]
     },
     {
-        "id": "68c058a1f3919c17",
+        "id": "4c8a8b35785c4727",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "a8ec33ab4b42fa89",
+        "g": "b94cf9a5e34ab008",
         "name": ".10",
         "props": [
             {
@@ -152231,30 +152364,30 @@
         "y": 230,
         "wires": [
             [
-                "76dd4572eaf12615"
+                "e852df6b55b351ad"
             ]
         ]
     },
     {
-        "id": "6ad20af1e325cac1",
+        "id": "d8b0c7c08bf53382",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "02348af9ef431995",
-        "name": "link out 1200",
+        "g": "07c10563f03936da",
+        "name": "link out 1218",
         "mode": "link",
         "links": [
-            "7cd43ba1f38d47ab",
-            "b9e59d533d16b148"
+            "1a92a4954fc512e7",
+            "a5ff4561d7c944de"
         ],
         "x": 265,
         "y": 70,
         "wires": []
     },
     {
-        "id": "98a55810086338bc",
+        "id": "8f60701f510e96a7",
         "type": "mqtt in",
         "z": "da9743e4572647d5",
-        "g": "02348af9ef431995",
+        "g": "07c10563f03936da",
         "name": "Heat?",
         "topic": "FPH",
         "qos": "2",
@@ -152268,15 +152401,15 @@
         "y": 170,
         "wires": [
             [
-                "de7f24f12b80c8ce"
+                "c305380cee6fae89"
             ]
         ]
     },
     {
-        "id": "5296dae8924ccdf2",
+        "id": "b03cac6c87443f37",
         "type": "mqtt in",
         "z": "da9743e4572647d5",
-        "g": "02348af9ef431995",
+        "g": "07c10563f03936da",
         "name": "",
         "topic": "Pool.Mode",
         "qos": "0",
@@ -152290,46 +152423,46 @@
         "y": 120,
         "wires": [
             [
-                "e12aa25ccd2952d6"
+                "8ef16d846e564976"
             ]
         ]
     },
     {
-        "id": "e12aa25ccd2952d6",
+        "id": "8ef16d846e564976",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "02348af9ef431995",
-        "name": "link out 1201",
+        "g": "07c10563f03936da",
+        "name": "link out 1219",
         "mode": "link",
         "links": [
-            "5abacb797c3164ae",
-            "a546d2bed1d7897f",
-            "89ec1135e4c27cae",
-            "69f485f41a02f147"
+            "a94bd06eba26c86b",
+            "2e7942f969fc76e9",
+            "e6dad47912be7973",
+            "5d1cd01d31b8304b"
         ],
         "x": 265,
         "y": 120,
         "wires": []
     },
     {
-        "id": "de7f24f12b80c8ce",
+        "id": "c305380cee6fae89",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "02348af9ef431995",
-        "name": "link out 1202",
+        "g": "07c10563f03936da",
+        "name": "link out 1220",
         "mode": "link",
         "links": [
-            "90467e769cd923ed"
+            "5bf3e9eb44e09bd2"
         ],
         "x": 265,
         "y": 170,
         "wires": []
     },
     {
-        "id": "69fa89b51ebe60dc",
+        "id": "b99bdc1b12cd7949",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "02348af9ef431995",
+        "g": "07c10563f03936da",
         "name": "Query/45s",
         "props": [
             {
@@ -152347,34 +152480,34 @@
         "y": 70,
         "wires": [
             [
-                "6ad20af1e325cac1"
+                "d8b0c7c08bf53382"
             ]
         ]
     },
     {
-        "id": "008ba14d2f5570d5",
+        "id": "ed1e8859060169dd",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "",
         "links": [
-            "76dd4572eaf12615",
-            "b1f46211a4957e56",
-            "b058ae7fc0e98324"
+            "e852df6b55b351ad",
+            "da64fb2715805c75",
+            "e0bfae23f18bded6"
         ],
         "x": 355,
         "y": 290,
         "wires": [
             [
-                "7e93a844d0cd19ae"
+                "618102863108a496"
             ]
         ]
     },
     {
-        "id": "7e93a844d0cd19ae",
+        "id": "618102863108a496",
         "type": "or-gate",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Pool.Mode  FPH",
         "rules": [
             {
@@ -152409,32 +152542,32 @@
         "y": 290,
         "wires": [
             [
-                "2bc3ce5ad47682de"
+                "aa91f809146dfbfe"
             ]
         ]
     },
     {
-        "id": "7cd43ba1f38d47ab",
+        "id": "1a92a4954fc512e7",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Security",
         "links": [
-            "6ad20af1e325cac1"
+            "d8b0c7c08bf53382"
         ],
         "x": 355,
         "y": 70,
         "wires": [
             [
-                "ba35bee781fc43d8"
+                "027c373c9277a785"
             ]
         ]
     },
     {
-        "id": "ba35bee781fc43d8",
+        "id": "027c373c9277a785",
         "type": "function",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Query",
         "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -24h)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"POOL\")\n  |> filter(fn: (r) => r[\"_field\"] == \"Mode\")\n  |> group()\n  |> last()`;\nreturn msg;",
         "outputs": 1,
@@ -152446,15 +152579,15 @@
         "y": 70,
         "wires": [
             [
-                "360d26219430e33e"
+                "c7be473c39ed246f"
             ]
         ]
     },
     {
-        "id": "360d26219430e33e",
+        "id": "c7be473c39ed246f",
         "type": "influxdb in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "influxdb": "10eaf502617379e3",
         "name": "Mode",
         "query": "",
@@ -152466,16 +152599,16 @@
         "y": 70,
         "wires": [
             [
-                "d4f1c8cffd225ff8",
-                "d297a33898fa38cf"
+                "7ae85f7e46bf141c",
+                "3ef09e3005a545d8"
             ]
         ]
     },
     {
-        "id": "d297a33898fa38cf",
+        "id": "3ef09e3005a545d8",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Pool.Mode",
         "active": false,
         "tosidebar": false,
@@ -152490,10 +152623,10 @@
         "wires": []
     },
     {
-        "id": "d4f1c8cffd225ff8",
+        "id": "7ae85f7e46bf141c",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Pool.Mode",
         "rules": [
             {
@@ -152525,32 +152658,32 @@
         "y": 70,
         "wires": [
             [
-                "8e7e23f409f740ca"
+                "2dacf3d387a3a0cb"
             ]
         ]
     },
     {
-        "id": "8e7e23f409f740ca",
+        "id": "2dacf3d387a3a0cb",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1203",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1221",
         "mode": "link",
         "links": [
-            "5abacb797c3164ae",
-            "89ec1135e4c27cae",
-            "a546d2bed1d7897f",
-            "69f485f41a02f147"
+            "a94bd06eba26c86b",
+            "e6dad47912be7973",
+            "2e7942f969fc76e9",
+            "5d1cd01d31b8304b"
         ],
         "x": 845,
         "y": 70,
         "wires": []
     },
     {
-        "id": "fbdae5b549cfe021",
+        "id": "3a3f70ca70b20e18",
         "type": "or-gate",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Pool.Mode !=FPH",
         "rules": [
             {
@@ -152665,84 +152798,84 @@
         "y": 340,
         "wires": [
             [
-                "47bf07b59837cec7"
+                "e8f7638ddd84f00b"
             ]
         ]
     },
     {
-        "id": "5abacb797c3164ae",
+        "id": "a94bd06eba26c86b",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "",
         "links": [
-            "8e7e23f409f740ca",
-            "13838d0df5136e30",
-            "cd29aa1da3bb7795",
-            "e12aa25ccd2952d6",
-            "72b60d740310c73c"
+            "2dacf3d387a3a0cb",
+            "62b58310ef4da654",
+            "8b60a297a6f46bb9",
+            "8ef16d846e564976",
+            "bdafd1098e0b3600"
         ],
         "x": 355,
         "y": 340,
         "wires": [
             [
-                "fbdae5b549cfe021"
+                "3a3f70ca70b20e18"
             ]
         ]
     },
     {
-        "id": "89ec1135e4c27cae",
+        "id": "e6dad47912be7973",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link in 1104",
+        "g": "5f9aae752b08102f",
+        "name": "link in 1122",
         "links": [
-            "b058ae7fc0e98324",
-            "13838d0df5136e30",
-            "8e7e23f409f740ca",
-            "cd29aa1da3bb7795",
-            "e12aa25ccd2952d6",
-            "72b60d740310c73c"
+            "e0bfae23f18bded6",
+            "62b58310ef4da654",
+            "2dacf3d387a3a0cb",
+            "8b60a297a6f46bb9",
+            "8ef16d846e564976",
+            "bdafd1098e0b3600"
         ],
         "x": 355,
         "y": 200,
         "wires": [
             [
-                "b31c6e2c79b1c15c"
+                "fe0e140c63ed0c75"
             ]
         ]
     },
     {
-        "id": "13184f287d1e64e7",
+        "id": "0dd3d7dda0cb32a5",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link in 1105",
+        "g": "5f9aae752b08102f",
+        "name": "link in 1123",
         "links": [
-            "47bf07b59837cec7"
+            "e8f7638ddd84f00b"
         ],
         "x": 355,
         "y": 170,
         "wires": [
             [
-                "ae283d9e286cba13"
+                "138ed6762252a048"
             ]
         ]
     },
     {
-        "id": "b31c6e2c79b1c15c",
+        "id": "fe0e140c63ed0c75",
         "type": "trigger",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "2m",
+        "g": "5f9aae752b08102f",
+        "name": "90s",
         "op1": "",
         "op2": "",
         "op1type": "nul",
         "op2type": "payl",
-        "duration": "2",
+        "duration": "90",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
@@ -152751,15 +152884,15 @@
         "y": 200,
         "wires": [
             [
-                "b1f46211a4957e56"
+                "da64fb2715805c75"
             ]
         ]
     },
     {
-        "id": "ae283d9e286cba13",
+        "id": "138ed6762252a048",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "reset",
         "rules": [
             {
@@ -152785,13 +152918,6 @@
                 "pt": "msg",
                 "to": "Pool.Mode",
                 "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Normal",
-                "tot": "str"
             }
         ],
         "action": "",
@@ -152803,72 +152929,72 @@
         "y": 170,
         "wires": [
             [
-                "b058ae7fc0e98324"
+                "e0bfae23f18bded6"
             ]
         ]
     },
     {
-        "id": "b1f46211a4957e56",
+        "id": "da64fb2715805c75",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1204",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1222",
         "mode": "link",
         "links": [
-            "008ba14d2f5570d5"
+            "ed1e8859060169dd"
         ],
         "x": 555,
         "y": 200,
         "wires": []
     },
     {
-        "id": "b058ae7fc0e98324",
+        "id": "e0bfae23f18bded6",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1205",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1223",
         "mode": "link",
         "links": [
-            "008ba14d2f5570d5",
-            "89ec1135e4c27cae"
+            "e6dad47912be7973",
+            "ed1e8859060169dd"
         ],
         "x": 555,
         "y": 170,
         "wires": []
     },
     {
-        "id": "47bf07b59837cec7",
+        "id": "e8f7638ddd84f00b",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1206",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1224",
         "mode": "link",
         "links": [
-            "13184f287d1e64e7"
+            "0dd3d7dda0cb32a5"
         ],
         "x": 615,
         "y": 340,
         "wires": []
     },
     {
-        "id": "2bc3ce5ad47682de",
+        "id": "aa91f809146dfbfe",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1207",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1225",
         "mode": "link",
         "links": [
-            "c3071a27a78d896e"
+            "a8564b229179298d"
         ],
         "x": 615,
         "y": 290,
         "wires": []
     },
     {
-        "id": "b116c19dbf11e539",
+        "id": "d4bd99d3ed4fb8a4",
         "type": "function",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Query",
         "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -24h)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"POOL\")\n  |> filter(fn: (r) => r[\"_field\"] == \"Heat?\")\n  |> group()\n  |> last()`;\nreturn msg;",
         "outputs": 1,
@@ -152880,15 +153006,15 @@
         "y": 100,
         "wires": [
             [
-                "1abcb2cd226c31a0"
+                "d59f5f54f64fa278"
             ]
         ]
     },
     {
-        "id": "8c7af81fa038eb32",
+        "id": "5ba3d64a7d0888aa",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Heat?",
         "rules": [
             {
@@ -152920,32 +153046,32 @@
         "y": 120,
         "wires": [
             [
-                "cd29aa1da3bb7795"
+                "8b60a297a6f46bb9"
             ]
         ]
     },
     {
-        "id": "b9e59d533d16b148",
+        "id": "a5ff4561d7c944de",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Security",
         "links": [
-            "6ad20af1e325cac1"
+            "d8b0c7c08bf53382"
         ],
         "x": 355,
         "y": 100,
         "wires": [
             [
-                "b116c19dbf11e539"
+                "d4bd99d3ed4fb8a4"
             ]
         ]
     },
     {
-        "id": "1abcb2cd226c31a0",
+        "id": "d59f5f54f64fa278",
         "type": "influxdb in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "influxdb": "10eaf502617379e3",
         "name": "Heat?",
         "query": "",
@@ -152957,16 +153083,16 @@
         "y": 100,
         "wires": [
             [
-                "8c7af81fa038eb32",
-                "f54d32bfcb2703e3"
+                "5ba3d64a7d0888aa",
+                "e5baa7f85df9745b"
             ]
         ]
     },
     {
-        "id": "f54d32bfcb2703e3",
+        "id": "e5baa7f85df9745b",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Heat?",
         "active": false,
         "tosidebar": false,
@@ -152981,26 +153107,26 @@
         "wires": []
     },
     {
-        "id": "cd29aa1da3bb7795",
+        "id": "8b60a297a6f46bb9",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1208",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1226",
         "mode": "link",
         "links": [
-            "5abacb797c3164ae",
-            "89ec1135e4c27cae",
-            "90467e769cd923ed"
+            "a94bd06eba26c86b",
+            "e6dad47912be7973",
+            "5bf3e9eb44e09bd2"
         ],
         "x": 845,
         "y": 120,
         "wires": []
     },
     {
-        "id": "7b492804178fd691",
+        "id": "ab665efb0c1dbca2",
         "type": "or-gate",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "Pool.Heat?  HOT",
         "rules": [
             {
@@ -153019,50 +153145,51 @@
         "y": 240,
         "wires": [
             [
-                "b58eb01c0115f67f"
+                "d74e28d850b7e7b4"
             ]
         ]
     },
     {
-        "id": "b58eb01c0115f67f",
+        "id": "d74e28d850b7e7b4",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1209",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1227",
         "mode": "link",
         "links": [
-            "c3071a27a78d896e"
+            "a8564b229179298d",
+            "bc80df72e8ae537c"
         ],
         "x": 615,
         "y": 240,
         "wires": []
     },
     {
-        "id": "90467e769cd923ed",
+        "id": "5bf3e9eb44e09bd2",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link in 1106",
+        "g": "5f9aae752b08102f",
+        "name": "link in 1124",
         "links": [
-            "cd29aa1da3bb7795",
-            "72b60d740310c73c",
-            "76dd4572eaf12615",
-            "de7f24f12b80c8ce",
-            "e2830ac9e6df3995"
+            "8b60a297a6f46bb9",
+            "bdafd1098e0b3600",
+            "e852df6b55b351ad",
+            "c305380cee6fae89",
+            "d992433dccdcc323"
         ],
         "x": 355,
         "y": 240,
         "wires": [
             [
-                "7b492804178fd691"
+                "ab665efb0c1dbca2"
             ]
         ]
     },
     {
-        "id": "f1c1ae5e3a9694da",
+        "id": "19b439c978258fd2",
         "type": "delay",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "1/30s",
         "pauseType": "rate",
         "timeout": "5",
@@ -153080,46 +153207,47 @@
         "y": 140,
         "wires": [
             [
-                "0246a316c4f88ff0"
+                "041d014f10e28717"
             ]
         ]
     },
     {
-        "id": "0246a316c4f88ff0",
+        "id": "041d014f10e28717",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link out 1210",
+        "g": "5f9aae752b08102f",
+        "name": "link out 1228",
         "mode": "link",
         "links": [
-            "faaee4733adc96fa"
+            "85e185519b490765",
+            "14c1ca0cc35f56d9"
         ],
         "x": 555,
         "y": 140,
         "wires": []
     },
     {
-        "id": "3ada31685304ca2d",
+        "id": "83b15fc5bf4b452c",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link in 1107",
+        "g": "5f9aae752b08102f",
+        "name": "link in 1125",
         "links": [
-            "76dd4572eaf12615"
+            "e852df6b55b351ad"
         ],
         "x": 355,
         "y": 140,
         "wires": [
             [
-                "f1c1ae5e3a9694da"
+                "19b439c978258fd2"
             ]
         ]
     },
     {
-        "id": "e027ba1550f3c26e",
+        "id": "6731d9abcf05483c",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "FPH-η",
         "active": false,
         "tosidebar": false,
@@ -153134,28 +153262,28 @@
         "wires": []
     },
     {
-        "id": "69f485f41a02f147",
+        "id": "5d1cd01d31b8304b",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link in 1108",
+        "g": "5f9aae752b08102f",
+        "name": "link in 1126",
         "links": [
-            "e12aa25ccd2952d6",
-            "8e7e23f409f740ca"
+            "8ef16d846e564976",
+            "2dacf3d387a3a0cb"
         ],
         "x": 1025,
         "y": 70,
         "wires": [
             [
-                "b52369b23fb875e1"
+                "16c47fd71fb209c0"
             ]
         ]
     },
     {
-        "id": "b52369b23fb875e1",
+        "id": "16c47fd71fb209c0",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "PoolMode",
         "active": true,
         "tosidebar": false,
@@ -153170,10 +153298,10 @@
         "wires": []
     },
     {
-        "id": "17f08751d681843d",
+        "id": "d5f7bb4c09cadd26",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "testing",
         "active": true,
         "tosidebar": false,
@@ -153188,52 +153316,53 @@
         "wires": []
     },
     {
-        "id": "0449a35e2f51897d",
+        "id": "5c2c20e8c4ca92f9",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
-        "name": "link in 1109",
+        "g": "5f9aae752b08102f",
+        "name": "link in 1127",
         "links": [
-            "72b60d740310c73c",
-            "13838d0df5136e30"
+            "bdafd1098e0b3600",
+            "62b58310ef4da654"
         ],
-        "x": 1135,
+        "x": 1145,
         "y": 70,
         "wires": [
             [
-                "17f08751d681843d"
+                "d5f7bb4c09cadd26"
             ]
         ]
     },
     {
-        "id": "263338d2ec73f333",
+        "id": "bb85ca1f0c6ea3bb",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "0ac37ad32159159b",
+        "g": "5f9aae752b08102f",
         "name": "debug view",
         "links": [
-            "76dd4572eaf12615"
+            "e852df6b55b351ad"
         ],
         "x": 925,
         "y": 70,
         "wires": [
             [
-                "e027ba1550f3c26e"
+                "6731d9abcf05483c"
             ]
         ]
     },
     {
-        "id": "0cf60ad902b8853d",
+        "id": "14c1ca0cc35f56d9",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "status",
         "links": [
-            "e8b867cc0527e5d2",
-            "ba151b5b919f8f7e",
-            "71646e0719f6a89b",
-            "e1f82ffcf82594b2",
-            "728f7bc1c5073c34"
+            "04690894814a5f26",
+            "041d014f10e28717",
+            "1b69126d61c1a77a",
+            "506d402abdbbba34",
+            "2e6445ebe775a1f3",
+            "23d219e00dbc17dd"
         ],
         "x": 1230,
         "y": 310,
@@ -153243,45 +153372,45 @@
         "l": true
     },
     {
-        "id": "cabd77c8bd8a1789",
+        "id": "c1317ae202cc6a01",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "NORMAL/RESET",
         "links": [
-            "ba151b5b919f8f7e"
+            "04690894814a5f26"
         ],
         "x": 955,
         "y": 280,
         "wires": [
             [
-                "1ec01e35cfb3aa9d"
+                "030e0c2bdf402f6d"
             ]
         ]
     },
     {
-        "id": "909558244e4c200e",
+        "id": "cc3fa669f6021ad8",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "ULTRA/VERY HOT!!!!",
         "links": [
-            "32c51550828211eb",
-            "9e7c8612cd50cc40"
+            "a6bc690360f3a7cf",
+            "c7d491349e65a8e6"
         ],
         "x": 955,
         "y": 310,
         "wires": [
             [
-                "f3581ba7376eaf10"
+                "f4a7c9325983491e"
             ]
         ]
     },
     {
-        "id": "f3581ba7376eaf10",
+        "id": "f4a7c9325983491e",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "close",
         "rules": [
             {
@@ -153315,15 +153444,15 @@
         "y": 310,
         "wires": [
             [
-                "89945b9412137d19"
+                "78df46af9cab73e9"
             ]
         ]
     },
     {
-        "id": "1ec01e35cfb3aa9d",
+        "id": "030e0c2bdf402f6d",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "open",
         "rules": [
             {
@@ -153357,15 +153486,15 @@
         "y": 280,
         "wires": [
             [
-                "a0a9fc6fff07cd20"
+                "26416b5820e1dcff"
             ]
         ]
     },
     {
-        "id": "771ebe7bbaa86c54",
+        "id": "af177d3c5b3b24bc",
         "type": "trigger",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "FPH: HOT",
         "op1": "",
         "op2": "On",
@@ -153383,15 +153512,15 @@
         "y": 240,
         "wires": [
             [
-                "8bdbe2f26cbade4f"
+                "1825acd697544157"
             ]
         ]
     },
     {
-        "id": "8bdbe2f26cbade4f",
+        "id": "1825acd697544157",
         "type": "change",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "HOT",
         "rules": [
             {
@@ -153418,53 +153547,53 @@
         "y": 240,
         "wires": [
             [
-                "e2830ac9e6df3995"
+                "d992433dccdcc323"
             ]
         ]
     },
     {
-        "id": "e2830ac9e6df3995",
+        "id": "d992433dccdcc323",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "HOT",
         "mode": "link",
         "links": [
-            "15bcc224138a7d83",
-            "90467e769cd923ed"
+            "310f66425bd6d0bc",
+            "5bf3e9eb44e09bd2"
         ],
         "x": 1315,
         "y": 240,
         "wires": []
     },
     {
-        "id": "aa788d4b750fb946",
+        "id": "b3cf096cbcd606f8",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "HOT",
         "links": [
-            "32c51550828211eb",
-            "9e7c8612cd50cc40"
+            "a6bc690360f3a7cf",
+            "c7d491349e65a8e6"
         ],
         "x": 955,
         "y": 240,
         "wires": [
             [
-                "771ebe7bbaa86c54"
+                "af177d3c5b3b24bc"
             ]
         ]
     },
     {
-        "id": "15bcc224138a7d83",
+        "id": "310f66425bd6d0bc",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "output",
         "links": [
-            "a0a9fc6fff07cd20",
-            "89945b9412137d19",
-            "e2830ac9e6df3995"
+            "26416b5820e1dcff",
+            "78df46af9cab73e9",
+            "d992433dccdcc323"
         ],
         "x": 1230,
         "y": 280,
@@ -153474,10 +153603,10 @@
         "l": true
     },
     {
-        "id": "3f7d5b42c1092dd1",
+        "id": "8522842e80309a7b",
         "type": "trigger",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "Abnormal FPH-η",
         "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ Abnormal FPH-η: ",
         "op2": "",
@@ -153495,66 +153624,66 @@
         "y": 150,
         "wires": [
             [
-                "bb29ac55aed29d5d"
+                "53fec6c7dffb1aa0"
             ]
         ]
     },
     {
-        "id": "3e83984941694a35",
+        "id": "f8f76f5f5c06bc34",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "ABNORMALLY LOW",
         "links": [
-            "017cb5bb8ca1c986"
+            "0d9c13f228d9a542"
         ],
         "x": 955,
         "y": 150,
         "wires": [
             [
-                "3f7d5b42c1092dd1"
+                "8522842e80309a7b"
             ]
         ]
     },
     {
-        "id": "71646e0719f6a89b",
+        "id": "506d402abdbbba34",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "ABNORMALLY LOW",
         "mode": "link",
         "links": [
-            "5d4592cb160712d1",
-            "0cf60ad902b8853d",
-            "fb81f95fd0c0fa44",
-            "9f3a1b7e46f7f9da"
+            "38fbdc0fa4f3d76a",
+            "14c1ca0cc35f56d9",
+            "57fa64122fd3a38b",
+            "9029a4a552903faf"
         ],
         "x": 1315,
         "y": 150,
         "wires": []
     },
     {
-        "id": "7469855e22be98d6",
+        "id": "4d39666533f0aadd",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "ULTRA High FPH-η",
         "links": [
-            "32c51550828211eb"
+            "a6bc690360f3a7cf"
         ],
         "x": 955,
         "y": 210,
         "wires": [
             [
-                "5cb88ad1cf72eafb"
+                "4224289e5adb7c25"
             ]
         ]
     },
     {
-        "id": "5cb88ad1cf72eafb",
+        "id": "4224289e5adb7c25",
         "type": "trigger",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "ULTRA High FPH-η",
         "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ ULTRA High FPH-η: ",
         "op2": "",
@@ -153572,15 +153701,15 @@
         "y": 210,
         "wires": [
             [
-                "720260fcba5040ad"
+                "acb25c4d438ae53a"
             ]
         ]
     },
     {
-        "id": "720260fcba5040ad",
+        "id": "acb25c4d438ae53a",
         "type": "join",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "",
         "mode": "custom",
         "build": "string",
@@ -153601,15 +153730,15 @@
         "y": 210,
         "wires": [
             [
-                "728f7bc1c5073c34"
+                "1b69126d61c1a77a"
             ]
         ]
     },
     {
-        "id": "bb29ac55aed29d5d",
+        "id": "53fec6c7dffb1aa0",
         "type": "join",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "",
         "mode": "custom",
         "build": "string",
@@ -153630,15 +153759,15 @@
         "y": 150,
         "wires": [
             [
-                "71646e0719f6a89b"
+                "506d402abdbbba34"
             ]
         ]
     },
     {
-        "id": "dd7b7a1d9e3ee248",
+        "id": "5897dba02411bbf0",
         "type": "trigger",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "Very HOT FPH-η",
         "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️Very HOT FPH-η:  ",
         "op2": "",
@@ -153656,15 +153785,15 @@
         "y": 180,
         "wires": [
             [
-                "be8167aa1fe8d801"
+                "7b2e17052f16f89b"
             ]
         ]
     },
     {
-        "id": "be8167aa1fe8d801",
+        "id": "7b2e17052f16f89b",
         "type": "join",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "",
         "mode": "custom",
         "build": "string",
@@ -153685,94 +153814,94 @@
         "y": 180,
         "wires": [
             [
-                "e1f82ffcf82594b2"
+                "2e6445ebe775a1f3"
             ]
         ]
     },
     {
-        "id": "e1f82ffcf82594b2",
+        "id": "2e6445ebe775a1f3",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "Very HOT FPH-η",
         "mode": "link",
         "links": [
-            "5d4592cb160712d1",
-            "0cf60ad902b8853d",
-            "fb81f95fd0c0fa44",
-            "5b4a53fdd810fa2f"
+            "38fbdc0fa4f3d76a",
+            "14c1ca0cc35f56d9",
+            "57fa64122fd3a38b",
+            "8e1a15ee699e4de8"
         ],
         "x": 1315,
         "y": 180,
         "wires": []
     },
     {
-        "id": "901e603e8e6505c7",
+        "id": "198643ad7c4004ed",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "Very HOT FPH-η",
         "links": [
-            "9e7c8612cd50cc40"
+            "c7d491349e65a8e6"
         ],
         "x": 955,
         "y": 180,
         "wires": [
             [
-                "dd7b7a1d9e3ee248"
+                "5897dba02411bbf0"
             ]
         ]
     },
     {
-        "id": "a0a9fc6fff07cd20",
+        "id": "26416b5820e1dcff",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "output",
         "mode": "link",
         "links": [
-            "15bcc224138a7d83"
+            "310f66425bd6d0bc"
         ],
         "x": 1145,
         "y": 280,
         "wires": []
     },
     {
-        "id": "89945b9412137d19",
+        "id": "78df46af9cab73e9",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "output",
         "mode": "link",
         "links": [
-            "15bcc224138a7d83"
+            "310f66425bd6d0bc"
         ],
         "x": 1145,
         "y": 310,
         "wires": []
     },
     {
-        "id": "728f7bc1c5073c34",
+        "id": "1b69126d61c1a77a",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "2a6f67b8a85faaa2",
+        "g": "3ca157bedcb1cc38",
         "name": "ULTRA High FPH-η",
         "mode": "link",
         "links": [
-            "5d4592cb160712d1",
-            "0cf60ad902b8853d",
-            "fb81f95fd0c0fa44",
-            "5b4a53fdd810fa2f"
+            "38fbdc0fa4f3d76a",
+            "14c1ca0cc35f56d9",
+            "57fa64122fd3a38b",
+            "8e1a15ee699e4de8"
         ],
         "x": 1315,
         "y": 210,
         "wires": []
     },
     {
-        "id": "9a36d3787eb7271e",
+        "id": "f2b6ba8d802b8b1d",
         "type": "switch",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": ".2-5F",
         "property": "payload",
         "propertyType": "msg",
@@ -153802,88 +153931,88 @@
         "y": 240,
         "wires": [
             [
-                "017cb5bb8ca1c986"
+                "0d9c13f228d9a542"
             ],
             [
-                "ba151b5b919f8f7e"
+                "04690894814a5f26"
             ],
             [
-                "9e7c8612cd50cc40"
+                "c7d491349e65a8e6"
             ]
         ]
     },
     {
-        "id": "c3071a27a78d896e",
+        "id": "a8564b229179298d",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": "FPH-η",
         "links": [
-            "2bc3ce5ad47682de",
-            "b58eb01c0115f67f"
+            "aa91f809146dfbfe",
+            "d74e28d850b7e7b4"
         ],
         "x": 695,
         "y": 240,
         "wires": [
             [
-                "9a36d3787eb7271e",
-                "38f49e19d5da0aba"
+                "f2b6ba8d802b8b1d",
+                "986accee63539b71"
             ]
         ]
     },
     {
-        "id": "9e7c8612cd50cc40",
+        "id": "c7d491349e65a8e6",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": "VERY HOT!!!!",
         "mode": "link",
         "links": [
-            "909558244e4c200e",
-            "aa788d4b750fb946",
-            "901e603e8e6505c7"
+            "cc3fa669f6021ad8",
+            "b3cf096cbcd606f8",
+            "198643ad7c4004ed"
         ],
         "x": 865,
         "y": 270,
         "wires": []
     },
     {
-        "id": "ba151b5b919f8f7e",
+        "id": "04690894814a5f26",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": "NORMAL/RESET",
         "mode": "link",
         "links": [
-            "cabd77c8bd8a1789",
-            "ce89c42895e44cb1",
-            "0cf60ad902b8853d",
-            "ff289db8fa5bc473",
-            "856b01425bc1c646"
+            "c1317ae202cc6a01",
+            "8489f292f16d6f5b",
+            "14c1ca0cc35f56d9",
+            "482052bd3003c811",
+            "bc333fab58144639"
         ],
         "x": 865,
         "y": 240,
         "wires": []
     },
     {
-        "id": "017cb5bb8ca1c986",
+        "id": "0d9c13f228d9a542",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": "ABNORMALLY LOW",
         "mode": "link",
         "links": [
-            "3e83984941694a35"
+            "f8f76f5f5c06bc34"
         ],
         "x": 865,
         "y": 210,
         "wires": []
     },
     {
-        "id": "aba60627a2c1e65f",
+        "id": "d45c414bea4afe45",
         "type": "switch",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": "+20F",
         "property": "payload",
         "propertyType": "msg",
@@ -153901,49 +154030,49 @@
         "y": 310,
         "wires": [
             [
-                "32c51550828211eb"
+                "a6bc690360f3a7cf"
             ]
         ]
     },
     {
-        "id": "faaee4733adc96fa",
+        "id": "85e185519b490765",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
-        "name": "link in 1110",
+        "g": "17cd6c1a3050567c",
+        "name": "link in 1128",
         "links": [
-            "0246a316c4f88ff0"
+            "041d014f10e28717"
         ],
         "x": 695,
         "y": 310,
         "wires": [
             [
-                "aba60627a2c1e65f",
-                "eb8d0f796d53c4f8"
+                "d45c414bea4afe45",
+                "1003b783f9ba56c1"
             ]
         ]
     },
     {
-        "id": "32c51550828211eb",
+        "id": "a6bc690360f3a7cf",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": "ULTRA High FPH-η",
         "mode": "link",
         "links": [
-            "7469855e22be98d6",
-            "909558244e4c200e",
-            "aa788d4b750fb946"
+            "4d39666533f0aadd",
+            "cc3fa669f6021ad8",
+            "b3cf096cbcd606f8"
         ],
         "x": 865,
         "y": 310,
         "wires": []
     },
     {
-        "id": "38f49e19d5da0aba",
+        "id": "986accee63539b71",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": ".25-6F",
         "active": true,
         "tosidebar": false,
@@ -153958,10 +154087,10 @@
         "wires": []
     },
     {
-        "id": "eb8d0f796d53c4f8",
+        "id": "1003b783f9ba56c1",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "6737958c85af1a3e",
+        "g": "17cd6c1a3050567c",
         "name": "+20F",
         "active": true,
         "tosidebar": false,
@@ -153976,10 +154105,69 @@
         "wires": []
     },
     {
-        "id": "be50e6b9aaa44c57",
+        "id": "4e99a986cccba67e",
+        "type": "switch",
+        "z": "da9743e4572647d5",
+        "g": "17cd6c1a3050567c",
+        "name": ".4-3F",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": ".4",
+                "vt": "num",
+                "v2": "3",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "0db6234116a5563b"
+            ]
+        ]
+    },
+    {
+        "id": "0db6234116a5563b",
+        "type": "link out",
+        "z": "da9743e4572647d5",
+        "g": "17cd6c1a3050567c",
+        "name": "\"Pool.Heat?  HOT\" has returned to normal. Set to \"NONE\" and investigate causal error",
+        "mode": "link",
+        "links": [
+            "75de192f3ff4d623"
+        ],
+        "x": 865,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bc80df72e8ae537c",
+        "type": "link in",
+        "z": "da9743e4572647d5",
+        "g": "17cd6c1a3050567c",
+        "name": "link in 1129",
+        "links": [
+            "d74e28d850b7e7b4"
+        ],
+        "x": 695,
+        "y": 180,
+        "wires": [
+            [
+                "4e99a986cccba67e"
+            ]
+        ]
+    },
+    {
+        "id": "3de48873da856d8d",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "W-FALL-$PH-!FPH",
         "props": [
             {
@@ -154001,15 +154189,15 @@
         "y": 520,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "aacaeb07fab144b9",
+        "id": "2ba8622d996ce7a1",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "W-FALL-FPH-COOL",
         "props": [
             {
@@ -154031,15 +154219,15 @@
         "y": 380,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "3913d1c0b2ea7573",
+        "id": "dc16a28e60106cd6",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "W-FALL-ID-IDLEOFF",
         "props": [
             {
@@ -154061,15 +154249,15 @@
         "y": 420,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "2c6b0dd8e8c6a90c",
+        "id": "4c9451bd1b5138ea",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "W-FALL-NPH",
         "props": [
             {
@@ -154091,32 +154279,32 @@
         "y": 500,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "13838d0df5136e30",
+        "id": "62b58310ef4da654",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "PoolMode",
         "mode": "link",
         "links": [
-            "89ec1135e4c27cae",
-            "5abacb797c3164ae",
-            "7d48cbab60a4e8e6",
-            "0449a35e2f51897d"
+            "e6dad47912be7973",
+            "a94bd06eba26c86b",
+            "b55a5f55b1e87419",
+            "5c2c20e8c4ca92f9"
         ],
         "x": 265,
         "y": 480,
         "wires": []
     },
     {
-        "id": "9e4fd83ffca50e12",
+        "id": "57c404cc6b0d132c",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "SLEEP-FPH-COOL",
         "props": [
             {
@@ -154138,15 +154326,15 @@
         "y": 440,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "8342ddcc8361593a",
+        "id": "550ad3f62ba02412",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "SLEEP-$PH-!FPH",
         "props": [
             {
@@ -154168,15 +154356,15 @@
         "y": 540,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "0b1b5d2b68e46b5e",
+        "id": "43fc35df939a0aa2",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "SLEEP-IDLEOFF",
         "props": [
             {
@@ -154198,15 +154386,15 @@
         "y": 460,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "518cfd62f4a2ed15",
+        "id": "3a3df07d29fd77f1",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "SLEEP-NPH",
         "props": [
             {
@@ -154228,15 +154416,15 @@
         "y": 480,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "77b7e895f09b3237",
+        "id": "ef5a525854b04943",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "Swim",
         "props": [
             {
@@ -154258,15 +154446,15 @@
         "y": 560,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "5476f07f879c5004",
+        "id": "a9d85831ba62f211",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "eed3d88b5120b240",
+        "g": "d7a831c5c14758ca",
         "name": "~W-FALL-FPH-COOL",
         "props": [
             {
@@ -154288,15 +154476,15 @@
         "y": 400,
         "wires": [
             [
-                "13838d0df5136e30"
+                "62b58310ef4da654"
             ]
         ]
     },
     {
-        "id": "d68f1d5864cab37f",
+        "id": "d0a8ad36153374d4",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "e39218b1ad5cd449",
+        "g": "d7515393e995f623",
         "name": "FPH",
         "props": [
             {
@@ -154318,15 +154506,15 @@
         "y": 620,
         "wires": [
             [
-                "72b60d740310c73c"
+                "bdafd1098e0b3600"
             ]
         ]
     },
     {
-        "id": "af1630bb5ff05a75",
+        "id": "23699a537c678e20",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "e39218b1ad5cd449",
+        "g": "d7515393e995f623",
         "name": "NPH",
         "props": [
             {
@@ -154348,15 +154536,15 @@
         "y": 660,
         "wires": [
             [
-                "72b60d740310c73c"
+                "bdafd1098e0b3600"
             ]
         ]
     },
     {
-        "id": "700bb897cdb5a3c4",
+        "id": "c424f77fde094ff7",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "e39218b1ad5cd449",
+        "g": "d7515393e995f623",
         "name": "HOT",
         "props": [
             {
@@ -154378,33 +154566,33 @@
         "y": 680,
         "wires": [
             [
-                "72b60d740310c73c"
+                "bdafd1098e0b3600"
             ]
         ]
     },
     {
-        "id": "72b60d740310c73c",
+        "id": "bdafd1098e0b3600",
         "type": "link out",
         "z": "da9743e4572647d5",
-        "g": "e39218b1ad5cd449",
+        "g": "d7515393e995f623",
         "name": "HVAC",
         "mode": "link",
         "links": [
-            "90467e769cd923ed",
-            "5abacb797c3164ae",
-            "7d48cbab60a4e8e6",
-            "89ec1135e4c27cae",
-            "0449a35e2f51897d"
+            "5bf3e9eb44e09bd2",
+            "a94bd06eba26c86b",
+            "b55a5f55b1e87419",
+            "e6dad47912be7973",
+            "5c2c20e8c4ca92f9"
         ],
         "x": 265,
         "y": 650,
         "wires": []
     },
     {
-        "id": "81224ee63a266b7f",
+        "id": "40c503f5e2ea8267",
         "type": "inject",
         "z": "da9743e4572647d5",
-        "g": "e39218b1ad5cd449",
+        "g": "d7515393e995f623",
         "name": "IDLE",
         "props": [
             {
@@ -154426,33 +154614,33 @@
         "y": 640,
         "wires": [
             [
-                "72b60d740310c73c"
+                "bdafd1098e0b3600"
             ]
         ]
     },
     {
-        "id": "a546d2bed1d7897f",
+        "id": "2e7942f969fc76e9",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "076242e6bf7809b5",
-        "name": "link in 1111",
+        "g": "a10011cf51d8be0c",
+        "name": "link in 1130",
         "links": [
-            "e12aa25ccd2952d6",
-            "8e7e23f409f740ca"
+            "8ef16d846e564976",
+            "2dacf3d387a3a0cb"
         ],
         "x": 75,
         "y": 790,
         "wires": [
             [
-                "d64d07ca2dc36bbb"
+                "92b0b633fdc14882"
             ]
         ]
     },
     {
-        "id": "d64d07ca2dc36bbb",
+        "id": "92b0b633fdc14882",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "076242e6bf7809b5",
+        "g": "a10011cf51d8be0c",
         "name": "PoolMode",
         "active": true,
         "tosidebar": false,
@@ -154467,27 +154655,27 @@
         "wires": []
     },
     {
-        "id": "904c1cf4703c1444",
+        "id": "3b36fd475ce50c4a",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "076242e6bf7809b5",
-        "name": "link in 1112",
+        "g": "a10011cf51d8be0c",
+        "name": "link in 1131",
         "links": [
-            "76dd4572eaf12615"
+            "e852df6b55b351ad"
         ],
         "x": 75,
         "y": 740,
         "wires": [
             [
-                "711162693d1aca8f"
+                "bf4d6ea5e0a982ec"
             ]
         ]
     },
     {
-        "id": "711162693d1aca8f",
+        "id": "bf4d6ea5e0a982ec",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "076242e6bf7809b5",
+        "g": "a10011cf51d8be0c",
         "name": "FPH-η",
         "active": false,
         "tosidebar": false,
@@ -154502,28 +154690,28 @@
         "wires": []
     },
     {
-        "id": "7d48cbab60a4e8e6",
+        "id": "b55a5f55b1e87419",
         "type": "link in",
         "z": "da9743e4572647d5",
-        "g": "076242e6bf7809b5",
-        "name": "link in 1113",
+        "g": "a10011cf51d8be0c",
+        "name": "link in 1132",
         "links": [
-            "72b60d740310c73c",
-            "13838d0df5136e30"
+            "bdafd1098e0b3600",
+            "62b58310ef4da654"
         ],
         "x": 75,
         "y": 840,
         "wires": [
             [
-                "563b2de970e4db97"
+                "eb9a19c8d47cce57"
             ]
         ]
     },
     {
-        "id": "563b2de970e4db97",
+        "id": "eb9a19c8d47cce57",
         "type": "debug",
         "z": "da9743e4572647d5",
-        "g": "076242e6bf7809b5",
+        "g": "a10011cf51d8be0c",
         "name": "testing",
         "active": true,
         "tosidebar": false,
@@ -154536,22 +154724,5 @@
         "x": 200,
         "y": 840,
         "wires": []
-    },
-    {
-        "id": "52f58a909ca1c0f8",
-        "type": "link in",
-        "z": "da9743e4572647d5",
-        "g": "0990e9b3ab26f0c0",
-        "name": "link in 1114",
-        "links": [
-            "f7a440b06422c5af"
-        ],
-        "x": 355,
-        "y": 460,
-        "wires": [
-            [
-                "84cca4428447c080"
-            ]
-        ]
     }
 ]
