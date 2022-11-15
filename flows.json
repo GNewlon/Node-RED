@@ -23176,12 +23176,12 @@
             "6bd948d46d67eddb",
             "7be887bbdfcc67ed",
             "797c1b4e30ce98fd",
-            "59db901d69400b17"
+            "2084c56e0be1a867"
         ],
         "x": 4,
         "y": 13,
         "w": 1038,
-        "h": 544
+        "h": 534
     },
     {
         "id": "7be887bbdfcc67ed",
@@ -23228,18 +23228,18 @@
             "26db234fc7275e67",
             "282ccda71c15b751",
             "2b799a447cdb32d9",
-            "78158e164fdb6052"
+            "78158e164fdb6052",
+            "4112eb9d9fa8dd1d"
         ],
-        "x": 314,
-        "y": 249,
-        "w": 702,
+        "x": 304,
+        "y": 239,
+        "w": 712,
         "h": 142
     },
     {
         "id": "59db901d69400b17",
         "type": "group",
         "z": "93ef77bb83089643",
-        "g": "44a67f22ddeb9ec1",
         "name": "DELAY: FPH OVERTEMP LOGIC",
         "style": {
             "label": true,
@@ -23252,10 +23252,31 @@
             "e8e018995ae1582e",
             "2832bd478308e9a4"
         ],
-        "x": 314,
-        "y": 409,
+        "x": 374,
+        "y": 749,
         "w": 402,
         "h": 122
+    },
+    {
+        "id": "2084c56e0be1a867",
+        "type": "group",
+        "z": "93ef77bb83089643",
+        "g": "44a67f22ddeb9ec1",
+        "name": "flogger-logs",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "d6644f69d325a09d",
+            "15ad68c69e7b0926",
+            "22372587c33b4506"
+        ],
+        "x": 304,
+        "y": 389,
+        "w": 492,
+        "h": 132
     },
     {
         "id": "d1a17316.c56bb",
@@ -23344,7 +23365,7 @@
     {
         "id": "fe897f4cf48cf92c",
         "type": "config-log",
-        "logname": "Shark House-catch all",
+        "logname": "service.homeassistant_restart",
         "logdir": "/logs",
         "stamp": "local",
         "logstyle": "plain",
@@ -154228,7 +154249,9 @@
         "x": 740,
         "y": 90,
         "wires": [
-            []
+            [
+                "0ce605dd6f85199e"
+            ]
         ]
     },
     {
@@ -154280,7 +154303,7 @@
         "to": "",
         "reg": false,
         "x": 740,
-        "y": 150,
+        "y": 140,
         "wires": [
             []
         ]
@@ -154399,11 +154422,12 @@
             }
         ],
         "queue": "none",
-        "x": 630,
-        "y": 290,
+        "x": 620,
+        "y": 280,
         "wires": [
             [
-                "78158e164fdb6052"
+                "78158e164fdb6052",
+                "4112eb9d9fa8dd1d"
             ]
         ]
     },
@@ -154425,8 +154449,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 400,
-        "y": 330,
+        "x": 390,
+        "y": 320,
         "wires": [
             [
                 "d983b9a29010accf",
@@ -154461,8 +154485,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 580,
-        "y": 350,
+        "x": 570,
+        "y": 340,
         "wires": [
             [
                 "2b799a447cdb32d9"
@@ -154484,8 +154508,8 @@
         "correl": "",
         "expiry": "",
         "broker": "d1a17316.c56bb",
-        "x": 730,
-        "y": 350,
+        "x": 720,
+        "y": 340,
         "wires": [],
         "icon": "font-awesome/fa-flash"
     },
@@ -154504,8 +154528,69 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 880,
-        "y": 290,
+        "y": 280,
         "wires": []
+    },
+    {
+        "id": "bd31f45d8754c6b2",
+        "type": "link out",
+        "z": "93ef77bb83089643",
+        "g": "7be887bbdfcc67ed",
+        "name": "link out 1211",
+        "mode": "link",
+        "links": [],
+        "x": 835,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "0ce605dd6f85199e",
+        "type": "link out",
+        "z": "93ef77bb83089643",
+        "g": "7be887bbdfcc67ed",
+        "name": "status",
+        "mode": "link",
+        "links": [],
+        "x": 910,
+        "y": 90,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "d6644f69d325a09d",
+        "type": "catch",
+        "z": "93ef77bb83089643",
+        "g": "2084c56e0be1a867",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 390,
+        "y": 430,
+        "wires": [
+            [
+                "15ad68c69e7b0926"
+            ]
+        ]
+    },
+    {
+        "id": "15ad68c69e7b0926",
+        "type": "flogger",
+        "z": "93ef77bb83089643",
+        "g": "2084c56e0be1a867",
+        "name": "service.homeassistant_restart",
+        "logfile": "service.homeassistant_restart",
+        "inputchoice": "fullmsg",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
+        "loglevel": "WARN",
+        "logconfig": "fe897f4cf48cf92c",
+        "sendpane": false,
+        "x": 640,
+        "y": 450,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "e85b0b51c8eb7f94",
@@ -154522,8 +154607,8 @@
         "correl": "",
         "expiry": "",
         "broker": "d1a17316.c56bb",
-        "x": 610,
-        "y": 450,
+        "x": 670,
+        "y": 790,
         "wires": []
     },
     {
@@ -154544,8 +154629,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 420,
-        "y": 450,
+        "x": 480,
+        "y": 790,
         "wires": [
             [
                 "e85b0b51c8eb7f94"
@@ -154559,33 +154644,39 @@
         "g": "59db901d69400b17",
         "name": "",
         "info": "Here I was experimenting with temp setting\nFPH to NONE \nwhile home assistant resets",
-        "x": 400,
-        "y": 490,
+        "x": 460,
+        "y": 830,
         "wires": []
     },
     {
-        "id": "bd31f45d8754c6b2",
+        "id": "4112eb9d9fa8dd1d",
         "type": "link out",
         "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "link out 1211",
+        "g": "797c1b4e30ce98fd",
+        "name": "link out 1212",
         "mode": "link",
-        "links": [],
-        "x": 785,
-        "y": 90,
+        "links": [
+            "22372587c33b4506"
+        ],
+        "x": 815,
+        "y": 320,
         "wires": []
     },
     {
-        "id": "0ce605dd6f85199e",
-        "type": "link out",
+        "id": "22372587c33b4506",
+        "type": "link in",
         "z": "93ef77bb83089643",
-        "g": "7be887bbdfcc67ed",
-        "name": "status",
-        "mode": "link",
-        "links": [],
-        "x": 900,
-        "y": 100,
-        "wires": [],
-        "l": true
+        "g": "2084c56e0be1a867",
+        "name": "link in 1115",
+        "links": [
+            "4112eb9d9fa8dd1d"
+        ],
+        "x": 435,
+        "y": 480,
+        "wires": [
+            [
+                "15ad68c69e7b0926"
+            ]
+        ]
     }
 ]
