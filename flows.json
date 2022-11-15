@@ -125942,56 +125942,6 @@
         ]
     },
     {
-        "id": "24c71968d6a27efa",
-        "type": "change",
-        "z": "50196fb4a30c2037",
-        "name": "Reset in Progress",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Reset in Progress",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 990,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "40bb6ec67295433e",
-        "type": "change",
-        "z": "50196fb4a30c2037",
-        "name": "Running",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Running",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 960,
-        "y": 250,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "f7aef5e93c8ae44d",
         "type": "debug",
         "z": "ae087566.f2dff8",
