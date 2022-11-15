@@ -23179,10 +23179,11 @@
             "2084c56e0be1a867",
             "e152c58280e9408f",
             "8f8f076d57fb4579",
-            "12620ca6e6ce3f36",
             "4a02bfa7a00921e6",
             "bd71067f88333131",
-            "988595178a601a66"
+            "988595178a601a66",
+            "a221f0958396d917",
+            "d3aacfcadf548c17"
         ],
         "x": 4,
         "y": 13,
@@ -154690,9 +154691,7 @@
         "z": "93ef77bb83089643",
         "g": "7be887bbdfcc67ed",
         "name": "link in 1116",
-        "links": [
-            "12620ca6e6ce3f36"
-        ],
+        "links": [],
         "x": 535,
         "y": 190,
         "wires": [
@@ -154724,7 +154723,7 @@
         "type": "inject",
         "z": "93ef77bb83089643",
         "g": "44a67f22ddeb9ec1",
-        "name": "off",
+        "name": "OFF",
         "props": [
             {
                 "p": "payload"
@@ -154735,40 +154734,26 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
+        "payload": "turn_off",
+        "payloadType": "str",
         "x": 100,
         "y": 320,
         "wires": [
             [
-                "12620ca6e6ce3f36"
+                "bd71067f88333131"
             ]
         ]
-    },
-    {
-        "id": "12620ca6e6ce3f36",
-        "type": "link out",
-        "z": "93ef77bb83089643",
-        "g": "44a67f22ddeb9ec1",
-        "name": "link out 1213",
-        "mode": "link",
-        "links": [
-            "15ddc149c63bb7f1"
-        ],
-        "x": 195,
-        "y": 320,
-        "wires": []
     },
     {
         "id": "0844d566069bc6f8",
         "type": "api-call-service",
         "z": "93ef77bb83089643",
-        "name": "input_boolean.homeassistant: TOGGLE",
+        "name": "input_boolean.homeassistant",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
         "domain": "input_boolean",
-        "service": "toggle",
+        "service": "{{payload}}",
         "areaId": [],
         "deviceId": [],
         "entityId": [
@@ -154787,7 +154772,7 @@
             }
         ],
         "queue": "none",
-        "x": 710,
+        "x": 670,
         "y": 600,
         "wires": [
             []
@@ -154798,7 +154783,7 @@
         "type": "inject",
         "z": "93ef77bb83089643",
         "g": "44a67f22ddeb9ec1",
-        "name": "TOGGLE",
+        "name": "ON",
         "props": [
             {
                 "p": "payload"
@@ -154809,10 +154794,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 370,
+        "payload": "turn_on",
+        "payloadType": "str",
+        "x": 100,
+        "y": 280,
         "wires": [
             [
                 "bd71067f88333131"
@@ -154829,8 +154814,8 @@
         "links": [
             "3c52c9992ddc9297"
         ],
-        "x": 195,
-        "y": 370,
+        "x": 225,
+        "y": 330,
         "wires": []
     },
     {
@@ -154839,7 +154824,8 @@
         "z": "93ef77bb83089643",
         "name": "link in 1117",
         "links": [
-            "bd71067f88333131"
+            "bd71067f88333131",
+            "bbe2986ed5944e86"
         ],
         "x": 495,
         "y": 600,
@@ -154867,6 +154853,58 @@
         "wires": [
             [
                 "e152c58280e9408f"
+            ]
+        ]
+    },
+    {
+        "id": "a221f0958396d917",
+        "type": "inject",
+        "z": "93ef77bb83089643",
+        "g": "44a67f22ddeb9ec1",
+        "name": "TOGGLE",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "bd71067f88333131"
+            ]
+        ]
+    },
+    {
+        "id": "d3aacfcadf548c17",
+        "type": "inject",
+        "z": "93ef77bb83089643",
+        "g": "44a67f22ddeb9ec1",
+        "name": "RELOAD",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "reload",
+        "payloadType": "str",
+        "x": 110,
+        "y": 400,
+        "wires": [
+            [
+                "bd71067f88333131"
             ]
         ]
     }
