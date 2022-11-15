@@ -122766,7 +122766,8 @@
             "f2136b826320f84c",
             "85b0c4ed2fea83b4",
             "cf73fcdc86f1ae24",
-            "5a2c9a44038910f5"
+            "5a2c9a44038910f5",
+            "79e784721f4f45f2"
         ],
         "x": 935,
         "y": 600,
@@ -123052,9 +123053,9 @@
         "g": "3cd1fba68d1c213d",
         "name": "-/4m",
         "op1": "",
-        "op2": "true",
+        "op2": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ Abnormal: no change in 4m then set FPH: NONE",
         "op1type": "nul",
-        "op2type": "bool",
+        "op2type": "str",
         "duration": "4",
         "extend": false,
         "overrideDelay": false,
@@ -123096,7 +123097,8 @@
         "name": "If no change in 4m then set Heat?: NONE",
         "mode": "link",
         "links": [
-            "dfa02e7f66a420c2"
+            "dfa02e7f66a420c2",
+            "a801d5d5e6872008"
         ],
         "x": 535,
         "y": 630,
@@ -151913,7 +151915,8 @@
             "d5b2e864513c66c0",
             "4dd3f320743ef4c8",
             "7983abc034542135",
-            "abd9436ba6a1bd9a"
+            "abd9436ba6a1bd9a",
+            "d6536f82768d161e"
         ],
         "x": 945,
         "y": 600,
@@ -152198,9 +152201,9 @@
         "g": "155db9fb66de5064",
         "name": "-/4m",
         "op1": "",
-        "op2": "true",
+        "op2": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ Abnormal: no change in 4m then set FPH: NONE",
         "op1type": "nul",
-        "op2type": "bool",
+        "op2type": "str",
         "duration": "11",
         "extend": false,
         "overrideDelay": false,
@@ -152242,7 +152245,8 @@
         "name": "If no change in 4m then set Heat?: NONE",
         "mode": "link",
         "links": [
-            "d63296e10049fcbd"
+            "d63296e10049fcbd",
+            "2dab71716fbcdc71"
         ],
         "x": 545,
         "y": 630,
