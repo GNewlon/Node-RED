@@ -125565,9 +125565,7 @@
         "x": 400,
         "y": 110,
         "wires": [
-            [
-                "0ce605dd6f85199e"
-            ]
+            []
         ]
     },
     {
@@ -125932,7 +125930,7 @@
         "g": "797c1b4e30ce98fd",
         "name": "delay 6s",
         "op1": "",
-        "op2": "Restarted",
+        "op2": "Running",
         "op1type": "nul",
         "op2type": "str",
         "duration": "6",
