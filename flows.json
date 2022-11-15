@@ -23176,11 +23176,12 @@
             "6bd948d46d67eddb",
             "7be887bbdfcc67ed",
             "797c1b4e30ce98fd",
-            "2084c56e0be1a867"
+            "2084c56e0be1a867",
+            "e152c58280e9408f"
         ],
         "x": 4,
         "y": 13,
-        "w": 1038,
+        "w": 1088,
         "h": 534
     },
     {
@@ -23204,7 +23205,8 @@
             "701f6c3051478348",
             "50457012b125c139",
             "bd31f45d8754c6b2",
-            "0ce605dd6f85199e"
+            "0ce605dd6f85199e",
+            "15ddc149c63bb7f1"
         ],
         "x": 304,
         "y": 39,
@@ -23233,7 +23235,7 @@
         ],
         "x": 304,
         "y": 239,
-        "w": 712,
+        "w": 762,
         "h": 142
     },
     {
@@ -154175,18 +154177,16 @@
         "outputonchanged": true,
         "entity_id": "input_boolean.homeassistant",
         "state_type": "str",
-        "halt_if": "on",
+        "halt_if": "",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "outputs": 2,
+        "outputs": 1,
         "x": 110,
         "y": 90,
         "wires": [
             [
-                "f45adaec2b29a8ef"
-            ],
-            [
-                "701f6c3051478348"
+                "f45adaec2b29a8ef",
+                "e152c58280e9408f"
             ]
         ]
     },
@@ -154527,7 +154527,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 880,
+        "x": 930,
         "y": 280,
         "wires": []
     },
@@ -154678,5 +154678,38 @@
                 "15ad68c69e7b0926"
             ]
         ]
+    },
+    {
+        "id": "15ddc149c63bb7f1",
+        "type": "link in",
+        "z": "93ef77bb83089643",
+        "g": "7be887bbdfcc67ed",
+        "name": "link in 1116",
+        "links": [],
+        "x": 535,
+        "y": 190,
+        "wires": [
+            [
+                "50457012b125c139"
+            ]
+        ]
+    },
+    {
+        "id": "e152c58280e9408f",
+        "type": "debug",
+        "z": "93ef77bb83089643",
+        "g": "44a67f22ddeb9ec1",
+        "name": "HOME ASSISTANT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 150,
+        "y": 220,
+        "wires": []
     }
 ]
