@@ -154169,7 +154169,7 @@
         "type": "switch",
         "z": "da9743e4572647d5",
         "g": "a90220d5067dfce6",
-        "name": "0-3F",
+        "name": "HOT",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
