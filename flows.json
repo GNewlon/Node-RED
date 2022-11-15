@@ -124672,7 +124672,7 @@
         "type": "switch",
         "z": "73d128d33f8cf3ca",
         "g": "24bae495942bcca9",
-        "name": ".2-5F",
+        "name": "HIGH",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
@@ -124782,7 +124782,7 @@
         "type": "switch",
         "z": "73d128d33f8cf3ca",
         "g": "24bae495942bcca9",
-        "name": "+20F",
+        "name": "ULTRA",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
@@ -124795,7 +124795,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 770,
+        "x": 780,
         "y": 340,
         "wires": [
             [
