@@ -122223,8 +122223,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1210,
@@ -122281,6 +122281,16 @@
         "g": "3cd1fba68d1c213d",
         "name": "Return to Normal",
         "rules": [
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
             {
                 "t": "set",
                 "p": "topic",
