@@ -123766,7 +123766,6 @@
             "650f5612c9eb5770",
             "47b52ee89b0ef42b",
             "8a56f7d024658315",
-            "bd7eeab3bfc8d5bf",
             "cd306fbcc60b19d6",
             "8789de99c28ada57"
         ],
@@ -124029,7 +124028,7 @@
         "name": "link out 1176",
         "mode": "link",
         "links": [
-            "159d5ed73f70107f"
+            "60b159b90e320adc"
         ],
         "x": 845,
         "y": 120,
@@ -124048,7 +124047,7 @@
                 "vt": "str",
                 "propertyType": "msg",
                 "property": "payload",
-                "topic": "Pool.Heat?"
+                "topic": "FPH"
             }
         ],
         "outputTopic": "FPH-η",
@@ -124087,7 +124086,8 @@
             "8789de99c28ada57",
             "eeec03408afae2d4",
             "e739b9441714f84c",
-            "f9ab34a0b631d748"
+            "f9ab34a0b631d748",
+            "bd7eeab3bfc8d5bf"
         ],
         "x": 355,
         "y": 240,
@@ -141082,7 +141082,7 @@
         "z": "2468296eb99670b3",
         "g": "e7237c2e32224b21",
         "influxdb": "10eaf502617379e3",
-        "name": "Heat?",
+        "name": "FPH?",
         "query": "",
         "rawOutput": false,
         "precision": "",
@@ -146669,7 +146669,7 @@
         "type": "mqtt in",
         "z": "2468296eb99670b3",
         "g": "489b32d69e4ddbdf",
-        "name": "HEAT?",
+        "name": "FPH",
         "topic": "FPH",
         "qos": "2",
         "datatype": "auto-detect",
