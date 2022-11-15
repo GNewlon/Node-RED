@@ -125661,7 +125661,7 @@
                 "value": ""
             }
         ],
-        "updateinterval": "1",
+        "updateinterval": "5",
         "updateIntervalType": "num",
         "updateIntervalUnits": "seconds",
         "outputinitially": true,
