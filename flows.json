@@ -125629,10 +125629,14 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "false"
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
             },
             {
-                "t": "true"
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
             }
         ],
         "checkall": "true",
