@@ -153693,7 +153693,8 @@
         "y": 240,
         "wires": [
             [
-                "cc83e01cb46fc1f8"
+                "cc83e01cb46fc1f8",
+                "850d795143f484fe"
             ]
         ]
     },
@@ -153879,7 +153880,8 @@
         "y": 210,
         "wires": [
             [
-                "1c27cdc5f3027d0b"
+                "1c27cdc5f3027d0b",
+                "ed7db018907b145b"
             ]
         ]
     },
@@ -153908,7 +153910,8 @@
         "y": 150,
         "wires": [
             [
-                "0bfb452542482cb4"
+                "0bfb452542482cb4",
+                "e281b94f16f8de6c"
             ]
         ]
     },
@@ -153963,7 +153966,8 @@
         "y": 180,
         "wires": [
             [
-                "3e2a4621c120746c"
+                "3e2a4621c120746c",
+                "4a30978873ab4099"
             ]
         ]
     },
@@ -154104,7 +154108,8 @@
         "y": 270,
         "wires": [
             [
-                "4ff61edeb708fec5"
+                "4ff61edeb708fec5",
+                "19a59a7956035fc2"
             ]
         ]
     },
@@ -154956,6 +154961,91 @@
         "statusType": "auto",
         "x": 200,
         "y": 840,
+        "wires": []
+    },
+    {
+        "id": "e281b94f16f8de6c",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "name": "WatchDog",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "4a30978873ab4099",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "name": "WatchDog",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ed7db018907b145b",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "name": "WatchDog",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 210,
+        "wires": []
+    },
+    {
+        "id": "850d795143f484fe",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "name": "WatchDog",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "19a59a7956035fc2",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "name": "WatchDog",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 300,
         "wires": []
     }
 ]
