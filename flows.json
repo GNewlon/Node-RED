@@ -15007,7 +15007,9 @@
             "12ed9f7de27968b7"
         ],
         "x": 394,
-        "y": 1369
+        "y": 1369,
+        "w": 232,
+        "h": 122
     },
     {
         "id": "36acdde1875ab4da",
@@ -15026,7 +15028,9 @@
             "8b70cc845f27357c"
         ],
         "x": 394,
-        "y": 1239
+        "y": 1239,
+        "w": 232,
+        "h": 122
     },
     {
         "id": "2b5f9db47842beba",
@@ -15045,7 +15049,9 @@
             "3d69539a4c7c3256"
         ],
         "x": 84,
-        "y": 1239
+        "y": 1239,
+        "w": 232,
+        "h": 122
     },
     {
         "id": "c924f7c7ae1152d9",
@@ -15064,7 +15070,9 @@
             "c9ad9fd0979c17b8"
         ],
         "x": 84,
-        "y": 1369
+        "y": 1369,
+        "w": 232,
+        "h": 122
     },
     {
         "id": "662c4d10b6755694",
@@ -15082,7 +15090,9 @@
             "ae0d56845d64f6ea"
         ],
         "x": 64,
-        "y": 1699
+        "y": 1699,
+        "w": 212,
+        "h": 82
     },
     {
         "id": "a5afb23af6a0fbbc",
@@ -15108,7 +15118,9 @@
             "5deda0d5521489b1"
         ],
         "x": 8,
-        "y": 9
+        "y": 9,
+        "w": 1384,
+        "h": 1144
     },
     {
         "id": "cd76072eb067d430",
@@ -15139,7 +15151,9 @@
             "cd7fe9538ec7ce28"
         ],
         "x": 684,
-        "y": 1259
+        "y": 1259,
+        "w": 612,
+        "h": 162
     },
     {
         "id": "4faa748d9d261cbd",
@@ -18926,7 +18940,9 @@
             "a4c2a30630f074f5"
         ],
         "x": 34,
-        "y": 79
+        "y": 79,
+        "w": 232,
+        "h": 162
     },
     {
         "id": "406880a1046ca307",
@@ -18987,7 +19003,9 @@
             "782d43c5f1a5c637"
         ],
         "x": 1034,
-        "y": 79
+        "y": 79,
+        "w": 332,
+        "h": 768
     },
     {
         "id": "2b8edbf9c2dda355",
@@ -19013,7 +19031,9 @@
             "d3ad55dd7a776ac8"
         ],
         "x": 34,
-        "y": 519
+        "y": 519,
+        "w": 232,
+        "h": 202
     },
     {
         "id": "e0c3783e4a3f3961",
@@ -19037,7 +19057,9 @@
             "228440691f716e1e"
         ],
         "x": 278,
-        "y": 73
+        "y": 73,
+        "w": 744,
+        "h": 1054
     },
     {
         "id": "3fd8bfa4068e2756",
@@ -19057,7 +19079,9 @@
             "b45399550a5731c7"
         ],
         "x": 34,
-        "y": 379
+        "y": 379,
+        "w": 232,
+        "h": 132
     },
     {
         "id": "612224c2717e397d",
@@ -19077,7 +19101,9 @@
             "acf86115746b428c"
         ],
         "x": 34,
-        "y": 249
+        "y": 249,
+        "w": 232,
+        "h": 122
     },
     {
         "id": "c50cb7e551a80b3f",
@@ -19102,7 +19128,9 @@
             "b1a75907dac39dda"
         ],
         "x": 34,
-        "y": 729
+        "y": 729,
+        "w": 232,
+        "h": 322
     },
     {
         "id": "d9585cf36b35d0fc",
@@ -21740,7 +21768,9 @@
             "557db1780cad9154"
         ],
         "x": 1154,
-        "y": 649
+        "y": 649,
+        "w": 172,
+        "h": 172
     },
     {
         "id": "527b4d14324e552b",
@@ -21762,7 +21792,9 @@
             "d6e45dcd48599264"
         ],
         "x": 304,
-        "y": 99
+        "y": 99,
+        "w": 692,
+        "h": 112
     },
     {
         "id": "702cd962f2c68739",
@@ -21783,7 +21815,9 @@
             "f898d3f5264359fd"
         ],
         "x": 304,
-        "y": 209
+        "y": 209,
+        "w": 692,
+        "h": 132
     },
     {
         "id": "ede3828029bb12a3",
@@ -21810,7 +21844,9 @@
             "613bc3a84d5e29f9"
         ],
         "x": 304,
-        "y": 339
+        "y": 339,
+        "w": 692,
+        "h": 182
     },
     {
         "id": "9b6d3e72c8cfa83a",
@@ -21841,7 +21877,9 @@
             "be7302cbd1942710"
         ],
         "x": 304,
-        "y": 519
+        "y": 519,
+        "w": 692,
+        "h": 202
     },
     {
         "id": "19d748f99d0ab0c6",
@@ -21867,7 +21905,9 @@
             "991ca69cf08efe72"
         ],
         "x": 304,
-        "y": 719
+        "y": 719,
+        "w": 692,
+        "h": 142
     },
     {
         "id": "228440691f716e1e",
@@ -21896,7 +21936,9 @@
             "8863119f282efa92"
         ],
         "x": 304,
-        "y": 859
+        "y": 859,
+        "w": 692,
+        "h": 242
     },
     {
         "id": "07dcf0a693887597",
@@ -22043,7 +22085,8 @@
             "422c537f8967a744",
             "352f99c032b0598b",
             "19602915789dc173",
-            "3b776bcec7a096a1"
+            "3b776bcec7a096a1",
+            "3509d5e61c828ee5"
         ],
         "x": 654,
         "y": 149,
@@ -23205,7 +23248,8 @@
             "b67f647fb1e54a02",
             "1967cab0e86c91d9",
             "0f07218f93a50938",
-            "c9c9f55b6c1c641e"
+            "c9c9f55b6c1c641e",
+            "bf9baa59c2b9c540"
         ],
         "x": 654,
         "y": 149,
@@ -122136,6 +122180,24 @@
         ]
     },
     {
+        "id": "3509d5e61c828ee5",
+        "type": "debug",
+        "z": "73d128d33f8cf3ca",
+        "g": "24bae495942bcca9",
+        "name": "HOT",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 770,
+        "y": 200,
+        "wires": []
+    },
+    {
         "id": "24c4f574a84b2e9f",
         "type": "debug",
         "z": "73d128d33f8cf3ca",
@@ -125550,7 +125612,8 @@
         "y": 200,
         "wires": [
             [
-                "422c537f8967a744"
+                "422c537f8967a744",
+                "3509d5e61c828ee5"
             ]
         ]
     },
@@ -151406,6 +151469,78 @@
         ]
     },
     {
+        "id": "bf9baa59c2b9c540",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "g": "a90220d5067dfce6",
+        "name": "HOT",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 770,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "8cb3c23b657fade3",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "g": "99815db8920a668a",
+        "name": "FPH",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0]._value",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2a108d4c3deda0eb",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "g": "a90220d5067dfce6",
+        "name": ".25-6F",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 770,
+        "y": 270,
+        "wires": []
+    },
+    {
+        "id": "70e3452b9f99a771",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "g": "a90220d5067dfce6",
+        "name": "+20F",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 770,
+        "y": 340,
+        "wires": []
+    },
+    {
         "id": "2185088882535ad2",
         "type": "debug",
         "z": "da9743e4572647d5",
@@ -153117,24 +153252,6 @@
         ]
     },
     {
-        "id": "8cb3c23b657fade3",
-        "type": "debug",
-        "z": "da9743e4572647d5",
-        "g": "99815db8920a668a",
-        "name": "FPH",
-        "active": false,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload[0]._value",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 710,
-        "y": 120,
-        "wires": []
-    },
-    {
         "id": "02ed483435dbab5c",
         "type": "link out",
         "z": "da9743e4572647d5",
@@ -154055,7 +154172,7 @@
         "repair": false,
         "outputs": 3,
         "x": 770,
-        "y": 270,
+        "y": 260,
         "wires": [
             [
                 "ad3e792ec2656c21"
@@ -154195,42 +154312,6 @@
         "wires": []
     },
     {
-        "id": "2a108d4c3deda0eb",
-        "type": "debug",
-        "z": "da9743e4572647d5",
-        "g": "a90220d5067dfce6",
-        "name": ".25-6F",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 770,
-        "y": 270,
-        "wires": []
-    },
-    {
-        "id": "70e3452b9f99a771",
-        "type": "debug",
-        "z": "da9743e4572647d5",
-        "g": "a90220d5067dfce6",
-        "name": "+20F",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 770,
-        "y": 330,
-        "wires": []
-    },
-    {
         "id": "b67f647fb1e54a02",
         "type": "switch",
         "z": "da9743e4572647d5",
@@ -154294,7 +154375,8 @@
         "y": 200,
         "wires": [
             [
-                "b67f647fb1e54a02"
+                "b67f647fb1e54a02",
+                "bf9baa59c2b9c540"
             ]
         ]
     },
