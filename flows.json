@@ -23257,6 +23257,32 @@
         "h": 232
     },
     {
+        "id": "9713ec0531c650f0",
+        "type": "group",
+        "z": "da9743e4572647d5",
+        "name": "FPH-η",
+        "style": {
+            "stroke": "#bfbfbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "e2794ea82630e260",
+            "92e4075de3a19575",
+            "0f6cf124800c8496",
+            "506f62d0e14c4cc5",
+            "44347b7e1fd50133",
+            "580be724352d97a7",
+            "084df6f614e2415f",
+            "c2c523de529a559c"
+        ],
+        "x": 424,
+        "y": 749,
+        "w": 372,
+        "h": 262
+    },
+    {
         "id": "d1a17316.c56bb",
         "type": "mqtt-broker",
         "name": "MQTT",
@@ -128895,7 +128921,8 @@
             "8bee2797fe2c5091",
             "4ddd06f0102597b4",
             "76707c9213a148d3",
-            "a696b28b5f8d9674"
+            "a696b28b5f8d9674",
+            "506f62d0e14c4cc5"
         ],
         "x": 535,
         "y": 1060,
@@ -155065,5 +155092,229 @@
         "x": 1500,
         "y": 470,
         "wires": []
+    },
+    {
+        "id": "e2794ea82630e260",
+        "type": "inject",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "8",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "8",
+        "payloadType": "num",
+        "x": 520,
+        "y": 880,
+        "wires": [
+            [
+                "506f62d0e14c4cc5"
+            ]
+        ]
+    },
+    {
+        "id": "92e4075de3a19575",
+        "type": "inject",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "1.1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "1.1",
+        "payloadType": "num",
+        "x": 520,
+        "y": 850,
+        "wires": [
+            [
+                "506f62d0e14c4cc5"
+            ]
+        ]
+    },
+    {
+        "id": "0f6cf124800c8496",
+        "type": "inject",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": ".79",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": ".79",
+        "payloadType": "num",
+        "x": 520,
+        "y": 820,
+        "wires": [
+            [
+                "506f62d0e14c4cc5"
+            ]
+        ]
+    },
+    {
+        "id": "506f62d0e14c4cc5",
+        "type": "link out",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "FPH-η",
+        "mode": "link",
+        "links": [
+            "b5de75032cf07a49"
+        ],
+        "x": 755,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "44347b7e1fd50133",
+        "type": "inject",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": ".1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": ".1",
+        "payloadType": "num",
+        "x": 520,
+        "y": 790,
+        "wires": [
+            [
+                "506f62d0e14c4cc5"
+            ]
+        ]
+    },
+    {
+        "id": "580be724352d97a7",
+        "type": "inject",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "reset",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "reset",
+        "payloadType": "str",
+        "x": 520,
+        "y": 940,
+        "wires": [
+            [
+                "506f62d0e14c4cc5"
+            ]
+        ]
+    },
+    {
+        "id": "084df6f614e2415f",
+        "type": "inject",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "off",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 520,
+        "y": 970,
+        "wires": [
+            [
+                "506f62d0e14c4cc5"
+            ]
+        ]
+    },
+    {
+        "id": "c2c523de529a559c",
+        "type": "inject",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "33",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "33",
+        "payloadType": "num",
+        "x": 520,
+        "y": 910,
+        "wires": [
+            [
+                "506f62d0e14c4cc5"
+            ]
+        ]
     }
 ]
