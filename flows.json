@@ -151996,11 +151996,6 @@
         "name": "Corrective Completed",
         "rules": [
             {
-                "t": "delete",
-                "p": "payload",
-                "pt": "msg"
-            },
-            {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
