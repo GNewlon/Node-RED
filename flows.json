@@ -15247,12 +15247,13 @@
             "96b358f22740a1df",
             "c25fdb4daa905f1c",
             "e7f9d5308ab8ed62",
-            "a10da3f8153a19a1"
+            "a10da3f8153a19a1",
+            "3f9612cf162560ea"
         ],
         "x": 8,
         "y": 3,
         "w": 1414,
-        "h": 904
+        "h": 944
     },
     {
         "id": "44a67f22ddeb9ec1",
@@ -23275,12 +23276,39 @@
             "44347b7e1fd50133",
             "580be724352d97a7",
             "084df6f614e2415f",
-            "c2c523de529a559c"
+            "c2c523de529a559c",
+            "4be09ebd15dafd9c",
+            "f21625730354f504"
         ],
         "x": 424,
         "y": 749,
-        "w": 372,
+        "w": 452,
         "h": 262
+    },
+    {
+        "id": "3f9612cf162560ea",
+        "type": "group",
+        "z": "73d128d33f8cf3ca",
+        "g": "50d38ddbd0f1671b",
+        "name": "FPH-η testing",
+        "style": {
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "3484226075222b58",
+            "e755aca725653739",
+            "e9c9cba55c155eab",
+            "26d2b6fba4843f20",
+            "9436ff8509fc1da5",
+            "5b52aec3dc69c278",
+            "27f9b98fbe6cc1dd",
+            "9596e2cad0fcc381"
+        ],
+        "x": 314,
+        "y": 719,
+        "w": 422,
+        "h": 202
     },
     {
         "id": "d1a17316.c56bb",
@@ -125754,6 +125782,206 @@
         "wires": []
     },
     {
+        "id": "3484226075222b58",
+        "type": "inject",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": "8",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "8",
+        "payloadType": "num",
+        "x": 410,
+        "y": 850,
+        "wires": [
+            [
+                "26d2b6fba4843f20"
+            ]
+        ]
+    },
+    {
+        "id": "e755aca725653739",
+        "type": "inject",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": "1.1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "1.1",
+        "payloadType": "num",
+        "x": 410,
+        "y": 820,
+        "wires": [
+            [
+                "26d2b6fba4843f20"
+            ]
+        ]
+    },
+    {
+        "id": "e9c9cba55c155eab",
+        "type": "inject",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": ".79",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": ".79",
+        "payloadType": "num",
+        "x": 410,
+        "y": 790,
+        "wires": [
+            [
+                "26d2b6fba4843f20"
+            ]
+        ]
+    },
+    {
+        "id": "26d2b6fba4843f20",
+        "type": "link out",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": "FPH-η",
+        "mode": "link",
+        "links": [
+            "9596e2cad0fcc381"
+        ],
+        "x": 525,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9436ff8509fc1da5",
+        "type": "inject",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": ".1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": ".1",
+        "payloadType": "num",
+        "x": 410,
+        "y": 760,
+        "wires": [
+            [
+                "26d2b6fba4843f20"
+            ]
+        ]
+    },
+    {
+        "id": "5b52aec3dc69c278",
+        "type": "inject",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": "33",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FPH-η",
+        "payload": "33",
+        "payloadType": "num",
+        "x": 410,
+        "y": 880,
+        "wires": [
+            [
+                "26d2b6fba4843f20"
+            ]
+        ]
+    },
+    {
+        "id": "27f9b98fbe6cc1dd",
+        "type": "mqtt out",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": "FPH-η",
+        "topic": "FPH-η",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d1a17316.c56bb",
+        "x": 660,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9596e2cad0fcc381",
+        "type": "link in",
+        "z": "73d128d33f8cf3ca",
+        "g": "3f9612cf162560ea",
+        "name": "link in 1148",
+        "links": [
+            "26d2b6fba4843f20"
+        ],
+        "x": 575,
+        "y": 820,
+        "wires": [
+            [
+                "27f9b98fbe6cc1dd"
+            ]
+        ]
+    },
+    {
         "id": "29e33567b5569b53",
         "type": "switch",
         "z": "50196fb4a30c2037",
@@ -128921,8 +129149,7 @@
             "8bee2797fe2c5091",
             "4ddd06f0102597b4",
             "76707c9213a148d3",
-            "a696b28b5f8d9674",
-            "506f62d0e14c4cc5"
+            "a696b28b5f8d9674"
         ],
         "x": 535,
         "y": 1060,
@@ -155191,9 +155418,9 @@
         "name": "FPH-η",
         "mode": "link",
         "links": [
-            "b5de75032cf07a49"
+            "f21625730354f504"
         ],
-        "x": 755,
+        "x": 665,
         "y": 880,
         "wires": []
     },
@@ -155314,6 +155541,42 @@
         "wires": [
             [
                 "506f62d0e14c4cc5"
+            ]
+        ]
+    },
+    {
+        "id": "4be09ebd15dafd9c",
+        "type": "mqtt out",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "FPH-η",
+        "topic": "FPH-η",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d1a17316.c56bb",
+        "x": 800,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "f21625730354f504",
+        "type": "link in",
+        "z": "da9743e4572647d5",
+        "g": "9713ec0531c650f0",
+        "name": "link in 1147",
+        "links": [
+            "506f62d0e14c4cc5"
+        ],
+        "x": 715,
+        "y": 880,
+        "wires": [
+            [
+                "4be09ebd15dafd9c"
             ]
         ]
     }
