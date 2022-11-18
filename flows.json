@@ -70,6 +70,14 @@
         "env": []
     },
     {
+        "id": "b860da55a09e040a",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -963,6 +971,10 @@
                 },
                 {
                     "id": "4d8c1255e5e748cb",
+                    "port": 0
+                },
+                {
+                    "id": "a9386544f7c1850e",
                     "port": 0
                 }
             ]
@@ -5601,7 +5613,7 @@
         "in": [],
         "out": [
             {
-                "x": 800,
+                "x": 970,
                 "y": 190,
                 "wires": [
                     {
@@ -5611,7 +5623,7 @@
                 ]
             },
             {
-                "x": 800,
+                "x": 970,
                 "y": 230,
                 "wires": [
                     {
@@ -5621,7 +5633,7 @@
                 ]
             },
             {
-                "x": 830,
+                "x": 1000,
                 "y": 520,
                 "wires": [
                     {
@@ -12272,7 +12284,9 @@
             "1f076f6c46d42c72"
         ],
         "x": 114,
-        "y": 19
+        "y": 19,
+        "w": 858,
+        "h": 608
     },
     {
         "id": "fabea1a2332736df",
@@ -12333,12 +12347,15 @@
             "315e2013efc050d4",
             "fde2d71843940f38",
             "6667cfa85aeafd30",
-            "19a37c10.85c774"
+            "19a37c10.85c774",
+            "cfeaa72b3931d417",
+            "1884aed006e0922c",
+            "84eb1949af5f59ed"
         ],
         "x": 4,
         "y": 3,
         "w": 1132,
-        "h": 414
+        "h": 665.5
     },
     {
         "id": "74cfb8b345e8cef4",
@@ -13054,7 +13071,7 @@
             "b42b8f410dffad41"
         ],
         "x": 4,
-        "y": 426.44049072265625,
+        "y": 1076.4404907226562,
         "w": 762,
         "h": 164.55950927734375
     },
@@ -13077,7 +13094,7 @@
             "a922a5e2a556864a"
         ],
         "x": 4,
-        "y": 596.4404907226562,
+        "y": 1246.4404907226562,
         "w": 862,
         "h": 164.55950927734375
     },
@@ -13724,7 +13741,9 @@
             "b02ca85831b26268"
         ],
         "x": -2,
-        "y": 23
+        "y": 23,
+        "w": 944,
+        "h": 754
     },
     {
         "id": "be3fe37197e9aa93",
@@ -13745,7 +13764,9 @@
             "4accb27f13f3d6d7"
         ],
         "x": 14,
-        "y": 795.1904907226562
+        "y": 795.1904907226562,
+        "w": 593.4285736083984,
+        "h": 172
     },
     {
         "id": "da5c265a783522b1",
@@ -13766,7 +13787,9 @@
             "ee20aac229be9647"
         ],
         "x": 614,
-        "y": 795.1904907226562
+        "y": 795.1904907226562,
+        "w": 633.4285736083984,
+        "h": 172
     },
     {
         "id": "de3c98f6.07ecb8",
@@ -14252,8 +14275,8 @@
             "88641bdd9c66e966",
             "180dba72aa5e704b"
         ],
-        "x": 944,
-        "y": 419,
+        "x": 914,
+        "y": 1139,
         "w": 612,
         "h": 202
     },
@@ -14838,9 +14861,7 @@
             "489b32d69e4ddbdf"
         ],
         "x": -2,
-        "y": 3,
-        "w": 2764,
-        "h": 1234
+        "y": 3
     },
     {
         "id": "87a8fc6c15760375",
@@ -15262,9 +15283,7 @@
             "2084c56e0be1a867"
         ],
         "x": 8,
-        "y": 13,
-        "w": 794,
-        "h": 524
+        "y": 13
     },
     {
         "id": "7dc00e27faa475dc",
@@ -15306,9 +15325,7 @@
             "8668ba0df4b84079"
         ],
         "x": 8,
-        "y": 3,
-        "w": 1414,
-        "h": 944
+        "y": 3
     },
     {
         "id": "8af5c81c3a9a68d3",
@@ -15489,12 +15506,13 @@
             "96cde7e14d2ef6cb",
             "4d8c1255e5e748cb",
             "764bb5a337416f24",
-            "37b720f1b594baa9"
+            "37b720f1b594baa9",
+            "a9386544f7c1850e"
         ],
         "x": 444,
         "y": 29,
         "w": 372,
-        "h": 362
+        "h": 402
     },
     {
         "id": "a08bed84.d8a7",
@@ -16428,7 +16446,9 @@
             "9fefc9e2c8470445"
         ],
         "x": 234,
-        "y": 311.5
+        "y": 311.5,
+        "w": 432,
+        "h": 139.5
     },
     {
         "id": "1f076f6c46d42c72",
@@ -16448,7 +16468,9 @@
             "7bf16536e8cc15f1"
         ],
         "x": 774,
-        "y": 399
+        "y": 399,
+        "w": 172,
+        "h": 202
     },
     {
         "id": "f0d4f5cce6e6fadc",
@@ -17066,7 +17088,9 @@
             "5cc8a30b23fb4611"
         ],
         "x": 34,
-        "y": 399
+        "y": 399,
+        "w": 862,
+        "h": 352
     },
     {
         "id": "a76c0a519aa46f48",
@@ -17090,7 +17114,9 @@
             "fc66948297183870"
         ],
         "x": 424,
-        "y": 69
+        "y": 69,
+        "w": 362,
+        "h": 322
     },
     {
         "id": "6fdf8ecb42c584ab",
@@ -17113,7 +17139,9 @@
             "76b21b2d9170f79e"
         ],
         "x": 724,
-        "y": 129
+        "y": 129,
+        "w": 192,
+        "h": 262
     },
     {
         "id": "b02ca85831b26268",
@@ -17142,7 +17170,9 @@
             "b02dd5ac2a5cd5f0"
         ],
         "x": 24,
-        "y": 49
+        "y": 49,
+        "w": 372,
+        "h": 342
     },
     {
         "id": "f999c1c.415564",
@@ -18477,9 +18507,7 @@
             "6e87e0de0a55b4df"
         ],
         "x": 1318,
-        "y": 33,
-        "w": 724,
-        "h": 884
+        "y": 33
     },
     {
         "id": "e7237c2e32224b21",
@@ -18539,9 +18567,7 @@
             "7e1718779cc91ef5"
         ],
         "x": 248,
-        "y": 29,
-        "w": 598,
-        "h": 988
+        "y": 29
     },
     {
         "id": "461e18e58f76c9c1",
@@ -18565,9 +18591,7 @@
             "a3d51bc72b8f681f"
         ],
         "x": 2034,
-        "y": 29,
-        "w": 672,
-        "h": 182
+        "y": 29
     },
     {
         "id": "2e012a356a8f9a6f",
@@ -18590,9 +18614,7 @@
             "547b65dffeab8486"
         ],
         "x": 798,
-        "y": 33,
-        "w": 524,
-        "h": 884
+        "y": 33
     },
     {
         "id": "bf6c7b7a5a24ebc0",
@@ -18613,9 +18635,7 @@
             "294c83213636599a"
         ],
         "x": 24,
-        "y": 259,
-        "w": 222,
-        "h": 202
+        "y": 259
     },
     {
         "id": "7b247c6684194174",
@@ -18634,9 +18654,7 @@
             "aba5298fca853f18"
         ],
         "x": 24,
-        "y": 619,
-        "w": 222,
-        "h": 142
+        "y": 619
     },
     {
         "id": "6118a761797eaacb",
@@ -18657,9 +18675,7 @@
             "48ffe311a52a6274"
         ],
         "x": 24,
-        "y": 439,
-        "w": 222,
-        "h": 202
+        "y": 439
     },
     {
         "id": "2ca49410b4d193e8",
@@ -18700,9 +18716,7 @@
             "881d03b1313a9673"
         ],
         "x": 2034,
-        "y": 219,
-        "w": 702,
-        "h": 432
+        "y": 219
     },
     {
         "id": "4f4004259232498d",
@@ -18726,9 +18740,7 @@
             "737437bbbd414b4c"
         ],
         "x": 904,
-        "y": 919,
-        "w": 272,
-        "h": 292
+        "y": 919
     },
     {
         "id": "150a2865882fbfd6",
@@ -18757,9 +18769,7 @@
             "eb17e2f33e70cce1"
         ],
         "x": 1384,
-        "y": 919,
-        "w": 602,
-        "h": 172
+        "y": 919
     },
     {
         "id": "107fed7c6d26e671",
@@ -19537,9 +19547,7 @@
             "bf5f1206c6c2039e"
         ],
         "x": 24,
-        "y": 29,
-        "w": 222,
-        "h": 232
+        "y": 29
     },
     {
         "id": "1eed8b38573986f1",
@@ -19822,9 +19830,7 @@
             "a48d6125caa8288c"
         ],
         "x": 34,
-        "y": 39,
-        "w": 742,
-        "h": 152
+        "y": 39
     },
     {
         "id": "797c1b4e30ce98fd",
@@ -19848,9 +19854,7 @@
             "4ba496df59046322"
         ],
         "x": 94,
-        "y": 199,
-        "w": 572,
-        "h": 172
+        "y": 199
     },
     {
         "id": "2084c56e0be1a867",
@@ -19869,9 +19873,7 @@
             "22372587c33b4506"
         ],
         "x": 124,
-        "y": 379,
-        "w": 492,
-        "h": 132
+        "y": 379
     },
     {
         "id": "3f9612cf162560ea",
@@ -19944,9 +19946,7 @@
             "aa1adc1f42d45401"
         ],
         "x": 314,
-        "y": 409,
-        "w": 1082,
-        "h": 312
+        "y": 409
     },
     {
         "id": "9aa18de60c8efaf8",
@@ -19968,9 +19968,7 @@
             "54d6714518b78cf3"
         ],
         "x": 34,
-        "y": 189,
-        "w": 272,
-        "h": 172
+        "y": 189
     },
     {
         "id": "5f8a32a0cd09bb28",
@@ -19992,9 +19990,7 @@
             "e5fbc7427c24c18d"
         ],
         "x": 34,
-        "y": 29,
-        "w": 272,
-        "h": 182
+        "y": 29
     },
     {
         "id": "33c9bcd7493fa9e5",
@@ -20047,9 +20043,7 @@
             "a0d26bb1de43294a"
         ],
         "x": 314,
-        "y": 29,
-        "w": 1068,
-        "h": 378
+        "y": 29
     },
     {
         "id": "3ea5b8ce6d6075fa",
@@ -20075,9 +20069,7 @@
             "cf0fef554f1daacd"
         ],
         "x": 34,
-        "y": 339,
-        "w": 272,
-        "h": 262
+        "y": 339
     },
     {
         "id": "5e52b7cddbec1d39",
@@ -20097,9 +20089,7 @@
             "7494b35539374e9d"
         ],
         "x": 34,
-        "y": 579,
-        "w": 272,
-        "h": 142
+        "y": 579
     },
     {
         "id": "64c423c6bf2c6447",
@@ -20120,9 +20110,7 @@
             "273a4824a24872a3"
         ],
         "x": 34,
-        "y": 699,
-        "w": 272,
-        "h": 182
+        "y": 699
     },
     {
         "id": "8668ba0df4b84079",
@@ -20145,9 +20133,7 @@
             "5c7e181c71180441"
         ],
         "x": 314,
-        "y": 719,
-        "w": 422,
-        "h": 202
+        "y": 719
     },
     {
         "id": "b38245adde50f9c0",
@@ -21495,9 +21481,7 @@
             "4c90c674c8c4b64c"
         ],
         "x": 1684,
-        "y": 689,
-        "w": 332,
-        "h": 202
+        "y": 689
     },
     {
         "id": "24acdb77fb951b97",
@@ -21523,9 +21507,7 @@
             "60c0ee8f3c092ca8"
         ],
         "x": 1344,
-        "y": 689,
-        "w": 332,
-        "h": 202
+        "y": 689
     },
     {
         "id": "8fd6af2f370e972e",
@@ -21551,9 +21533,7 @@
             "8089af60523b7f89"
         ],
         "x": 1684,
-        "y": 479,
-        "w": 332,
-        "h": 202
+        "y": 479
     },
     {
         "id": "cf6e810e90e9486b",
@@ -21579,9 +21559,7 @@
             "78efb90028350636"
         ],
         "x": 1344,
-        "y": 479,
-        "w": 332,
-        "h": 202
+        "y": 479
     },
     {
         "id": "9e9ff272234c9705",
@@ -21608,9 +21586,7 @@
             "0a19e2c768e915a6"
         ],
         "x": 1684,
-        "y": 59,
-        "w": 332,
-        "h": 202
+        "y": 59
     },
     {
         "id": "35350ec77608ad91",
@@ -21636,9 +21612,7 @@
             "290d836cf23b5ade"
         ],
         "x": 1684,
-        "y": 269,
-        "w": 332,
-        "h": 202
+        "y": 269
     },
     {
         "id": "6c19bc910c63f96b",
@@ -21664,9 +21638,7 @@
             "a60866f5b6ba2edb"
         ],
         "x": 1344,
-        "y": 269,
-        "w": 332,
-        "h": 202
+        "y": 269
     },
     {
         "id": "6e87e0de0a55b4df",
@@ -21692,9 +21664,7 @@
             "925fff55662235d8"
         ],
         "x": 1344,
-        "y": 59,
-        "w": 332,
-        "h": 202
+        "y": 59
     },
     {
         "id": "d9dd2d9b901c39dc",
@@ -21739,9 +21709,7 @@
             "9c582743fd85fbb0"
         ],
         "x": 274,
-        "y": 349,
-        "w": 522,
-        "h": 272
+        "y": 349
     },
     {
         "id": "2e1b92e3809403b7",
@@ -21791,9 +21759,7 @@
             "b3981d578fec7aac"
         ],
         "x": 274,
-        "y": 599,
-        "w": 532,
-        "h": 232
+        "y": 599
     },
     {
         "id": "7e1718779cc91ef5",
@@ -21822,9 +21788,7 @@
             "d844ae9f4418126a"
         ],
         "x": 304,
-        "y": 809,
-        "w": 452,
-        "h": 182
+        "y": 809
     },
     {
         "id": "c4018c0dfa8818b2",
@@ -21857,9 +21821,7 @@
             "95a871a69fad899d"
         ],
         "x": 824,
-        "y": 569,
-        "w": 472,
-        "h": 232
+        "y": 569
     },
     {
         "id": "609a45812fb87107",
@@ -21879,9 +21841,7 @@
             "6d2113c9d2f4d801"
         ],
         "x": 824,
-        "y": 479,
-        "w": 472,
-        "h": 82
+        "y": 479
     },
     {
         "id": "54fcde48eaa864c7",
@@ -21905,9 +21865,7 @@
             "061a0f49f54be4a8"
         ],
         "x": 824,
-        "y": 199,
-        "w": 472,
-        "h": 132
+        "y": 199
     },
     {
         "id": "fbcf89f1521e7d9c",
@@ -21931,9 +21889,7 @@
             "65133c22a0913c09"
         ],
         "x": 824,
-        "y": 339,
-        "w": 472,
-        "h": 132
+        "y": 339
     },
     {
         "id": "291ecf11d5bc35d3",
@@ -21957,9 +21913,7 @@
             "5cb6780c57068401"
         ],
         "x": 824,
-        "y": 59,
-        "w": 472,
-        "h": 132
+        "y": 59
     },
     {
         "id": "547b65dffeab8486",
@@ -21980,9 +21934,7 @@
             "d7689640631210be"
         ],
         "x": 824,
-        "y": 809,
-        "w": 472,
-        "h": 82
+        "y": 809
     },
     {
         "id": "3d5b1b2771a65ed8",
@@ -22385,9 +22337,7 @@
             "3a3fbbe149910b9e"
         ],
         "x": 914,
-        "y": 109,
-        "w": 442,
-        "h": 262
+        "y": 109
     },
     {
         "id": "a0d26bb1de43294a",
@@ -22420,9 +22370,7 @@
             "4b2d9434440f92d1"
         ],
         "x": 654,
-        "y": 149,
-        "w": 252,
-        "h": 232
+        "y": 149
     },
     {
         "id": "9a1ae627.ab9538",
@@ -24027,6 +23975,7 @@
         "version": 2,
         "eventType": "zwave_js_value_notification",
         "exposeToHomeAssistant": false,
+        "eventData": "",
         "haConfig": [
             {
                 "property": "name",
@@ -39297,7 +39246,7 @@
         "halt_if_compare": "is",
         "outputs": 2,
         "x": 200,
-        "y": 530,
+        "y": 1180,
         "wires": [
             [
                 "dba84daef075ee5a",
@@ -39320,7 +39269,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 418.92857360839844,
-        "y": 467.44049072265625,
+        "y": 1117.4404907226562,
         "wires": [
             [
                 "4c89381a923440b9"
@@ -39342,7 +39291,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 538.9285736083984,
-        "y": 517.4404907226562,
+        "y": 1167.4404907226562,
         "wires": []
     },
     {
@@ -39376,7 +39325,7 @@
         "halt_if_compare": "is",
         "outputs": 2,
         "x": 230,
-        "y": 690,
+        "y": 1340,
         "wires": [
             [
                 "a922a5e2a556864a",
@@ -39399,7 +39348,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 478.92857360839844,
-        "y": 637.4404907226562,
+        "y": 1287.4404907226562,
         "wires": [
             [
                 "1f013ea9da2cde1b"
@@ -39421,7 +39370,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 628.9285736083984,
-        "y": 687.4404907226562,
+        "y": 1337.4404907226562,
         "wires": []
     },
     {
@@ -39594,8 +39543,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1370,
-        "y": 580,
+        "x": 1340,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -39622,8 +39571,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1360,
-        "y": 540,
+        "x": 1330,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -39650,8 +39599,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1370,
-        "y": 500,
+        "x": 1340,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -39678,8 +39627,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1370,
-        "y": 460,
+        "x": 1340,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -39702,8 +39651,8 @@
         "topic": "",
         "payload": "CLOSE",
         "payloadType": "str",
-        "x": 1040,
-        "y": 480,
+        "x": 1010,
+        "y": 1200,
         "wires": [
             [
                 "ed1fcda97915b7fc",
@@ -39729,8 +39678,8 @@
         "topic": "",
         "payload": "OPEN",
         "payloadType": "str",
-        "x": 1050,
-        "y": 560,
+        "x": 1020,
+        "y": 1280,
         "wires": [
             [
                 "0f9d2301676ec4ef",
@@ -39761,7 +39710,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 660,
-        "y": 720,
+        "y": 1370,
         "wires": [
             []
         ]
@@ -39789,10 +39738,358 @@
         "outputProperties": [],
         "queue": "none",
         "x": 590,
-        "y": 550,
+        "y": 1200,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "84eb1949af5f59ed",
+        "type": "inovelli-scene-manager",
+        "z": "6b369346.d7101c",
+        "g": "ba9492ca8354e7e9",
+        "name": "MASTER BEDROOM DIMMER",
+        "nodeid": "14",
+        "entityid": "",
+        "zwave": "zwave_js",
+        "switchtype": "LZW31",
+        "outputs": 15,
+        "labels": [
+            "Tap Up on Light Paddle 1x",
+            "Tap Up on Light Paddle 2x",
+            "Tap Up on Light Paddle 3x",
+            "Tap Up on Light Paddle 4x",
+            "Tap Up on Light Paddle 5x",
+            "Hold Up on Light Paddle",
+            "Release Up on Light Paddle",
+            "Tap Down on Light Paddle 1x",
+            "Tap Down on Light Paddle 2x",
+            "Tap Down on Light Paddle 3x",
+            "Tap Down on Light Paddle 4x",
+            "Tap Down on Light Paddle 5x",
+            "Hold Down on Light Paddle",
+            "Release Down on Light Paddle",
+            "Tap Config Button"
+        ],
+        "passthrough": false,
+        "x": 210,
+        "y": 530,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "a9386544f7c1850e"
+            ]
+        ]
+    },
+    {
+        "id": "1884aed006e0922c",
+        "type": "switch",
+        "z": "6b369346.d7101c",
+        "g": "ba9492ca8354e7e9",
+        "name": "payload.event_type",
+        "property": "payload.event_type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "zwave_js_value_notification",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 390,
+        "wires": [
+            [
+                "84eb1949af5f59ed"
+            ]
+        ]
+    },
+    {
+        "id": "cfeaa72b3931d417",
+        "type": "server-events",
+        "z": "6b369346.d7101c",
+        "g": "ba9492ca8354e7e9",
+        "name": "",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "eventType": "",
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "x": 210,
+        "y": 340,
+        "wires": [
+            [
+                "1884aed006e0922c"
+            ]
+        ]
+    },
+    {
+        "id": "a9fef66ffe3bf5a1",
+        "type": "change",
+        "z": "6b369346.d7101c",
+        "name": "LIGHT-ROCKER DOWN: OFF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"service\": \"turn_off\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 1050,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b52eced0cce7b817",
+        "type": "change",
+        "z": "6b369346.d7101c",
+        "name": "LIGHT-ROCKER UP: BRIGHTNESS PCT 100",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{  \"data\": {  \"brightness_pct\": \"100\"  } }",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1190,
+        "y": 1010,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da9abd497e38d5d4",
+        "type": "change",
+        "z": "6b369346.d7101c",
+        "name": "LIGHT-ROCKER UP: ON",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"service\": \"turn_on\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 950,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9386544f7c1850e",
+        "type": "api-call-service",
+        "z": "6b369346.d7101c",
+        "g": "19a37c10.85c774",
+        "name": "MASTER BEDROOM SHEERS-TOGGLE",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "cover",
+        "service": "toggle_cover_tilt",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "cover.master_bedroom_sheers"
+        ],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "SHEERS-TOGGLE",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 630,
+        "y": 390,
+        "wires": [
+            [
+                "c4dbfad144278192"
+            ]
+        ]
+    },
+    {
+        "id": "7212da74883b8c3f",
+        "type": "inovelli-scene-manager",
+        "z": "6b369346.d7101c",
+        "name": "MASTER BEDROOM DIMMER",
+        "nodeid": "14",
+        "entityid": "",
+        "zwave": "zwave_js",
+        "switchtype": "LZW31",
+        "outputs": 15,
+        "labels": [
+            "Tap Up on Light Paddle 1x",
+            "Tap Up on Light Paddle 2x",
+            "Tap Up on Light Paddle 3x",
+            "Tap Up on Light Paddle 4x",
+            "Tap Up on Light Paddle 5x",
+            "Hold Up on Light Paddle",
+            "Release Up on Light Paddle",
+            "Tap Down on Light Paddle 1x",
+            "Tap Down on Light Paddle 2x",
+            "Tap Down on Light Paddle 3x",
+            "Tap Down on Light Paddle 4x",
+            "Tap Down on Light Paddle 5x",
+            "Hold Down on Light Paddle",
+            "Release Down on Light Paddle",
+            "Tap Config Button"
+        ],
+        "passthrough": false,
+        "x": 470,
+        "y": 830,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "2bfa5444b5afa8ec"
+            ]
+        ]
+    },
+    {
+        "id": "6ad440f9f4f0ed60",
+        "type": "server-events",
+        "z": "6b369346.d7101c",
+        "name": "zwave_js_value_notification",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "eventType": "zwave_js_value_notification",
+        "exposeToHomeAssistant": false,
+        "eventData": "",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            },
+            {
+                "property": "event_type",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "x": 130,
+        "y": 830,
+        "wires": [
+            [
+                "7212da74883b8c3f"
+            ]
+        ]
+    },
+    {
+        "id": "2bfa5444b5afa8ec",
+        "type": "debug",
+        "z": "6b369346.d7101c",
+        "name": "MASTER BEDROOM TESTING??????????????",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 870,
+        "wires": []
     },
     {
         "id": "ebda22ee.24afe",
@@ -155385,6 +155682,255 @@
             [
                 "f51e63f5e7def4b0"
             ]
+        ]
+    },
+    {
+        "id": "4856ee7622ef4f7f",
+        "type": "api-call-service",
+        "z": "b860da55a09e040a",
+        "name": "LIGHT GUEST FAN: {{payload}",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "light",
+        "service": "{{payload}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.guest_fan"
+        ],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1270,
+        "y": 350,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6144ae88b4ecc34c",
+        "type": "api-call-service",
+        "z": "b860da55a09e040a",
+        "name": "LIGHT.FAN.DIMMER: {{payload}",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "light",
+        "service": "{{payload}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.fanguest_room_fanlight_dimmer_2"
+        ],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1270,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d81aa8f2544d7d1",
+        "type": "inovelli-scene-manager",
+        "z": "b860da55a09e040a",
+        "name": "MASTER BEDROOM DIMMER",
+        "nodeid": "14",
+        "entityid": "",
+        "zwave": "zwave_js",
+        "switchtype": "LZW31",
+        "outputs": 15,
+        "labels": [
+            "Tap Up on Light Paddle 1x",
+            "Tap Up on Light Paddle 2x",
+            "Tap Up on Light Paddle 3x",
+            "Tap Up on Light Paddle 4x",
+            "Tap Up on Light Paddle 5x",
+            "Hold Up on Light Paddle",
+            "Release Up on Light Paddle",
+            "Tap Down on Light Paddle 1x",
+            "Tap Down on Light Paddle 2x",
+            "Tap Down on Light Paddle 3x",
+            "Tap Down on Light Paddle 4x",
+            "Tap Down on Light Paddle 5x",
+            "Hold Down on Light Paddle",
+            "Release Down on Light Paddle",
+            "Tap Config Button"
+        ],
+        "passthrough": false,
+        "x": 330,
+        "y": 370,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "8aecd0c2492a567c",
+                "eeb2b16542a79edd"
+            ],
+            [
+                "5699d2bec2072736"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e48baa22d2c8dd81",
+        "type": "switch",
+        "z": "b860da55a09e040a",
+        "name": "payload.event_type",
+        "property": "payload.event_type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "zwave_js_value_notification",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "8d81aa8f2544d7d1"
+            ]
+        ]
+    },
+    {
+        "id": "b814a4f9a7075d5a",
+        "type": "server-events",
+        "z": "b860da55a09e040a",
+        "name": "",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "eventType": "",
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "e48baa22d2c8dd81"
+            ]
+        ]
+    },
+    {
+        "id": "8aecd0c2492a567c",
+        "type": "change",
+        "z": "b860da55a09e040a",
+        "name": "LIGHT-ROCKER UP: ON",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"service\": \"turn_on\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 210,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eeb2b16542a79edd",
+        "type": "change",
+        "z": "b860da55a09e040a",
+        "name": "LIGHT-ROCKER UP: BRIGHTNESS PCT 100",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{  \"data\": {  \"brightness_pct\": \"100\"  } }",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 250,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5699d2bec2072736",
+        "type": "change",
+        "z": "b860da55a09e040a",
+        "name": "LIGHT-ROCKER DOWN: OFF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"service\": \"turn_off\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 320,
+        "wires": [
+            []
         ]
     }
 ]
