@@ -12350,7 +12350,8 @@
             "19a37c10.85c774",
             "cfeaa72b3931d417",
             "1884aed006e0922c",
-            "84eb1949af5f59ed"
+            "84eb1949af5f59ed",
+            "5398f23eb0471cd5"
         ],
         "x": 4,
         "y": 3,
@@ -39948,7 +39949,8 @@
             [],
             [],
             [
-                "a9386544f7c1850e"
+                "a9386544f7c1850e",
+                "5398f23eb0471cd5"
             ]
         ]
     },
@@ -40247,6 +40249,24 @@
         "statusType": "auto",
         "x": 890,
         "y": 870,
+        "wires": []
+    },
+    {
+        "id": "5398f23eb0471cd5",
+        "type": "debug",
+        "z": "6b369346.d7101c",
+        "g": "ba9492ca8354e7e9",
+        "name": "MASTER BEDROOM-DIMMER CONFIG BUTTON PRESSED",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 620,
         "wires": []
     },
     {
