@@ -14079,7 +14079,9 @@
             "779d99a235a9af60"
         ],
         "x": 8,
-        "y": 3
+        "y": 3,
+        "w": 1300,
+        "h": 890
     },
     {
         "id": "fedaed89c917c4ca",
@@ -15531,7 +15533,7 @@
         ],
         "x": 444,
         "y": 29,
-        "w": 372,
+        "w": 392,
         "h": 402
     },
     {
@@ -16545,7 +16547,9 @@
             "6219f0fcb6a0e78c"
         ],
         "x": 34,
-        "y": 29
+        "y": 29,
+        "w": 582,
+        "h": 212
     },
     {
         "id": "4c4916a840b24609",
@@ -17391,7 +17395,9 @@
             "4333a8690a3d7ee5"
         ],
         "x": 624,
-        "y": 29
+        "y": 29,
+        "w": 592,
+        "h": 212
     },
     {
         "id": "779d99a235a9af60",
@@ -17414,7 +17420,9 @@
             "7c2c776c46d9a0bd"
         ],
         "x": 58,
-        "y": 253
+        "y": 253,
+        "w": 1224,
+        "h": 614
     },
     {
         "id": "c1e87bc6.91e8d8",
@@ -20716,7 +20724,9 @@
             "0880a675f92ea4ed"
         ],
         "x": 274,
-        "y": 279
+        "y": 279,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "3d90fd494b70eba4",
@@ -20745,7 +20755,9 @@
             "62baa69cd09b071f"
         ],
         "x": 734,
-        "y": 549
+        "y": 549,
+        "w": 452,
+        "h": 292
     },
     {
         "id": "4af5c8c808af936c",
@@ -20774,7 +20786,9 @@
             "fe0ff849bc6fc38e"
         ],
         "x": 734,
-        "y": 279
+        "y": 279,
+        "w": 522,
+        "h": 262
     },
     {
         "id": "f20a153b6b583aa0",
@@ -20802,7 +20816,9 @@
             "0bfd35412d6f0764"
         ],
         "x": 274,
-        "y": 579
+        "y": 579,
+        "w": 452,
+        "h": 192
     },
     {
         "id": "861a54a9f1bb8060",
@@ -20992,7 +21008,9 @@
             "97f60f41c9aa6ad4"
         ],
         "x": 84,
-        "y": 279
+        "y": 279,
+        "w": 192,
+        "h": 412
     },
     {
         "id": "8c326bc2b25940ea",
@@ -40083,16 +40101,16 @@
         "type": "api-call-service",
         "z": "6b369346.d7101c",
         "g": "19a37c10.85c774",
-        "name": "MASTER BEDROOM SHEERS-TOGGLE",
+        "name": "MASTER BEDROOM CURTAINS-TOGGLE",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
         "domain": "cover",
-        "service": "toggle_cover_tilt",
+        "service": "toggle",
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "cover.master_bedroom_sheers"
+            "cover.master_bedroom_curtains"
         ],
         "data": "",
         "dataType": "json",
@@ -40102,12 +40120,12 @@
             {
                 "property": "payload",
                 "propertyType": "msg",
-                "value": "SHEERS-TOGGLE",
+                "value": "CURTAINS-TOGGLE",
                 "valueType": "str"
             }
         ],
         "queue": "none",
-        "x": 630,
+        "x": 640,
         "y": 390,
         "wires": [
             [
