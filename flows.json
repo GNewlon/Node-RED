@@ -12350,7 +12350,9 @@
             "5398f23eb0471cd5"
         ],
         "x": 4,
-        "y": 3
+        "y": 3,
+        "w": 1132,
+        "h": 665.5
     },
     {
         "id": "74cfb8b345e8cef4",
@@ -13066,7 +13068,9 @@
             "b42b8f410dffad41"
         ],
         "x": 4,
-        "y": 1076.4404907226562
+        "y": 1076.4404907226562,
+        "w": 762,
+        "h": 164.55950927734375
     },
     {
         "id": "a43f61caecb4a9be",
@@ -13087,7 +13091,9 @@
             "a922a5e2a556864a"
         ],
         "x": 4,
-        "y": 1246.4404907226562
+        "y": 1246.4404907226562,
+        "w": 862,
+        "h": 164.55950927734375
     },
     {
         "id": "c44c2c73603a6592",
@@ -14261,7 +14267,9 @@
             "180dba72aa5e704b"
         ],
         "x": 914,
-        "y": 1139
+        "y": 1139,
+        "w": 612,
+        "h": 202
     },
     {
         "id": "438771cb59b857c0",
@@ -15501,7 +15509,9 @@
             "a9386544f7c1850e"
         ],
         "x": 444,
-        "y": 29
+        "y": 29,
+        "w": 392,
+        "h": 402
     },
     {
         "id": "a08bed84.d8a7",
@@ -156124,6 +156134,67 @@
             [
                 "fadbdf3165fdd43f"
             ]
+        ]
+    },
+    {
+        "id": "bd3c8495fbef223a",
+        "type": "api-call-service",
+        "z": "b860da55a09e040a",
+        "name": "MASTER BEDROOM CURTAINS-TOGGLE",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "cover",
+        "service": "toggle",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "cover.master_bedroom_curtains"
+        ],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "CURTAINS-TOGGLE",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 1170,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f131c03ae7cd7e06",
+        "type": "inject",
+        "z": "b860da55a09e040a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 910,
+        "y": 200,
+        "wires": [
+            []
         ]
     }
 ]
