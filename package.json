@@ -13,7 +13,8 @@
         "node-red-contrib-flogger": "1.2.2",
         "node-red-contrib-ha-inovelli-manager": "0.3.1",
         "node-red-contrib-home-assistant-websocket": "0.47.0",
-        "node-red-contrib-influxdb": "0.6.1"
+        "node-red-contrib-influxdb": "0.6.1",
+        "node-red-contrib-inovelli-notification-calculator": "0.1.1"
     },
     "node-red": {
         "settings": {
