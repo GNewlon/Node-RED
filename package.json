@@ -22,7 +22,8 @@
         "node-red-contrib-sonos-plus": "6.4.1",
         "node-red-contrib-suncron": "1.6.2",
         "node-red-contrib-timed-counter": "0.0.5",
-        "node-red-contrib-unifi": "0.2.9"
+        "node-red-contrib-unifi": "0.2.9",
+        "node-red-node-rbe": "0.5.0"
     },
     "node-red": {
         "settings": {
