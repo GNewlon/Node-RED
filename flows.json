@@ -14981,7 +14981,9 @@
             "45a76b993cad1f3e"
         ],
         "x": 18,
-        "y": 3
+        "y": 3,
+        "w": 1404,
+        "h": 534
     },
     {
         "id": "96ca861b1a6687e3",
@@ -18824,7 +18826,9 @@
             "ca5b76e9e587554e"
         ],
         "x": 44,
-        "y": 209
+        "y": 209,
+        "w": 472,
+        "h": 302
     },
     {
         "id": "30bf12139eecbe72",
@@ -18849,7 +18853,9 @@
             "3aaff1c28599ed4f"
         ],
         "x": 254,
-        "y": 29
+        "y": 29,
+        "w": 392,
+        "h": 172
     },
     {
         "id": "bb22ed1bc4324ba4",
@@ -18872,7 +18878,9 @@
             "a88a26ced4a2ab37"
         ],
         "x": 654,
-        "y": 29
+        "y": 29,
+        "w": 332,
+        "h": 172
     },
     {
         "id": "45a76b993cad1f3e",
@@ -18917,7 +18925,9 @@
             "097c60ce7077bb17"
         ],
         "x": 524,
-        "y": 209
+        "y": 209,
+        "w": 872,
+        "h": 282
     },
     {
         "id": "01ac29dafb3c49c9",
@@ -85805,10 +85815,11 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
+            "switch.porch_outlet",
             "switch.lanai_fan",
             "switch.pool_light",
-            "switch.porch_outlet",
-            "switch.lanai_ceiling_fan"
+            "switch.lanai_ceiling_fan",
+            "switch.master_bedroom_closet_light"
         ],
         "data": "{}",
         "dataType": "json",
@@ -155973,6 +155984,76 @@
         "y": 320,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "1097d04c7cd959a8",
+        "type": "api-call-service",
+        "z": "b860da55a09e040a",
+        "name": "Switch: OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.porch_outlet",
+            "switch.master_bedroom_closet_light"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "1",
+                "valueType": "str"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 1120,
+        "y": 130,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adbcaffe42c7d241",
+        "type": "inject",
+        "z": "b860da55a09e040a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 850,
+        "y": 110,
+        "wires": [
+            [
+                "1097d04c7cd959a8"
+            ]
         ]
     }
 ]
