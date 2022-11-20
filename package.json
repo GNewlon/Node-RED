@@ -2,7 +2,9 @@
     "name": "Node-Red-Newlon",
     "description": "My Home Assistant Node-Red Project.",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-contrib-inovelli-status-manager": "0.0.15"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
