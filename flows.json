@@ -156198,5 +156198,21 @@
                 "bd3c8495fbef223a"
             ]
         ]
+    },
+    {
+        "id": "3fc48f420ab4bf29",
+        "type": "debug",
+        "z": "b860da55a09e040a",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 460,
+        "wires": []
     }
 ]
