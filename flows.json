@@ -130807,7 +130807,7 @@
         "name": "<--Connect link out to link in at Logic",
         "info": "",
         "x": 1820,
-        "y": 170,
+        "y": 200,
         "wires": []
     },
     {
@@ -130818,7 +130818,7 @@
         "name": "<--Connect link out to link in at Logic",
         "info": "",
         "x": 1820,
-        "y": 210,
+        "y": 240,
         "wires": []
     },
     {
@@ -130829,7 +130829,7 @@
         "name": "<--Connect link out to link in at Logic",
         "info": "",
         "x": 1820,
-        "y": 250,
+        "y": 280,
         "wires": []
     },
     {
