@@ -19,7 +19,8 @@
         "node-red-contrib-moment": "4.0.0",
         "node-red-contrib-simple-gate": "0.5.2",
         "node-red-contrib-simpletime": "2.10.4",
-        "node-red-contrib-sonos-plus": "6.4.1"
+        "node-red-contrib-sonos-plus": "6.4.1",
+        "node-red-contrib-suncron": "1.6.2"
     },
     "node-red": {
         "settings": {
