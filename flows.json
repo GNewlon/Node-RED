@@ -23184,6 +23184,7 @@
         "willRetain": "false",
         "willPayload": "stopped",
         "willMsg": {},
+        "userProps": "",
         "sessionExpiry": ""
     },
     {
@@ -130829,7 +130830,7 @@
         "name": "<--Connect link out to link in at Logic",
         "info": "",
         "x": 1800,
-        "y": 320,
+        "y": 330,
         "wires": []
     },
     {
