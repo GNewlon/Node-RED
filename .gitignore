@@ -1,0 +1,17 @@
+# ignore backup file
+*.backup
+
+# Common credential files
+flows_cred.json
+*cred.json
+*_cred*
+credentials.json
+**/flows_cred.json
+# Common credential files
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
+*cred*
+*.dat
+*password*
+*.httr-oauth*
