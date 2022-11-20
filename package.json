@@ -5,7 +5,8 @@
     "dependencies": {
         "node-contrib-inovelli-status-manager": "0.0.15",
         "node-red-contrib-bigtimer": "2.8.3",
-        "node-red-contrib-bool-gate": "1.0.2"
+        "node-red-contrib-bool-gate": "1.0.2",
+        "node-red-contrib-boolean-logic-ultimate": "1.0.57"
     },
     "node-red": {
         "settings": {
