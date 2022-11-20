@@ -3,7 +3,8 @@
     "description": "My Home Assistant Node-Red Project.",
     "version": "0.0.1",
     "dependencies": {
-        "node-contrib-inovelli-status-manager": "0.0.15"
+        "node-contrib-inovelli-status-manager": "0.0.15",
+        "node-red-contrib-bigtimer": "2.8.3"
     },
     "node-red": {
         "settings": {
