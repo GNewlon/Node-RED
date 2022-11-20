@@ -4,7 +4,8 @@
     "version": "0.0.1",
     "dependencies": {
         "node-contrib-inovelli-status-manager": "0.0.15",
-        "node-red-contrib-bigtimer": "2.8.3"
+        "node-red-contrib-bigtimer": "2.8.3",
+        "node-red-contrib-bool-gate": "1.0.2"
     },
     "node-red": {
         "settings": {
