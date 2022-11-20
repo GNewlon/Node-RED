@@ -142363,7 +142363,7 @@
         "z": "2468296eb99670b3",
         "g": "e7237c2e32224b21",
         "name": "Query",
-        "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -60m)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"HVAC\")\n  |> filter(fn: (r) => r[\"_field\"] == \"State\")\n  |> group()\n  |> last()`;\nreturn msg;",
+        "func": "msg.query = `from(bucket: \"homeassistant\")\n  |> range(start: -7d)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"HVAC\")\n  |> filter(fn: (r) => r[\"_field\"] == \"State\")\n  |> group()\n  |> last()`;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
