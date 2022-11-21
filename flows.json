@@ -13786,7 +13786,9 @@
             "01ac29dafb3c49c9"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 994,
+        "h": 584
     },
     {
         "id": "cb5f35994bc5c2c2",
@@ -17166,7 +17168,9 @@
             "9454739c48219aed"
         ],
         "x": 314,
-        "y": 39
+        "y": 39,
+        "w": 322,
+        "h": 392
     },
     {
         "id": "4903459c.e4111c",
@@ -17208,7 +17212,9 @@
             "3cdf4d4729a29d46"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 272,
+        "h": 532
     },
     {
         "id": "103ae1197eada901",
@@ -17383,7 +17389,9 @@
             "dcaf9b826475dfe1"
         ],
         "x": 644,
-        "y": 199
+        "y": 199,
+        "w": 332,
+        "h": 232
     },
     {
         "id": "b0607ccf25cd6134",
@@ -17805,7 +17813,9 @@
             "f3d62e11569f2c51"
         ],
         "x": 314,
-        "y": 439
+        "y": 439,
+        "w": 662,
+        "h": 132
     },
     {
         "id": "2d11467498f86583",
@@ -18939,7 +18949,9 @@
             "7c4a63a8e2beb73f"
         ],
         "x": 644,
-        "y": 39
+        "y": 39,
+        "w": 332,
+        "h": 152
     },
     {
         "id": "3a6ed11eeff32c13",
@@ -27434,6 +27446,67 @@
                 "810ba3cea7058a7b"
             ]
         ]
+    },
+    {
+        "id": "e99f744daa85d9e3",
+        "type": "api-current-state",
+        "z": "9d565a09.f41898",
+        "name": "",
+        "server": "bbcbbc6d.66dc2",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_select.pool_state",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "seconds",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 560,
+        "y": 640,
+        "wires": [
+            [
+                "358c0fc59788dec3"
+            ]
+        ]
+    },
+    {
+        "id": "358c0fc59788dec3",
+        "type": "debug",
+        "z": "9d565a09.f41898",
+        "name": "SKIMMER",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 830,
+        "y": 640,
+        "wires": []
     },
     {
         "id": "4682890492a625c7",
