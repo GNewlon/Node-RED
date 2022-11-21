@@ -21349,9 +21349,7 @@
             "552cb953.9ce528",
             "30e7c030.4acd8",
             "5fd5d0c1b2792674",
-            "95cbc61e2e8b96cd",
-            "6fd6c0d9a6e6ce0a",
-            "1b94045adfca987a"
+            "95cbc61e2e8b96cd"
         ],
         "x": 62,
         "y": 59,
@@ -131370,42 +131368,6 @@
         "wires": []
     },
     {
-        "id": "6fd6c0d9a6e6ce0a",
-        "type": "flogger",
-        "z": "ae087566.f2dff8",
-        "g": "9be9eeddc80e20ac",
-        "name": "Shark House-catch all",
-        "logfile": "Shark House-catch all",
-        "inputchoice": "fullmsg",
-        "inputobject": "payload",
-        "inputobjectType": "msg",
-        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
-        "loglevel": "WARN",
-        "logconfig": "fe897f4cf48cf92c",
-        "sendpane": false,
-        "x": 630,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b94045adfca987a",
-        "type": "catch",
-        "z": "ae087566.f2dff8",
-        "g": "9be9eeddc80e20ac",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 440,
-        "y": 100,
-        "wires": [
-            [
-                "6fd6c0d9a6e6ce0a"
-            ]
-        ]
-    },
-    {
         "id": "a08b10639544f8ae",
         "type": "poll-state",
         "z": "ae087566.f2dff8",
@@ -131482,6 +131444,40 @@
         "x": 180,
         "y": 360,
         "wires": []
+    },
+    {
+        "id": "6fd6c0d9a6e6ce0a",
+        "type": "flogger",
+        "z": "ae087566.f2dff8",
+        "name": "Shark House-catch all",
+        "logfile": "Shark House-catch all",
+        "inputchoice": "fullmsg",
+        "inputobject": "payload",
+        "inputobjectType": "msg",
+        "inputmoustache": "Recieved payload {{payload}} and topic {{topic}}",
+        "loglevel": "WARN",
+        "logconfig": "fe897f4cf48cf92c",
+        "sendpane": false,
+        "x": 340,
+        "y": 610,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b94045adfca987a",
+        "type": "catch",
+        "z": "ae087566.f2dff8",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 150,
+        "y": 610,
+        "wires": [
+            [
+                "6fd6c0d9a6e6ce0a"
+            ]
+        ]
     },
     {
         "id": "c14a00f4.cf197",
