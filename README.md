@@ -1,7 +1,8 @@
-Node-Red-Newlon
+Node-Red
 ===============
 
-My Home Assistant Node-Red Project.
+My Production Home Assistant Node-Red Project.
+I love this software!
 
 ### About
 
