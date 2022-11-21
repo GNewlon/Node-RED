@@ -12338,10 +12338,13 @@
             "19a37c10.85c774",
             "84eb1949af5f59ed",
             "5398f23eb0471cd5",
-            "78a2f499e25735fd"
+            "78a2f499e25735fd",
+            "85adb57eae14edec"
         ],
         "x": 4,
-        "y": 3
+        "y": 3,
+        "w": 1132,
+        "h": 665.5
     },
     {
         "id": "74cfb8b345e8cef4",
@@ -13057,7 +13060,9 @@
             "b42b8f410dffad41"
         ],
         "x": 4,
-        "y": 1076.4404907226562
+        "y": 1076.4404907226562,
+        "w": 762,
+        "h": 164.55950927734375
     },
     {
         "id": "a43f61caecb4a9be",
@@ -13078,7 +13083,9 @@
             "a922a5e2a556864a"
         ],
         "x": 4,
-        "y": 1246.4404907226562
+        "y": 1246.4404907226562,
+        "w": 862,
+        "h": 164.55950927734375
     },
     {
         "id": "c44c2c73603a6592",
@@ -14254,7 +14261,9 @@
             "180dba72aa5e704b"
         ],
         "x": 914,
-        "y": 1139
+        "y": 1139,
+        "w": 612,
+        "h": 202
     },
     {
         "id": "438771cb59b857c0",
@@ -15489,10 +15498,13 @@
             "4d8c1255e5e748cb",
             "764bb5a337416f24",
             "37b720f1b594baa9",
-            "a9386544f7c1850e"
+            "a9386544f7c1850e",
+            "fa173e639529003d"
         ],
         "x": 444,
-        "y": 29
+        "y": 29,
+        "w": 392,
+        "h": 442
     },
     {
         "id": "a08bed84.d8a7",
@@ -27448,67 +27460,6 @@
         ]
     },
     {
-        "id": "e99f744daa85d9e3",
-        "type": "api-current-state",
-        "z": "9d565a09.f41898",
-        "name": "",
-        "server": "bbcbbc6d.66dc2",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_select.pool_state",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "seconds",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 560,
-        "y": 640,
-        "wires": [
-            [
-                "358c0fc59788dec3"
-            ]
-        ]
-    },
-    {
-        "id": "358c0fc59788dec3",
-        "type": "debug",
-        "z": "9d565a09.f41898",
-        "name": "SKIMMER",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 830,
-        "y": 640,
-        "wires": []
-    },
-    {
         "id": "4682890492a625c7",
         "type": "switch",
         "z": "6b33f202.f423fc",
@@ -39146,7 +39097,7 @@
         ],
         "queue": "none",
         "x": 620,
-        "y": 350,
+        "y": 390,
         "wires": [
             [
                 "c4dbfad144278192"
@@ -39284,7 +39235,8 @@
             ],
             [
                 "6c384e6201adb7ac",
-                "96cde7e14d2ef6cb"
+                "96cde7e14d2ef6cb",
+                "fa173e639529003d"
             ],
             [
                 "37b720f1b594baa9"
@@ -40016,7 +39968,7 @@
         ],
         "queue": "none",
         "x": 640,
-        "y": 390,
+        "y": 430,
         "wires": [
             [
                 "c4dbfad144278192"
@@ -40217,6 +40169,76 @@
         "outputs": 1,
         "x": 1250,
         "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa173e639529003d",
+        "type": "api-call-service",
+        "z": "6b369346.d7101c",
+        "g": "19a37c10.85c774",
+        "name": "MASTER BEDROOM CLOSET LIGHT-OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.master_bedroom_closet_light"
+        ],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "MASTER BEDROOM CLOSET LIGHT-OFF",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 640,
+        "y": 350,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85adb57eae14edec",
+        "type": "api-call-service",
+        "z": "6b369346.d7101c",
+        "g": "ba9492ca8354e7e9",
+        "name": "MASTER BEDROOM CLOSET LIGHT-ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.master_bedroom_closet_light"
+        ],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "MASTER BEDROOM CLOSET LIGHT-ON",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 640,
+        "y": 500,
         "wires": [
             []
         ]
