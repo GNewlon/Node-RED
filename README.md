@@ -1,12 +1,11 @@
 # Node-RED Configuration
 A high-performance Node.js Redis client.
 
-Node-RED integration with Home Assistant Core
 ## Integrations
   * ESPHome
   * JS-Z-Wave 700
   * MQTT Broker
-  * Node-RED Companion
+  * Home Assistant Core
   * Tasmota
   * Zigbee 3.0 
   
