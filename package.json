@@ -1,6 +1,6 @@
 {
     "name": "Node-Red-Newlon",
-    "description": "Companion Component for node-red-contrib-home-assistant-websocket to help integrate Node-RED with Home Assistant Core",
+    "description": "A high-performance Node.js Redis client. Paired with Home Assistant Core",
     "version": "0.0.1",
     "dependencies": {
         "node-contrib-inovelli-status-manager": "0.0.15",
