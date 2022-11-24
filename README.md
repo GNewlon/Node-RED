@@ -1,5 +1,5 @@
 # Node-RED Configuration
-A high-performance Node.js Redis client.
+A high-performance Node.js Redis client
 
 ## Integrations
   * ESPHome
