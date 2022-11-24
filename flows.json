@@ -125076,8 +125076,8 @@
         "type": "trigger",
         "z": "73d128d33f8cf3ca",
         "g": "b9eb97577af09da3",
-        "name": "ULTRA High FPH-η",
-        "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ ULTRA High FPH-η: ",
+        "name": "ULTRA FPH-η",
+        "op1": "🚨🚨🚨🚨🚨🚨🚨🚨🚨                                     ➡️➡️ ULTRA FPH-η: ",
         "op2": "",
         "op1type": "str",
         "op2type": "pay",
@@ -125089,7 +125089,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 1070,
+        "x": 1060,
         "y": 210,
         "wires": [
             [
