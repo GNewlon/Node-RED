@@ -152237,7 +152237,7 @@
         "g": "828f30ca1962501e",
         "name": "WatchDog",
         "active": true,
-        "tosidebar": false,
+        "tosidebar": true,
         "console": false,
         "tostatus": true,
         "complete": "payload",
