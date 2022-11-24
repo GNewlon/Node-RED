@@ -13789,7 +13789,9 @@
             "01ac29dafb3c49c9"
         ],
         "x": 8,
-        "y": 13
+        "y": 43,
+        "w": 1014,
+        "h": 554
     },
     {
         "id": "cb5f35994bc5c2c2",
@@ -17212,7 +17214,9 @@
             "9454739c48219aed"
         ],
         "x": 314,
-        "y": 39
+        "y": 69,
+        "w": 322,
+        "h": 362
     },
     {
         "id": "4903459c.e4111c",
@@ -17254,7 +17258,9 @@
             "3cdf4d4729a29d46"
         ],
         "x": 34,
-        "y": 39
+        "y": 69,
+        "w": 272,
+        "h": 502
     },
     {
         "id": "103ae1197eada901",
@@ -17422,14 +17428,17 @@
         "nodes": [
             "aa078f0f.b006d",
             "f57bdc9d.e510f",
-            "f74a3627.4a5748",
             "678b4334c8591f72",
-            "1a8c4cb114e4bbba",
             "b3b2cadab215c413",
-            "dcaf9b826475dfe1"
+            "dcaf9b826475dfe1",
+            "7e105a9ed844fe93",
+            "5703520d6f98444e",
+            "5c30e1ef9bffd4da"
         ],
         "x": 644,
-        "y": 199
+        "y": 229,
+        "w": 352,
+        "h": 202
     },
     {
         "id": "b0607ccf25cd6134",
@@ -17861,7 +17870,9 @@
             "f3d62e11569f2c51"
         ],
         "x": 314,
-        "y": 439
+        "y": 439,
+        "w": 662,
+        "h": 132
     },
     {
         "id": "2d11467498f86583",
@@ -18989,7 +19000,9 @@
             "7c4a63a8e2beb73f"
         ],
         "x": 644,
-        "y": 39
+        "y": 69,
+        "w": 332,
+        "h": 152
     },
     {
         "id": "3a6ed11eeff32c13",
@@ -26133,6 +26146,20 @@
         "wires": []
     },
     {
+        "id": "5c30e1ef9bffd4da",
+        "type": "link out",
+        "z": "9d565a09.f41898",
+        "g": "c1e87bc6.91e8d8",
+        "name": "link out 1229",
+        "mode": "link",
+        "links": [
+            "4901700580c2b03c"
+        ],
+        "x": 915,
+        "y": 390,
+        "wires": []
+    },
+    {
         "id": "715d5713.aba528",
         "type": "api-call-service",
         "z": "9d565a09.f41898",
@@ -26155,7 +26182,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 460,
-        "y": 80,
+        "y": 110,
         "wires": [
             []
         ]
@@ -26183,7 +26210,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 480,
-        "y": 120,
+        "y": 150,
         "wires": [
             []
         ]
@@ -26198,7 +26225,7 @@
             "6bd824fa32a27da2"
         ],
         "x": 355,
-        "y": 130,
+        "y": 160,
         "wires": [
             [
                 "715d5713.aba528",
@@ -26371,8 +26398,8 @@
         "septopics": false,
         "property": "payload",
         "topi": "topic",
-        "x": 150,
-        "y": 130,
+        "x": 230,
+        "y": 110,
         "wires": [
             [
                 "9adb1e9d.1f1fe"
@@ -26402,7 +26429,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 840,
-        "y": 240,
+        "y": 270,
         "wires": [
             []
         ]
@@ -26412,7 +26439,7 @@
         "type": "api-call-service",
         "z": "9d565a09.f41898",
         "g": "c1e87bc6.91e8d8",
-        "name": "POOL HEATER-OFF",
+        "name": "SPA+POOL HEATER-OFF",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
@@ -26421,34 +26448,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "switch.pool_heater"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 830,
-        "y": 300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f74a3627.4a5748",
-        "type": "api-call-service",
-        "z": "9d565a09.f41898",
-        "g": "c1e87bc6.91e8d8",
-        "name": "SPA HEATER-OFF",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "turn_off",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
+            "switch.pool_heater",
             "switch.spa_heater"
         ],
         "data": "{}",
@@ -26457,7 +26457,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 820,
+        "x": 850,
         "y": 330,
         "wires": [
             []
@@ -26468,7 +26468,7 @@
         "type": "api-call-service",
         "z": "9d565a09.f41898",
         "g": "c1e87bc6.91e8d8",
-        "name": "SPA PUMP-OFF",
+        "name": "SPA PUMP+JETS-OFF",
         "server": "bbcbbc6d.66dc2",
         "version": 5,
         "debugenabled": false,
@@ -26477,6 +26477,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
+            "switch.spa_jets",
             "switch.spa_pump"
         ],
         "data": "{}",
@@ -26485,36 +26486,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 810,
+        "x": 840,
         "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1a8c4cb114e4bbba",
-        "type": "api-call-service",
-        "z": "9d565a09.f41898",
-        "g": "c1e87bc6.91e8d8",
-        "name": "SPA JETS-OFF",
-        "server": "bbcbbc6d.66dc2",
-        "version": 5,
-        "debugenabled": false,
-        "domain": "switch",
-        "service": "turn_off",
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.spa_jets"
-        ],
-        "data": "{}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "x": 810,
-        "y": 390,
         "wires": [
             []
         ]
@@ -26529,15 +26502,14 @@
             "6bd824fa32a27da2"
         ],
         "x": 685,
-        "y": 310,
+        "y": 340,
         "wires": [
             [
                 "aa078f0f.b006d",
                 "f57bdc9d.e510f",
-                "f74a3627.4a5748",
                 "678b4334c8591f72",
-                "1a8c4cb114e4bbba",
-                "dcaf9b826475dfe1"
+                "dcaf9b826475dfe1",
+                "7e105a9ed844fe93"
             ]
         ]
     },
@@ -26571,8 +26543,8 @@
         "halt_if_type": "str",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 140,
-        "y": 80,
+        "x": 110,
+        "y": 110,
         "wires": [
             [
                 "9f6c86a6ef7cac5f"
@@ -26619,7 +26591,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 490,
-        "y": 160,
+        "y": 190,
         "wires": [
             []
         ]
@@ -26647,7 +26619,7 @@
         "outputProperties": [],
         "queue": "none",
         "x": 840,
-        "y": 270,
+        "y": 300,
         "wires": [
             []
         ]
@@ -27219,7 +27191,7 @@
             "8f3f2d523dbaab55"
         ],
         "x": 685,
-        "y": 80,
+        "y": 110,
         "wires": [
             [
                 "1de3641.c665c9c"
@@ -27245,7 +27217,7 @@
         "topic": "paylaod",
         "outputs": 1,
         "x": 780,
-        "y": 80,
+        "y": 110,
         "wires": [
             [
                 "d6ddf6f2b7a7641c"
@@ -27263,7 +27235,7 @@
             "7c4a63a8e2beb73f"
         ],
         "x": 875,
-        "y": 80,
+        "y": 110,
         "wires": []
     },
     {
@@ -27276,10 +27248,11 @@
             "2f446a7ee0fcbf55",
             "e23e7f32f3b52836",
             "c44a55c78dfbd68b",
-            "90328d96d0086085"
+            "90328d96d0086085",
+            "5c30e1ef9bffd4da"
         ],
         "x": 685,
-        "y": 150,
+        "y": 180,
         "wires": [
             [
                 "345fc7cff8bf85e3"
@@ -27301,7 +27274,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 790,
-        "y": 150,
+        "y": 180,
         "wires": []
     },
     {
@@ -27316,7 +27289,7 @@
             "d6ddf6f2b7a7641c"
         ],
         "x": 935,
-        "y": 80,
+        "y": 110,
         "wires": [
             []
         ]
@@ -27546,6 +27519,57 @@
         "wires": [
             [
                 "810ba3cea7058a7b"
+            ]
+        ]
+    },
+    {
+        "id": "5703520d6f98444e",
+        "type": "comment",
+        "z": "9d565a09.f41898",
+        "g": "c1e87bc6.91e8d8",
+        "name": "",
+        "info": "If I'm going to set Heat? to NONE then I should also set FPH RELAYS to OFF",
+        "x": 880,
+        "y": 390,
+        "wires": []
+    },
+    {
+        "id": "7e105a9ed844fe93",
+        "type": "api-call-service",
+        "z": "9d565a09.f41898",
+        "g": "c1e87bc6.91e8d8",
+        "name": "FPH RELAYS",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.fph_1_norm_fph",
+            "switch.fph_hvac_compressor_24vac_no",
+            "switch.nph_condenser_fan",
+            "switch.nph_hvac_compressor_24vac_nc"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "FPH RELAYS:OFF",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 810,
+        "y": 390,
+        "wires": [
+            [
+                "5c30e1ef9bffd4da"
             ]
         ]
     },
