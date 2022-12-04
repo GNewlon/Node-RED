@@ -15228,11 +15228,12 @@
             "c25fdb4daa905f1c",
             "e7f9d5308ab8ed62",
             "a10da3f8153a19a1",
-            "3f9612cf162560ea"
+            "3f9612cf162560ea",
+            "420d75407b24643e"
         ],
         "x": 8,
         "y": 3,
-        "w": 1414,
+        "w": 1498,
         "h": 944
     },
     {
@@ -123615,7 +123616,8 @@
         "y": 650,
         "wires": [
             [
-                "79e784721f4f45f2"
+                "79e784721f4f45f2",
+                "420d75407b24643e"
             ]
         ]
     },
@@ -124442,7 +124444,7 @@
         "type": "link out",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "link out 1172",
+        "name": "Pool.Mode/90s",
         "mode": "link",
         "links": [
             "73ef2beb56cb37d7"
@@ -124456,12 +124458,12 @@
         "type": "link out",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "link out 1173",
+        "name": "reset",
         "mode": "link",
         "links": [
             "159d5ed73f70107f",
-            "73ef2beb56cb37d7",
-            "7394a2aa279cfaa8"
+            "7394a2aa279cfaa8",
+            "73ef2beb56cb37d7"
         ],
         "x": 555,
         "y": 170,
@@ -124472,7 +124474,7 @@
         "type": "link out",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "link out 1174",
+        "name": "Pool.Mode !=FPH= reset",
         "mode": "link",
         "links": [
             "856a31cc7a8b99a6"
@@ -124486,7 +124488,7 @@
         "type": "link out",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "link out 1175",
+        "name": "Pool.Mode  FPH=[start {HIGH} logic]",
         "mode": "link",
         "links": [
             "fd234531ffa4cce0"
@@ -124639,7 +124641,7 @@
         "type": "link out",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "link out 1177",
+        "name": "Pool.Mode  HOT=[start {ULTRA} logic]",
         "mode": "link",
         "links": [
             "19602915789dc173"
@@ -124701,7 +124703,7 @@
         "type": "link out",
         "z": "73d128d33f8cf3ca",
         "g": "96b358f22740a1df",
-        "name": "ULTRA",
+        "name": "ULTRA/30s",
         "mode": "link",
         "links": [
             "46b1dc08867d58ab",
@@ -126465,6 +126467,24 @@
                 "27f9b98fbe6cc1dd"
             ]
         ]
+    },
+    {
+        "id": "420d75407b24643e",
+        "type": "debug",
+        "z": "73d128d33f8cf3ca",
+        "g": "50d38ddbd0f1671b",
+        "name": "WatchDog: HAD A TRIGGER 120322, DELETE IF NO RE-OCCURANCE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 780,
+        "wires": []
     },
     {
         "id": "29e33567b5569b53",
@@ -153817,8 +153837,8 @@
         "mode": "link",
         "links": [
             "9ad33ad7bc12b926",
-            "b8ed5cb72fc7ab16",
-            "a2a238363bcce56a"
+            "a2a238363bcce56a",
+            "b8ed5cb72fc7ab16"
         ],
         "x": 555,
         "y": 170,
