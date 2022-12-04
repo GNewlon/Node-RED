@@ -22854,7 +22854,8 @@
             "3419b1e17db0c2f8",
             "4737aeb357e91016",
             "ef122156b35f3a7f",
-            "ca8e952d23b6ba4a"
+            "ca8e952d23b6ba4a",
+            "ddfce08304252ff3"
         ],
         "x": 8,
         "y": 3,
@@ -153044,7 +153045,8 @@
         "y": 700,
         "wires": [
             [
-                "4fa1cba3a2dd8200"
+                "4fa1cba3a2dd8200",
+                "ddfce08304252ff3"
             ]
         ]
     },
@@ -155924,5 +155926,23 @@
                 "f3e90d305a1b8e1d"
             ]
         ]
+    },
+    {
+        "id": "ddfce08304252ff3",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "g": "a6964268e74a6258",
+        "name": "WatchDog",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 900,
+        "y": 790,
+        "wires": []
     }
 ]
