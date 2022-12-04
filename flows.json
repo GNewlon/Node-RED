@@ -22855,7 +22855,8 @@
             "4737aeb357e91016",
             "ef122156b35f3a7f",
             "ca8e952d23b6ba4a",
-            "ddfce08304252ff3"
+            "ddfce08304252ff3",
+            "cab3d6803beead73"
         ],
         "x": 8,
         "y": 3,
@@ -152933,7 +152934,8 @@
             [
                 "570bb90816e8619a",
                 "e735e6beae999757",
-                "4d12db5565cefbd4"
+                "4d12db5565cefbd4",
+                "cab3d6803beead73"
             ]
         ]
     },
@@ -155932,7 +155934,7 @@
         "type": "debug",
         "z": "da9743e4572647d5",
         "g": "a6964268e74a6258",
-        "name": "WatchDog",
+        "name": "WatchDog:reset",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -155941,8 +155943,26 @@
         "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 900,
+        "x": 910,
         "y": 790,
+        "wires": []
+    },
+    {
+        "id": "cab3d6803beead73",
+        "type": "debug",
+        "z": "da9743e4572647d5",
+        "g": "a6964268e74a6258",
+        "name": "WatchDog: ABNORMALLY LOW",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 750,
         "wires": []
     }
 ]
