@@ -14775,7 +14775,7 @@
             "932c2a3ddeea52f0"
         ],
         "x": 10,
-        "y": -13,
+        "y": 7,
         "w": 2411,
         "h": 1844
     },
@@ -18233,7 +18233,7 @@
         },
         "nodes": [],
         "x": 2355,
-        "y": 1765,
+        "y": 1785,
         "w": 40,
         "h": 40
     },
@@ -18249,7 +18249,7 @@
         },
         "nodes": [],
         "x": 65,
-        "y": 75,
+        "y": 95,
         "w": 40,
         "h": 40
     },
@@ -18264,11 +18264,12 @@
             "label": true
         },
         "nodes": [
-            "9be9eeddc80e20ac"
+            "9be9eeddc80e20ac",
+            "1c6cf9e95ed81164"
         ],
         "x": 36,
-        "y": 13,
-        "w": 1358,
+        "y": 33,
+        "w": 1500,
         "h": 1436
     },
     {
@@ -21093,7 +21094,7 @@
             "f47274f0f42673af"
         ],
         "x": 62,
-        "y": 39,
+        "y": 59,
         "w": 1306,
         "h": 1384
     },
@@ -22146,7 +22147,7 @@
             "e1b08afe2eb3e24c"
         ],
         "x": 318,
-        "y": 103,
+        "y": 123,
         "w": 804,
         "h": 374
     },
@@ -22167,7 +22168,7 @@
             "133ea039bdc8d49b"
         ],
         "x": 474,
-        "y": 539,
+        "y": 559,
         "w": 492,
         "h": 82
     },
@@ -22195,7 +22196,7 @@
             "7cd644dc5ba926e0"
         ],
         "x": 1124,
-        "y": 99,
+        "y": 119,
         "w": 212,
         "h": 532
     },
@@ -22211,7 +22212,7 @@
         },
         "nodes": [],
         "x": 95,
-        "y": 1115,
+        "y": 1135,
         "w": 40,
         "h": 40
     },
@@ -22236,7 +22237,7 @@
             "d707a87f00fcd8c3"
         ],
         "x": 314,
-        "y": 459,
+        "y": 479,
         "w": 812,
         "h": 82
     },
@@ -22262,7 +22263,7 @@
             "84981bf0f9787f64"
         ],
         "x": 94,
-        "y": 99,
+        "y": 119,
         "w": 212,
         "h": 392
     },
@@ -22290,7 +22291,7 @@
             "3ed42f8e9f061c37"
         ],
         "x": 88,
-        "y": 623,
+        "y": 643,
         "w": 1254,
         "h": 774
     },
@@ -22341,7 +22342,7 @@
             "a451129f5706d303"
         ],
         "x": 354,
-        "y": 879,
+        "y": 899,
         "w": 752,
         "h": 512
     },
@@ -22360,7 +22361,7 @@
             "9b2e4779.0c21d8"
         ],
         "x": 344,
-        "y": 129,
+        "y": 149,
         "w": 152,
         "h": 82
     },
@@ -22379,7 +22380,7 @@
             "333bd318.eae2dc"
         ],
         "x": 494,
-        "y": 209,
+        "y": 229,
         "w": 152,
         "h": 82
     },
@@ -22398,7 +22399,7 @@
             "70911d2f.f24804"
         ],
         "x": 644,
-        "y": 209,
+        "y": 229,
         "w": 152,
         "h": 82
     },
@@ -22417,7 +22418,7 @@
             "ad1bd921.ec9f08"
         ],
         "x": 644,
-        "y": 129,
+        "y": 149,
         "w": 152,
         "h": 82
     },
@@ -22436,7 +22437,7 @@
             "917c329c.1a31e"
         ],
         "x": 794,
-        "y": 129,
+        "y": 149,
         "w": 152,
         "h": 82
     },
@@ -22455,7 +22456,7 @@
             "24007f8e.ecb48"
         ],
         "x": 794,
-        "y": 209,
+        "y": 229,
         "w": 152,
         "h": 82
     },
@@ -22474,7 +22475,7 @@
             "57ece1ea.4a1ab"
         ],
         "x": 494,
-        "y": 289,
+        "y": 309,
         "w": 152,
         "h": 82
     },
@@ -22493,7 +22494,7 @@
             "f6624fe.50b40b"
         ],
         "x": 794,
-        "y": 289,
+        "y": 309,
         "w": 152,
         "h": 82
     },
@@ -22512,7 +22513,7 @@
             "d3acae8f.46dbf"
         ],
         "x": 944,
-        "y": 289,
+        "y": 309,
         "w": 152,
         "h": 82
     },
@@ -22531,7 +22532,7 @@
             "eaf8564c.8a34d8"
         ],
         "x": 644,
-        "y": 289,
+        "y": 309,
         "w": 152,
         "h": 82
     },
@@ -22550,7 +22551,7 @@
             "4220d349.2e0e9c"
         ],
         "x": 344,
-        "y": 209,
+        "y": 229,
         "w": 152,
         "h": 82
     },
@@ -22569,7 +22570,7 @@
             "bd1d8a9c.c60468"
         ],
         "x": 344,
-        "y": 289,
+        "y": 309,
         "w": 152,
         "h": 82
     },
@@ -22588,7 +22589,7 @@
             "de564d4f.6b531"
         ],
         "x": 944,
-        "y": 129,
+        "y": 149,
         "w": 152,
         "h": 82
     },
@@ -22607,7 +22608,7 @@
             "a0ad0c54.253e3"
         ],
         "x": 944,
-        "y": 209,
+        "y": 229,
         "w": 152,
         "h": 82
     },
@@ -22626,7 +22627,7 @@
             "dd99b9e7.923b28"
         ],
         "x": 494,
-        "y": 129,
+        "y": 149,
         "w": 152,
         "h": 82
     },
@@ -22645,7 +22646,7 @@
             "c4620301.3ae3b"
         ],
         "x": 344,
-        "y": 369,
+        "y": 389,
         "w": 152,
         "h": 82
     },
@@ -22664,7 +22665,7 @@
             "112bec9dfc67160f"
         ],
         "x": 494,
-        "y": 369,
+        "y": 389,
         "w": 152,
         "h": 82
     },
@@ -22683,7 +22684,7 @@
             "600340f5020c30de"
         ],
         "x": 944,
-        "y": 369,
+        "y": 389,
         "w": 152,
         "h": 82
     },
@@ -22702,7 +22703,7 @@
             "58d13aae.28ce24"
         ],
         "x": 644,
-        "y": 369,
+        "y": 389,
         "w": 152,
         "h": 82
     },
@@ -22721,7 +22722,7 @@
             "7777dabd.9c1724"
         ],
         "x": 794,
-        "y": 369,
+        "y": 389,
         "w": 152,
         "h": 82
     },
@@ -22753,7 +22754,7 @@
             "fb95b5ca457cf198"
         ],
         "x": 1014,
-        "y": 649,
+        "y": 669,
         "w": 302,
         "h": 262
     },
@@ -22778,7 +22779,7 @@
             "d39bb5b8a0b6970c"
         ],
         "x": 634,
-        "y": 649,
+        "y": 669,
         "w": 212,
         "h": 232
     },
@@ -22803,7 +22804,7 @@
             "f161e485d5098910"
         ],
         "x": 114,
-        "y": 1139,
+        "y": 1159,
         "w": 232,
         "h": 232
     },
@@ -22830,7 +22831,7 @@
             "cc256cd90861b5d3"
         ],
         "x": 134,
-        "y": 649,
+        "y": 669,
         "w": 212,
         "h": 292
     },
@@ -22854,7 +22855,7 @@
             "ff20668b013fdd9d"
         ],
         "x": 114,
-        "y": 939,
+        "y": 959,
         "w": 242,
         "h": 202
     },
@@ -22890,7 +22891,7 @@
             "a696b28b5f8d9674"
         ],
         "x": 344,
-        "y": 649,
+        "y": 669,
         "w": 312,
         "h": 292
     },
@@ -22917,7 +22918,7 @@
             "bf42e2a3abb34b1e"
         ],
         "x": 844,
-        "y": 649,
+        "y": 669,
         "w": 172,
         "h": 262
     },
@@ -22933,7 +22934,7 @@
         },
         "nodes": [],
         "x": 135,
-        "y": 1025,
+        "y": 1045,
         "w": 40,
         "h": 40
     },
@@ -86819,8 +86820,8 @@
         "halt_if_type": "str",
         "halt_if_compare": "is",
         "outputs": 2,
-        "x": 100,
-        "y": 210,
+        "x": 110,
+        "y": 320,
         "wires": [
             [],
             []
@@ -86975,6 +86976,16 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "e9bbcf025ee7aa6f",
+        "type": "comment",
+        "z": "c10c2dba566c1cb2",
+        "name": "<--Connect link out to link in at Logic",
+        "info": "",
+        "x": 360,
+        "y": 320,
+        "wires": []
     },
     {
         "id": "14850d506a0c416e",
@@ -126751,7 +126762,7 @@
             "b5de75032cf07a49"
         ],
         "x": 255,
-        "y": 1250,
+        "y": 1270,
         "wires": []
     },
     {
@@ -126766,7 +126777,7 @@
             "b5de75032cf07a49"
         ],
         "x": 965,
-        "y": 760,
+        "y": 780,
         "wires": []
     },
     {
@@ -126777,7 +126788,7 @@
         "name": "",
         "env": [],
         "x": 420,
-        "y": 170,
+        "y": 190,
         "wires": []
     },
     {
@@ -126788,7 +126799,7 @@
         "name": "",
         "env": [],
         "x": 570,
-        "y": 250,
+        "y": 270,
         "wires": []
     },
     {
@@ -126799,7 +126810,7 @@
         "name": "",
         "env": [],
         "x": 720,
-        "y": 250,
+        "y": 270,
         "wires": []
     },
     {
@@ -126810,7 +126821,7 @@
         "name": "",
         "env": [],
         "x": 720,
-        "y": 170,
+        "y": 190,
         "wires": []
     },
     {
@@ -126821,7 +126832,7 @@
         "name": "",
         "env": [],
         "x": 870,
-        "y": 170,
+        "y": 190,
         "wires": []
     },
     {
@@ -126832,7 +126843,7 @@
         "name": "",
         "env": [],
         "x": 870,
-        "y": 250,
+        "y": 270,
         "wires": []
     },
     {
@@ -126843,7 +126854,7 @@
         "name": "",
         "env": [],
         "x": 570,
-        "y": 330,
+        "y": 350,
         "wires": []
     },
     {
@@ -126854,7 +126865,7 @@
         "name": "",
         "env": [],
         "x": 870,
-        "y": 330,
+        "y": 350,
         "wires": [],
         "icon": "font-awesome/fa-coffee"
     },
@@ -126866,7 +126877,7 @@
         "name": "",
         "env": [],
         "x": 1020,
-        "y": 330,
+        "y": 350,
         "wires": []
     },
     {
@@ -126877,7 +126888,7 @@
         "name": "",
         "env": [],
         "x": 720,
-        "y": 330,
+        "y": 350,
         "wires": [],
         "icon": "node-red/light.svg"
     },
@@ -126889,7 +126900,7 @@
         "name": "",
         "env": [],
         "x": 420,
-        "y": 250,
+        "y": 270,
         "wires": []
     },
     {
@@ -126900,7 +126911,7 @@
         "name": "",
         "env": [],
         "x": 420,
-        "y": 330,
+        "y": 350,
         "wires": []
     },
     {
@@ -126911,7 +126922,7 @@
         "name": "",
         "env": [],
         "x": 1020,
-        "y": 170,
+        "y": 190,
         "wires": []
     },
     {
@@ -126922,7 +126933,7 @@
         "name": "",
         "env": [],
         "x": 570,
-        "y": 170,
+        "y": 190,
         "wires": []
     },
     {
@@ -126933,7 +126944,7 @@
         "name": "",
         "env": [],
         "x": 420,
-        "y": 410,
+        "y": 430,
         "wires": []
     },
     {
@@ -126943,7 +126954,7 @@
         "g": "de65475d87742e86",
         "name": "",
         "x": 570,
-        "y": 410,
+        "y": 430,
         "wires": []
     },
     {
@@ -126954,7 +126965,7 @@
         "name": "",
         "env": [],
         "x": 1020,
-        "y": 410,
+        "y": 430,
         "wires": []
     },
     {
@@ -126965,7 +126976,7 @@
         "name": "",
         "env": [],
         "x": 720,
-        "y": 410,
+        "y": 430,
         "wires": []
     },
     {
@@ -126976,7 +126987,7 @@
         "name": "",
         "env": [],
         "x": 870,
-        "y": 410,
+        "y": 430,
         "wires": [],
         "icon": "node-red/bridge.svg"
     },
@@ -126988,7 +126999,7 @@
         "name": "",
         "env": [],
         "x": 570,
-        "y": 580,
+        "y": 600,
         "wires": []
     },
     {
@@ -126999,7 +127010,7 @@
         "name": "",
         "env": [],
         "x": 720,
-        "y": 580,
+        "y": 600,
         "wires": []
     },
     {
@@ -127009,7 +127020,7 @@
         "g": "9579674a.009648",
         "name": "",
         "x": 870,
-        "y": 580,
+        "y": 600,
         "wires": []
     },
     {
@@ -127020,7 +127031,7 @@
         "name": "",
         "env": [],
         "x": 1220,
-        "y": 140,
+        "y": 160,
         "wires": []
     },
     {
@@ -127030,7 +127041,7 @@
         "g": "7bd07949.9ad888",
         "name": "",
         "x": 1200,
-        "y": 190,
+        "y": 210,
         "wires": []
     },
     {
@@ -127041,7 +127052,7 @@
         "name": "",
         "env": [],
         "x": 1210,
-        "y": 240,
+        "y": 260,
         "wires": []
     },
     {
@@ -127052,7 +127063,7 @@
         "name": "",
         "env": [],
         "x": 1220,
-        "y": 290,
+        "y": 310,
         "wires": []
     },
     {
@@ -127063,7 +127074,7 @@
         "name": "",
         "env": [],
         "x": 1230,
-        "y": 540,
+        "y": 560,
         "wires": []
     },
     {
@@ -127073,7 +127084,7 @@
         "g": "7bd07949.9ad888",
         "name": "",
         "x": 1220,
-        "y": 490,
+        "y": 510,
         "wires": []
     },
     {
@@ -127084,7 +127095,7 @@
         "name": "",
         "env": [],
         "x": 1220,
-        "y": 440,
+        "y": 460,
         "wires": []
     },
     {
@@ -127095,7 +127106,7 @@
         "name": "",
         "env": [],
         "x": 1230,
-        "y": 390,
+        "y": 410,
         "wires": []
     },
     {
@@ -127106,7 +127117,7 @@
         "name": "",
         "env": [],
         "x": 1230,
-        "y": 340,
+        "y": 360,
         "wires": []
     },
     {
@@ -127117,7 +127128,7 @@
         "name": "",
         "env": [],
         "x": 610,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -127128,7 +127139,7 @@
         "name": "",
         "env": [],
         "x": 720,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -127139,7 +127150,7 @@
         "name": "",
         "env": [],
         "x": 510,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -127150,7 +127161,7 @@
         "name": "",
         "env": [],
         "x": 830,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -127161,7 +127172,7 @@
         "name": "",
         "env": [],
         "x": 400,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -127172,7 +127183,7 @@
         "name": "",
         "env": [],
         "x": 940,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -127182,7 +127193,7 @@
         "g": "552cb953.9ce528",
         "name": "",
         "x": 1050,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -127216,7 +127227,7 @@
         "halt_if_compare": "is",
         "outputs": 1,
         "x": 200,
-        "y": 390,
+        "y": 410,
         "wires": [
             []
         ]
@@ -127228,7 +127239,7 @@
         "g": "30e7c030.4acd8",
         "name": "",
         "x": 180,
-        "y": 240,
+        "y": 260,
         "wires": []
     },
     {
@@ -127238,7 +127249,7 @@
         "g": "30e7c030.4acd8",
         "name": "",
         "x": 190,
-        "y": 190,
+        "y": 210,
         "wires": []
     },
     {
@@ -127264,7 +127275,7 @@
         "payload": "Sunrise",
         "payloadType": "str",
         "x": 1110,
-        "y": 690,
+        "y": 710,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -127294,7 +127305,7 @@
         "payload": "Sunrise End",
         "payloadType": "str",
         "x": 1130,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -127324,7 +127335,7 @@
         "payload": "Day-09:00",
         "payloadType": "str",
         "x": 1120,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -127344,7 +127355,7 @@
             "b5de75032cf07a49"
         ],
         "x": 1195,
-        "y": 800,
+        "y": 820,
         "wires": []
     },
     {
@@ -127370,7 +127381,7 @@
         "payload": "Day-08:00",
         "payloadType": "str",
         "x": 1120,
-        "y": 750,
+        "y": 770,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -127403,7 +127414,7 @@
         "payload": "Afternoon",
         "payloadType": "str",
         "x": 1120,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -127433,7 +127444,7 @@
         "payload": "Solar Noon",
         "payloadType": "str",
         "x": 1120,
-        "y": 810,
+        "y": 830,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -127463,7 +127474,7 @@
         "payload": "Waterfall",
         "payloadType": "str",
         "x": 740,
-        "y": 690,
+        "y": 710,
         "wires": [
             [
                 "23d3e7be62baea39"
@@ -127493,7 +127504,7 @@
         "payload": "Sleep",
         "payloadType": "str",
         "x": 730,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "23d3e7be62baea39"
@@ -127523,7 +127534,7 @@
         "payload": "Spa",
         "payloadType": "str",
         "x": 730,
-        "y": 810,
+        "y": 830,
         "wires": [
             [
                 "23d3e7be62baea39"
@@ -127553,7 +127564,7 @@
         "payload": "Swim",
         "payloadType": "str",
         "x": 730,
-        "y": 750,
+        "y": 770,
         "wires": [
             [
                 "23d3e7be62baea39"
@@ -127572,7 +127583,7 @@
             "b5de75032cf07a49"
         ],
         "x": 805,
-        "y": 750,
+        "y": 770,
         "wires": []
     },
     {
@@ -127598,7 +127609,7 @@
         "payload": "Skimmer",
         "payloadType": "str",
         "x": 740,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "23d3e7be62baea39"
@@ -127628,7 +127639,7 @@
         "payload": "Spa.Reset",
         "payloadType": "str",
         "x": 740,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "23d3e7be62baea39"
@@ -127658,7 +127669,7 @@
         "payload": "Neutral",
         "payloadType": "str",
         "x": 210,
-        "y": 1300,
+        "y": 1320,
         "wires": [
             [
                 "e130998f722f141f"
@@ -127688,7 +127699,7 @@
         "payload": "Min.Dim.Level",
         "payloadType": "str",
         "x": 230,
-        "y": 1270,
+        "y": 1290,
         "wires": [
             [
                 "e130998f722f141f"
@@ -127718,7 +127729,7 @@
         "payload": "Power.Reports",
         "payloadType": "str",
         "x": 240,
-        "y": 1240,
+        "y": 1260,
         "wires": [
             [
                 "e130998f722f141f"
@@ -127748,7 +127759,7 @@
         "payload": "Button.Delay",
         "payloadType": "str",
         "x": 230,
-        "y": 1210,
+        "y": 1230,
         "wires": [
             [
                 "e130998f722f141f"
@@ -127778,7 +127789,7 @@
         "payload": "Dimming.Speed",
         "payloadType": "str",
         "x": 240,
-        "y": 1180,
+        "y": 1200,
         "wires": [
             [
                 "e130998f722f141f"
@@ -127808,7 +127819,7 @@
         "payload": "Rain",
         "payloadType": "str",
         "x": 230,
-        "y": 1330,
+        "y": 1350,
         "wires": [
             [
                 "e130998f722f141f"
@@ -127838,7 +127849,7 @@
         "payload": "IDLE",
         "payloadType": "str",
         "x": 230,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -127868,7 +127879,7 @@
         "payload": "FPH",
         "payloadType": "str",
         "x": 230,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -127898,7 +127909,7 @@
         "payload": "OFF",
         "payloadType": "str",
         "x": 240,
-        "y": 750,
+        "y": 770,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -127928,7 +127939,7 @@
         "payload": "COOLING",
         "payloadType": "str",
         "x": 250,
-        "y": 690,
+        "y": 710,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -127958,7 +127969,7 @@
         "payload": "IDLE",
         "payloadType": "str",
         "x": 240,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -127978,7 +127989,7 @@
             "b5de75032cf07a49"
         ],
         "x": 305,
-        "y": 750,
+        "y": 770,
         "wires": []
     },
     {
@@ -128004,7 +128015,7 @@
         "payload": "$PH",
         "payloadType": "str",
         "x": 230,
-        "y": 810,
+        "y": 830,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -128034,7 +128045,7 @@
         "payload": "NPH",
         "payloadType": "str",
         "x": 230,
-        "y": 870,
+        "y": 890,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -128064,7 +128075,7 @@
         "payload": "HOT",
         "payloadType": "str",
         "x": 230,
-        "y": 900,
+        "y": 920,
         "wires": [
             [
                 "85fc01f203eccc29"
@@ -128094,7 +128105,7 @@
         "payload": "Lanai",
         "payloadType": "str",
         "x": 230,
-        "y": 980,
+        "y": 1000,
         "wires": [
             [
                 "ff20668b013fdd9d"
@@ -128129,7 +128140,7 @@
         "payload": "Laundry",
         "payloadType": "str",
         "x": 240,
-        "y": 1010,
+        "y": 1030,
         "wires": [
             [
                 "ff20668b013fdd9d"
@@ -128159,7 +128170,7 @@
         "payload": "Garage",
         "payloadType": "str",
         "x": 240,
-        "y": 1040,
+        "y": 1060,
         "wires": [
             [
                 "ff20668b013fdd9d"
@@ -128194,7 +128205,7 @@
         "payload": "Portico",
         "payloadType": "str",
         "x": 230,
-        "y": 1070,
+        "y": 1090,
         "wires": [
             [
                 "ff20668b013fdd9d"
@@ -128229,7 +128240,7 @@
         "payload": "Porch",
         "payloadType": "str",
         "x": 230,
-        "y": 1100,
+        "y": 1120,
         "wires": [
             [
                 "ff20668b013fdd9d"
@@ -128249,7 +128260,7 @@
             "b5de75032cf07a49"
         ],
         "x": 315,
-        "y": 1050,
+        "y": 1070,
         "wires": []
     },
     {
@@ -128275,7 +128286,7 @@
         "payload": "Home",
         "payloadType": "str",
         "x": 440,
-        "y": 690,
+        "y": 710,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128305,7 +128316,7 @@
         "payload": "Away",
         "payloadType": "str",
         "x": 440,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128335,7 +128346,7 @@
         "payload": "G.Away",
         "payloadType": "str",
         "x": 440,
-        "y": 750,
+        "y": 770,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128365,7 +128376,7 @@
         "payload": "C.Away",
         "payloadType": "str",
         "x": 440,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128395,7 +128406,7 @@
         "payload": "G.Home",
         "payloadType": "str",
         "x": 450,
-        "y": 810,
+        "y": 830,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128425,7 +128436,7 @@
         "payload": "C.Home",
         "payloadType": "str",
         "x": 450,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128455,7 +128466,7 @@
         "payload": "No.Guest",
         "payloadType": "str",
         "x": 550,
-        "y": 750,
+        "y": 770,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128475,7 +128486,7 @@
             "b5de75032cf07a49"
         ],
         "x": 595,
-        "y": 780,
+        "y": 800,
         "wires": []
     },
     {
@@ -128501,7 +128512,7 @@
         "payload": "Clear",
         "payloadType": "str",
         "x": 540,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128531,7 +128542,7 @@
         "payload": "Fire",
         "payloadType": "str",
         "x": 540,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128561,7 +128572,7 @@
         "payload": "Guest.Away",
         "payloadType": "str",
         "x": 560,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128591,7 +128602,7 @@
         "payload": "CO2",
         "payloadType": "str",
         "x": 540,
-        "y": 810,
+        "y": 830,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128621,7 +128632,7 @@
         "payload": "Guest.Home",
         "payloadType": "str",
         "x": 560,
-        "y": 690,
+        "y": 710,
         "wires": [
             [
                 "8ceb7dc5ba166b0b"
@@ -128651,7 +128662,7 @@
         "payload": "home",
         "payloadType": "str",
         "x": 450,
-        "y": 870,
+        "y": 890,
         "wires": [
             [
                 "a696b28b5f8d9674"
@@ -128681,7 +128692,7 @@
         "payload": "home",
         "payloadType": "str",
         "x": 450,
-        "y": 900,
+        "y": 920,
         "wires": [
             [
                 "a696b28b5f8d9674"
@@ -128711,7 +128722,7 @@
         "payload": "not_home",
         "payloadType": "str",
         "x": 540,
-        "y": 870,
+        "y": 890,
         "wires": [
             [
                 "a696b28b5f8d9674"
@@ -128741,7 +128752,7 @@
         "payload": "not_home",
         "payloadType": "str",
         "x": 540,
-        "y": 900,
+        "y": 920,
         "wires": [
             [
                 "a696b28b5f8d9674"
@@ -128759,7 +128770,7 @@
             "b5de75032cf07a49"
         ],
         "x": 595,
-        "y": 850,
+        "y": 870,
         "wires": []
     },
     {
@@ -128785,7 +128796,7 @@
         "payload": "8",
         "payloadType": "num",
         "x": 940,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "682ab6990ca75c5d"
@@ -128815,7 +128826,7 @@
         "payload": "1.1",
         "payloadType": "num",
         "x": 940,
-        "y": 750,
+        "y": 770,
         "wires": [
             [
                 "682ab6990ca75c5d"
@@ -128845,7 +128856,7 @@
         "payload": ".79",
         "payloadType": "num",
         "x": 940,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "682ab6990ca75c5d"
@@ -128875,7 +128886,7 @@
         "payload": ".1",
         "payloadType": "num",
         "x": 940,
-        "y": 690,
+        "y": 710,
         "wires": [
             [
                 "682ab6990ca75c5d"
@@ -128905,7 +128916,7 @@
         "payload": "reset",
         "payloadType": "str",
         "x": 940,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "682ab6990ca75c5d"
@@ -128935,7 +128946,7 @@
         "payload": "off",
         "payloadType": "str",
         "x": 940,
-        "y": 870,
+        "y": 890,
         "wires": [
             [
                 "682ab6990ca75c5d"
@@ -128965,7 +128976,7 @@
         "payload": "33",
         "payloadType": "num",
         "x": 940,
-        "y": 810,
+        "y": 830,
         "wires": [
             [
                 "682ab6990ca75c5d"
@@ -129008,7 +129019,7 @@
         ],
         "queue": "first",
         "x": 1010,
-        "y": 1350,
+        "y": 1370,
         "wires": [
             []
         ]
@@ -129049,7 +129060,7 @@
         ],
         "queue": "first",
         "x": 970,
-        "y": 920,
+        "y": 940,
         "wires": [
             []
         ]
@@ -129090,7 +129101,7 @@
         ],
         "queue": "first",
         "x": 950,
-        "y": 950,
+        "y": 970,
         "wires": [
             []
         ]
@@ -129131,7 +129142,7 @@
         ],
         "queue": "first",
         "x": 950,
-        "y": 1010,
+        "y": 1030,
         "wires": [
             []
         ]
@@ -129172,7 +129183,7 @@
         ],
         "queue": "first",
         "x": 950,
-        "y": 1130,
+        "y": 1150,
         "wires": [
             []
         ]
@@ -129193,7 +129204,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 950,
-        "y": 1250,
+        "y": 1270,
         "wires": [],
         "icon": "font-awesome/fa-flash"
     },
@@ -129233,7 +129244,7 @@
         ],
         "queue": "first",
         "x": 960,
-        "y": 1070,
+        "y": 1090,
         "wires": [
             []
         ]
@@ -129254,7 +129265,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 960,
-        "y": 1190,
+        "y": 1210,
         "wires": []
     },
     {
@@ -129293,7 +129304,7 @@
         ],
         "queue": "first",
         "x": 950,
-        "y": 1160,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -129314,7 +129325,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 960,
-        "y": 1220,
+        "y": 1240,
         "wires": []
     },
     {
@@ -129396,7 +129407,7 @@
         "repair": false,
         "outputs": 13,
         "x": 670,
-        "y": 1060,
+        "y": 1080,
         "wires": [
             [
                 "c84da878f502b5b6",
@@ -129463,7 +129474,7 @@
             "a696b28b5f8d9674"
         ],
         "x": 565,
-        "y": 1060,
+        "y": 1080,
         "wires": [
             [
                 "b1b98f75c335d057"
@@ -129486,7 +129497,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 950,
-        "y": 980,
+        "y": 1000,
         "wires": []
     },
     {
@@ -129505,7 +129516,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 950,
-        "y": 1040,
+        "y": 1060,
         "wires": []
     },
     {
@@ -129524,7 +129535,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 960,
-        "y": 1100,
+        "y": 1120,
         "wires": []
     },
     {
@@ -129548,7 +129559,7 @@
         "to": "",
         "reg": false,
         "x": 970,
-        "y": 1040,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -129574,7 +129585,7 @@
         "to": "",
         "reg": false,
         "x": 980,
-        "y": 1070,
+        "y": 1090,
         "wires": [
             []
         ]
@@ -129600,7 +129611,7 @@
         "to": "",
         "reg": false,
         "x": 990,
-        "y": 920,
+        "y": 940,
         "wires": [
             []
         ]
@@ -129714,7 +129725,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 450,
-        "y": 950,
+        "y": 970,
         "wires": [
             []
         ]
@@ -129828,7 +129839,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 440,
-        "y": 1000,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -129942,7 +129953,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 430,
-        "y": 1050,
+        "y": 1070,
         "wires": [
             []
         ]
@@ -130056,7 +130067,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 460,
-        "y": 1100,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -130170,7 +130181,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 430,
-        "y": 1150,
+        "y": 1170,
         "wires": [
             []
         ]
@@ -130284,7 +130295,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 440,
-        "y": 1200,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -130398,7 +130409,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 450,
-        "y": 1250,
+        "y": 1270,
         "wires": [
             []
         ]
@@ -130512,7 +130523,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 450,
-        "y": 1300,
+        "y": 1320,
         "wires": [
             []
         ]
@@ -130626,7 +130637,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 440,
-        "y": 1350,
+        "y": 1370,
         "wires": [
             []
         ]
@@ -130740,7 +130751,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 630,
-        "y": 1300,
+        "y": 1320,
         "wires": [
             []
         ]
@@ -130854,7 +130865,7 @@
         "dawnOffsetMinutes": 0,
         "dawnOffset": 0,
         "x": 630,
-        "y": 1250,
+        "y": 1270,
         "wires": [
             []
         ]
@@ -130875,7 +130886,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 980,
-        "y": 1280,
+        "y": 1300,
         "wires": []
     },
     {
@@ -130894,7 +130905,7 @@
         "expiry": "",
         "broker": "d1a17316.c56bb",
         "x": 980,
-        "y": 1310,
+        "y": 1330,
         "wires": []
     },
     {
@@ -130905,7 +130916,7 @@
         "name": "NEED TO DO!!",
         "info": "NEED TO DO:\nADD VALVE 4 + 5 TO POOLMODE. REMOVE FROM WATERFALL,SLEEP, SWIM\nFPH + $PH MODE: NEEDS RETESTING, LOTS HAVE CHANGED!!\nSPA Rebuild\nWaterLevel Rebuild\nPool Pump Suction Side air leak: At 3/4\" tee? remove!\nWHY DOES HVAC ACTION: runtime_seconds RESET TO 0 IF I COPY SUB TO FLOW FOR TESTING?\nSET HVAC TEMP MANUALLY WILL PAUSE SCHEDULE. CONTINUES AFTER DARK?\nInfluxDB: create buckets w/ different retention policies\nSkimmer_EOD_RUNTIME clock\nDisable zone automations 12hrs if human interaction present.\nRebuild Motion Multipliers\nGuest Mode= inovelli dimmer interaction in guest or office, sets Guest modes\n\n--------------------------------------------------------------------------------------------\nCOMPLETED BELOW:\n1. MAKE FPH OVERTEMP LOGIC DEFAULT TO FAIL SAFE. \n--THIS IS NOT IDEAL:\n----- IF ANY POOL WATER TEMP PROBES BECOME \"null\"IT TRIGGERS OVERTEMP.\n----- POSSIBLE COULD REWRITE TO LOOK FOR \"null\" AND SHUT OFF FPH: MANUEL/SCHEDULED + NOTIFY IOS\n2. MAKE DAILY SCHEDULE CAPABLE OF BEING MANUELLY SHUTOFF VIA HA\n3. EXPORT FPH DATA TO INFLUXDB\n4.  \"FPH OVERTEMP LOGIC\" ommit from logic: everything except active FPH modes\n5. Securty Flow: \nHave InfluxDB track home state. \nIf I experience a system reboot\n (ie: unraid restart/upgrade) \nThen at NR startup it checks InfluxDB State and doesn't \nUnlock the house because it thinks we just arrived \nHome. We was already home mofo, with house\nLocked!\n6. Monitordatabase function for waterfall\n7. VALVE1:LOGIC-NEED A HALFWAY AKA MAX FLOW SETTING. CURRENTLY: SKIMMER or POOLDRAIN.\n8. PUT FLOW SWITCH INLINE WITH 24VAC FOR HVAC COMPRESSOR. ULTIMATE FAIL SAFE. SEE #4.  \n9. MOUNT TH16 TO WALL.\n10. FIX SPA BLOWER PIPES, FILL FOOTING WITH ROCKS\n11. MORE TESTING ON WITH POOL HEAT/POOL MODES SUBFLOWS\n12. Pool Water Leak: fixed, found spa blower pipes not glued, repaired!\n13. Skimmer: set PoolHeat?:NPH at start, return to previous at finish.\n14. POOL.RELAYS.3 NEES REPLACED! BAD R2\n15. pool.relays.2 Interlock 2,3 // Interlock on\n16. Pool Pump contactor remove Jasco, replace w/ siemens.\n17. FIX SPA HEATER\n18. FIX SPA BOOSTER PUMP. NEED TO REDO CONTACTOR, WAS 24VDC. MAKE IT 24VAC\n19. SONOFF TH16 mount, rewire, soilder temp sensor\n20. Add temp sensor to hvac liquid line\n21. ADD SECOND TEMP SENSOR TO FPH HE. 1 ON WATER IN, 2ND ON WATER OUT. \n\n",
         "x": 710,
-        "y": 80,
+        "y": 100,
         "wires": []
     },
     {
@@ -130916,7 +130927,7 @@
         "name": "<--Connect link out to link in at Logic",
         "info": "",
         "x": 1800,
-        "y": 220,
+        "y": 240,
         "wires": []
     },
     {
@@ -130927,7 +130938,7 @@
         "name": "<--Connect link out to link in at Logic",
         "info": "",
         "x": 1800,
-        "y": 280,
+        "y": 300,
         "wires": []
     },
     {
@@ -130938,7 +130949,7 @@
         "name": "<--Connect link out to link in at Logic",
         "info": "",
         "x": 1800,
-        "y": 350,
+        "y": 370,
         "wires": []
     },
     {
@@ -130948,7 +130959,7 @@
         "g": "30e7c030.4acd8",
         "name": "",
         "x": 200,
-        "y": 450,
+        "y": 470,
         "wires": []
     },
     {
@@ -130974,7 +130985,7 @@
         "payload": "Sunset Start",
         "payloadType": "str",
         "x": 1220,
-        "y": 690,
+        "y": 710,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -131004,7 +131015,7 @@
         "payload": "Sunset",
         "payloadType": "str",
         "x": 1200,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -131034,7 +131045,7 @@
         "payload": "Dusk",
         "payloadType": "str",
         "x": 1200,
-        "y": 750,
+        "y": 770,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -131064,7 +131075,7 @@
         "payload": "Nautical Dusk",
         "payloadType": "str",
         "x": 1210,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -131094,7 +131105,7 @@
         "payload": "Night",
         "payloadType": "str",
         "x": 1200,
-        "y": 870,
+        "y": 890,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -131124,7 +131135,7 @@
         "payload": "Night-23:00",
         "payloadType": "str",
         "x": 1200,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -131154,7 +131165,7 @@
         "payload": "Wind.Down-22:00",
         "payloadType": "str",
         "x": 1200,
-        "y": 810,
+        "y": 830,
         "wires": [
             [
                 "1c70753c470fb918"
@@ -131168,7 +131179,7 @@
         "g": "6f8b44ed8a32b0fd",
         "name": "",
         "x": 780,
-        "y": 1540,
+        "y": 1560,
         "wires": []
     },
     {
@@ -131178,7 +131189,7 @@
         "g": "30e7c030.4acd8",
         "name": "",
         "x": 170,
-        "y": 390,
+        "y": 410,
         "wires": []
     },
     {
@@ -131212,7 +131223,7 @@
         "halt_if_compare": "is",
         "outputs": 1,
         "x": 1460,
-        "y": 270,
+        "y": 290,
         "wires": [
             []
         ]
@@ -131248,7 +131259,7 @@
         "halt_if_compare": "is",
         "outputs": 1,
         "x": 1480,
-        "y": 170,
+        "y": 190,
         "wires": [
             []
         ]
@@ -131284,7 +131295,7 @@
         "halt_if_compare": "is",
         "outputs": 1,
         "x": 1480,
-        "y": 220,
+        "y": 240,
         "wires": [
             []
         ]
@@ -131297,7 +131308,7 @@
         "name": "",
         "env": [],
         "x": 1020,
-        "y": 250,
+        "y": 270,
         "wires": []
     },
     {
@@ -131331,7 +131342,7 @@
         "halt_if_compare": "is",
         "outputs": 1,
         "x": 1510,
-        "y": 320,
+        "y": 340,
         "wires": [
             []
         ]
@@ -131343,7 +131354,7 @@
         "g": "30e7c030.4acd8",
         "name": "",
         "x": 180,
-        "y": 140,
+        "y": 160,
         "wires": [
             []
         ]
@@ -131355,7 +131366,7 @@
         "g": "7bd07949.9ad888",
         "name": "",
         "x": 1230,
-        "y": 590,
+        "y": 610,
         "wires": []
     },
     {
@@ -131365,7 +131376,7 @@
         "g": "30e7c030.4acd8",
         "name": "",
         "x": 180,
-        "y": 290,
+        "y": 310,
         "wires": []
     },
     {
@@ -131375,7 +131386,7 @@
         "g": "30e7c030.4acd8",
         "name": "",
         "x": 180,
-        "y": 340,
+        "y": 360,
         "wires": []
     },
     {
@@ -131393,7 +131404,7 @@
         "logconfig": "fe897f4cf48cf92c",
         "sendpane": false,
         "x": 350,
-        "y": 590,
+        "y": 610,
         "wires": [
             []
         ]
@@ -131407,7 +131418,7 @@
         "scope": null,
         "uncaught": false,
         "x": 170,
-        "y": 590,
+        "y": 610,
         "wires": [
             [
                 "6fd6c0d9a6e6ce0a"
@@ -131429,7 +131440,18 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 910,
-        "y": 80,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1c6cf9e95ed81164",
+        "type": "comment",
+        "z": "ae087566.f2dff8",
+        "g": "f0673d14767aa90d",
+        "name": "<--Connect link out to link in at Logic",
+        "info": "",
+        "x": 1370,
+        "y": 560,
         "wires": []
     },
     {
