@@ -36787,7 +36787,7 @@
         "type": "debug",
         "z": "c8759f9c.4f59b",
         "g": "d0b6028f.c29df",
-        "name": "PORTICO",
+        "name": "PORTICO--------------------------------------------------------------------------------",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -36796,7 +36796,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 420,
+        "x": 600,
         "y": 280,
         "wires": []
     },
