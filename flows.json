@@ -15794,8 +15794,7 @@
             "75794f72.d114b",
             "23475fa7.fe8eb",
             "fdcb4bb4.3bb548",
-            "d85d1f5aa287be85",
-            "bf118ccd9263b999"
+            "d85d1f5aa287be85"
         ],
         "x": 24,
         "y": 63,
@@ -36779,36 +36778,6 @@
         "y": 510,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "bf118ccd9263b999",
-        "type": "inject",
-        "z": "c8759f9c.4f59b",
-        "g": "d0b6028f.c29df",
-        "name": "Sunset",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "Time",
-        "payload": "Sunset",
-        "payloadType": "msg",
-        "x": 160,
-        "y": 280,
-        "wires": [
-            [
-                "75794f72.d114b"
-            ]
         ]
     },
     {
