@@ -14975,7 +14975,9 @@
             "45a76b993cad1f3e"
         ],
         "x": 18,
-        "y": 3
+        "y": 3,
+        "w": 1404,
+        "h": 554
     },
     {
         "id": "96ca861b1a6687e3",
@@ -18788,7 +18790,9 @@
             "ca5b76e9e587554e"
         ],
         "x": 44,
-        "y": 209
+        "y": 209,
+        "w": 462,
+        "h": 322
     },
     {
         "id": "30bf12139eecbe72",
@@ -18813,7 +18817,9 @@
             "3aaff1c28599ed4f"
         ],
         "x": 254,
-        "y": 29
+        "y": 29,
+        "w": 392,
+        "h": 172
     },
     {
         "id": "bb22ed1bc4324ba4",
@@ -18836,7 +18842,9 @@
             "a88a26ced4a2ab37"
         ],
         "x": 654,
-        "y": 29
+        "y": 29,
+        "w": 332,
+        "h": 172
     },
     {
         "id": "45a76b993cad1f3e",
@@ -18878,10 +18886,13 @@
             "c8054fda64f0b53e",
             "04a6b5990418e78e",
             "7fa8ab8c4b4e7afc",
-            "097c60ce7077bb17"
+            "097c60ce7077bb17",
+            "d06fbbfed4cc3831"
         ],
         "x": 524,
-        "y": 209
+        "y": 209,
+        "w": 872,
+        "h": 282
     },
     {
         "id": "01ac29dafb3c49c9",
@@ -85707,11 +85718,12 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "switch.christmas_tree_outlet_switch",
             "switch.lanai_fan",
             "switch.pool_light",
             "switch.porch_outlet",
+            "switch.christmas_tree_outlet_switch",
             "switch.master_bedroom_closet_light",
+            "switch.portico_outlet",
             "switch.lanai_ceiling_fan"
         ],
         "data": "{}",
@@ -85858,8 +85870,8 @@
             }
         ],
         "queue": "none",
-        "x": 400,
-        "y": 470,
+        "x": 390,
+        "y": 490,
         "wires": [
             []
         ]
@@ -86073,7 +86085,7 @@
             }
         ],
         "queue": "none",
-        "x": 400,
+        "x": 390,
         "y": 410,
         "wires": [
             []
@@ -86098,7 +86110,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 230,
-        "y": 470,
+        "y": 490,
         "wires": [
             [
                 "ad0a96a0d387ddf7"
@@ -86428,8 +86440,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 410,
-        "y": 440,
+        "x": 400,
+        "y": 450,
         "wires": [
             []
         ]
@@ -86466,6 +86478,45 @@
         "outputs": 2,
         "x": 1180,
         "y": 250,
+        "wires": [
+            [
+                "b6687ce56a1d655d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d06fbbfed4cc3831",
+        "type": "poll-state",
+        "z": "b814a6ebbb37377b",
+        "g": "45a76b993cad1f3e",
+        "name": "switch.portico_outlet",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "10",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": false,
+        "outputonchanged": true,
+        "entity_id": "switch.portico_outlet",
+        "state_type": "str",
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 2,
+        "x": 1020,
+        "y": 450,
         "wires": [
             [
                 "b6687ce56a1d655d"
