@@ -153228,7 +153228,6 @@
                 "29fc1c30635b6430"
             ],
             [
-                "fcef6c3b632efc01",
                 "daa660b47d4a53ec"
             ]
         ]
@@ -154168,7 +154167,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 870,
+        "x": 990,
         "y": 540,
         "wires": []
     },
@@ -154263,7 +154262,8 @@
         "y": 500,
         "wires": [
             [
-                "5d7c46a37bddbd52"
+                "5d7c46a37bddbd52",
+                "fcef6c3b632efc01"
             ]
         ]
     },
