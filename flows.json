@@ -23077,7 +23077,10 @@
             "c7f846e4ecb9fd29",
             "04f2c9c3ebef95a6",
             "01ae73093beecfce",
-            "fcef6c3b632efc01"
+            "fcef6c3b632efc01",
+            "0b04393af7970780",
+            "29fc1c30635b6430",
+            "3ace54db2f800670"
         ],
         "x": 394,
         "y": 309,
@@ -153201,10 +153204,11 @@
         "repair": false,
         "outputs": 2,
         "x": 690,
-        "y": 470,
+        "y": 460,
         "wires": [
             [
-                "ac30cbdc609f9272"
+                "ac30cbdc609f9272",
+                "29fc1c30635b6430"
             ],
             [
                 "01ae73093beecfce",
@@ -154164,13 +154168,82 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 900,
+        "x": 870,
         "y": 540,
         "wires": []
+    },
+    {
+        "id": "0b04393af7970780",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "reset",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "01ae73093beecfce"
+            ]
+        ]
+    },
+    {
+        "id": "29fc1c30635b6430",
+        "type": "link out",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "link out 1244",
+        "mode": "link",
+        "links": [
+            "3ace54db2f800670"
+        ],
+        "x": 805,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3ace54db2f800670",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "< max_temp-1",
+        "links": [
+            "29fc1c30635b6430"
+        ],
+        "x": 625,
+        "y": 500,
+        "wires": [
+            [
+                "0b04393af7970780"
+            ]
+        ]
     },
     {
         "id": "c98f3c4127c3deb8",
