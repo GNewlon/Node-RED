@@ -22936,7 +22936,7 @@
         ],
         "x": 8,
         "y": 3,
-        "w": 1304,
+        "w": 1364,
         "h": 794
     },
     {
@@ -23076,11 +23076,12 @@
             "f8414ac9fecd412a",
             "c7f846e4ecb9fd29",
             "04f2c9c3ebef95a6",
-            "01ae73093beecfce"
+            "01ae73093beecfce",
+            "fcef6c3b632efc01"
         ],
         "x": 394,
         "y": 309,
-        "w": 892,
+        "w": 952,
         "h": 462
     },
     {
@@ -153206,7 +153207,8 @@
                 "ac30cbdc609f9272"
             ],
             [
-                "01ae73093beecfce"
+                "01ae73093beecfce",
+                "fcef6c3b632efc01"
             ]
         ]
     },
@@ -153258,7 +153260,7 @@
         ],
         "queue": "none",
         "x": 1150,
-        "y": 470,
+        "y": 500,
         "wires": [
             []
         ]
@@ -153552,8 +153554,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1150,
-        "y": 610,
+        "x": 1250,
+        "y": 620,
         "wires": []
     },
     {
@@ -154151,6 +154153,24 @@
                 "e38bc98cdc38fa9a"
             ]
         ]
+    },
+    {
+        "id": "fcef6c3b632efc01",
+        "type": "debug",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPA",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 540,
+        "wires": []
     },
     {
         "id": "c98f3c4127c3deb8",
