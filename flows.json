@@ -154188,12 +154188,10 @@
             }
         ],
         "event_type": "",
-        "x": 430,
+        "x": 190,
         "y": 260,
         "wires": [
-            [
-                "e76a7bade815e8ba"
-            ]
+            []
         ]
     },
     {
@@ -154209,7 +154207,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 670,
+        "x": 350,
         "y": 260,
         "wires": []
     }
