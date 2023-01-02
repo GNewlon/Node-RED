@@ -78,14 +78,6 @@
         "env": []
     },
     {
-        "id": "c9f0dc71cd9345fb",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -154350,64 +154342,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "c98f3c4127c3deb8",
-        "type": "server-events",
-        "z": "c9f0dc71cd9345fb",
-        "name": "",
-        "server": "bbcbbc6d.66dc2",
-        "version": 2,
-        "eventType": "",
-        "exposeToHomeAssistant": false,
-        "eventData": "",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": ""
-            },
-            {
-                "property": "icon",
-                "value": ""
-            }
-        ],
-        "waitForRunning": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "$outputData(\"eventData\").event_type",
-                "valueType": "jsonata"
-            }
-        ],
-        "event_type": "",
-        "x": 190,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e76a7bade815e8ba",
-        "type": "debug",
-        "z": "c9f0dc71cd9345fb",
-        "name": "debug 11",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 350,
-        "y": 260,
-        "wires": []
     }
 ]
