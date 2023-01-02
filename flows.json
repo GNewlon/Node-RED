@@ -23098,7 +23098,8 @@
             "3ace54db2f800670",
             "daa660b47d4a53ec",
             "b242fb4218c089ef",
-            "43cd01723745a3ab"
+            "43cd01723745a3ab",
+            "7e7a972561e047ee"
         ],
         "x": 384,
         "y": 299,
@@ -153766,7 +153767,8 @@
         "wires": [
             [
                 "bb6706397ab93513",
-                "a33b93086a91e26a"
+                "a33b93086a91e26a",
+                "7e7a972561e047ee"
             ]
         ]
     },
@@ -154301,7 +154303,7 @@
         "type": "debug",
         "z": "d058ab18bb9d06ed",
         "g": "8df969b375959fcc",
-        "name": "<  96F shutoff Jets/Blower",
+        "name": "<  96F shutoff Jets",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -154310,9 +154312,44 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 960,
+        "x": 940,
         "y": 450,
         "wires": []
+    },
+    {
+        "id": "7e7a972561e047ee",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPEED 2",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_speed_2"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "SPA HOT!!!!",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 1140,
+        "y": 470,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "c98f3c4127c3deb8",
