@@ -70,6 +70,14 @@
         "env": []
     },
     {
+        "id": "d058ab18bb9d06ed",
+        "type": "tab",
+        "label": "Spa-REBUILD",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -12511,7 +12519,9 @@
             "d19ef58b86903dcb"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 1224,
+        "h": 754
     },
     {
         "id": "1e24c05d814c1d54",
@@ -16512,7 +16522,9 @@
             "1e20ce39fdc8df01"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 822,
+        "h": 262
     },
     {
         "id": "10858cda38c81071",
@@ -16539,7 +16551,9 @@
             "6cec49b824ed3d25"
         ],
         "x": 864,
-        "y": 39
+        "y": 39,
+        "w": 342,
+        "h": 262
     },
     {
         "id": "da01c66a02398529",
@@ -16564,7 +16578,9 @@
             "3207c4d64962da9f"
         ],
         "x": 34,
-        "y": 309
+        "y": 309,
+        "w": 352,
+        "h": 232
     },
     {
         "id": "d47e7617a2d5b5d4",
@@ -16614,7 +16630,9 @@
             "ac6a7e9429623d16"
         ],
         "x": 394,
-        "y": 319
+        "y": 319,
+        "w": 812,
+        "h": 422
     },
     {
         "id": "6f4a781ce95232ac",
@@ -19476,7 +19494,9 @@
             "f94c6c30e18450f4"
         ],
         "x": 34,
-        "y": 549
+        "y": 549,
+        "w": 352,
+        "h": 142
     },
     {
         "id": "8bef15df9f370703",
@@ -22886,6 +22906,197 @@
         "y": 1045,
         "w": 40,
         "h": 40
+    },
+    {
+        "id": "63cea286532d6d86",
+        "type": "group",
+        "z": "d058ab18bb9d06ed",
+        "name": "Spa",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#000000",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "c67d9add3dd68594",
+            "5a847c073b5eaf1f",
+            "a8270c1f965de9da",
+            "8df969b375959fcc",
+            "ccc1220a1146f7e5"
+        ],
+        "x": 8,
+        "y": 3,
+        "w": 1224,
+        "h": 754
+    },
+    {
+        "id": "c67d9add3dd68594",
+        "type": "group",
+        "z": "d058ab18bb9d06ed",
+        "g": "63cea286532d6d86",
+        "name": "DELAY",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "7080fba7de360220",
+            "305518a9c6c51952",
+            "caa0db80bd2229d6",
+            "a67d64c334b58e79",
+            "5ede6e76501df29f",
+            "967977f2daa805e8",
+            "7de82be3f764b71f",
+            "ebb208871afd857c",
+            "7d46a7c4df819d19",
+            "f2ccc43c17bd4743",
+            "57776b90228d64d1",
+            "ca5c5feb54b72cab",
+            "5252338164f7f72a",
+            "d76e86a6aa2772ea",
+            "bb919555800e9fb1",
+            "cb311b72526e6c4a"
+        ],
+        "x": 34,
+        "y": 29,
+        "w": 822,
+        "h": 262
+    },
+    {
+        "id": "5a847c073b5eaf1f",
+        "type": "group",
+        "z": "d058ab18bb9d06ed",
+        "g": "63cea286532d6d86",
+        "name": "OFF",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#a4a4a4",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "9b6abc343b039aaf",
+            "8118f3ac870bcb5e",
+            "819275cb7bcd3fa1",
+            "acbd9c43e4d877f0",
+            "17b92c0e1910fcdf",
+            "04885f30f07c12fc",
+            "8f5f061452520e63",
+            "2bc65920d84a1aa7",
+            "2d5359687a75346d"
+        ],
+        "x": 864,
+        "y": 29,
+        "w": 342,
+        "h": 262
+    },
+    {
+        "id": "a8270c1f965de9da",
+        "type": "group",
+        "z": "d058ab18bb9d06ed",
+        "g": "63cea286532d6d86",
+        "name": "ON",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#c8e7a7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "72f77adc2f1c0ab7",
+            "de5bf27613d2de0d",
+            "61fabd5e7be40b09",
+            "272b988467869cd7",
+            "ed27861f4f47cb75",
+            "89876940e4945878",
+            "9306e4ee5f23df72"
+        ],
+        "x": 34,
+        "y": 299,
+        "w": 352,
+        "h": 232
+    },
+    {
+        "id": "8df969b375959fcc",
+        "type": "group",
+        "z": "d058ab18bb9d06ed",
+        "g": "63cea286532d6d86",
+        "name": "SPA JETS & BLOWER",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "aad20ed78944eaf6",
+            "c8d46f8aae5bdbad",
+            "499a223889973b05",
+            "2189fdf5db05e80b",
+            "3e2560016c9e8d61",
+            "69ea0f7f302e9da2",
+            "66fe6199864fa570",
+            "c954d2bc784b988e",
+            "b379a57d17d68b2b",
+            "1e7e651c21adabf9",
+            "1d14fe3fc7b42649",
+            "48d7bdf766d68668",
+            "39824dd8d6a88223",
+            "b886613e0213bb6a",
+            "b8a750b7e9e18637",
+            "bb6706397ab93513",
+            "a33b93086a91e26a",
+            "ab73bfb4e28529ba",
+            "5d7c46a37bddbd52",
+            "ac30cbdc609f9272",
+            "42d061a215af1c58",
+            "eed4c87d6feea5c9",
+            "ef87269d56d791cd",
+            "b9fc026e3d275e60",
+            "eec0156a895566ce",
+            "f6361833d296e792",
+            "0c97e74195dfc57c",
+            "ebaef5c0c51327a9",
+            "f8414ac9fecd412a",
+            "c7f846e4ecb9fd29",
+            "04f2c9c3ebef95a6",
+            "01ae73093beecfce"
+        ],
+        "x": 394,
+        "y": 309,
+        "w": 812,
+        "h": 422
+    },
+    {
+        "id": "ccc1220a1146f7e5",
+        "type": "group",
+        "z": "d058ab18bb9d06ed",
+        "g": "63cea286532d6d86",
+        "name": "FPH: NONE",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "e38bc98cdc38fa9a",
+            "952361774b44f88e",
+            "2a345d3de18d02d2"
+        ],
+        "x": 34,
+        "y": 539,
+        "w": 352,
+        "h": 142
     },
     {
         "id": "d1a17316.c56bb",
@@ -30407,9 +30618,7 @@
         "x": 110,
         "y": 80,
         "wires": [
-            [
-                "3ed8e95a167d11b0"
-            ]
+            []
         ]
     },
     {
@@ -152078,6 +152287,1860 @@
         "wires": [
             [
                 "49e347a6.53fc58"
+            ]
+        ]
+    },
+    {
+        "id": "7080fba7de360220",
+        "type": "link out",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "== Spa",
+        "mode": "link",
+        "links": [
+            "8118f3ac870bcb5e",
+            "de5bf27613d2de0d",
+            "ca5c5feb54b72cab",
+            "a0370b4bdfb1b42b",
+            "499a223889973b05",
+            "966d80eadd112eb3",
+            "96edfd13574343ae",
+            "4ed6aae61d5282b6",
+            "74603a62d7d82e5a",
+            "2a345d3de18d02d2"
+        ],
+        "x": 315,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "305518a9c6c51952",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "OFF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "                 off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 90,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "caa0db80bd2229d6",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "ON",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": " =====ON=====",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 130,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a67d64c334b58e79",
+        "type": "debug",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "➔➔➔➔SPA➔➔➔➔",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 250,
+        "wires": []
+    },
+    {
+        "id": "5ede6e76501df29f",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "reset",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "data",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 230,
+        "wires": [
+            [
+                "ebb208871afd857c"
+            ]
+        ]
+    },
+    {
+        "id": "967977f2daa805e8",
+        "type": "switch",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "Spa",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Spa",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Spa",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "7080fba7de360220"
+            ],
+            [
+                "5ede6e76501df29f",
+                "f2ccc43c17bd4743"
+            ]
+        ]
+    },
+    {
+        "id": "7de82be3f764b71f",
+        "type": "rbe",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 220,
+        "y": 120,
+        "wires": [
+            [
+                "967977f2daa805e8"
+            ]
+        ]
+    },
+    {
+        "id": "ebb208871afd857c",
+        "type": "link out",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "reset",
+        "mode": "link",
+        "links": [
+            "7d46a7c4df819d19"
+        ],
+        "x": 315,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "7d46a7c4df819d19",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "reset",
+        "links": [
+            "ebb208871afd857c"
+        ],
+        "x": 375,
+        "y": 230,
+        "wires": [
+            [
+                "bb919555800e9fb1"
+            ]
+        ]
+    },
+    {
+        "id": "f2ccc43c17bd4743",
+        "type": "link out",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "!= Spa",
+        "mode": "link",
+        "links": [
+            "57776b90228d64d1",
+            "819275cb7bcd3fa1",
+            "499a223889973b05",
+            "966d80eadd112eb3",
+            "96edfd13574343ae",
+            "4ed6aae61d5282b6",
+            "74603a62d7d82e5a"
+        ],
+        "x": 315,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "57776b90228d64d1",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "!= Spa",
+        "links": [
+            "f2ccc43c17bd4743"
+        ],
+        "x": 375,
+        "y": 190,
+        "wires": [
+            [
+                "305518a9c6c51952"
+            ]
+        ]
+    },
+    {
+        "id": "ca5c5feb54b72cab",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "== Spa",
+        "links": [
+            "7080fba7de360220"
+        ],
+        "x": 375,
+        "y": 80,
+        "wires": [
+            [
+                "caa0db80bd2229d6",
+                "a67d64c334b58e79",
+                "bb919555800e9fb1"
+            ]
+        ]
+    },
+    {
+        "id": "5252338164f7f72a",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "status?",
+        "links": [
+            "9c8528154ba29d7f",
+            "3e2560016c9e8d61",
+            "a7abd35e9a90b30c",
+            "5c9fcaa1bb06e84b",
+            "d13b551089560425",
+            "5da70af1b9c19f7e"
+        ],
+        "x": 625,
+        "y": 70,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d76e86a6aa2772ea",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "SPA HEATER",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "{{payload}}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_heater"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 750,
+        "y": 170,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bb919555800e9fb1",
+        "type": "trigger",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "nothing/ON:15s",
+        "op1": "",
+        "op2": "{ \"service\": \"turn_on\" }",
+        "op1type": "nul",
+        "op2type": "json",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "min",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "paylaod",
+        "outputs": 1,
+        "x": 530,
+        "y": 170,
+        "wires": [
+            [
+                "d76e86a6aa2772ea"
+            ]
+        ]
+    },
+    {
+        "id": "cb311b72526e6c4a",
+        "type": "poll-state",
+        "z": "d058ab18bb9d06ed",
+        "g": "c67d9add3dd68594",
+        "name": "Pool",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "5",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "input_select.pool_state",
+        "state_type": "str",
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 110,
+        "y": 70,
+        "wires": [
+            [
+                "7de82be3f764b71f"
+            ]
+        ]
+    },
+    {
+        "id": "9b6abc343b039aaf",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "POOL HEATER-OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_heater"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1040,
+        "y": 130,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8118f3ac870bcb5e",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "== Spa",
+        "links": [
+            "7080fba7de360220",
+            "e8e8af609d27b07a"
+        ],
+        "x": 905,
+        "y": 170,
+        "wires": [
+            [
+                "9b6abc343b039aaf",
+                "17b92c0e1910fcdf",
+                "04885f30f07c12fc",
+                "8f5f061452520e63",
+                "2bc65920d84a1aa7",
+                "2d5359687a75346d"
+            ]
+        ]
+    },
+    {
+        "id": "819275cb7bcd3fa1",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "!= Spa",
+        "links": [
+            "f2ccc43c17bd4743",
+            "b312e63cead5eaea"
+        ],
+        "x": 905,
+        "y": 70,
+        "wires": [
+            [
+                "acbd9c43e4d877f0"
+            ]
+        ]
+    },
+    {
+        "id": "acbd9c43e4d877f0",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "SPA HEATER-OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_heater"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1030,
+        "y": 70,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17b92c0e1910fcdf",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "VALVE5:OFF/HE-OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_5_off_he"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1040,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04885f30f07c12fc",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "NPH/FPH-OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.fph_1_norm_fph"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "switch.fph_1_norm_fph",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 1020,
+        "y": 250,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8f5f061452520e63",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "NPH_CNDSR FAN-NC: OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.nph_condenser_fan"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "reset",
+                "propertyType": "msg",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "queue": "none",
+        "x": 1060,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2bc65920d84a1aa7",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "NPH_COMP_NC:OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.nph_hvac_compressor_24vac_nc"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1040,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d5359687a75346d",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "5a847c073b5eaf1f",
+        "name": "FPH_COMP_NO:OFF",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.fph_hvac_compressor_24vac_no"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1040,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72f77adc2f1c0ab7",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "a8270c1f965de9da",
+        "name": "SPEED 3",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_speed_3"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "speed 3",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 200,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de5bf27613d2de0d",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "a8270c1f965de9da",
+        "name": "== Spa",
+        "links": [
+            "7080fba7de360220",
+            "e8e8af609d27b07a"
+        ],
+        "x": 75,
+        "y": 360,
+        "wires": [
+            [
+                "72f77adc2f1c0ab7",
+                "61fabd5e7be40b09",
+                "272b988467869cd7",
+                "ed27861f4f47cb75",
+                "89876940e4945878",
+                "9306e4ee5f23df72"
+            ]
+        ]
+    },
+    {
+        "id": "61fabd5e7be40b09",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "a8270c1f965de9da",
+        "name": "VALVE2:POOL/SPA-ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_2_pool_spa"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 250,
+        "y": 370,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "272b988467869cd7",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "a8270c1f965de9da",
+        "name": "VALVE2:24VAC-ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_2_off_24vac"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 240,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed27861f4f47cb75",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "a8270c1f965de9da",
+        "name": "VALVE4:POOL/SPA-ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_4_pool_spa"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 250,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "89876940e4945878",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "a8270c1f965de9da",
+        "name": "VALVE3:OFF/SPA-ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.valve_3_off_spa"
+        ],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 240,
+        "y": 430,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9306e4ee5f23df72",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "a8270c1f965de9da",
+        "name": "POOL PUMP-ON",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_pump"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 230,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aad20ed78944eaf6",
+        "type": "poll-state",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "POOL TEMP",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "1",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "minutes",
+        "outputinitially": false,
+        "outputonchanged": true,
+        "entity_id": "sensor.pool_temp",
+        "state_type": "num",
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 490,
+        "y": 370,
+        "wires": [
+            [
+                "69ea0f7f302e9da2"
+            ]
+        ]
+    },
+    {
+        "id": "c8d46f8aae5bdbad",
+        "type": "switch",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "Jets/Blower",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "spa_water_temp.set_max_temp-1",
+                "vt": "global"
+            },
+            {
+                "t": "gte",
+                "v": "spa_water_temp.set_max_temp-1",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 610,
+        "y": 460,
+        "wires": [
+            [
+                "ac30cbdc609f9272"
+            ],
+            [
+                "01ae73093beecfce"
+            ]
+        ]
+    },
+    {
+        "id": "499a223889973b05",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "== / !=PoolHeater",
+        "links": [
+            "f2ccc43c17bd4743",
+            "7080fba7de360220"
+        ],
+        "x": 615,
+        "y": 360,
+        "wires": [
+            [
+                "66fe6199864fa570"
+            ]
+        ]
+    },
+    {
+        "id": "2189fdf5db05e80b",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPEED 4",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": " {{payload}}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.pool_speed_4"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "SPA HOT!!!!",
+                "valueType": "str"
+            }
+        ],
+        "queue": "none",
+        "x": 1120,
+        "y": 470,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e2560016c9e8d61",
+        "type": "link out",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "status?",
+        "mode": "link",
+        "links": [
+            "5252338164f7f72a",
+            "013dc7bd73364c6d"
+        ],
+        "x": 445,
+        "y": 490,
+        "wires": []
+    },
+    {
+        "id": "69ea0f7f302e9da2",
+        "type": "gate",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "",
+        "controlTopic": "Pool",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": true,
+        "storeName": "default",
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "c8d46f8aae5bdbad",
+                "3e2560016c9e8d61",
+                "ab73bfb4e28529ba",
+                "b9fc026e3d275e60"
+            ]
+        ]
+    },
+    {
+        "id": "66fe6199864fa570",
+        "type": "switch",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "Spa",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "Spa",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Spa",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 720,
+        "y": 360,
+        "wires": [
+            [
+                "c954d2bc784b988e"
+            ],
+            [
+                "b8a750b7e9e18637"
+            ]
+        ]
+    },
+    {
+        "id": "c954d2bc784b988e",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "close",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pool",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "close",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 350,
+        "wires": [
+            [
+                "69ea0f7f302e9da2",
+                "eec0156a895566ce"
+            ]
+        ]
+    },
+    {
+        "id": "b379a57d17d68b2b",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPA HEATER",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "{{payload}}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_heater"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1100,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1e7e651c21adabf9",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPA 🔥",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🔥🔥🔥SPA 🔥🔥🔥",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 600,
+        "wires": [
+            [
+                "1d14fe3fc7b42649"
+            ]
+        ]
+    },
+    {
+        "id": "1d14fe3fc7b42649",
+        "type": "rbe",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 870,
+        "y": 620,
+        "wires": [
+            [
+                "48d7bdf766d68668",
+                "b886613e0213bb6a"
+            ]
+        ]
+    },
+    {
+        "id": "48d7bdf766d68668",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "iPHONE",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "notify",
+        "service": "mobile_app_grahams_iphone_13",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "data": "{\"message\": \"{{payload}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "output_location": "",
+        "output_location_type": "none",
+        "x": 1120,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39824dd8d6a88223",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "reset",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 630,
+        "wires": [
+            [
+                "1d14fe3fc7b42649"
+            ]
+        ]
+    },
+    {
+        "id": "b886613e0213bb6a",
+        "type": "debug",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPA",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b8a750b7e9e18637",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "open",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pool",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 380,
+        "wires": [
+            [
+                "69ea0f7f302e9da2",
+                "eec0156a895566ce"
+            ]
+        ]
+    },
+    {
+        "id": "bb6706397ab93513",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPA PUMP",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": " {{payload}}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_pump"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1110,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a33b93086a91e26a",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "SPA JETS",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "{{payload}}",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.spa_jets"
+        ],
+        "data": "{}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1110,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab73bfb4e28529ba",
+        "type": "switch",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "Off Gass",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "90",
+                "vt": "num",
+                "v2": "94",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "42d061a215af1c58"
+            ]
+        ]
+    },
+    {
+        "id": "5d7c46a37bddbd52",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "ON",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"service\": \"turn_on\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 490,
+        "wires": [
+            [
+                "bb6706397ab93513",
+                "a33b93086a91e26a",
+                "2189fdf5db05e80b"
+            ]
+        ]
+    },
+    {
+        "id": "ac30cbdc609f9272",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "OFF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{     \"service\": \"turn_off\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 460,
+        "wires": [
+            [
+                "bb6706397ab93513",
+                "a33b93086a91e26a"
+            ]
+        ]
+    },
+    {
+        "id": "42d061a215af1c58",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "ON",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"service\": \"turn_on\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 430,
+        "wires": [
+            [
+                "bb6706397ab93513",
+                "a33b93086a91e26a"
+            ]
+        ]
+    },
+    {
+        "id": "eed4c87d6feea5c9",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "ON",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"service\": \"turn_on\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 570,
+        "wires": [
+            [
+                "04f2c9c3ebef95a6"
+            ]
+        ]
+    },
+    {
+        "id": "ef87269d56d791cd",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "OFF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{     \"service\": \"turn_off\" }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 540,
+        "wires": [
+            [
+                "04f2c9c3ebef95a6"
+            ]
+        ]
+    },
+    {
+        "id": "b9fc026e3d275e60",
+        "type": "switch",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "Spa Heater",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "spa_water_temp.set_max_temp",
+                "vt": "global"
+            },
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "spa_water_temp.set_max_temp-1",
+                "v2t": "global"
+            },
+            {
+                "t": "btwn",
+                "v": "95",
+                "vt": "num",
+                "v2": "100",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "94.9",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 520,
+        "y": 590,
+        "wires": [
+            [
+                "ef87269d56d791cd"
+            ],
+            [
+                "eed4c87d6feea5c9"
+            ],
+            [
+                "1e7e651c21adabf9"
+            ],
+            [
+                "39824dd8d6a88223"
+            ]
+        ]
+    },
+    {
+        "id": "eec0156a895566ce",
+        "type": "link out",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "f6361833d296e792"
+        ],
+        "x": 985,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "f6361833d296e792",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "",
+        "links": [
+            "eec0156a895566ce"
+        ],
+        "x": 795,
+        "y": 540,
+        "wires": [
+            [
+                "04f2c9c3ebef95a6"
+            ]
+        ]
+    },
+    {
+        "id": "0c97e74195dfc57c",
+        "type": "poll-state",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "spa_set_max_temp",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "updateinterval": "15",
+        "updateIntervalType": "num",
+        "updateIntervalUnits": "seconds",
+        "outputinitially": true,
+        "outputonchanged": true,
+        "entity_id": "input_select.spa_set_max_temp",
+        "state_type": "str",
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "x": 520,
+        "y": 670,
+        "wires": [
+            [
+                "ebaef5c0c51327a9",
+                "f8414ac9fecd412a"
+            ]
+        ]
+    },
+    {
+        "id": "ebaef5c0c51327a9",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "spa_set_max_temp",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "spa_water_temp.set_max_temp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8414ac9fecd412a",
+        "type": "calculator",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "sub",
+        "constant": "0.25",
+        "round": false,
+        "decimals": 0,
+        "x": 720,
+        "y": 690,
+        "wires": [
+            [
+                "c7f846e4ecb9fd29"
+            ]
+        ]
+    },
+    {
+        "id": "c7f846e4ecb9fd29",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "spa_set_max_temp-1",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "spa_water_temp.set_max_temp-1",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 690,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04f2c9c3ebef95a6",
+        "type": "gate",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "",
+        "controlTopic": "Pool",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": true,
+        "storeName": "default",
+        "x": 870,
+        "y": 580,
+        "wires": [
+            [
+                "b379a57d17d68b2b"
+            ]
+        ]
+    },
+    {
+        "id": "01ae73093beecfce",
+        "type": "rbe",
+        "z": "d058ab18bb9d06ed",
+        "g": "8df969b375959fcc",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 750,
+        "y": 490,
+        "wires": [
+            [
+                "5d7c46a37bddbd52"
+            ]
+        ]
+    },
+    {
+        "id": "e38bc98cdc38fa9a",
+        "type": "change",
+        "z": "d058ab18bb9d06ed",
+        "g": "ccc1220a1146f7e5",
+        "name": "NONE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "NONE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 580,
+        "wires": [
+            [
+                "952361774b44f88e"
+            ]
+        ]
+    },
+    {
+        "id": "952361774b44f88e",
+        "type": "api-call-service",
+        "z": "d058ab18bb9d06ed",
+        "g": "ccc1220a1146f7e5",
+        "name": "HEAT SELECT?",
+        "server": "bbcbbc6d.66dc2",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "input_select",
+        "service": "select_option",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.pool_heat_select"
+        ],
+        "data": "{ \"option\": \"{{payload}}\" }",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload.data.option",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "data"
+            }
+        ],
+        "queue": "first",
+        "x": 280,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a345d3de18d02d2",
+        "type": "link in",
+        "z": "d058ab18bb9d06ed",
+        "g": "ccc1220a1146f7e5",
+        "name": "ON",
+        "links": [
+            "7080fba7de360220"
+        ],
+        "x": 75,
+        "y": 580,
+        "wires": [
+            [
+                "e38bc98cdc38fa9a"
             ]
         ]
     }
