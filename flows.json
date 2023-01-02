@@ -153732,7 +153732,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
+        "x": 950,
         "y": 530,
         "wires": [
             [
@@ -153762,7 +153762,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
+        "x": 950,
         "y": 490,
         "wires": [
             [
@@ -154172,7 +154172,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 980,
+        "x": 930,
         "y": 580,
         "wires": []
     },
@@ -154206,8 +154206,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 710,
-        "y": 550,
+        "x": 690,
+        "y": 500,
         "wires": [
             [
                 "daa660b47d4a53ec"
@@ -154237,8 +154237,8 @@
         "links": [
             "29fc1c30635b6430"
         ],
-        "x": 625,
-        "y": 550,
+        "x": 615,
+        "y": 500,
         "wires": [
             [
                 "0b04393af7970780"
@@ -154263,7 +154263,7 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 840,
+        "x": 830,
         "y": 530,
         "wires": [
             [
@@ -154312,7 +154312,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 940,
+        "x": 950,
         "y": 450,
         "wires": []
     },
