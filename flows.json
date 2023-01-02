@@ -78,6 +78,14 @@
         "env": []
     },
     {
+        "id": "c9f0dc71cd9345fb",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "3f60e735.9db1a8",
         "type": "subflow",
         "name": "Inovelli Scenes",
@@ -22928,8 +22936,8 @@
         ],
         "x": 8,
         "y": 3,
-        "w": 1294,
-        "h": 774
+        "w": 1304,
+        "h": 794
     },
     {
         "id": "c67d9add3dd68594",
@@ -23072,8 +23080,8 @@
         ],
         "x": 394,
         "y": 309,
-        "w": 882,
-        "h": 442
+        "w": 892,
+        "h": 462
     },
     {
         "id": "ccc1220a1146f7e5",
@@ -153398,8 +153406,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1170,
-        "y": 540,
+        "x": 1180,
+        "y": 560,
         "wires": [
             []
         ]
@@ -153434,8 +153442,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 600,
+        "x": 680,
+        "y": 620,
         "wires": [
             [
                 "1d14fe3fc7b42649"
@@ -153455,8 +153463,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 860,
-        "y": 620,
+        "x": 870,
+        "y": 640,
         "wires": [
             [
                 "48d7bdf766d68668",
@@ -153486,8 +153494,8 @@
         "queue": "none",
         "output_location": "",
         "output_location_type": "none",
-        "x": 1150,
-        "y": 650,
+        "x": 1160,
+        "y": 670,
         "wires": [
             []
         ]
@@ -153522,8 +153530,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 630,
+        "x": 670,
+        "y": 650,
         "wires": [
             [
                 "1d14fe3fc7b42649"
@@ -153544,8 +153552,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1140,
-        "y": 590,
+        "x": 1150,
+        "y": 610,
         "wires": []
     },
     {
@@ -153698,7 +153706,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
+        "x": 990,
         "y": 500,
         "wires": [
             [
@@ -153786,8 +153794,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 570,
+        "x": 670,
+        "y": 590,
         "wires": [
             [
                 "04f2c9c3ebef95a6"
@@ -153814,8 +153822,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 540,
+        "x": 670,
+        "y": 560,
         "wires": [
             [
                 "04f2c9c3ebef95a6"
@@ -153861,8 +153869,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 520,
-        "y": 590,
+        "x": 530,
+        "y": 610,
         "wires": [
             [
                 "ef87269d56d791cd"
@@ -153901,8 +153909,8 @@
         "links": [
             "eec0156a895566ce"
         ],
-        "x": 785,
-        "y": 540,
+        "x": 795,
+        "y": 560,
         "wires": [
             [
                 "04f2c9c3ebef95a6"
@@ -153939,8 +153947,8 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 530,
-        "y": 680,
+        "x": 540,
+        "y": 700,
         "wires": [
             [
                 "ebaef5c0c51327a9",
@@ -153968,8 +153976,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 680,
+        "x": 920,
+        "y": 700,
         "wires": [
             []
         ]
@@ -153986,8 +153994,8 @@
         "constant": "0.25",
         "round": false,
         "decimals": 0,
-        "x": 720,
-        "y": 710,
+        "x": 730,
+        "y": 730,
         "wires": [
             [
                 "c7f846e4ecb9fd29"
@@ -154014,8 +154022,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 710,
+        "x": 930,
+        "y": 730,
         "wires": [
             []
         ]
@@ -154035,8 +154043,8 @@
         "statusCmd": "status",
         "persist": true,
         "storeName": "default",
-        "x": 860,
-        "y": 570,
+        "x": 870,
+        "y": 590,
         "wires": [
             [
                 "b379a57d17d68b2b"
@@ -154056,7 +154064,7 @@
         "septopics": false,
         "property": "payload",
         "topi": "topic",
-        "x": 820,
+        "x": 870,
         "y": 500,
         "wires": [
             [
@@ -154143,5 +154151,66 @@
                 "e38bc98cdc38fa9a"
             ]
         ]
+    },
+    {
+        "id": "c98f3c4127c3deb8",
+        "type": "server-events",
+        "z": "c9f0dc71cd9345fb",
+        "name": "",
+        "server": "bbcbbc6d.66dc2",
+        "version": 2,
+        "eventType": "",
+        "exposeToHomeAssistant": false,
+        "eventData": "",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "event_type": "",
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "e76a7bade815e8ba"
+            ]
+        ]
+    },
+    {
+        "id": "e76a7bade815e8ba",
+        "type": "debug",
+        "z": "c9f0dc71cd9345fb",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 260,
+        "wires": []
     }
 ]
