@@ -22952,7 +22952,7 @@
         ],
         "x": 8,
         "y": 3,
-        "w": 1364,
+        "w": 1304,
         "h": 844
     },
     {
@@ -23103,7 +23103,7 @@
         ],
         "x": 384,
         "y": 299,
-        "w": 962,
+        "w": 902,
         "h": 522
     },
     {
@@ -153578,8 +153578,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1250,
-        "y": 670,
+        "x": 1150,
+        "y": 680,
         "wires": []
     },
     {
@@ -153650,8 +153650,8 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1150,
-        "y": 350,
+        "x": 1160,
+        "y": 360,
         "wires": [
             []
         ]
@@ -153678,7 +153678,7 @@
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "x": 1150,
+        "x": 1160,
         "y": 410,
         "wires": [
             []
@@ -153974,7 +153974,7 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "outputs": 1,
-        "x": 540,
+        "x": 510,
         "y": 750,
         "wires": [
             [
@@ -154021,7 +154021,7 @@
         "constant": "0.5",
         "round": false,
         "decimals": 0,
-        "x": 730,
+        "x": 690,
         "y": 780,
         "wires": [
             [
@@ -154049,7 +154049,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
+        "x": 920,
         "y": 780,
         "wires": [
             []
@@ -154345,8 +154345,8 @@
             }
         ],
         "queue": "none",
-        "x": 1140,
-        "y": 470,
+        "x": 1150,
+        "y": 490,
         "wires": [
             []
         ]
